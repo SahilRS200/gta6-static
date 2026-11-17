@@ -1,4 +1,4 @@
-// Zero-dependency server: static files + 30 rendered city pages + sitemap + a visit counter.
+// Zero-dependency server: static files, 30 city pages, news (Markdown), sitemaps, RSS, IndexNow and a visit counter.
 import { createServer } from 'node:http';
 import { readFile, readdir } from 'node:fs/promises';
 import { join, extname, relative, sep } from 'node:path';
@@ -9,9 +9,12 @@ import { scheduleRowsHtml } from './public/js/schedule.js';
 import { applyPartials, headCommon } from './lib/partials.js';
 import { renderCityPage, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
+import { loadPosts, tagsOf } from './lib/content.js';
+import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml } from './lib/news.js';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const PUBLIC_DIR = join(ROOT, 'public');
+const CONTENT_DIR = join(ROOT, 'content', 'news');
 const PORT = Number(process.env.PORT) || 8080;
 const EXPLICIT_SITE_URL = (process.env.SITE_URL || '').replace(/\/+$/, '');
 const SITE_URL = EXPLICIT_SITE_URL
@@ -19,6 +22,8 @@ const SITE_URL = EXPLICIT_SITE_URL
 const CANONICAL_HOST = EXPLICIT_SITE_URL ? new URL(EXPLICIT_SITE_URL).host : '';
 const DATA_DIR = process.env.DATA_DIR || join(ROOT, 'data');
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
+// IndexNow keys are public by design (served at /<key>.txt); this only enables the ping.
+const INDEXNOW_KEY = /^[a-zA-Z0-9-]{8,128}$/.test(process.env.INDEXNOW_KEY || '') ? process.env.INDEXNOW_KEY : '';
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -56,6 +61,7 @@ const SECURITY_HEADERS = {
 };
 
 const routes = new Map(); // url path → { body, gz, type, cache }
+let posts = [];
 
 const cacheFor = (ext) => {
   if (ext === '.html' || ext === '.xml' || ext === '.txt' || ext === '.webmanifest') return 'public, max-age=60, must-revalidate';
@@ -75,6 +81,7 @@ const addRoute = (path, body, ext) => {
 
 const templated = (text) => applyPartials(text)
   .replace('<!--SSR:SCHEDULE-->', scheduleRowsHtml(true))
+  .replace('<!--SSR:LATEST-->', latestNewsHtml(posts))
   .replaceAll('__SITE_URL__', SITE_URL);
 
 const walk = async (dir) => {
@@ -88,6 +95,7 @@ const walk = async (dir) => {
 };
 
 const loadSite = async () => {
+  posts = await loadPosts(CONTENT_DIR);
   for (const file of await walk(PUBLIC_DIR)) {
     const ext = extname(file);
     const urlPath = `/${relative(PUBLIC_DIR, file).split(sep).join('/')}`;
@@ -105,7 +113,30 @@ const loadSite = async () => {
   for (const zone of ZONES) {
     addRoute(`/gta-6-release-time/${zone.slug}/`, templated(renderCityPage(zone)), '.html');
   }
-  addRoute('/sitemap.xml', templated(renderSitemap(BUILD_DATE)), '.xml');
+  const tags = tagsOf(posts).map((t) => t.tag);
+  addRoute('/news/', templated(renderNewsHub(posts)), '.html');
+  for (const post of posts) addRoute(`/news/${post.slug}/`, templated(renderPost(post, posts)), '.html');
+  for (const tag of tags) addRoute(`/tag/${tag}/`, templated(renderTag(tag, posts)), '.html');
+  addRoute('/news/feed.xml', templated(renderRss(posts)), '.xml');
+  addRoute('/news-sitemap.xml', templated(renderNewsSitemap(posts)), '.xml');
+  addRoute('/sitemap.xml', templated(renderSitemap(BUILD_DATE, posts, tags)), '.xml');
+  if (INDEXNOW_KEY) addRoute(`/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY, '.txt');
+};
+
+// Tell Bing/Yandex (and engines that read IndexNow) about every URL after each deploy.
+const pingIndexNow = async () => {
+  if (!INDEXNOW_KEY || !EXPLICIT_SITE_URL) return;
+  const urlList = [...routes.keys()].filter((p) => p.endsWith('/')).map((p) => `${SITE_URL}${p}`);
+  try {
+    const res = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify({ host: CANONICAL_HOST, key: INDEXNOW_KEY, keyLocation: `${SITE_URL}/${INDEXNOW_KEY}.txt`, urlList }),
+    });
+    console.log(`IndexNow: ${res.status} for ${urlList.length} URLs`);
+  } catch (err) {
+    console.error('IndexNow ping failed:', err.message);
+  }
 };
 
 const send = (req, res, status, route, extra = {}) => {
@@ -180,7 +211,10 @@ const start = async () => {
     send(req, res, 404, routes.get('/404.html'), { 'Cache-Control': 'no-store' });
   });
 
-  server.listen(PORT, () => console.log(`gta6 countdown on :${PORT} → ${SITE_URL} (data: ${DATA_DIR}, ${routes.size} routes)`));
+  server.listen(PORT, () => {
+    console.log(`gta6 site on :${PORT} → ${SITE_URL} (data: ${DATA_DIR}, ${routes.size} routes, ${posts.length} posts)`);
+    setTimeout(pingIndexNow, 15_000).unref();
+  });
 
   const shutdown = async () => {
     await counter.flush();

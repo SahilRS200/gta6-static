@@ -4,5 +4,6 @@ ENV NODE_ENV=production
 COPY package.json server.js ./
 COPY lib ./lib
 COPY public ./public
+COPY content ./content
 EXPOSE 8080
 CMD ["node", "server.js"]

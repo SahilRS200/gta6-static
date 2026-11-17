@@ -3,3 +3,4 @@ Allow: /
 Disallow: /api/
 
 Sitemap: __SITE_URL__/sitemap.xml
+Sitemap: __SITE_URL__/news-sitemap.xml

@@ -1,10 +1,14 @@
-# Unlock O'Clock — GTA 6 Countdown
+# GTA6Info.in — GTA 6 news, India release time and countdown
 
-> Unofficial fan site with live countdowns to the Grand Theft Auto VI (GTA 6) unlock in 30 time zones. GTA 6 releases on Thursday, November 19, 2026 on PlayStation 5 and Xbox Series X|S and unlocks at midnight local time, so the launch rolls around the world starting in New Zealand (11:00 UTC, Nov 18). Reports say the US PlayStation Store unlocks the whole US at midnight Eastern Time (9 PM Pacific on Nov 18).
+> Fan-run GTA 6 news desk for India. GTA 6 (Grand Theft Auto VI) releases on Thursday, 19 November 2026 on PS5 and Xbox Series X|S and unlocks at midnight local time — 12:00 AM IST in India. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). New Zealand unlocks first, 7.5 hours before India. News is updated every few hours with sources linked.
 
-## Pages
-- [Live countdown, all 30 time zones](__SITE_URL__/)
-- [Unlock schedule table](__SITE_URL__/#schedule)
+## Key pages
+- [GTA 6 India: release time, price, Hinglish FAQ](__SITE_URL__/gta-6-india/)
+- [GTA 6 price in India](__SITE_URL__/gta-6-price-in-india/)
+- [GTA 6 news India](__SITE_URL__/news/)
+- [How to play GTA 6 early in India (New Zealand trick explained)](__SITE_URL__/news/play-gta-6-early-india-new-zealand-trick/)
+- [GTA 6 release time in India (IST) countdown](__SITE_URL__/gta-6-release-time/india/)
+- [Live countdown for 30 time zones](__SITE_URL__/)
 - [How to change PS5 time zone — and why it won't unlock GTA 6 early](__SITE_URL__/guides/ps5-time-zone/)
 - [How to stream GTA 6 from PS5 to YouTube & Twitch](__SITE_URL__/guides/stream-gta-6-ps5-youtube-twitch/)
-- [Sitemap with 30 per-country release time pages](__SITE_URL__/sitemap.xml)
+- [RSS feed](__SITE_URL__/news/feed.xml)
