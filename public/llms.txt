@@ -1,0 +1,10 @@
+# Unlock O'Clock — GTA 6 Countdown
+
+> Unofficial fan site with live countdowns to the Grand Theft Auto VI (GTA 6) unlock in 30 time zones. GTA 6 releases on Thursday, November 19, 2026 on PlayStation 5 and Xbox Series X|S and unlocks at midnight local time, so the launch rolls around the world starting in New Zealand (11:00 UTC, Nov 18). Reports say the US PlayStation Store unlocks the whole US at midnight Eastern Time (9 PM Pacific on Nov 18).
+
+## Pages
+- [Live countdown, all 30 time zones](__SITE_URL__/)
+- [Unlock schedule table](__SITE_URL__/#schedule)
+- [How to change PS5 time zone — and why it won't unlock GTA 6 early](__SITE_URL__/guides/ps5-time-zone/)
+- [How to stream GTA 6 from PS5 to YouTube & Twitch](__SITE_URL__/guides/stream-gta-6-ps5-youtube-twitch/)
+- [Sitemap with 30 per-country release time pages](__SITE_URL__/sitemap.xml)

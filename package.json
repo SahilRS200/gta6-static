@@ -1,0 +1,12 @@
+{
+  "name": "gta6-countdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unlock O'Clock — live GTA 6 unlock countdowns for 30 time zones. Zero-dependency Node server.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}
