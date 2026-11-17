@@ -710,10 +710,20 @@ const wireCarousel = () => {
     tabs.forEach((t, k) => t.style.setProperty('--p', k === index ? String(Math.min(1, elapsed / AUTO_MS)) : '0'));
   };
 
-  const fitHeight = () => { track.style.height = `${slides[index].offsetHeight}px`; };
+  // The hero is locked to the tallest slide (+ breathing room) so it never jumps between slides.
+  // Measured with the lock released (all in one frame, nothing paints in between); only re-measured
+  // when the viewport or fonts change, and only applied when the result actually differs.
+  const HERO_SLACK = 28;
+  let lockedHeight = 0;
+  const fitHeight = () => {
+    track.style.height = '';
+    const tallest = Math.max(...slides.map((sl) => sl.offsetHeight));
+    const target = tallest + HERO_SLACK;
+    if (Math.abs(target - lockedHeight) > 1) lockedHeight = target;
+    track.style.height = `${lockedHeight}px`;
+  };
   const setActive = (i2) => {
     index = i2;
-    track.style.height = `${slides[i2].offsetHeight}px`;
     tabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === i2)); t.tabIndex = k === i2 ? 0 : -1; });
     slides.forEach((sl, k) => { sl.inert = k !== i2; sl.setAttribute('aria-hidden', String(k !== i2)); });
     if (i2 === 2) loadPsn();
@@ -794,11 +804,14 @@ const wireCarousel = () => {
       if (i2 !== index) { elapsed = 0; setActive(i2); }
     }, 120);
   }, { passive: true });
-  addEventListener('resize', () => { track.scrollLeft = slides[index].offsetLeft; fitHeight(); });
-  if ('ResizeObserver' in window) {
-    const ro = new ResizeObserver(() => fitHeight());
-    slides.forEach((sl) => ro.observe(sl));
-  }
+  let lastWidth = 0;
+  addEventListener('resize', () => {
+    track.scrollLeft = slides[index].offsetLeft;
+    if (Math.abs(innerWidth - lastWidth) > 1) { lastWidth = innerWidth; fitHeight(); }
+  });
+  document.fonts?.ready.then(fitHeight);
+  lastWidth = innerWidth;
+  requestAnimationFrame(fitHeight);
 
   // The clock: advances every 5 s unless paused; the active tab fills up as it runs.
   setInterval(() => {

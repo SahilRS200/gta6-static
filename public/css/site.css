@@ -878,3 +878,7 @@ body[data-page='home'] { --maxw: 1680px; }
 
 /* gradient must win over the older solid stroke rule */
 .wave-curve { stroke: url(#wave-grad); }
+
+/* hero locked to the tallest slide; each slide fills it and centres its content */
+.car-track { align-items: stretch; transition: none; }
+.car-slide { min-height: 100%; justify-content: center; }
