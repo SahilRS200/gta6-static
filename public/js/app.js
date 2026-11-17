@@ -277,6 +277,43 @@ const waveY = (fx, valley) => {
   return WAVE_BASE + WAVE_DEPTH * Math.exp(-(d * d) / 2) + 3 * Math.sin(fx * Math.PI * 4);
 };
 
+// Full zone names for one unlock instant: "🇯🇵 Tokyo — Japan Standard Time".
+const longTzName = (tz, at) => {
+  try {
+    return new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'long' }).formatToParts(new Date(at)).find((p) => p.type === 'timeZoneName')?.value || tz;
+  } catch { return tz; }
+};
+const tipFor = (at, rows) => {
+  const zones = rows.filter((r) => r.at === at).map(({ z }) => `${z.flag} ${z.city} — ${longTzName(z.tz, at)}`);
+  return `${zones.join('\n')}\nUnlocks ${fmtUtc(at)}`;
+};
+
+const wireWaveTip = (track) => {
+  if (track.dataset.tipWired) return;
+  track.dataset.tipWired = '1';
+  const card = track.parentElement;
+  const tip = document.createElement('div');
+  tip.className = 'wave-tip';
+  tip.hidden = true;
+  tip.setAttribute('role', 'tooltip');
+  card.append(tip);
+  const show = (dot) => {
+    tip.textContent = dot.dataset.tip;
+    tip.hidden = false;
+    const c = card.getBoundingClientRect();
+    const d = dot.getBoundingClientRect();
+    const w = tip.offsetWidth;
+    const h = tip.offsetHeight;
+    const left = Math.min(Math.max(8, d.left - c.left + d.width / 2 - w / 2), c.width - w - 8);
+    const above = d.top - c.top - h - 10;
+    tip.style.left = `${left}px`;
+    tip.style.top = `${above > 4 ? above : d.bottom - c.top + 10}px`;
+  };
+  track.addEventListener('pointerover', (e) => { const dot = e.target.closest('.wave-dot'); if (dot) show(dot); });
+  track.addEventListener('pointerout', (e) => { if (e.target.closest('.wave-dot')) tip.hidden = true; });
+  track.addEventListener('pointerdown', (e) => { const dot = e.target.closest('.wave-dot'); if (dot) show(dot); else tip.hidden = true; });
+};
+
 const renderWave = (now) => {
   const track = $('[data-wave]');
   if (!track) return;
@@ -295,11 +332,12 @@ const renderWave = (now) => {
     const text = abbrs.length <= 2 ? abbrs.join('·') : `${abbrs[0]} +${abbrs.length - 1}`;
     return `<span class="wave-tz${important.has(at) ? '' : ' minor'}" data-at="${at}" data-row="${k % 2}" title="${abbrs.join(', ')}">${text}</span>`;
   }).join('');
-  track.innerHTML = `<svg class="wave-svg" aria-hidden="true" preserveAspectRatio="none"><path class="wave-night" data-wave-night/><path class="wave-curve" data-wave-curve/></svg>
-    ${rows.map(({ z, at }) => `<span class="wave-dot" data-dot="${z.id}" data-at="${at}" title="${z.flag} ${z.city} — ${fmtUtc(at)}"></span>`).join('')}
+  track.innerHTML = `<svg class="wave-svg" aria-hidden="true" preserveAspectRatio="none"><defs><linearGradient id="wave-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0" data-wave-grad></linearGradient></defs><path class="wave-curve" data-wave-curve stroke="url(#wave-grad)"/></svg>
+    ${rows.map(({ z, at }) => `<span class="wave-dot" data-dot="${z.id}" data-at="${at}" data-tip="${escHtml(tipFor(at, rows))}"></span>`).join('')}
     ${labels}
     <span class="wave-label top next" data-wave-next></span>
     <div class="wave-now" data-wave-now><span>now</span></div>`;
+  wireWaveTip(track);
   updateWave(now);
 };
 
@@ -318,15 +356,26 @@ const updateWave = (now) => {
     pts.push([fx * width, waveY(fx, valley)]);
   }
   const line = pts.map(([x, y], k) => `${k ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
-  const nightPts = pts.filter(([x]) => x <= nowFx * width);
-  const nowX = nowFx * width;
-  const night = nowFx > 0
-    ? `M0 ${WAVE_H} ${nightPts.map(([x, y]) => `L${x.toFixed(1)} ${y.toFixed(1)}`).join(' ')} L${nowX.toFixed(1)} ${waveY(nowFx, valley).toFixed(1)} L${nowX.toFixed(1)} ${WAVE_H} Z`
-    : '';
+  // Gradient along the line: neutral up to "now" (live), dawn navy for pending, orange around the next valley.
+  const LIVE = '#8b93a1';
+  const NAVY = '#1c2a4f';
+  const ORANGE = '#f08a24';
+  const clamp01 = (v) => Math.min(1, Math.max(0, v));
+  const stops = [[0, LIVE], [nowFx, LIVE], [nowFx, NAVY]];
+  if (next) {
+    const a = clamp01(Math.max(nowFx, valley - 1.6 * WAVE_SIGMA));
+    const b = clamp01(Math.max(nowFx, valley - 0.6 * WAVE_SIGMA));
+    const c = clamp01(valley + 0.6 * WAVE_SIGMA);
+    const d = clamp01(valley + 1.6 * WAVE_SIGMA);
+    stops.push([a, NAVY], [b, ORANGE], [c, ORANGE], [d, NAVY]);
+  }
+  stops.push([1, NAVY]);
+  const grad = $('[data-wave-grad]', track);
+  grad.setAttribute('x2', String(width));
+  grad.innerHTML = stops.map(([o, col]) => `<stop offset="${clamp01(o).toFixed(4)}" stop-color="${col}"/>`).join('');
   const svg = $('.wave-svg', track);
   svg.setAttribute('viewBox', `0 0 ${width} ${WAVE_H}`);
   $('[data-wave-curve]', track).setAttribute('d', line);
-  $('[data-wave-night]', track).setAttribute('d', night);
 
   const rank = new Map(upcoming.map((r, k) => [r.z.id, k]));
   const span = Math.max(1, upcoming.length - 1);
@@ -358,13 +407,13 @@ const updateWave = (now) => {
   }
   const marker = $('[data-wave-now]', track);
   marker.style.left = `${(nowFx * 100).toFixed(3)}%`;
-  marker.hidden = nowFx <= 0 || now >= waveGeom.max;
+  marker.hidden = true; // the colour change along the line marks "now"
   const label = $('[data-wave-next]', track);
   label.hidden = !next;
   if (next) {
     label.style.left = `${(valley * 100).toFixed(3)}%`;
-    label.classList.toggle('flip-left', valley > 0.8);
-    label.classList.toggle('flip-right', valley < 0.12);
+    label.classList.toggle('flip-left', valley > 0.75);
+    label.classList.toggle('flip-right', valley < 0.25);
     label.textContent = `Next: ${next.z.flag} ${next.z.city} · in ${fmtCompact(next.at - now)}`;
   }
 };

@@ -854,3 +854,27 @@ body[data-page='home'] { --maxw: 1680px; }
 .psn-mini-label b { font: 700 11.5px/1 var(--font-body); letter-spacing: 0.01em; color: var(--ink); white-space: nowrap; }
 .psn-mini-label small { font: 500 10px/1 var(--font-mono); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) { .psn-mini-label b { font-size: 10.5px; } .psn-mini-label small { font-size: 9px; } }
+
+/* wave: gradient line (live slate → orange next valley → dawn navy pending), no night fill */
+.wave-row .wave-track { background: linear-gradient(180deg, #f3f1ec 0%, #eceae4 100%); }
+.wave-curve { stroke-width: 3.5; opacity: 1; stroke-linecap: round; }
+.wave-track .wave-dot { background: #1c2a4f; border: 2px solid #f6f5f2; }
+.wave-track .wave-dot.is-on { background: #8b93a1; border-color: #f6f5f2; }
+.wave-track .wave-dot.is-next { background: #f08a24; border: 3px solid #fff; box-shadow: 0 0 0 4px rgba(240, 138, 36, 0.25), 0 0 0 9px rgba(240, 138, 36, 0.1); }
+.wave-tz { color: #2e3a5c; }
+.wave-tz.on-night { color: #7a8190; }
+.wave-tz.is-next { color: #c2600f; }
+.wave-label.next { color: #c2600f; text-shadow: none; }
+
+/* wave dot tooltip: full time zone names */
+.wave-row .wave { position: relative; }
+.wave-track .wave-dot { cursor: help; width: 14px; height: 14px; margin: -7px 0 0 -7px; }
+.wave-track .wave-dot:hover { transform: scale(1.25); }
+.wave-tip {
+  position: absolute; z-index: 20; max-width: min(340px, calc(100% - 16px)); padding: 8px 11px; border-radius: 10px;
+  background: var(--ink); color: #fff; font: 500 12.5px/1.45 var(--font-body); white-space: pre-line; pointer-events: none;
+  box-shadow: 0 8px 24px rgba(24, 22, 29, 0.25);
+}
+
+/* gradient must win over the older solid stroke rule */
+.wave-curve { stroke: url(#wave-grad); }
