@@ -4,13 +4,15 @@ import { readFile, readdir } from 'node:fs/promises';
 import { join, extname, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
+import { createHash } from 'node:crypto';
 import { ZONES } from './public/js/zones.js';
 import { scheduleRowsHtml } from './public/js/schedule.js';
 import { applyPartials, headCommon } from './lib/partials.js';
 import { renderCityPage, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
 import { loadPosts, tagsOf } from './lib/content.js';
-import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml } from './lib/news.js';
+import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml } from './lib/news.js';
+import { createPsnStatus } from './lib/psn.js';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const PUBLIC_DIR = join(ROOT, 'public');
@@ -22,6 +24,7 @@ const SITE_URL = EXPLICIT_SITE_URL
 const CANONICAL_HOST = EXPLICIT_SITE_URL ? new URL(EXPLICIT_SITE_URL).host : '';
 const DATA_DIR = process.env.DATA_DIR || join(ROOT, 'data');
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
+const BUILD_ID = Date.now().toString(36);
 // IndexNow keys are public by design (served at /<key>.txt); this only enables the ping.
 const INDEXNOW_KEY = /^[a-zA-Z0-9-]{8,128}$/.test(process.env.INDEXNOW_KEY || '') ? process.env.INDEXNOW_KEY : '';
 
@@ -66,7 +69,7 @@ let posts = [];
 const cacheFor = (ext) => {
   if (ext === '.html' || ext === '.xml' || ext === '.txt' || ext === '.webmanifest') return 'public, max-age=60, must-revalidate';
   if (ext === '.png' || ext === '.svg' || ext === '.ico' || ext === '.woff2') return 'public, max-age=604800';
-  return 'public, max-age=600';
+  return 'no-cache'; // JS/CSS: always revalidate (cheap 304 via ETag) so a deploy is picked up at once
 };
 
 const addRoute = (path, body, ext) => {
@@ -76,12 +79,15 @@ const addRoute = (path, body, ext) => {
     gz: TEXT_EXT.has(ext) && buf.length > 1024 ? gzipSync(buf, { level: 9 }) : null,
     type: TYPES[ext] || 'application/octet-stream',
     cache: cacheFor(ext),
+    etag: `"${createHash('sha1').update(buf).digest('base64url').slice(0, 20)}"`,
   });
 };
 
 const templated = (text) => applyPartials(text)
   .replace('<!--SSR:SCHEDULE-->', scheduleRowsHtml(true))
   .replace('<!--SSR:LATEST-->', latestNewsHtml(posts))
+  .replace('<!--SSR:TICKER-->', tickerHtml(posts))
+  .replace('<!--SSR:HERO_NEWS-->', heroNewsHtml(posts))
   .replaceAll('__SITE_URL__', SITE_URL);
 
 const walk = async (dir) => {
@@ -107,7 +113,9 @@ const loadSite = async () => {
       text = templated(text);
       body = text;
     }
+    if (urlPath === '/sw.js') body = raw.toString('utf8').replaceAll('__BUILD__', BUILD_ID);
     addRoute(urlPath, body, ext);
+    if (urlPath === '/sw.js') routes.get('/sw.js').cache = 'no-cache';
     if (urlPath.endsWith('/index.html')) addRoute(urlPath.slice(0, -'index.html'.length), body, ext);
   }
   for (const zone of ZONES) {
@@ -140,11 +148,17 @@ const pingIndexNow = async () => {
 };
 
 const send = (req, res, status, route, extra = {}) => {
+  if (status === 200 && route.etag && req.headers['if-none-match'] === route.etag) {
+    res.writeHead(304, { ...SECURITY_HEADERS, ETag: route.etag, 'Cache-Control': route.cache, Vary: 'Accept-Encoding' });
+    res.end();
+    return;
+  }
   const useGz = route.gz && /\bgzip\b/.test(req.headers['accept-encoding'] || '');
   res.writeHead(status, {
     ...SECURITY_HEADERS,
     'Content-Type': route.type,
     'Cache-Control': route.cache,
+    ETag: route.etag,
     Vary: 'Accept-Encoding',
     ...(useGz ? { 'Content-Encoding': 'gzip' } : {}),
     'Content-Length': (useGz ? route.gz : route.body).length,
@@ -175,20 +189,73 @@ const readSmallJson = (req) => new Promise((resolve) => {
 
 const clientIp = (req) => String(req.headers['x-real-ip'] || req.headers['x-forwarded-for'] || req.socket.remoteAddress || '').split(',').pop().trim();
 
+// /api/* only answers our own pages:
+//  1. Sec-Fetch-Site, when the browser sends it, must be same-origin;
+//  2. Origin or Referer must exist and match the host the request was sent to;
+//  3. the custom X-GTA6-Client header must be present — cross-origin, that forces a CORS
+//     preflight we never approve, so another site's script can't even send the request.
+// A non-browser client can forge headers, so a per-IP rate limit backs this up.
+const API_CLIENT_HEADER = 'x-gta6-client';
+// Generous on purpose: Indian mobile carriers put many users behind one CGNAT IP.
+const API_RATE = { max: 600, windowMs: 60_000 };
+const apiHits = new Map(); // ip → { n, since }
+
+const isSameOrigin = (req) => {
+  const site = req.headers['sec-fetch-site'];
+  if (site && site !== 'same-origin') return false;
+  if (req.headers[API_CLIENT_HEADER] !== '1') return false;
+  const source = req.headers.origin || req.headers.referer;
+  if (!source || !req.headers.host) return false;
+  try { return new URL(source).host === req.headers.host; } catch { return false; }
+};
+
+const withinRate = (ip) => {
+  const now = Date.now();
+  const b = apiHits.get(ip);
+  if (!b || now - b.since > API_RATE.windowMs) {
+    if (apiHits.size > 50_000) apiHits.clear();
+    apiHits.set(ip, { n: 1, since: now });
+    return true;
+  }
+  b.n += 1;
+  return b.n <= API_RATE.max;
+};
+
+const handleApi = async (req, res, path, counter, psn) => {
+  if (!isSameOrigin(req)) { sendJson(res, 403, { error: 'Forbidden' }); return; }
+  if (!withinRate(clientIp(req))) { sendJson(res, 429, { error: 'Too many requests' }); return; }
+  if (path === '/api/stats' && req.method === 'GET') { sendJson(res, 200, counter.stats()); return; }
+  if (path === '/api/psn-status' && req.method === 'GET') { sendJson(res, 200, await psn.get()); return; }
+  if (path === '/api/hit' && req.method === 'POST') {
+    const body = await readSmallJson(req);
+    sendJson(res, 200, counter.hit(body?.sid, body?.first === true, clientIp(req)));
+    return;
+  }
+  sendJson(res, 404, { error: 'Not found' });
+};
+
 const start = async () => {
   await loadSite();
   const counter = await createCounter(DATA_DIR);
+  const psn = createPsnStatus();
 
   const server = createServer(async (req, res) => {
+    let path;
+    try {
+      path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    } catch {
+      sendJson(res, 400, { error: 'Bad request' });
+      return;
+    }
     const url = new URL(req.url, 'http://x');
-    const path = decodeURIComponent(url.pathname);
 
     if (path === '/healthz') { sendJson(res, 200, { ok: true }); return; }
 
-    if (path === '/api/stats' && req.method === 'GET') { sendJson(res, 200, counter.stats()); return; }
-    if (path === '/api/hit' && req.method === 'POST') {
-      const body = await readSmallJson(req);
-      sendJson(res, 200, counter.hit(body?.sid, body?.first === true, clientIp(req)));
+    if (path.startsWith('/api/')) {
+      try { await handleApi(req, res, path, counter, psn); } catch (err) {
+        console.error('API error:', err.message);
+        if (!res.headersSent) sendJson(res, 500, { error: 'Server error' });
+      }
       return;
     }
 
@@ -224,5 +291,9 @@ const start = async () => {
   process.on('SIGTERM', shutdown);
   process.on('SIGINT', shutdown);
 };
+
+// Never let one bad request take the whole site down.
+process.on('unhandledRejection', (err) => console.error('Unhandled rejection:', err?.message || err));
+process.on('uncaughtException', (err) => console.error('Uncaught exception:', err?.message || err));
 
 start();

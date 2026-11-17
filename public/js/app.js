@@ -246,64 +246,127 @@ const renderChips = () => {
   });
 };
 
-// ---------- wave ----------
-// Past unlocks are pale, the next one is highlighted, later ones get darker the further out they are.
+// ---------- unlock wave: night fill creeping right, smooth valley at the next unlock ----------
+// x is piecewise: the 24 h before the first unlock map onto the left lead-in (0 → FIRST_X), and the
+// unlock window maps onto FIRST_X → END_X. The night fill ends at "now", so it moves with the time left.
+const WAVE_LEAD_MS = 24 * 3600 * 1000;
+const WAVE_FIRST_X = 0.14;
+const WAVE_END_X = 0.95;
+const WAVE_H = 132;
+const WAVE_BASE = 30;
+const WAVE_DEPTH = 34;
+const WAVE_SIGMA = 0.075;
+const WAVE_SAMPLES = 120;
+const TZ_ABBR = {
+  auckland: 'NZDT', sydney: 'AEDT', adelaide: 'ACDT', brisbane: 'AEST', tokyo: 'JST', seoul: 'KST', perth: 'AWST',
+  singapore: 'SGT', hongkong: 'HKT', manila: 'PHT', bangkok: 'ICT', jakarta: 'WIB', india: 'IST', karachi: 'PKT',
+  dubai: 'GST', riyadh: 'AST', istanbul: 'TRT', johannesburg: 'SAST', berlin: 'CET', london: 'GMT', saopaulo: 'BRT',
+  buenosaires: 'ART', bogota: 'COT', newyork: 'EST', toronto: 'EST', chicago: 'CST', mexico: 'CST', denver: 'MST',
+  losangeles: 'PST', honolulu: 'HST',
+};
+const waveGeom = { min: 0, max: 0 };
+
+const waveFx = (t) => {
+  const { min, max } = waveGeom;
+  if (t <= min) return Math.max(0, 1 - (min - t) / WAVE_LEAD_MS) * WAVE_FIRST_X;
+  return WAVE_FIRST_X + Math.min(1, (t - min) / (max - min || 1)) * (WAVE_END_X - WAVE_FIRST_X);
+};
+
+const waveY = (fx, valley) => {
+  const d = (fx - valley) / WAVE_SIGMA;
+  return WAVE_BASE + WAVE_DEPTH * Math.exp(-(d * d) / 2) + 3 * Math.sin(fx * Math.PI * 4);
+};
+
 const renderWave = (now) => {
   const track = $('[data-wave]');
   if (!track) return;
   const rows = ZONES.map((z) => ({ z, at: atOf(z) }));
-  const min = Math.min(...rows.map((r) => r.at));
-  const max = Math.max(...rows.map((r) => r.at));
-  const pos = (t) => 3 + ((t - min) / (max - min || 1)) * 94;
-  const first = rows.find((r) => r.at === min).z;
-  const last = rows.find((r) => r.at === max).z;
-  track.innerHTML = `<div class="wave-line" data-wave-line></div>${rows.map(({ z, at }) => `<span class="wave-dot" data-dot="${z.id}" style="left:${pos(at)}%" title="${z.flag} ${z.city} — ${fmtUtc(at)}"></span>`).join('')}
-    <span class="wave-label bottom is-first" data-label-for="${first.id}" style="left:${pos(min)}%">${first.flag} ${first.city} · first</span>
-    <span class="wave-label bottom is-last" data-label-for="${last.id}" style="left:${pos(max)}%">${last.flag} ${last.city} · last</span>
+  waveGeom.min = Math.min(...rows.map((r) => r.at));
+  waveGeom.max = Math.max(...rows.map((r) => r.at));
+  // One TZ label per distinct unlock instant ("JST·KST", or "EST +5" for a crowd).
+  const groups = new Map();
+  for (const { z, at } of rows) {
+    if (!groups.has(at)) groups.set(at, []);
+    const abbr = TZ_ABBR[z.id] || z.city.slice(0, 3).toUpperCase();
+    if (!groups.get(at).includes(abbr)) groups.get(at).push(abbr);
+  }
+  const important = new Set([waveGeom.min, waveGeom.max, state.local ? atOf(state.local) : -1]);
+  const labels = [...groups.entries()].sort((a, b) => a[0] - b[0]).map(([at, abbrs], k) => {
+    const text = abbrs.length <= 2 ? abbrs.join('·') : `${abbrs[0]} +${abbrs.length - 1}`;
+    return `<span class="wave-tz${important.has(at) ? '' : ' minor'}" data-at="${at}" data-row="${k % 2}" title="${abbrs.join(', ')}">${text}</span>`;
+  }).join('');
+  track.innerHTML = `<svg class="wave-svg" aria-hidden="true" preserveAspectRatio="none"><path class="wave-night" data-wave-night/><path class="wave-curve" data-wave-curve/></svg>
+    ${rows.map(({ z, at }) => `<span class="wave-dot" data-dot="${z.id}" data-at="${at}" title="${z.flag} ${z.city} — ${fmtUtc(at)}"></span>`).join('')}
+    ${labels}
     <span class="wave-label top next" data-wave-next></span>
-    <div class="wave-now" data-wave-now><span></span></div>`;
-  track.dataset.min = min;
-  track.dataset.max = max;
+    <div class="wave-now" data-wave-now><span>now</span></div>`;
   updateWave(now);
 };
 
 const updateWave = (now) => {
   const track = $('[data-wave]');
-  if (!track || !track.dataset.min) return;
-  const min = +track.dataset.min;
-  const max = +track.dataset.max;
-  const pos = (t) => 3 + ((t - min) / (max - min || 1)) * 94;
-  const pct = now <= min ? 0 : now >= max ? 100 : pos(now);
-  $('[data-wave-line]', track).style.background = `linear-gradient(90deg, var(--wave-past) 0%, var(--wave-past) ${pct}%, var(--accent) ${pct}%, var(--ink) 100%)`;
-  const marker = $('[data-wave-now]', track);
-  marker.style.left = `${pct}%`;
-  marker.hidden = now < min || now >= max;
-  marker.classList.toggle('flip', pct > 70);
-  $('span', marker).textContent = 'now';
-
+  if (!track || !waveGeom.max || !$('[data-wave-curve]', track)) return;
+  const width = track.clientWidth || 1;
   const { upcoming } = orderedZones(now);
   const next = upcoming[0];
+  const valley = next ? waveFx(next.at) : WAVE_END_X;
+  const nowFx = waveFx(now);
+
+  const pts = [];
+  for (let k = 0; k <= WAVE_SAMPLES; k += 1) {
+    const fx = k / WAVE_SAMPLES;
+    pts.push([fx * width, waveY(fx, valley)]);
+  }
+  const line = pts.map(([x, y], k) => `${k ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
+  const nightPts = pts.filter(([x]) => x <= nowFx * width);
+  const nowX = nowFx * width;
+  const night = nowFx > 0
+    ? `M0 ${WAVE_H} ${nightPts.map(([x, y]) => `L${x.toFixed(1)} ${y.toFixed(1)}`).join(' ')} L${nowX.toFixed(1)} ${waveY(nowFx, valley).toFixed(1)} L${nowX.toFixed(1)} ${WAVE_H} Z`
+    : '';
+  const svg = $('.wave-svg', track);
+  svg.setAttribute('viewBox', `0 0 ${width} ${WAVE_H}`);
+  $('[data-wave-curve]', track).setAttribute('d', line);
+  $('[data-wave-night]', track).setAttribute('d', night);
+
   const rank = new Map(upcoming.map((r, k) => [r.z.id, k]));
   const span = Math.max(1, upcoming.length - 1);
   for (const dot of $$('[data-dot]', track)) {
-    const id = dot.dataset.dot;
-    const isPast = !rank.has(id);
-    const isNext = next && atOf(byId.get(id)) === next.at;
+    const at = Number(dot.dataset.at);
+    const fx = waveFx(at);
+    const isPast = !rank.has(dot.dataset.dot);
+    const isNext = !!next && at === next.at;
+    dot.style.left = `${(fx * 100).toFixed(3)}%`;
+    dot.style.top = `${waveY(fx, valley).toFixed(1)}px`;
     dot.classList.toggle('is-on', isPast);
-    dot.classList.toggle('is-next', !!isNext);
-    dot.style.setProperty('--t', isPast || isNext ? '0' : String(Math.min(1, 0.25 + (0.75 * rank.get(id)) / span)));
+    dot.classList.toggle('is-next', isNext);
+    dot.style.setProperty('--t', isPast || isNext ? '0' : String(Math.min(1, 0.25 + (0.75 * rank.get(dot.dataset.dot)) / span)));
   }
+  // Labels: greedy placement into up to 3 rows; hidden only when there is truly no room (dots keep a tooltip).
+  const rowEnd = [-Infinity, -Infinity, -Infinity];
+  for (const tz of $$('.wave-tz', track)) {
+    const at = Number(tz.dataset.at);
+    const fx = waveFx(at);
+    const x = fx * width;
+    const half = (tz.offsetWidth || tz.textContent.length * 6) / 2 + 3;
+    const row = rowEnd.findIndex((end) => end < x - half);
+    tz.hidden = row < 0;
+    if (row >= 0) rowEnd[row] = x + half;
+    tz.style.left = `${(fx * 100).toFixed(3)}%`;
+    tz.style.top = `${(waveY(fx, valley) + 12 + Math.max(0, row) * 11).toFixed(1)}px`;
+    tz.classList.toggle('on-night', fx <= nowFx);
+    tz.classList.toggle('is-next', !!next && at === next.at);
+  }
+  const marker = $('[data-wave-now]', track);
+  marker.style.left = `${(nowFx * 100).toFixed(3)}%`;
+  marker.hidden = nowFx <= 0 || now >= waveGeom.max;
   const label = $('[data-wave-next]', track);
+  label.hidden = !next;
   if (next) {
-    label.hidden = false;
-    label.style.left = `${pos(next.at)}%`;
-    label.classList.toggle('flip-left', pos(next.at) > 80);
-    label.classList.toggle('flip-right', pos(next.at) < 12);
+    label.style.left = `${(valley * 100).toFixed(3)}%`;
+    label.classList.toggle('flip-left', valley > 0.8);
+    label.classList.toggle('flip-right', valley < 0.12);
     label.textContent = `Next: ${next.z.flag} ${next.z.city} · in ${fmtCompact(next.at - now)}`;
-  } else {
-    label.hidden = true;
   }
-  for (const l of $$('[data-label-for]', track)) l.hidden = !!next && l.dataset.labelFor === next.z.id;
 };
 
 // ---------- hero: five zones side by side ----------
@@ -492,11 +555,235 @@ const wireSearch = () => {
 };
 
 const wireMute = () => {
-  const btn = $('[data-copy-mute]');
-  if (!btn) return;
-  btn.addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(MUTE_WORDS.join('\n')); toast('Mute list copied'); } catch { toast('Copy failed. Select the words instead.'); }
+  for (const btn of $$('[data-copy-mute]')) {
+    btn.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(MUTE_WORDS.join('\n')); toast('Mute list copied'); } catch { toast('Copy failed. Select the words instead.'); }
+    });
+  }
+};
+
+// ---------- same-origin API calls (the server rejects requests without this header) ----------
+const api = (path, opts = {}) => fetch(path, {
+  ...opts,
+  credentials: 'same-origin',
+  headers: { 'X-GTA6-Client': '1', ...(opts.headers || {}) },
+});
+
+const escHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+
+// ---------- PSN status: shared fetch (server proxies + caches Sony's feed), slide + header boxes ----------
+const PSN_LINK = '<a href="https://status.playstation.com/" rel="noopener" target="_blank">status.playstation.com</a>';
+const PSN_REFRESH_MS = 300_000;
+let psnData = null;
+let psnAt = 0;
+
+const fetchPsn = async () => {
+  if (psnData && Date.now() - psnAt < PSN_REFRESH_MS - 10_000) return psnData;
+  psnAt = Date.now();
+  try {
+    const res = await api('/api/psn-status');
+    psnData = res.ok ? await res.json() : { ok: false };
+  } catch {
+    psnData = { ok: false };
+  }
+  return psnData;
+};
+
+const renderPsnMini = (d) => {
+  for (const box of $$('[data-psn-box]')) {
+    const svc = d.ok ? d.services.find((x) => x.id === box.dataset.psnBox) : null;
+    const issue = svc?.incidents[0];
+    box.dataset.state = !svc ? 'unknown' : issue ? 'issue' : 'ok';
+    box.dataset.tip = svc ? `${svc.name}: ${issue ? issue.type : 'Up'}` : `${box.dataset.name}: status unavailable`;
+    box.setAttribute('aria-label', box.dataset.tip);
+  }
+  for (const wrap of $$('[data-psn-mini]')) {
+    const issues = d.ok ? d.services.some((x) => x.incidents.length) || d.countryIncidents.length > 0 : false;
+    wrap.dataset.state = !d.ok ? 'unknown' : issues ? 'issue' : 'ok';
+    wrap.setAttribute('aria-label', !d.ok ? 'PlayStation live status unavailable' : issues ? 'PlayStation is reporting problems in India' : 'All PlayStation services are up in India');
+  }
+  const hhmm = (ms) => new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(ms));
+  for (const el of $$('[data-psn-times]')) {
+    el.textContent = `last ${d.checkedAt ? hhmm(Date.parse(d.checkedAt)) : '--:--'} · next ${hhmm(psnAt + PSN_REFRESH_MS)}`;
+  }
+};
+
+const renderPsnSlide = (d) => {
+  const box = $('[data-psn]');
+  if (!box) return;
+  if (!d.ok) { box.innerHTML = `<p class="psn-overall psn-unknown">Couldn't reach the PlayStation status page. Check ${PSN_LINK} directly.</p>`; return; }
+  const issues = [...d.countryIncidents, ...d.services.flatMap((x) => x.incidents)];
+  const checked = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit' }).format(new Date(d.checkedAt));
+  box.innerHTML = `
+    <p class="psn-overall ${issues.length ? 'psn-issue' : 'psn-ok'}">${issues.length ? '⚠️ PlayStation is reporting problems in India' : '✅ All PlayStation services are up in India'}</p>
+    <ul class="psn-services">${d.services.map((x) => `<li class="${x.incidents.length ? 'is-issue' : 'is-ok'}"><span>${escHtml(x.name)}</span><b>${x.incidents.length ? escHtml(x.incidents[0].type) : 'Up'}</b></li>`).join('')}</ul>
+    ${issues[0]?.message ? `<p class="psn-msg">${escHtml(issues[0].message)}</p>` : ''}
+    <p class="psn-src">Checked ${escHtml(checked)} IST${d.stale ? ' (cached)' : ''} · source: ${PSN_LINK}</p>`;
+};
+
+const loadPsn = async () => {
+  const d = await fetchPsn();
+  renderPsnMini(d);
+  renderPsnSlide(d);
+};
+
+const startPsn = () => {
+  if (!$('[data-psn-mini]') && !$('[data-psn]')) return;
+  loadPsn();
+  setInterval(() => { if (!document.hidden) loadPsn(); }, PSN_REFRESH_MS);
+};
+
+// ---------- hero carousel: 5 s circular auto-advance, pausable; tabs, arrows, swipe, keys ----------
+const AUTO_MS = 5000;
+const TICK_MS = 100;
+
+const wireCarousel = () => {
+  const root = $('.hero-carousel');
+  if (!root) return;
+  const track = $('[data-carousel]', root);
+  const slides = $$('.car-slide', track);
+  const tabs = $$('[role="tab"]', root);
+  const prev = $('.car-prev', root);
+  const next = $('.car-next', root);
+  const toggle = $('.car-pause', root);
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const last = slides.length - 1;
+  let index = 0;
+  let animating = 0;
+  let elapsed = 0;
+  let stopped = reduce; // the visitor pressed pause, or prefers reduced motion
+  let focused = false; // keyboard focus only — a mouse click must not freeze the slideshow
+  let nudgeTick = 0;
+
+  const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - ((-2 * t + 2) ** 3) / 2);
+
+  const setProgress = () => {
+    tabs.forEach((t, k) => t.style.setProperty('--p', k === index ? String(Math.min(1, elapsed / AUTO_MS)) : '0'));
+  };
+
+  const fitHeight = () => { track.style.height = `${slides[index].offsetHeight}px`; };
+  const setActive = (i2) => {
+    index = i2;
+    track.style.height = `${slides[i2].offsetHeight}px`;
+    tabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === i2)); t.tabIndex = k === i2 ? 0 : -1; });
+    slides.forEach((sl, k) => { sl.inert = k !== i2; sl.setAttribute('aria-hidden', String(k !== i2)); });
+    if (i2 === 2) loadPsn();
+    setProgress();
+  };
+
+  const glideTo = (left, done) => {
+    cancelAnimationFrame(animating);
+    const from = track.scrollLeft;
+    if (reduce || Math.abs(left - from) < 2) { track.scrollLeft = left; animating = 0; done?.(); return; }
+    track.classList.add('is-gliding');
+    const t0 = performance.now();
+    const dur = 850;
+    const step = (now) => {
+      const p = Math.min(1, (now - t0) / dur);
+      track.scrollLeft = from + (left - from) * ease(p);
+      if (p < 1) { animating = requestAnimationFrame(step); return; }
+      animating = 0;
+      track.classList.remove('is-gliding');
+      done?.();
+    };
+    animating = requestAnimationFrame(step);
+  };
+
+  // Last → first: glide forward into a throwaway copy of slide 1, then snap back to the real one.
+  const wrapToFirst = () => {
+    const clone = slides[0].cloneNode(true);
+    clone.removeAttribute('id');
+    clone.querySelectorAll('[id]').forEach((n) => n.removeAttribute('id'));
+    clone.querySelectorAll('[data-slots]').forEach((n) => n.removeAttribute('data-slots'));
+    clone.inert = true;
+    clone.setAttribute('aria-hidden', 'true');
+    track.append(clone);
+    setActive(0);
+    glideTo(clone.offsetLeft, () => { track.scrollLeft = 0; clone.remove(); });
+  };
+
+  const go = (i2) => {
+    const n = (i2 + slides.length) % slides.length;
+    elapsed = 0;
+    if (index === last && n === 0 && i2 > last) { wrapToFirst(); return; }
+    setActive(n);
+    glideTo(slides[n].offsetLeft);
+  };
+
+  const setStopped = (value) => {
+    stopped = value;
+    root.classList.toggle('is-stopped', stopped);
+    if (toggle) {
+      toggle.setAttribute('aria-pressed', String(stopped));
+      toggle.setAttribute('aria-label', stopped ? 'Play slideshow' : 'Pause slideshow');
+      toggle.innerHTML = stopped ? '<span aria-hidden="true">▶</span>' : '<span aria-hidden="true">❚❚</span>';
+    }
+    elapsed = 0;
+    setProgress();
+  };
+
+  tabs.forEach((t) => t.addEventListener('click', () => go(Number(t.dataset.go))));
+  prev.addEventListener('click', () => go(index - 1));
+  next.addEventListener('click', () => go(index + 1));
+  toggle?.addEventListener('click', () => setStopped(!stopped));
+  root.addEventListener('keydown', (e) => {
+    if (e.target.closest('input, textarea, select')) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); go(index + 1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); go(index - 1); }
   });
+  root.addEventListener('focusin', (e) => { focused = e.target.matches(':focus-visible'); });
+  root.addEventListener('focusout', (e) => { if (!root.contains(e.relatedTarget)) focused = false; });
+  root.addEventListener('pointerdown', () => { focused = false; });
+
+  // Swipe / trackpad: follow the native scroll once it settles, and restart the clock.
+  let settle = 0;
+  track.addEventListener('scroll', () => {
+    if (animating) return;
+    clearTimeout(settle);
+    settle = setTimeout(() => {
+      const i2 = Math.max(0, Math.min(last, Math.round(track.scrollLeft / track.clientWidth)));
+      if (i2 !== index) { elapsed = 0; setActive(i2); }
+    }, 120);
+  }, { passive: true });
+  addEventListener('resize', () => { track.scrollLeft = slides[index].offsetLeft; fitHeight(); });
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(() => fitHeight());
+    slides.forEach((sl) => ro.observe(sl));
+  }
+
+  // The clock: advances every 5 s unless paused; the active tab fills up as it runs.
+  setInterval(() => {
+    const paused = stopped || focused || document.hidden || animating;
+    root.classList.toggle('is-paused', !!paused);
+    if (paused) return;
+    elapsed += TICK_MS;
+    if (elapsed >= AUTO_MS) { go(index + 1); return; }
+    setProgress();
+  }, TICK_MS);
+
+  // When the slideshow is stopped, the next arrow and tab still give an occasional nudge.
+  setInterval(() => {
+    nudgeTick += 1;
+    if (!stopped || reduce || document.hidden || animating || nudgeTick % 2 !== 0) return;
+    const arrow = index < last ? next : prev;
+    const tab = tabs[index < last ? index + 1 : index - 1];
+    for (const el of [arrow, tab]) {
+      el.classList.remove('nudge');
+      void el.offsetWidth;
+      el.classList.add('nudge');
+      setTimeout(() => el.classList.remove('nudge'), 1600);
+    }
+  }, 7000);
+
+  setStopped(stopped);
+  setActive(0);
+};
+
+// ---------- PWA ----------
+const registerServiceWorker = () => {
+  const secure = location.protocol === 'https:' || location.hostname === 'localhost';
+  if (!('serviceWorker' in navigator) || !secure) return;
+  addEventListener('load', () => { navigator.serviceWorker.register('/sw.js').catch(() => { /* offline support is optional */ }); });
 };
 
 const wirePins = () => {
@@ -527,12 +814,38 @@ const startVisits = async () => {
   }
   const hit = async (isFirst) => {
     try {
-      const res = await fetch('/api/hit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sid, first: isFirst }), keepalive: true });
+      const res = await api('/api/hit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sid, first: isFirst }), keepalive: true });
       if (res.ok) showVisits(await res.json());
     } catch { /* offline — counter just stays hidden */ }
   };
   await hit(first);
   setInterval(() => { if (document.visibilityState === 'visible') hit(false); }, 30_000);
+};
+
+// Floating quick-answers panel: toggle, Esc, click outside, focus back to the button.
+const wireFaqPopup = () => {
+  const fab = $('.faq-fab');
+  const pop = $('#faq-pop');
+  if (!fab || !pop) return;
+  const set = (open) => {
+    pop.hidden = !open;
+    fab.setAttribute('aria-expanded', String(open));
+    if (open) $('.faq-pop-close', pop)?.focus();
+  };
+  fab.addEventListener('click', () => set(pop.hidden));
+  $('.faq-pop-close', pop)?.addEventListener('click', () => { set(false); fab.focus(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); fab.focus(); } });
+  document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !fab.contains(e.target)) set(false); });
+};
+
+// "More below" cue: visible only at the top of a page that actually has more below.
+const wireScrollCue = () => {
+  const cue = $('.scroll-cue');
+  if (!cue) return;
+  const update = () => cue.classList.toggle('is-hidden', scrollY > 120 || document.documentElement.scrollHeight <= innerHeight + 40);
+  addEventListener('scroll', update, { passive: true });
+  addEventListener('resize', update);
+  update();
 };
 
 // A link to #zones or #schedule opens that section's collapsed toggle (also on repeat clicks).
@@ -563,6 +876,11 @@ const init = () => {
   wireMute();
   wirePins();
   wireToggleLinks();
+  wireFaqPopup();
+  wireScrollCue();
+  wireCarousel();
+  startPsn();
+  registerServiceWorker();
   startHeartbeat();
   startVisits();
 };

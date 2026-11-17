@@ -1,14 +1,30 @@
 {
+  "id": "/",
   "name": "GTA6Info.in — GTA 6 India News & Countdown",
   "short_name": "GTA6Info",
-  "description": "Live GTA 6 unlock countdowns for 30 time zones.",
-  "start_url": "/",
+  "description": "GTA 6 release time in IST, price in India, live countdowns and launch news updated every few hours.",
+  "lang": "en-IN",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
   "background_color": "#f6f5f2",
   "theme_color": "#18161d",
+  "categories": ["games", "news", "entertainment"],
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "GTA 6 News", "short_name": "News", "url": "/news/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "GTA 6 India", "short_name": "India", "url": "/gta-6-india/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "GTA 6 Price in India", "short_name": "Price", "url": "/gta-6-price-in-india/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "screenshots": [
+    { "src": "/screenshots/wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "GTA 6 countdown in five time zones" },
+    { "src": "/screenshots/narrow.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "GTA 6 India countdown on mobile" }
   ]
 }

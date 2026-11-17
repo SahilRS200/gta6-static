@@ -9,21 +9,73 @@
 <!--SSR:BANNER-->
 <!--SSR:HEADER-->
 <main id="main" class="home">
-  <section class="hero" aria-labelledby="hero-h">
+  <section class="hero hero-carousel" aria-roledescription="carousel" aria-label="GTA 6 highlights">
     <svg class="skyline" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 120V92h40V70h22v22h18V58h30v34h16V80h24V48h12V36h10v12h12v44h20V66h34v26h14V54h26v38h22V74h18V40h8V28h6v12h8v52h26V84h30V62h22v30h16V50h38v42h12V72h28V58h14v34h22V44h10V32h12v12h10v48h26V76h20V60h30v32h18V68h24v24h16V52h28v40h22V80h18V46h14V36h8v10h12v46h24V70h32v22h16V56h22v36h20V74h26v18h18V62h30v30h14V82h40v38z"/><path fill="currentColor" d="M96 92c-2-16-1-30 3-44m0 0c-9-6-22-6-30 0 9-1 18 1 26 6-10 0-18 4-23 10 8-4 17-6 27-4m0-12c6-8 17-11 26-8-9 0-17 3-22 9 9-2 18-1 25 4-9-1-18 0-26 4M1086 92c-2-18-1-34 4-50m0 0c-10-7-24-7-33 0 10-1 20 1 29 7-11 0-20 4-26 11 9-5 19-7 30-5m0-13c7-9 19-12 29-9-10 0-19 3-25 10 10-2 20-1 28 5-10-1-20 0-29 4" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
-    <h1 id="hero-h"><strong>GTA 6 India countdown</strong> · unlock time in IST &amp; every time zone</h1>
-    <p class="hero-sub">Unlocks at midnight local time · Thu, Nov 19, 2026 · 🇮🇳 12:00 AM IST · <a href="/news/play-gta-6-early-india-new-zealand-trick/">Can you play it early? →</a></p>
-    <div class="slots" data-slots></div>
-    <p class="hero-note"><span class="pill pill-dark" data-pin-count>0 / 5</span> pinned · open <a href="#zones">all 30 countdowns</a> and tap ☆ to put a city up here</p>
+    <div class="car-tabs" role="tablist" aria-label="Choose a slide">
+      <button type="button" role="tab" id="tab-0" aria-selected="true" aria-controls="slide-0" data-go="0">Countdown</button>
+      <button type="button" role="tab" id="tab-1" aria-selected="false" aria-controls="slide-1" data-go="1" tabindex="-1">News</button>
+      <button type="button" role="tab" id="tab-2" aria-selected="false" aria-controls="slide-2" data-go="2" tabindex="-1">PS Live Status</button>
+      <button type="button" role="tab" id="tab-3" aria-selected="false" aria-controls="slide-3" data-go="3" tabindex="-1">Quick help</button>
+      <button type="button" class="car-pause" aria-pressed="false" aria-label="Pause slideshow"><span aria-hidden="true">❚❚</span></button>
+    </div>
+    <button class="car-arrow car-prev" type="button" aria-label="Previous slide" data-step="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="car-arrow car-next" type="button" aria-label="Next slide" data-step="1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <div class="car-track" data-carousel tabindex="0" aria-live="polite">
+      <div class="car-slide" id="slide-0" role="tabpanel" aria-labelledby="tab-0" aria-roledescription="slide">
+        <h1 id="hero-h"><strong>GTA 6 India countdown</strong> · unlock time in IST &amp; every time zone</h1>
+        <p class="hero-sub">Unlocks at midnight local time · Thu, Nov 19, 2026 · 🇮🇳 12:00 AM IST · <a href="/news/play-gta-6-early-india-new-zealand-trick/">Can you play it early? →</a></p>
+        <div class="slots" data-slots></div>
+        <p class="hero-note"><span class="pill pill-dark" data-pin-count>0 / 5</span> pinned · open <a href="#zones">all 30 countdowns</a> and tap ☆ to put a city up here</p>
+      </div>
+      <div class="car-slide" id="slide-1" role="tabpanel" aria-labelledby="tab-1" aria-roledescription="slide">
+        <h2 class="slide-title">Latest GTA 6 news <span>updated every few hours</span></h2>
+        <!--SSR:HERO_NEWS-->
+        <p class="slide-more"><a href="/news/">All GTA 6 news →</a> · <a href="/gta-6-india/">GTA 6 India hub →</a></p>
+      </div>
+      <div class="car-slide" id="slide-2" role="tabpanel" aria-labelledby="tab-2" aria-roledescription="slide">
+        <h2 class="slide-title">Is PlayStation online in India? <span>live from status.playstation.com</span></h2>
+        <div class="psn" data-psn><p class="psn-loading">Checking PlayStation services…</p></div>
+        <div class="top-q">
+          <h3>What India is asking right now</h3>
+          <ul>
+            <li><a href="/gta-6-release-time/india/">GTA 6 kab aayega / release time in India</a></li>
+            <li><a href="/gta-6-price-in-india/">GTA 6 price in India</a></li>
+            <li><a href="/news/play-gta-6-early-india-new-zealand-trick/">Can I play GTA 6 early in India?</a></li>
+            <li><a href="/news/gta-6-free-download-apk-scam-warning/">GTA 6 free download / APK — real?</a></li>
+            <li><a href="/news/gta-6-preload-live-india/">Is the GTA 6 pre-load live?</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="car-slide" id="slide-3" role="tabpanel" aria-labelledby="tab-3" aria-roledescription="slide">
+        <h2 class="slide-title">Quick help <span>launch-night survival kit</span></h2>
+        <div class="help-grid">
+          <div class="help-card">
+            <h3>Quick answers</h3>
+            <details><summary>When does it unlock in India?</summary><p>12:00 AM IST, Thu 19 Nov. <a href="/gta-6-release-time/india/">Countdown →</a></p></details>
+            <details><summary>Does the PS5 time zone trick work?</summary><p>No, the unlock follows your PSN region. <a href="/guides/ps5-time-zone/">Why →</a></p></details>
+            <details><summary>How do I stream it?</summary><p>Link YouTube or Twitch, then Create → Broadcast. <a href="/guides/stream-gta-6-ps5-youtube-twitch/">Guide →</a></p></details>
+          </div>
+          <div class="help-card">
+            <h3>🛡️ Spoiler shield</h3>
+            <p>New Zealand plays 7.5 hours before India. Mute these now:</p>
+            <div class="mute-words"><span>GTA 6 ending</span><span>GTA 6 spoilers</span><span>GTA VI ending</span><span>GTA 6 final mission</span></div>
+            <button class="btn btn-small" type="button" data-copy-mute>Copy mute list</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="wave" aria-labelledby="wave-h">
-    <div class="section-head">
-      <h2 id="wave-h">The unlock wave</h2>
-      <p>Midnight moves west across the planet. Each dot is a time zone going live.</p>
-    </div>
-    <div class="wave-track" data-wave></div>
-  </section>
+  <div class="wave-row" id="below">
+    <section class="wave" aria-labelledby="wave-h">
+      <div class="section-head">
+        <h2 id="wave-h">The unlock wave</h2>
+        <p>Midnight moves west. Each dot is a time zone going live.</p>
+      </div>
+      <div class="wave-track" data-wave></div>
+    </section>
+    <!--SSR:TICKER-->
+  </div>
 
   <section class="stats-strip" aria-label="Launch at a glance">
     <div class="stat"><span class="stat-k">First on Earth</span><span class="stat-v" data-stat="first">🇳🇿 Auckland</span><span class="stat-s" data-stat="first-in"></span></div>
@@ -32,8 +84,6 @@
     <div class="stat"><span class="stat-k">Spoiler gap</span><span class="stat-v" data-stat="gap">19h</span><span class="stat-s">first → last unlock</span></div>
     <div class="stat stat-wide" data-visits hidden><span class="stat-k">Visitors</span><span class="stat-v"><b data-visits-total>—</b> visits</span><span class="stat-s"><b data-visits-live>—</b> here right now</span></div>
   </section>
-
-  <!--SSR:LATEST-->
 
   <section class="zones" id="zones" aria-labelledby="zones-h">
     <div class="section-head">
@@ -112,6 +162,7 @@
   </section>
   </div>
 </main>
+<a class="scroll-cue" href="#below">More below: news · 30 countdowns · FAQ <span aria-hidden="true">↓</span></a>
 <!--SSR:FOOTER-->
 </body>
 </html>
