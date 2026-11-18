@@ -978,3 +978,6 @@ html.has-pseudo-fs, html.has-pseudo-fs body { overflow: hidden; }
 @media (max-width: 640px) {
   .hero-fs-share { top: auto; bottom: 10px; right: 52px; height: 34px; padding: 0 10px; font-size: 12px; }
 }
+
+/* fixed-width digits so countdowns never shift as numbers change (the font: shorthand on .cd-num reset this) */
+.cd-num, .zcard-count, .stat-s, .stat-v, .unlocked-sub, .ticker-list time, .wave-label.next, .psn-mini-label small, .hero-news time { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1, 'cv11' 1, 'ss01' 1; }
