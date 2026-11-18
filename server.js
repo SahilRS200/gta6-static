@@ -11,7 +11,7 @@ import { applyPartials, headCommon } from './lib/partials.js';
 import { renderCityPage, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
 import { loadPosts, loadBrief, tagsOf } from './lib/content.js';
-import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml } from './lib/news.js';
+import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml, fsExtrasHtml } from './lib/news.js';
 import { createPsnStatus } from './lib/psn.js';
 import { createHeadlines } from './lib/headlines.js';
 
@@ -90,8 +90,9 @@ const templated = (text) => applyPartials(text)
   .replace('<!--SSR:LATEST-->', latestNewsHtml(posts))
   .replace('<!--SSR:TICKER-->', tickerHtml(posts))
   .replace('<!--SSR:BRIEF-->', briefHtml(brief))
-  .replace('<!--SSR:BRIEF_PREVIEW-->', briefPreviewHtml(brief))
-  .replace('<!--SSR:HERO_NEWS-->', heroNewsHtml(posts))
+  .replace('<!--SSR:BRIEF_PREVIEW-->', briefPreviewHtml(brief, 8))
+  .replace('<!--SSR:HERO_NEWS-->', heroNewsHtml(posts, 10))
+  .replace('<!--SSR:FS_EXTRAS-->', fsExtrasHtml(posts, brief))
   .replaceAll('__SITE_URL__', SITE_URL);
 
 const walk = async (dir) => {

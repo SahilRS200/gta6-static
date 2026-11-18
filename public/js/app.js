@@ -1066,7 +1066,7 @@ const LIVE_TABS = { ai: 'New AI Brief', news: 'New news' };
 
 const liveSignature = (doc) => ({
   ai: doc.querySelector('#ai-pop .ai-meta time')?.getAttribute('datetime') || '',
-  news: doc.querySelector('#slide-news .hero-news a, .ticker-list a, .news-card h3 a')?.getAttribute('href') || '',
+  news: doc.querySelector('#slide-news .hero-news a, .fs-extras .hero-news a, .ticker-list a, .news-card h3 a')?.getAttribute('href') || '',
 });
 
 const wireLiveRefresh = () => {
@@ -1114,6 +1114,7 @@ const wireLiveRefresh = () => {
     const here = $(sel);
     if (fresh && here) here.innerHTML = fresh.innerHTML;
   };
+  const swapBriefPanel = (doc) => { for (const part of ['.ai-meta', '.ai-headline', '.ai-body']) swap(doc, `#ai-pop ${part}`); };
 
   const refresh = async () => {
     if (!hero.classList.contains('is-fs') || document.hidden) return;
@@ -1127,7 +1128,7 @@ const wireLiveRefresh = () => {
     if (isHome) {
       if (next.ai && next.ai !== seen.ai) {
         swap(doc, '#slide-ai');
-        for (const part of ['.ai-meta', '.ai-headline', '.ai-body']) swap(doc, `#ai-pop ${part}`);
+        swapBriefPanel(doc);
         tabFor('ai')?.classList.add('has-new');
       }
       if (next.news && next.news !== seen.news) {
@@ -1139,8 +1140,13 @@ const wireLiveRefresh = () => {
         tabFor('news')?.classList.add('has-new');
       }
       dispatchEvent(new Event('hero:content'));
-    } else if (next.news && next.news !== seen.news) {
-      latestHref = next.news;
+    } else {
+      // single-countdown pages: refresh the full-screen AI + news panel in place; the bubble is only for new news
+      const aiChanged = next.ai && next.ai !== seen.ai;
+      const newsChanged = next.news && next.news !== seen.news;
+      if (aiChanged) swapBriefPanel(doc);
+      if (aiChanged || newsChanged) swap(doc, '.fs-extras');
+      if (newsChanged) latestHref = next.news;
     }
     seen = next;
     activeFor = 0; // fresh content: the current slide must be seen again before its dot clears

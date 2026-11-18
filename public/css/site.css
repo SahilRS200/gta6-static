@@ -1008,3 +1008,57 @@ html.has-pseudo-fs, html.has-pseudo-fs body { overflow: hidden; }
 }
 @media (max-width: 640px) { .hero.is-fs .fs-new-bubble:not([hidden]) { top: auto; bottom: 10px; left: 10px; font-size: 12px; padding: 7px 11px; } }
 @media (prefers-reduced-motion: reduce) { .hero.is-fs .fs-new-bubble { animation: none; } }
+
+/* ---------- (A) carousel: compact rows normally, more rows in full screen ---------- */
+.hero-news li:nth-child(n + 6) { display: none; }
+.hero.is-fs .hero-news li:nth-child(n + 6) { display: list-item; }
+.hero.is-fs .ai-preview-body { max-height: min(52vh, 520px); }
+.hero.is-fs .ai-preview-body::after { height: 40px; }
+.hero.is-fs .ai-preview-body ul { gap: 10px; }
+
+/* ---------- (B) single countdowns in full screen: timer up, AI + news below (md+ / landscape) ---------- */
+.fs-extras { display: none; }
+/* md and up, or any landscape phone; never phone portrait */
+@media (min-width: 768px), (orientation: landscape) and (min-width: 600px) {
+  .hero-city.is-fs { justify-content: flex-start; padding-top: clamp(44px, 6vh, 72px); padding-bottom: clamp(14px, 3vh, 32px); overflow: hidden; }
+  .hero-city.is-fs .cd-num { font-size: clamp(48px, 9cqi, 150px); }
+  .hero-city.is-fs .cd-colon { font-size: clamp(36px, 6.5cqi, 106px); }
+  .hero-city.is-fs .hero-actions { margin-top: 12px; }
+  .hero.is-fs .fs-extras {
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(14px, 2vw, 28px);
+    width: 100%; max-width: 1400px; margin: clamp(16px, 3vh, 36px) auto 0; text-align: left;
+    flex: 1 1 auto; min-height: 0; /* fills what the timer leaves; each column scrolls on its own */
+  }
+  .fs-col { min-width: 0; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding: 16px 18px; border-radius: 16px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.13); }
+  .fs-col .ai-preview { max-width: none; }
+  .fs-col .ai-preview-body { max-height: none; }
+  .fs-col .ai-preview-body::after { display: none; }
+  .fs-col .ai-preview-more { flex-wrap: nowrap; }
+  .fs-col .hero-news { max-width: none; }
+  .fs-col .hero-news li:nth-child(n + 6) { display: list-item; }
+  .fs-col .hero-news a { padding: 8px 2px; font-size: clamp(14px, 1.15vw, 16px); }
+  .fs-col .hero-news time { min-width: 128px; }
+  .fs-col .slide-title { font-size: clamp(18px, 1.6vw, 22px); }
+  .fs-col .ai-open-btn { white-space: nowrap; }
+}
+/* Narrower screens: the time sits above each headline instead of in a column. */
+@media (min-width: 768px) and (max-width: 1180px) {
+  .fs-col .hero-news a { flex-direction: column; gap: 2px; }
+  .fs-col .hero-news time { min-width: 0; }
+  .fs-col .ai-preview-more { flex-wrap: wrap; }
+}
+/* Phones in landscape: keep both columns but tight. */
+@media (orientation: landscape) and (max-height: 560px) {
+  /* the timer is the headline here: drop the title rows and actions so nothing meets the top-right buttons */
+  .hero-city.is-fs { padding-top: 52px; }
+  .hero-city.is-fs h1, .hero-city.is-fs .eyebrow, .hero-city.is-fs .hero-when, .hero-city.is-fs .hero-actions { display: none; }
+  .hero-city.is-fs .cd-num { font-size: clamp(30px, 7cqi, 60px); }
+  .hero-city.is-fs .cd-colon { font-size: clamp(22px, 5cqi, 44px); }
+  .hero.is-fs .fs-extras { margin-top: 8px; gap: 10px; }
+  .fs-col { padding: 10px 12px; }
+  .fs-col .ai-preview-headline { font-size: 13px; padding: 6px 10px; }
+  .fs-col .hero-news a { padding: 4px 2px; font-size: 12.5px; }
+  .fs-col .hero-news time { display: none; }
+  .fs-col .ai-preview-more { font-size: 0; margin-top: 8px; } /* keep the button, drop its helper sentence */
+  .fs-col .ai-preview-more .ai-open-btn { font-size: 12.5px; padding: 7px 12px; }
+}
