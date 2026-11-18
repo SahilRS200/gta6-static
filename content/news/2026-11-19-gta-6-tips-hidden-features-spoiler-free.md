@@ -32,4 +32,4 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 
 Kotaku's last tip is the best one: **stay off "full story" videos** for now. Clips from players who started hours earlier are everywhere.
 
-Also read: [settings to change and first-hours ideas →](/news/gta-6-first-hours-tips-settings/) · [spoiler-free first reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/) · [performance on PS5, PS5 Pro and Xbox →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · [everything Indian players need to know →](/gta-6-india/)
+Also read: [Bigfoot, PinkPantheress and other night-one discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/) · [settings to change and first-hours ideas →](/news/gta-6-first-hours-tips-settings/) · [spoiler-free first reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/) · [performance on PS5, PS5 Pro and Xbox →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · [everything Indian players need to know →](/gta-6-india/)
