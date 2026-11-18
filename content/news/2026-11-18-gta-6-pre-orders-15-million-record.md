@@ -9,6 +9,7 @@ sources:
   - VICE — How many people pre-ordered GTA 6? | https://www.vice.com/en/article/how-many-people-pre-ordered-gta-6/
   - Rockstar Intel — GTA VI could make $2 billion this week, 15 million pre-orders | https://rockstarintel.com/gta-vi-could-make-2-billion-this-week-15-million-pre-orders-already/
   - The Loadout — GTA 6 has already made $1.5 billion | https://theloadout.com/gta-6-has-already-made-1-5-billion-and-nobody-has-played-it-yet
+  - GamesRadar+ — GTA 6 is officially the most pre-ordered game in PlayStation and Xbox store history | https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-officially-the-most-pre-ordered-game-in-playstation-and-xbox-store-history-sony-and-microsoft-confirm/
 ---
 GTA 6 has only just started unlocking, and it may already be the most pre-ordered game ever. These are **estimates from analytics firm Sensor Tower, not official numbers**. Rockstar and Take-Two have not published pre-order totals.
 
@@ -27,6 +28,8 @@ GTA 6 has only just started unlocking, and it may already be the most pre-ordere
 - The estimate **roughly doubled in two weeks**, from about 7.7 million in early November.
 
 ## Read it with care
+
+What *is* official: on 10 November, **Sony and Microsoft both confirmed GTA 6 is the most pre-ordered game in the history of their stores**, without giving a number ([GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-officially-the-most-pre-ordered-game-in-playstation-and-xbox-store-history-sony-and-microsoft-confirm/)).
 
 Sensor Tower counts **digital pre-orders only**, so physical copies and retail codes are not included. Tracker figures can also over- or under-count. There is no India-specific breakdown.
 
