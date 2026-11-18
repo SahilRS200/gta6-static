@@ -33,7 +33,7 @@ The scheduled news agent may **commit and push to `main` without asking**, withi
 
 ### AI Brief (`content/brief.md`) — the floating "✦ AI Brief" panel on every page
 A tight, skimmable answer to "what's hot right now and what should I do?" for an Indian player.
-- Front matter: `updated:` (ISO, `+05:30`, the time of this run) and `headline:` (one sentence, under
+- Front matter: `updated:` (the output of `TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30`, never a guessed or rounded time) and `headline:` (one sentence, under
   ~110 characters, the single most important thing right now).
 - Body: 2–3 `##` sections with emoji headings, e.g. `## 🔥 Hot in India right now`,
   `## ✅ Do this now` (only while it is actionable), `## 🌍 Around the world`. 2–4 bullets each.
@@ -56,6 +56,10 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
 - Never keyword-stuff, never write a headline the article does not deliver, never invent a fact.
 
 ### Posts (`content/news/YYYY-MM-DD-slug.md`)
+**Timestamps: read the clock, never type a time.** Get the current IST time with
+`TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30` and use exactly that for `date:`, `updated:` and the brief's
+`updated:`. Never round up, never estimate when the commit will land, never use a future time.
+
 Front matter: `title`, `description`, `date` (ISO with `+05:30`), optional `updated`, `tags: [a, b]`,
 `sources:` as `  - Label | https://url`. Body is simple Markdown (`##`, lists, `**bold**`, links).
 - **Every factual claim needs a linked source.** At least one source per post, from a real outlet.

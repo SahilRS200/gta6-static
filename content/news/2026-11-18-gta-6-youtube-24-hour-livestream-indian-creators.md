@@ -1,7 +1,7 @@
 ---
 title: GTA 6 YouTube 24-Hour Launch Stream — Total Gaming, Payal Gaming, Mythpat Join, From 10:30 AM IST
 description: YouTube is streaming GTA 6 for 24 hours from 10:30 AM IST on 19 November, with a pre-show at 9:30 AM. Four Indian creators are reportedly in the line-up. Times and where to watch.
-date: 2026-11-18T18:50:00+05:30
+date: 2026-11-18T18:39:00+05:30
 tags: [india, youtube, streamers, launch-day]
 sources:
   - ETV Bharat — YouTube to stream the GTA 6 launch live for 24 hours with over 30 creators | https://www.etvbharat.com/en/technology/youtube-gta-6-launch-24-hour-livestream-payal-gaming-total-gaming-sharkshe-enn26111803910

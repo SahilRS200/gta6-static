@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-18T18:50:00+05:30
+updated: 2026-11-18T18:39:00+05:30
 headline: India unlocks GTA 6 at midnight IST, just over 5 hours away. Reviews sit at a record-tying 99.
 ---
 ## 🔥 Hot in India right now
