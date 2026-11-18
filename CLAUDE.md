@@ -43,6 +43,17 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
   unless still the top story. No rumours without the word "rumoured". No spoilers.
 - After launch, shift it from "prepare" to "what's happening": server status, first reactions, scores,
   India sales/stock, tips for the first hours.
+- **Rank by impact, then write (owner rule, 2026-11-18).** Build the brief from scratch each run; don't
+  reshuffle last hour's bullets. List every candidate (this run's new posts, still-live older stories,
+  actions) and judge each on: how many Indian players it reaches, how new it is (new this run wins ties),
+  and whether it needs action or a decision soon. The **top item becomes the `headline:` and the first
+  bullet**. The homepage carousel shows only the headline and the first 3 bullets, so those 4 lines
+  must carry the most important news.
+- **Every India-relevant post published this run goes in the brief.** A big new India story (top Indian
+  creators, India price/stock/delivery, India outages or payment problems, Indian brand stunts) goes in
+  the headline or first bullet, not lower down.
+- The bold lead names the **thing**, not just the people ("YouTube's 24-hour GTA 6 stream, with 4 Indian
+  creators", not "Ajju Bhai, Payal, Mythpat"), so a skimmer gets the story from the bold text alone.
 
 ### SEO pass (every run, small and safe)
 - New posts: title leads with the keyword people search ("GTA 6 …"), description 120–190 characters
