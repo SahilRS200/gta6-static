@@ -839,6 +839,15 @@ const wireCarousel = () => {
 
   setStopped(stopped);
   setActive(0);
+
+  const params = new URLSearchParams(location.search);
+  const wanted = params.get('slide') || (params.get('fs') === '1' ? 'countdown' : '');
+  const target = wanted ? slides.findIndex((sl) => sl.id === `slide-${wanted}`) : -1;
+  if (target > 0) {
+    if (params.get('fs') === '1') setStopped(true);
+    setActive(target);
+    requestAnimationFrame(() => { track.scrollLeft = slides[target].offsetLeft; });
+  }
 };
 
 // ---------- "Around the web" headlines merged into the news ticker (refreshed hourly) ----------
@@ -955,6 +964,24 @@ const wireAiBrief = () => {
 // otherwise (iPhone Safari) a fixed full-viewport overlay that looks the same.
 const FS_ENTER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
 const FS_EXIT = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+const FS_LINK_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>';
+const fsShareUrl = () => `${location.origin}${location.pathname}?fs=1`;
+
+const shareFsLink = async (btn) => {
+  const url = fsShareUrl();
+  const label = $('span', btn);
+  const flash = (text) => { label.textContent = text; setTimeout(() => { label.textContent = 'Share full-screen link'; }, 2200); };
+  try {
+    if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
+      await navigator.share({ title: document.title, text: 'GTA 6 countdown, full screen:', url });
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    flash('Link copied ✓');
+  } catch {
+    flash(url.replace(/^https?:\/\//, ''));
+  }
+};
 
 const wireFullscreen = () => {
   const heroes = $$('.hero');
@@ -973,6 +1000,8 @@ const wireFullscreen = () => {
       btn.setAttribute('aria-label', on ? 'Exit full screen' : 'Full screen');
       btn.title = on ? 'Exit full screen (Esc)' : 'Full screen';
       btn.innerHTML = on ? FS_EXIT : FS_ENTER;
+      const share = $('.hero-fs-share', hero);
+      if (share) { share.hidden = !on; share.title = fsShareUrl(); }
     }
     document.documentElement.classList.toggle('has-pseudo-fs', !!pseudo);
     dispatchEvent(new Event('resize'));
@@ -997,10 +1026,35 @@ const wireFullscreen = () => {
     btn.className = 'hero-fs-btn';
     hero.append(btn);
     btn.addEventListener('click', () => ((document.fullscreenElement === hero || pseudo === hero) ? exit() : enter(hero)));
+    const share = document.createElement('button');
+    share.type = 'button';
+    share.className = 'hero-fs-share';
+    share.hidden = true;
+    share.innerHTML = `${FS_LINK_ICON}<span>Share full-screen link</span>`;
+    share.setAttribute('aria-label', 'Share a link that opens this countdown in full screen');
+    share.addEventListener('click', () => shareFsLink(share));
+    hero.append(share);
   }
   document.addEventListener('fullscreenchange', sync);
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && (pseudo || document.fullscreenElement)) exit(); });
   sync();
+
+  // Deep link: ?fs=1 opens the first hero full screen. Browsers only grant real fullscreen after a
+  // user gesture, so start with the overlay and upgrade on the first tap where it's supported.
+  if (new URLSearchParams(location.search).get('fs') === '1') {
+    pseudo = heroes[0];
+    sync();
+    if (native) {
+      const upgrade = (e) => {
+        if (pseudo !== heroes[0] || e.target.closest('.hero-fs-btn, .hero-fs-share')) return;
+        const hero = pseudo;
+        pseudo = null;
+        document.removeEventListener('pointerdown', upgrade, true);
+        hero.requestFullscreen({ navigationUI: 'hide' }).catch(() => { pseudo = hero; }).finally(sync);
+      };
+      document.addEventListener('pointerdown', upgrade, true);
+    }
+  }
 };
 
 // "More below" cue: visible only at the top of a page that actually has more below.
