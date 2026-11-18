@@ -47,7 +47,10 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
   reshuffle last hour's bullets. List every candidate (this run's new posts, still-live older stories,
   actions) and judge each on: how many Indian players it reaches, how new it is (new this run wins ties),
   and whether it needs action or a decision soon. The **top item becomes the `headline:` and the first
-  bullet**. The homepage carousel shows only the headline and the first 3 bullets, so those 4 lines
+  bullet**. The `headline:` is the bold box in the homepage hero, so it carries the **most bombastic
+  verified news in the whole brief**: the record, the outage, the shock number, the thing people will
+  share. Make it punchy and lead with the number or the superlative, but it must stay true and sourced.
+  Never spend the headline on a routine reminder ("unlocks at midnight") when bigger news exists. The homepage carousel shows only the headline and the first 3 bullets, so those 4 lines
   must carry the most important news.
 - **Every India-relevant post published this run goes in the brief.** A big new India story (top Indian
   creators, India price/stock/delivery, India outages or payment problems, Indian brand stunts) goes in

@@ -1,16 +1,25 @@
 ---
-title: GTA 6 Pre-Orders Near 15 Million, Estimate Says — About $1.45 Billion Before Launch
-description: Sensor Tower estimates about 14.94 million digital GTA 6 pre-orders on PS5 and Xbox, worth roughly $1.45 billion (over ₹12,000 crore). Rockstar hasn't confirmed any figure.
+title: GTA 6 Pre-Orders Pass 17 Million, Estimate Says — About $1.65 Billion Before Launch
+description: Sensor Tower now estimates about 17.07 million digital GTA 6 pre-orders on PS5 and Xbox, worth roughly $1.65 billion, on the eve of launch. Rockstar hasn't confirmed any figure.
 date: 2026-11-18T16:55:00+05:30
+updated: 2026-11-18T18:58:00+05:30
 tags: [sales, pre-orders, ps5, xbox]
 sources:
+  - GameSpot — GTA 6 passes 17 million copies sold and $1.6 billion in revenue on eve of launch | https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/
   - VICE — How many people pre-ordered GTA 6? | https://www.vice.com/en/article/how-many-people-pre-ordered-gta-6/
   - Rockstar Intel — GTA VI could make $2 billion this week, 15 million pre-orders | https://rockstarintel.com/gta-vi-could-make-2-billion-this-week-15-million-pre-orders-already/
   - The Loadout — GTA 6 has already made $1.5 billion | https://theloadout.com/gta-6-has-already-made-1-5-billion-and-nobody-has-played-it-yet
 ---
-GTA 6 hasn't unlocked anywhere yet, and it may already be the most pre-ordered game ever. These are **estimates from analytics firm Sensor Tower, not official numbers**. Rockstar and Take-Two have not published pre-order totals.
+GTA 6 has only just started unlocking, and it may already be the most pre-ordered game ever. These are **estimates from analytics firm Sensor Tower, not official numbers**. Rockstar and Take-Two have not published pre-order totals.
 
-## The numbers
+## Update, 18 Nov evening: over 17 million
+
+- **About 17.07 million digital pre-purchases, worth roughly $1.65 billion**, per Sensor Tower's tracker as reported by [GameSpot](https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/) on the eve of launch.
+- **About 12.73 million on PS5 and 4.35 million on Xbox Series X|S.**
+- Sensor Tower projects it could reach **up to 25 million** by launch. Still estimates, still digital only, still not confirmed by Rockstar.
+- It's also being watched like nothing before: [GTA 6 just broke the all-time streaming launch record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+
+## The numbers (16 November)
 
 - **About 14.94 million digital pre-orders** across PS5 and Xbox Series X|S as of 16 November, according to Sensor Tower estimates reported by [VICE](https://www.vice.com/en/article/how-many-people-pre-ordered-gta-6/) and [Rockstar Intel](https://rockstarintel.com/gta-vi-could-make-2-billion-this-week-15-million-pre-orders-already/).
 - **Roughly $1.45 billion** in pre-order revenue, more than ₹12,000 crore ([The Loadout](https://theloadout.com/gta-6-has-already-made-1-5-billion-and-nobody-has-played-it-yet)).
