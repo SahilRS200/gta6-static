@@ -2,11 +2,13 @@
 title: Blinkit and Zepto Are Delivering GTA 6 in 10 Minutes in India — But Read This Before You Order
 description: GTA 6 is now on Blinkit and Zepto with delivery estimates as low as 10 minutes in select Indian cities. The box has a download code, not a disc. Cities, price and the catch.
 date: 2026-11-18T16:20:00+05:30
+updated: 2026-11-19T00:36:00+05:30
 tags: [india, blinkit, price, launch-day, ps5]
 sources:
   - Beebom — GTA 6 is being delivered in under 10 minutes in India | https://beebom.com/gta-6-being-delivered-in-minutes-in-india/
   - Smartprix — Blinkit is delivering GTA 6 in 10 minutes for the midnight India launch | https://www.smartprix.com/bytes/blinkit-is-delivering-gta-6-in-10-minutes-just-in-time-for-midnight-india-launch/
   - Gizbot — GTA 6 physical edition can reach your doorstep within minutes via Blinkit | https://www.gizbot.com/gaming/news/gta-6-physical-edition-can-reach-your-doorstep-within-minutes-courtesy-blinkit-129797.html
+  - Free Press Journal — GTA 6 on Blinkit already out of stock in Mumbai and Bangalore | https://www.freepressjournal.in/tech/gta-6-is-available-on-blinkit-in-india-ahead-of-midnight-launch-already-out-of-stock-in-mumbai-bangalore
   - Business Today — GTA 6 India price, preload and editions | https://www.businesstoday.in/latest/trends/photo/gta-6-arrives-at-midnight-on-19-november-india-price-preload-and-editions-565630-2026-11-04
 ---
 Only in India: you can now order **GTA 6 with your groceries**. Quick-commerce apps **Blinkit and Zepto** have listed the game, with delivery estimates **as low as 10 minutes** in select areas.
@@ -14,6 +16,8 @@ Only in India: you can now order **GTA 6 with your groceries**. Quick-commerce a
 ## Where it's available
 
 Reports list select areas of **Delhi, Gurugram, Faridabad, Ghaziabad, Noida, Bengaluru, Hyderabad, Mumbai, Pune, Kolkata and Ahmedabad**. Blinkit is reported to be adding more cities over the next two days. Check the app for your pin code.
+
+**Update, 19 Nov:** users in **Mumbai and Bengaluru** reported the game **out of stock** on Blinkit, with some Bengaluru areas selling out quickly ([Free Press Journal](https://www.freepressjournal.in/tech/gta-6-is-available-on-blinkit-in-india-ahead-of-midnight-launch-already-out-of-stock-in-mumbai-bangalore)). Blinkit hasn't confirmed numbers. If your code won't redeem, PSN may be the problem, not the code: [PSN sign-in errors →](/news/gta-6-psn-sign-in-error-services-busy-reddit-down/)
 
 ## The catch: there's no disc
 
