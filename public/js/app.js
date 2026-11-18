@@ -931,6 +931,24 @@ const wireFaqPopup = () => {
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !fab.contains(e.target)) set(false); });
 };
 
+// Floating AI brief: opened by the floating button or the header icon.
+const wireAiBrief = () => {
+  const pop = $('#ai-pop');
+  const openers = $$('[data-ai-open]');
+  if (!pop || !openers.length) return;
+  let lastOpener = null;
+  const set = (open) => {
+    pop.hidden = !open;
+    openers.forEach((b) => b.setAttribute('aria-expanded', String(open)));
+    if (open) { const faq = $('#faq-pop'); if (faq && !faq.hidden) $('.faq-fab')?.click(); $('[data-ai-close]', pop)?.focus(); }
+  };
+  openers.forEach((b) => b.addEventListener('click', () => { lastOpener = b; set(pop.hidden); }));
+  $('[data-ai-close]', pop)?.addEventListener('click', () => { set(false); lastOpener?.focus(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); lastOpener?.focus(); } });
+  document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('[data-ai-open]')) set(false); });
+  $('.faq-fab')?.addEventListener('click', () => { if (!pop.hidden) set(false); });
+};
+
 // "More below" cue: visible only at the top of a page that actually has more below.
 const wireScrollCue = () => {
   const cue = $('.scroll-cue');
@@ -970,6 +988,7 @@ const init = () => {
   wirePins();
   wireToggleLinks();
   wireFaqPopup();
+  wireAiBrief();
   wireScrollCue();
   wireCarousel();
   startPsn();

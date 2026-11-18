@@ -10,8 +10,8 @@ import { scheduleRowsHtml } from './public/js/schedule.js';
 import { applyPartials, headCommon } from './lib/partials.js';
 import { renderCityPage, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
-import { loadPosts, tagsOf } from './lib/content.js';
-import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml } from './lib/news.js';
+import { loadPosts, loadBrief, tagsOf } from './lib/content.js';
+import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml } from './lib/news.js';
 import { createPsnStatus } from './lib/psn.js';
 import { createHeadlines } from './lib/headlines.js';
 
@@ -66,6 +66,7 @@ const SECURITY_HEADERS = {
 
 const routes = new Map(); // url path → { body, gz, type, cache }
 let posts = [];
+let brief = null;
 
 const cacheFor = (ext) => {
   if (ext === '.html' || ext === '.xml' || ext === '.txt' || ext === '.webmanifest') return 'public, max-age=60, must-revalidate';
@@ -88,6 +89,7 @@ const templated = (text) => applyPartials(text)
   .replace('<!--SSR:SCHEDULE-->', scheduleRowsHtml(true))
   .replace('<!--SSR:LATEST-->', latestNewsHtml(posts))
   .replace('<!--SSR:TICKER-->', tickerHtml(posts))
+  .replace('<!--SSR:BRIEF-->', briefHtml(brief))
   .replace('<!--SSR:HERO_NEWS-->', heroNewsHtml(posts))
   .replaceAll('__SITE_URL__', SITE_URL);
 
@@ -103,6 +105,7 @@ const walk = async (dir) => {
 
 const loadSite = async () => {
   posts = await loadPosts(CONTENT_DIR);
+  brief = await loadBrief(join(ROOT, 'content', 'brief.md'));
   for (const file of await walk(PUBLIC_DIR)) {
     const ext = extname(file);
     const urlPath = `/${relative(PUBLIC_DIR, file).split(sep).join('/')}`;
