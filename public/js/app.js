@@ -951,6 +951,58 @@ const wireAiBrief = () => {
   $('.faq-fab')?.addEventListener('click', () => { if (!pop.hidden) set(false); });
 };
 
+// Full-screen hero: native Fullscreen API where the browser allows it on an element,
+// otherwise (iPhone Safari) a fixed full-viewport overlay that looks the same.
+const FS_ENTER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+const FS_EXIT = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+
+const wireFullscreen = () => {
+  const heroes = $$('.hero');
+  if (!heroes.length) return;
+  const native = !!(document.fullscreenEnabled && Element.prototype.requestFullscreen);
+  let pseudo = null;
+
+  const sync = () => {
+    const active = document.fullscreenElement || pseudo;
+    for (const hero of heroes) {
+      const on = hero === active;
+      hero.classList.toggle('is-fs', on);
+      const btn = $('.hero-fs-btn', hero);
+      if (!btn) continue;
+      btn.setAttribute('aria-pressed', String(on));
+      btn.setAttribute('aria-label', on ? 'Exit full screen' : 'Full screen');
+      btn.title = on ? 'Exit full screen (Esc)' : 'Full screen';
+      btn.innerHTML = on ? FS_EXIT : FS_ENTER;
+    }
+    document.documentElement.classList.toggle('has-pseudo-fs', !!pseudo);
+    dispatchEvent(new Event('resize'));
+  };
+
+  const exit = () => {
+    if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    if (pseudo) { pseudo = null; sync(); }
+  };
+
+  const enter = async (hero) => {
+    if (native) {
+      try { await hero.requestFullscreen({ navigationUI: 'hide' }); return; } catch { /* fall back below */ }
+    }
+    pseudo = hero;
+    sync();
+  };
+
+  for (const hero of heroes) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'hero-fs-btn';
+    hero.append(btn);
+    btn.addEventListener('click', () => ((document.fullscreenElement === hero || pseudo === hero) ? exit() : enter(hero)));
+  }
+  document.addEventListener('fullscreenchange', sync);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && (pseudo || document.fullscreenElement)) exit(); });
+  sync();
+};
+
 // "More below" cue: visible only at the top of a page that actually has more below.
 const wireScrollCue = () => {
   const cue = $('.scroll-cue');
@@ -992,6 +1044,7 @@ const init = () => {
   wireFaqPopup();
   wireAiBrief();
   wireScrollCue();
+  wireFullscreen();
   wireCarousel();
   startPsn();
   startHeadlines();
