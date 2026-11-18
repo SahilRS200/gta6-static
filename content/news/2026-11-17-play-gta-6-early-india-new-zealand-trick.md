@@ -2,11 +2,13 @@
 title: How to Play GTA 6 Early in India? The 7.5-Hour New Zealand Trick, Explained (and What Doesn't Work)
 description: GTA 6 goes live in New Zealand at 4:30 PM IST on Wednesday — 7.5 hours before India. Here's what actually gets you in early, what's a myth, and the risks nobody mentions.
 date: 2026-11-17T21:00:00+05:30
+updated: 2026-11-18T17:05:00+05:30
 tags: [india, play-early, new-zealand, ps5, xbox, release-time]
 sources:
   - VICE — GTA 6 PS5 release times and the New Zealand method | https://www.vice.com/en/article/gta-6-ps5-release-times-new-zealand-method/
   - Notebookcheck — PS5 users can access GTA 6 up to 18 hours early | https://notebookcheck.net/PS5-users-can-access-GTA-6-up-to-18-hours-early-on-its-release-date-using-PSN-trick.1439752.0.html
   - AllThings.How — GTA 6 release times and the 19-hour spoiler gap | https://allthings.how/gta-6-release-times-by-region-and-the-19-hour-spoiler-gap/
+  - UNILAD Tech — PlayStation users face ban reports over the New Zealand trick | https://www.uniladtech.com/gaming/playstation/gta-6-new-zealand-trick-playstation-account-ban-008828-20261117
   - Forbes — GTA 6 release date and time | https://www.forbes.com/sites/erikkain/2026/11/16/gta-6-release-date-time-ps5-xbox-series-x-download-size-day-one-update/
 ---
 GTA 6 unlocks at **midnight local time** in every region. That means the first players on Earth are in **New Zealand**, and they get in at **4:30 PM IST on Wednesday, 18 November** — a full **7 hours 30 minutes** before India's 12:00 AM IST unlock.
@@ -31,6 +33,8 @@ Launch reporting describes players creating a **second PSN account set to New Ze
 - You need **New Zealand PSN store credit**, and grey-market sellers of "NZ wallet codes" are a common scam.
 - Saves, add-ons and future GTA Online purchases live on **that** account.
 - Giving false account details can break PlayStation's terms. It's your account on the line.
+
+**Update, 18 Nov:** GTA 6 is now live in New Zealand. [UNILAD Tech](https://www.uniladtech.com/gaming/playstation/gta-6-new-zealand-trick-playstation-account-ban-008828-20261117) reports claims that some New Zealand PSN accounts made for the trick have been suspended. Sony hasn't confirmed this. [How the NZ launch is going →](/news/gta-6-live-new-zealand-first-hour/)
 
 We don't recommend it, and we won't link sellers.
 

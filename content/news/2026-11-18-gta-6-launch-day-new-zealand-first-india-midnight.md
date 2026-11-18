@@ -12,7 +12,7 @@ This is it. GTA 6 unlocks at **midnight local time** in every region, which mean
 
 ## Tonight's timeline (all times IST)
 
-- **4:30 PM** — 🇳🇿 New Zealand. First players on Earth.
+- **4:30 PM** — 🇳🇿 New Zealand. First players on Earth. **Now live:** [how it's going →](/news/gta-6-live-new-zealand-first-hour/)
 - **6:30 PM** — 🇦🇺 Sydney and Melbourne
 - **8:30 PM** — 🇯🇵 Japan and 🇰🇷 Korea
 - **9:30 PM** — 🇸🇬 Singapore, Hong Kong, Manila, Perth
