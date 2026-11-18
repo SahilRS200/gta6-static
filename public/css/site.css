@@ -981,3 +981,30 @@ html.has-pseudo-fs, html.has-pseudo-fs body { overflow: hidden; }
 
 /* fixed-width digits so countdowns never shift as numbers change (the font: shorthand on .cd-num reset this) */
 .cd-num, .zcard-count, .stat-s, .stat-v, .unlocked-sub, .ticker-list time, .wave-label.next, .psn-mini-label small, .hero-news time { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1, 'cv11' 1, 'ss01' 1; }
+
+/* ---------- news page: thin status banner ---------- */
+.news-bar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 18px;
+  margin: 0 0 18px; padding: 8px 14px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); font-size: 13.5px;
+}
+.news-bar p { margin: 0; display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); font-weight: 500; }
+.news-bar time { font-variant-numeric: tabular-nums; }
+.news-bar a { font-weight: 650; color: var(--accent); text-decoration: none; }
+.news-bar a:hover { text-decoration: underline; }
+
+/* ---------- full screen: "new stuff" bubble + tab dots (only visible in full screen) ---------- */
+.fs-new-bubble { display: none; }
+.hero.is-fs .fs-new-bubble:not([hidden]) {
+  display: inline-flex; align-items: center; gap: 8px; position: absolute; z-index: 5; top: 12px; left: 12px; cursor: pointer;
+  padding: 8px 13px; border-radius: 999px; border: 1px solid rgba(255, 196, 120, 0.45); background: rgba(255, 196, 120, 0.12);
+  color: #ffd9a8; font: 600 13px/1 var(--font-body); backdrop-filter: blur(6px); animation: bubble-glow 2.8s ease-in-out infinite;
+}
+.fs-new-bubble .dot { width: 8px; height: 8px; border-radius: 50%; background: #ffb357; box-shadow: 0 0 0 3px rgba(255, 179, 87, 0.25); }
+@keyframes bubble-glow { 50% { box-shadow: 0 0 0 6px rgba(255, 196, 120, 0.08), 0 0 18px rgba(255, 179, 87, 0.25); } }
+.car-tabs button.has-new { position: relative; }
+.car-tabs button.has-new::before {
+  content: ''; position: absolute; top: 3px; right: 4px; width: 6px; height: 6px; border-radius: 50%; background: #ffb357;
+  box-shadow: 0 0 6px rgba(255, 179, 87, 0.8);
+}
+@media (max-width: 640px) { .hero.is-fs .fs-new-bubble:not([hidden]) { top: auto; bottom: 10px; left: 10px; font-size: 12px; padding: 7px 11px; } }
+@media (prefers-reduced-motion: reduce) { .hero.is-fs .fs-new-bubble { animation: none; } }

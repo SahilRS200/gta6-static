@@ -805,6 +805,7 @@ const wireCarousel = () => {
     }, 120);
   }, { passive: true });
   let lastWidth = 0;
+  addEventListener('hero:content', () => fitHeight());
   addEventListener('resize', () => {
     track.scrollLeft = slides[index].offsetLeft;
     if (Math.abs(innerWidth - lastWidth) > 1) { lastWidth = innerWidth; fitHeight(); }
@@ -943,18 +944,20 @@ const wireFaqPopup = () => {
 // Floating AI brief: opened by the floating button or the header icon.
 const wireAiBrief = () => {
   const pop = $('#ai-pop');
-  const openers = $$('[data-ai-open]');
-  if (!pop || !openers.length) return;
+  if (!pop) return;
   let lastOpener = null;
   // Don't hand focus back into the carousel: keyboard focus there pauses autoplay.
   const restoreFocus = () => (lastOpener?.closest('.hero-carousel') ? $('.ai-fab') : lastOpener)?.focus();
   const set = (open) => {
     pop.hidden = !open;
-    openers.forEach((b) => b.setAttribute('aria-expanded', String(open)));
+    $$('[data-ai-open]').forEach((b) => b.setAttribute('aria-expanded', String(open)));
     if (open) { const faq = $('#faq-pop'); if (faq && !faq.hidden) $('.faq-fab')?.click(); $('[data-ai-close]', pop)?.focus(); }
   };
-  openers.forEach((b) => b.addEventListener('click', () => { lastOpener = b; set(pop.hidden); }));
-  $('[data-ai-close]', pop)?.addEventListener('click', () => { set(false); restoreFocus(); });
+  document.addEventListener('click', (e) => {
+    const opener = e.target.closest('[data-ai-open]');
+    if (opener) { lastOpener = opener; set(pop.hidden); return; }
+    if (e.target.closest('[data-ai-close]')) { set(false); restoreFocus(); }
+  });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); restoreFocus(); } });
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('[data-ai-open]')) set(false); });
   $('.faq-fab')?.addEventListener('click', () => { if (!pop.hidden) set(false); });
@@ -1057,6 +1060,98 @@ const wireFullscreen = () => {
   }
 };
 
+// ---------- full-screen live refresh: fetch the page quietly, swap in new content, flag what's new ----------
+const LIVE_REFRESH_MS = 120_000;
+const LIVE_TABS = { ai: 'New AI Brief', news: 'New news' };
+
+const liveSignature = (doc) => ({
+  ai: doc.querySelector('#ai-pop .ai-meta time')?.getAttribute('datetime') || '',
+  news: doc.querySelector('#slide-news .hero-news a, .ticker-list a, .news-card h3 a')?.getAttribute('href') || '',
+});
+
+const wireLiveRefresh = () => {
+  const hero = $('.hero');
+  if (!hero) return;
+  const isHome = !!$('.hero-carousel');
+  const bubble = document.createElement('button');
+  bubble.type = 'button';
+  bubble.className = 'fs-new-bubble';
+  bubble.hidden = true;
+  hero.append(bubble);
+  let seen = liveSignature(document);
+  let latestHref = '';
+
+  const tabFor = (key) => $(`#tab-${key}`);
+  const pending = () => Object.keys(LIVE_TABS).filter((k) => tabFor(k)?.classList.contains('has-new'));
+  const renderBubble = () => {
+    if (isHome) {
+      const keys = pending();
+      bubble.hidden = !keys.length;
+      bubble.innerHTML = keys.length ? `<span class="dot" aria-hidden="true"></span>${keys.length > 1 ? `${keys.length} new updates` : LIVE_TABS[keys[0]]}` : '';
+    } else {
+      bubble.hidden = !latestHref;
+      bubble.innerHTML = latestHref ? '<span class="dot" aria-hidden="true"></span>New GTA 6 news' : '';
+    }
+  };
+  bubble.addEventListener('click', () => {
+    if (!isHome) { location.href = latestHref; return; }
+    const key = pending()[0];
+    tabFor(key)?.click();
+  });
+  // A tab's dot clears once its slide has been on screen for a few seconds (not the instant autoplay passes it).
+  let activeId = '';
+  let activeFor = 0;
+  setInterval(() => {
+    const active = $('.car-tabs [aria-selected="true"]');
+    if (!active) return;
+    activeFor = active.id === activeId ? activeFor + 1 : 0;
+    activeId = active.id;
+    if (activeFor >= 4 && active.classList.contains('has-new')) { active.classList.remove('has-new'); renderBubble(); }
+  }, 1000);
+
+  const swap = (doc, sel) => {
+    const fresh = doc.querySelector(sel);
+    const here = $(sel);
+    if (fresh && here) here.innerHTML = fresh.innerHTML;
+  };
+
+  const refresh = async () => {
+    if (!hero.classList.contains('is-fs') || document.hidden) return;
+    let doc;
+    try {
+      const res = await fetch(location.pathname, { cache: 'no-store', credentials: 'same-origin' });
+      if (!res.ok) return;
+      doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+    } catch { return; }
+    const next = liveSignature(doc);
+    if (isHome) {
+      if (next.ai && next.ai !== seen.ai) {
+        swap(doc, '#slide-ai');
+        for (const part of ['.ai-meta', '.ai-headline', '.ai-body']) swap(doc, `#ai-pop ${part}`);
+        tabFor('ai')?.classList.add('has-new');
+      }
+      if (next.news && next.news !== seen.news) {
+        swap(doc, '#slide-news');
+        const lists = $$('.ticker-list');
+        const freshLists = doc.querySelectorAll('.ticker-list');
+        lists.forEach((ul, k) => { if (freshLists[k]) ul.innerHTML = freshLists[k].innerHTML; });
+        loadHeadlines();
+        tabFor('news')?.classList.add('has-new');
+      }
+      dispatchEvent(new Event('hero:content'));
+    } else if (next.news && next.news !== seen.news) {
+      latestHref = next.news;
+    }
+    seen = next;
+    activeFor = 0; // fresh content: the current slide must be seen again before its dot clears
+    loadPsn();
+    renderBubble();
+  };
+
+  setInterval(refresh, LIVE_REFRESH_MS);
+  document.addEventListener('fullscreenchange', () => { if (document.fullscreenElement) refresh(); });
+};
+
 // "More below" cue: visible only at the top of a page that actually has more below.
 const wireScrollCue = () => {
   const cue = $('.scroll-cue');
@@ -1099,6 +1194,7 @@ const init = () => {
   wireAiBrief();
   wireScrollCue();
   wireFullscreen();
+  wireLiveRefresh();
   wireCarousel();
   startPsn();
   startHeadlines();
