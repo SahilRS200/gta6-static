@@ -1,17 +1,17 @@
 ---
-updated: 2026-11-19T01:38:00+05:30
-headline: GTA 6 is live in India, but PSN 'services are busy' errors hit PS5 players. Game still locked? Fixes inside.
+updated: 2026-11-19T02:38:00+05:30
+headline: GTA 6 smashes streaming records: 7.9 million watching live at once, and India's Mythpat pulled 1.25 lakh
 ---
 ## 🔥 Hot in India right now
 
-- **GTA 6 padlocked or won't start on PS5?** Check you're on the buying account, restore licences, and redeem your Blinkit/Zepto box code. Don't redownload 212 GB. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **PSN sign-in errors on launch night.** PS5 players report "services are busy" and codes that won't redeem; Sony's status page stays green. Just retry. [What to do →](/news/gta-6-psn-sign-in-error-services-busy-reddit-down/)
-- **12 hidden features the game doesn't tell you.** Swap outfits from your trunk to lose cops, dive shipwrecks for early cash. Spoiler-free. [Tips →](/news/gta-6-tips-hidden-features-spoiler-free/)
+- **7.9 million live viewers, a new streaming record.** The peak came after the Japan and Korea unlocks; Mythpat hit 1.25 lakh. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **PSN sign-in errors have eased.** Sony's status page went all green around 1 AM IST. Still seeing "services are busy"? Retry before resetting anything. [What to do →](/news/gta-6-psn-sign-in-error-services-busy-reddit-down/)
+- **GTA 6 padlocked or won't start on PS5?** Check the account, restore licences, redeem your Blinkit/Zepto code. Don't redownload 212 GB. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
 
 ## ✅ Do this now
 
-- **Install PS5 system update 26.07-14.23.00** if the game won't launch. [Version →](/news/gta-6-ps5-system-update-required/)
-- **Mute "story" videos.** Players who started hours earlier are posting everything.
+- **12 hidden features, spoiler-free.** Swap outfits from your trunk to lose cops, dive shipwrecks for early cash. [Tips →](/news/gta-6-tips-hidden-features-spoiler-free/)
+- **Mute "story" clips.** Streams show everything.
 
 ## 🌍 Around the world
 

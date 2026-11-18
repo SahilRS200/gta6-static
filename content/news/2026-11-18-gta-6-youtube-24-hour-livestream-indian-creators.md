@@ -34,3 +34,5 @@ Expect live gameplay, creator chats and other segments. The line-up comes from p
 A 24-hour gameplay stream will move through the story fast. If you want to go in fresh, watch the first hour at most, or stick to clips from the open world. Mute "GTA 6 ending" and "GTA 6 spoilers" on X, Instagram and YouTube for the first week.
 
 **Playing tonight instead?** Finish your [pre-launch patches](/news/gta-6-day-one-patch-size-ps5-xbox/), read [what critics said (a 99 on Metacritic)](/news/gta-6-reviews-metacritic-99/), and keep the [India launch guide](/gta-6-india/) handy.
+
+Related: Mythpat already pulled a peak of about 1.25 lakh live viewers on launch night, as GTA 6 set a 7.9 million streaming record. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)

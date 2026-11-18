@@ -2,12 +2,16 @@
 title: GTA 6 Launch Night — PSN 'Services Are Busy' Sign-In Errors and r/GTA6 Breaks Reddit; What to Do
 description: Just before GTA 6 unlocked in India, PS5 players reported PSN sign-in failures ('services are busy') as Sony's status page stayed green. Codes hit too. What to do.
 date: 2026-11-19T00:36:00+05:30
+updated: 2026-11-19T02:37:00+05:30
 tags: [india, ps5, launch-day, outage]
 sources:
+  - Mein-MMO — PSN down for the GTA 6 release, live ticker | https://mein-mmo.de/en/psn-down-for-the-gta-6-release-in-live-ticker-all-about-the-outage-and-the-server-status-on-ps5,1597022/
   - AltChar — PSN down? Users report sign-in problems hours before GTA VI launches | https://www.altchar.com/game-news/psn-down-playstation-network-users-report-sign-in-problems-hours-before-gta-vi-launches-an0o24F9kcOr
   - GamesRadar+ — PS5 users report PlayStation Network errors as GTA 6 fever hits | https://www.gamesradar.com/games/grand-theft-auto/ps5-users-report-playstation-network-errors-as-gta-6-fever-hits-with-some-struggling-to-redeem-codes/
   - Screen Rant — GTA 6 has officially broken Reddit | https://screenrant.com/gta-6-has-officially-broken-reddit/
 ---
+**Update, 2:37 AM IST: PSN looks back to normal.** German site Mein-MMO, which ran a live ticker, saw outage reports falling from about 12:20 AM IST. PlayStation's status page briefly showed "Games and Social Networks" in red, then turned **all green at about 1:00 AM IST**, and by 1:30 AM IST the game appeared to be running stably ([Mein-MMO](https://mein-mmo.de/en/psn-down-for-the-gta-6-release-in-live-ticker-all-about-the-outage-and-the-server-status-on-ps5,1597022/)). Sony still hasn't explained the errors. If your PS5 still can't sign in, work through the steps below.
+
 As India's **12:00 AM IST** unlock got close, PlayStation players started reporting trouble signing in. Here's what's confirmed, and what to do if your PS5 is stuck.
 
 ## What happened
