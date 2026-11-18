@@ -42,3 +42,5 @@ Reviews avoid the ending, but **thumbnails, headlines and comment sections don't
 [Live countdown to 12:00 AM IST →](/gta-6-release-time/india/)
 
 Related: Rockstar boss [Sam Houser issued a rare launch statement →](/news/gta-6-sam-houser-launch-statement/)
+
+Related: an analyst now expects [about 20 million GTA 6 sales in the first three days →](/news/gta-6-sales-20-million-3-days-take-two-stock/)

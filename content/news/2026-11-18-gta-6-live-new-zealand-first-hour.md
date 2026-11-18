@@ -34,3 +34,5 @@ Some players outside New Zealand made New Zealand PSN accounts to play early. [U
 [Live countdown to 12:00 AM IST →](/gta-6-release-time/india/)
 
 Related: want each update the moment it lands tonight? [Get GTA 6 news automatically on Telegram, Discord or RSS →](/news/how-to-get-gta6info-news-automatically-rss-telegram-discord/)
+
+Related: clips are flooding social media, so [here is how to stay spoiler-free until 12 AM IST →](/news/gta-6-spoilers-rockstar-discord-warning/)

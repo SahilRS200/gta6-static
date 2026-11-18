@@ -40,3 +40,5 @@ Millions of people unlock at the same time in each region, so **PSN and Xbox Liv
 - [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
 - [Is your pre-load done? →](/news/gta-6-preload-live-india/)
 - [GTA 6 price in India →](/gta-6-price-in-india/)
+
+Related: [GTA 6 could sell 20 million in 3 days, an analyst says →](/news/gta-6-sales-20-million-3-days-take-two-stock/)
