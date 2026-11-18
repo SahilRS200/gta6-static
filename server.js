@@ -133,6 +133,9 @@ const loadSite = async () => {
   addRoute('/news/feed.xml', templated(renderRss(posts)), '.xml');
   addRoute('/news-sitemap.xml', templated(renderNewsSitemap(posts)), '.xml');
   addRoute('/sitemap.xml', templated(renderSitemap(BUILD_DATE, posts, tags)), '.xml');
+  // Paths browsers, iOS and crawlers request directly even though the pages declare other icons.
+  addRoute('/favicon.ico', routes.get('/icon-192.png').body, '.png');
+  addRoute('/apple-touch-icon-precomposed.png', routes.get('/apple-touch-icon.png').body, '.png');
   if (INDEXNOW_KEY) addRoute(`/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY, '.txt');
 };
 
