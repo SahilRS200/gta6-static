@@ -32,4 +32,6 @@ Some players are annoyed at a last-minute console update, and Xbox players got n
 
 While you're in there, also check the game itself is up to date: [GTA 6 download size and the two pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
 
+Still locked after updating? [6 fixes for a GTA 6 that won't start →](/news/gta-6-locked-not-starting-ps5-fix-india/)
+
 [India countdown to 12:00 AM IST →](/gta-6-release-time/india/) · [Everything about GTA 6 in India →](/gta-6-india/)

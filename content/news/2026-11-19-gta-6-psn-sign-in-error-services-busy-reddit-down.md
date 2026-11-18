@@ -19,7 +19,7 @@ As India's **12:00 AM IST** unlock got close, PlayStation players started report
 
 ## If your PS5 says "services are busy"
 
-1. **Don't redownload the game.** If your pre-load finished, the files are fine.
+1. **Don't redownload the game.** If your pre-load finished, the files are fine. Game still padlocked after sign-in works? [6 fixes for a locked GTA 6 →](/news/gta-6-locked-not-starting-ps5-fix-india/)
 2. **Check the PS5 system update** is installed. [Which version you need →](/news/gta-6-ps5-system-update-required/)
 3. **Wait a few minutes and try again.** AltChar says waiting is the only fix so far. Check status.playstation.com before resetting anything.
 4. **Code from Blinkit or Zepto won't redeem?** Keep the box and the bill, and retry later rather than contacting the seller straight away. [About the code-in-box edition →](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/)
