@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Already Has TWO Pre-Launch Patches — Sizes on PS5 and Xbox, and Why You Should Install Them Now
-description: GTA 6 updates 01.002.000 and 01.002.001 are rolling out before launch. Reported sizes are about 1 GB and 602 MB on PS5, and larger on Xbox. Install them before midnight IST.
+title: GTA 6 Download Size — Up to 212 GB, Plus Two Pre-Launch Patches on PS5 and Xbox to Install Now
+description: GTA 6 download size is up to 212 GB, Forbes reports. Two pre-launch updates follow, about 1 GB and 602 MB on PS5 and larger on Xbox. Install both before midnight IST.
 date: 2026-11-18T15:30:00+05:30
 tags: [india, patch, preload, ps5, xbox]
 sources:
