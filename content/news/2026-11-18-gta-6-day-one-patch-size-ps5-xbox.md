@@ -28,3 +28,5 @@ Rockstar hasn't published patch notes for either update, and hasn't officially c
 On slower broadband, do this **now**, not at 11:55 PM.
 
 [India countdown to 12:00 AM IST →](/gta-6-release-time/india/)
+
+Related: [GTA 6 runs at 30fps even on PS5 Pro — Rockstar explains why →](/news/gta-6-30fps-ps5-pro-rockstar-explains/)

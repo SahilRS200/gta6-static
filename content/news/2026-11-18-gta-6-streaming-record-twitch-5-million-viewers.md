@@ -28,3 +28,5 @@ Most of those viewers can't play yet, and many are in India. Our unlock is at **
 Live streams show everything, including early story moments, and some write-ups of the New Zealand streams already discuss plot. If you want to go in fresh, avoid stream thumbnails and mute "GTA 6 ending" and "GTA 6 spoilers" until you've played.
 
 Related: [How the New Zealand unlock is going →](/news/gta-6-live-new-zealand-first-hour/)
+
+Related: what are all those viewers seeing? [Spoiler-free first gameplay reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/)
