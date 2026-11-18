@@ -29,6 +29,7 @@ So from 4:30 PM onward, people are playing. India waits **7 hours 30 minutes** a
 3. **Keep the console online** so the license unlocks on time.
 4. **Mute spoilers now.** Streams and clips start from 4:30 PM IST.
 5. **Don't fall for "early unlock" codes.** [What actually works →](/news/play-gta-6-early-india-new-zealand-trick/)
+6. **Expect English audio.** There's no Hindi option at launch. [GTA 6 languages →](/news/gta-6-hindi-language-support/)
 
 ## How big is this launch?
 
