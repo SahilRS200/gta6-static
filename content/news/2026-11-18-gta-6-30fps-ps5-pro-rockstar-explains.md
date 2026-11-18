@@ -28,5 +28,6 @@ If you bought a PS5 Pro hoping for 60fps GTA 6, here's the answer straight from 
 
 GTA 6 unlocks at **12:00 AM IST** on PS5 and Xbox Series X|S.
 
+- [Digital Foundry's PS5 vs PS5 Pro vs Xbox performance test →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/)
 - [India unlock countdown →](/gta-6-release-time/india/)
 - [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)

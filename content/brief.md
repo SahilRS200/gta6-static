@@ -1,20 +1,19 @@
 ---
-updated: 2026-11-18T22:37:00+05:30
-headline: PS5 players must install a new 1.3 GB system update or GTA 6 won't start at 12 AM IST, Sony says.
+updated: 2026-11-18T23:37:00+05:30
+headline: GTA 6 holds a near-flawless 30fps on PS5 Pro but drops to about 20fps on Xbox Series S, Digital Foundry finds.
 ---
 ## 🔥 Hot in India right now
 
-- **Mandatory PS5 system update for GTA 6.** Version 26.07-14.23.00 is required even if you pre-loaded. Install it now, not at 11:59 PM. [How →](/news/gta-6-ps5-system-update-required/)
-- **No online multiplayer on day one.** GTA 6 is story mode only; no GTA 6 Online date yet. [What we know →](/news/gta-6-online-multiplayer-not-at-launch/)
-- **30fps even on PS5 Pro.** Rockstar says the CPU is the limit, but it cut input lag. [Why →](/news/gta-6-30fps-ps5-pro-rockstar-explains/)
+- **GTA 6 performance tested on every console.** PS5 Pro holds 30fps; base PS5 dips to the mid-20s in big fights; Series S struggles. [Full test →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/)
+- **Mandatory PS5 system update.** Version 26.07-14.23.00 is needed even if you pre-loaded. Install it before 12 AM IST. [How →](/news/gta-6-ps5-system-update-required/)
+- **Free GTA+ month ends with the 19 Nov purchase window.** Digital PS Store copies bought by 19 November qualify; it auto-renews. [Details →](/news/gta-6-free-gta-plus-month-offer-deadline/)
 
-## ✅ Do this before 12 AM IST
+## ✅ Do this now
 
-- **Install the game's two pre-launch patches** and turn on TV Game Mode. [Patch sizes →](/news/gta-6-day-one-patch-size-ps5-xbox/)
-- **Pick your settings and a first mission plan.** [First-hours tips →](/news/gta-6-first-hours-tips-settings/)
-- **Dodge spoilers** on X and YouTube until you play. [Stay spoiler-free →](/news/gta-6-spoilers-rockstar-discord-warning/)
+- **Install both pre-launch patches** and turn on TV Game Mode. [Patch sizes →](/news/gta-6-day-one-patch-size-ps5-xbox/)
+- **Plan your first hours, spoiler-free.** Story mode only; no GTA 6 Online yet. [First-hours tips →](/news/gta-6-first-hours-tips-settings/)
 
 ## 🌍 Around the world
 
-- **First players rave about the driving and graphics.** [Reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/)
-- **Biggest streaming launch ever.** About 5.3 million peak viewers. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **99 on Metacritic**, tied for the highest score ever. [Reviews →](/news/gta-6-reviews-metacritic-99/)
+- **Biggest streaming launch ever**, about 5.3 million peak viewers. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)

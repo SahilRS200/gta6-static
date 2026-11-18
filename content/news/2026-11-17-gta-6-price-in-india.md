@@ -35,4 +35,6 @@ Business Today spotted these Amazon India prices on 28 October:
 
 There's no legit free version. **"GTA 6 free download", cracked PC copies and APKs are all fake** — [here's how those scams work](/news/gta-6-free-download-apk-scam-warning/).
 
+Buying digitally on PlayStation? Purchases by 19 November include [a free month of GTA+](/news/gta-6-free-gta-plus-month-offer-deadline/).
+
 [See the full GTA 6 India price breakdown →](/gta-6-price-in-india/)
