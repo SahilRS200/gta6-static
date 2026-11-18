@@ -726,7 +726,7 @@ const wireCarousel = () => {
     index = i2;
     tabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === i2)); t.tabIndex = k === i2 ? 0 : -1; });
     slides.forEach((sl, k) => { sl.inert = k !== i2; sl.setAttribute('aria-hidden', String(k !== i2)); });
-    if (i2 === 2) loadPsn();
+    if (slides[i2].id === 'slide-psn') loadPsn();
     setProgress();
   };
 
@@ -937,14 +937,16 @@ const wireAiBrief = () => {
   const openers = $$('[data-ai-open]');
   if (!pop || !openers.length) return;
   let lastOpener = null;
+  // Don't hand focus back into the carousel: keyboard focus there pauses autoplay.
+  const restoreFocus = () => (lastOpener?.closest('.hero-carousel') ? $('.ai-fab') : lastOpener)?.focus();
   const set = (open) => {
     pop.hidden = !open;
     openers.forEach((b) => b.setAttribute('aria-expanded', String(open)));
     if (open) { const faq = $('#faq-pop'); if (faq && !faq.hidden) $('.faq-fab')?.click(); $('[data-ai-close]', pop)?.focus(); }
   };
   openers.forEach((b) => b.addEventListener('click', () => { lastOpener = b; set(pop.hidden); }));
-  $('[data-ai-close]', pop)?.addEventListener('click', () => { set(false); lastOpener?.focus(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); lastOpener?.focus(); } });
+  $('[data-ai-close]', pop)?.addEventListener('click', () => { set(false); restoreFocus(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); restoreFocus(); } });
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('[data-ai-open]')) set(false); });
   $('.faq-fab')?.addEventListener('click', () => { if (!pop.hidden) set(false); });
 };

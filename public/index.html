@@ -12,27 +12,31 @@
   <section class="hero hero-carousel" aria-roledescription="carousel" aria-label="GTA 6 highlights">
     <svg class="skyline" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 120V92h40V70h22v22h18V58h30v34h16V80h24V48h12V36h10v12h12v44h20V66h34v26h14V54h26v38h22V74h18V40h8V28h6v12h8v52h26V84h30V62h22v30h16V50h38v42h12V72h28V58h14v34h22V44h10V32h12v12h10v48h26V76h20V60h30v32h18V68h24v24h16V52h28v40h22V80h18V46h14V36h8v10h12v46h24V70h32v22h16V56h22v36h20V74h26v18h18V62h30v30h14V82h40v38z"/><path fill="currentColor" d="M96 92c-2-16-1-30 3-44m0 0c-9-6-22-6-30 0 9-1 18 1 26 6-10 0-18 4-23 10 8-4 17-6 27-4m0-12c6-8 17-11 26-8-9 0-17 3-22 9 9-2 18-1 25 4-9-1-18 0-26 4M1086 92c-2-18-1-34 4-50m0 0c-10-7-24-7-33 0 10-1 20 1 29 7-11 0-20 4-26 11 9-5 19-7 30-5m0-13c7-9 19-12 29-9-10 0-19 3-25 10 10-2 20-1 28 5-10-1-20 0-29 4" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
     <div class="car-tabs" role="tablist" aria-label="Choose a slide">
-      <button type="button" role="tab" id="tab-0" aria-selected="true" aria-controls="slide-0" data-go="0">Countdown</button>
-      <button type="button" role="tab" id="tab-1" aria-selected="false" aria-controls="slide-1" data-go="1" tabindex="-1">News</button>
-      <button type="button" role="tab" id="tab-2" aria-selected="false" aria-controls="slide-2" data-go="2" tabindex="-1">PS Live Status</button>
-      <button type="button" role="tab" id="tab-3" aria-selected="false" aria-controls="slide-3" data-go="3" tabindex="-1">Quick help</button>
+      <button type="button" role="tab" id="tab-ai" aria-selected="true" aria-controls="slide-ai" data-go="0">✦ AI Brief</button>
+      <button type="button" role="tab" id="tab-news" aria-selected="false" aria-controls="slide-news" data-go="1" tabindex="-1">News</button>
+      <button type="button" role="tab" id="tab-countdown" aria-selected="false" aria-controls="slide-countdown" data-go="2" tabindex="-1">Countdown</button>
+      <button type="button" role="tab" id="tab-psn" aria-selected="false" aria-controls="slide-psn" data-go="3" tabindex="-1">PS Live Status</button>
+      <button type="button" role="tab" id="tab-help" aria-selected="false" aria-controls="slide-help" data-go="4" tabindex="-1">Quick help</button>
       <button type="button" class="car-pause" aria-pressed="false" aria-label="Pause slideshow"><span aria-hidden="true">❚❚</span></button>
     </div>
     <button class="car-arrow car-prev" type="button" aria-label="Previous slide" data-step="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <button class="car-arrow car-next" type="button" aria-label="Next slide" data-step="1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <div class="car-track" data-carousel tabindex="0" aria-live="polite">
-      <div class="car-slide" id="slide-0" role="tabpanel" aria-labelledby="tab-0" aria-roledescription="slide">
+      <div class="car-slide" id="slide-ai" role="tabpanel" aria-labelledby="tab-ai" aria-roledescription="slide">
+        <!--SSR:BRIEF_PREVIEW-->
+      </div>
+      <div class="car-slide" id="slide-news" role="tabpanel" aria-labelledby="tab-news" aria-roledescription="slide">
+        <h2 class="slide-title">Latest GTA 6 news <span>updated every few hours</span></h2>
+        <!--SSR:HERO_NEWS-->
+        <p class="slide-more"><a href="/news/">All GTA 6 news →</a> · <a href="/gta-6-india/">GTA 6 India hub →</a></p>
+      </div>
+      <div class="car-slide" id="slide-countdown" role="tabpanel" aria-labelledby="tab-countdown" aria-roledescription="slide">
         <h1 id="hero-h"><strong>GTA 6 India countdown</strong> · unlock time in IST &amp; every time zone</h1>
         <p class="hero-sub">Unlocks at midnight local time · Thu, Nov 19, 2026 · 🇮🇳 12:00 AM IST · <a href="/news/play-gta-6-early-india-new-zealand-trick/">Can you play it early? →</a></p>
         <div class="slots" data-slots></div>
         <p class="hero-note"><span class="pill pill-dark" data-pin-count>0 / 5</span> pinned · open <a href="#zones">all 30 countdowns</a> and tap ☆ to put a city up here</p>
       </div>
-      <div class="car-slide" id="slide-1" role="tabpanel" aria-labelledby="tab-1" aria-roledescription="slide">
-        <h2 class="slide-title">Latest GTA 6 news <span>updated every few hours</span></h2>
-        <!--SSR:HERO_NEWS-->
-        <p class="slide-more"><a href="/news/">All GTA 6 news →</a> · <a href="/gta-6-india/">GTA 6 India hub →</a></p>
-      </div>
-      <div class="car-slide" id="slide-2" role="tabpanel" aria-labelledby="tab-2" aria-roledescription="slide">
+      <div class="car-slide" id="slide-psn" role="tabpanel" aria-labelledby="tab-psn" aria-roledescription="slide">
         <h2 class="slide-title">Is PlayStation online in India? <span>live from status.playstation.com</span></h2>
         <div class="psn" data-psn><p class="psn-loading">Checking PlayStation services…</p></div>
         <div class="top-q">
@@ -48,7 +52,7 @@
           </ul>
         </div>
       </div>
-      <div class="car-slide" id="slide-3" role="tabpanel" aria-labelledby="tab-3" aria-roledescription="slide">
+      <div class="car-slide" id="slide-help" role="tabpanel" aria-labelledby="tab-help" aria-roledescription="slide">
         <h2 class="slide-title">Quick help <span>launch-night survival kit</span></h2>
         <div class="help-grid">
           <div class="help-card">
