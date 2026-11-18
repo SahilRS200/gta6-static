@@ -17,7 +17,7 @@ It's happening. At **12:00 AM NZDT, which was 4:30 PM IST**, GTA 6 became playab
 - **Servers: no major outage reported so far.** As of 5 PM IST we haven't seen reports of a PSN or Xbox network outage from Sony, Microsoft, Rockstar or major gaming outlets. New Zealand is a small first wave, so the real test for Asia comes later tonight: Japan and Korea at 8:30 PM IST, then **India at midnight**. We'll update this post if that changes.
 - **The world flew in.** The [NZ Herald](https://www.nzherald.co.nz/entertainment/gta-6-mania-hits-new-zealand-all-white-tim-payne-sets-clock-streamers-fly-into-nz-for-release/KWI6RD6ASRF63H552NLNRRABU4/) reports that streamers travelled to New Zealand just to be first. They include Australian streamer Jake Buckley, who flew to Christchurch with his PS5. All Whites footballer Tim Payne also planned to play at midnight.
 - **Reviews are in, too.** Critic reviews went live today and the game is at 99 on Metacritic. [The scores →](/news/gta-6-reviews-metacritic-99/)
-- **Spoilers start now.** The first gameplay clips and streams are going up. Mute "GTA 6 ending" and "GTA 6 spoilers" on X, Instagram and YouTube for the next 7 hours.
+- **Spoilers start now.** The first gameplay clips and streams are going up. Mute "GTA 6 ending" and "GTA 6 spoilers" on X, Instagram and YouTube for the next 7 hours. Can't play tonight? [YouTube's 24-hour stream with Indian creators starts 10:30 AM IST tomorrow →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
 
 ## ⚠️ The NZ trick: reported bans, unconfirmed
 
