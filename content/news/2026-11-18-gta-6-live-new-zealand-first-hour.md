@@ -32,3 +32,5 @@ Some players outside New Zealand made New Zealand PSN accounts to play early. [U
 3. **If you see a padlock at 12:00 AM,** wait a few minutes, then use **Restore Licenses** under Settings → Users and Accounts on PS5.
 
 [Live countdown to 12:00 AM IST →](/gta-6-release-time/india/)
+
+Related: want each update the moment it lands tonight? [Get GTA 6 news automatically on Telegram, Discord or RSS →](/news/how-to-get-gta6info-news-automatically-rss-telegram-discord/)
