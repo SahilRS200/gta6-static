@@ -13,6 +13,7 @@ import { createCounter } from './lib/counter.js';
 import { loadPosts, tagsOf } from './lib/content.js';
 import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml } from './lib/news.js';
 import { createPsnStatus } from './lib/psn.js';
+import { createHeadlines } from './lib/headlines.js';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const PUBLIC_DIR = join(ROOT, 'public');
@@ -134,7 +135,9 @@ const loadSite = async () => {
 // Tell Bing/Yandex (and engines that read IndexNow) about every URL after each deploy.
 const pingIndexNow = async () => {
   if (!INDEXNOW_KEY || !EXPLICIT_SITE_URL) return;
-  const urlList = [...routes.keys()].filter((p) => p.endsWith('/')).map((p) => `${SITE_URL}${p}`);
+  const fresh = posts.filter((p) => Date.now() - Date.parse(p.updated) < 6 * 3600 * 1000);
+  const paths = new Set(['/', '/news/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
+  const urlList = [...paths].filter((p) => routes.has(p)).map((p) => `${SITE_URL}${p}`);
   try {
     const res = await fetch('https://api.indexnow.org/indexnow', {
       method: 'POST',
@@ -221,11 +224,12 @@ const withinRate = (ip) => {
   return b.n <= API_RATE.max;
 };
 
-const handleApi = async (req, res, path, counter, psn) => {
+const handleApi = async (req, res, path, counter, psn, headlines) => {
   if (!isSameOrigin(req)) { sendJson(res, 403, { error: 'Forbidden' }); return; }
   if (!withinRate(clientIp(req))) { sendJson(res, 429, { error: 'Too many requests' }); return; }
   if (path === '/api/stats' && req.method === 'GET') { sendJson(res, 200, counter.stats()); return; }
   if (path === '/api/psn-status' && req.method === 'GET') { sendJson(res, 200, await psn.get()); return; }
+  if (path === '/api/headlines' && req.method === 'GET') { sendJson(res, 200, headlines.get()); return; }
   if (path === '/api/hit' && req.method === 'POST') {
     const body = await readSmallJson(req);
     sendJson(res, 200, counter.hit(body?.sid, body?.first === true, clientIp(req)));
@@ -238,6 +242,7 @@ const start = async () => {
   await loadSite();
   const counter = await createCounter(DATA_DIR);
   const psn = createPsnStatus();
+  const headlines = createHeadlines();
 
   const server = createServer(async (req, res) => {
     let path;
@@ -252,7 +257,7 @@ const start = async () => {
     if (path === '/healthz') { sendJson(res, 200, { ok: true }); return; }
 
     if (path.startsWith('/api/')) {
-      try { await handleApi(req, res, path, counter, psn); } catch (err) {
+      try { await handleApi(req, res, path, counter, psn, headlines); } catch (err) {
         console.error('API error:', err.message);
         if (!res.headersSent) sendJson(res, 500, { error: 'Server error' });
       }

@@ -882,3 +882,8 @@ body[data-page='home'] { --maxw: 1680px; }
 /* hero locked to the tallest slide; each slide fills it and centres its content */
 .car-track { align-items: stretch; transition: none; }
 .car-slide { min-height: 100%; justify-content: center; }
+
+/* ticker: external headlines */
+.ticker-head h2 small { font-size: 12px; font-weight: 500; color: var(--muted); }
+.ticker-list .is-ext a { font-weight: 550; color: var(--ink-2); }
+.ticker-list .src { font-style: normal; font-size: 11.5px; font-weight: 650; color: var(--info); white-space: nowrap; }

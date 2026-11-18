@@ -841,6 +841,37 @@ const wireCarousel = () => {
   setActive(0);
 };
 
+// ---------- "Around the web" headlines merged into the news ticker (refreshed hourly) ----------
+const HEADLINES_MS = 60 * 60 * 1000;
+
+const tickerItem = (h, hidden) => {
+  const when = h.date ? new Intl.DateTimeFormat('en-IN', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(h.date)) : '';
+  return `<li class="is-ext"><a href="${escHtml(h.url)}" rel="noopener nofollow" target="_blank"${hidden ? ' tabindex="-1"' : ''}><time>${escHtml(when)}</time><span>${escHtml(h.title)} <em class="src">${escHtml(h.source)} ↗</em></span></a></li>`;
+};
+
+const loadHeadlines = async () => {
+  const lists = $$('.ticker-list');
+  if (!lists.length) return;
+  try {
+    const res = await api('/api/headlines');
+    if (!res.ok) return;
+    const { items } = await res.json();
+    if (!items?.length) return;
+    lists.forEach((ul, k) => {
+      ul.querySelectorAll('.is-ext').forEach((li) => li.remove());
+      ul.insertAdjacentHTML('beforeend', items.map((h) => tickerItem(h, k > 0)).join(''));
+    });
+    const viewport = $('.ticker-viewport');
+    if (viewport) viewport.style.setProperty('--dur', `${Math.max(30, lists[0].children.length * 5)}s`);
+  } catch { /* the ticker still shows our own posts */ }
+};
+
+const startHeadlines = () => {
+  if (!$('.ticker-list')) return;
+  loadHeadlines();
+  setInterval(() => { if (!document.hidden) loadHeadlines(); }, HEADLINES_MS);
+};
+
 // ---------- PWA ----------
 const registerServiceWorker = () => {
   const secure = location.protocol === 'https:' || location.hostname === 'localhost';
@@ -942,6 +973,7 @@ const init = () => {
   wireScrollCue();
   wireCarousel();
   startPsn();
+  startHeadlines();
   registerServiceWorker();
   startHeartbeat();
   startVisits();
