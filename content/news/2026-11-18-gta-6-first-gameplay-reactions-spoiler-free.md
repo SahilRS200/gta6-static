@@ -25,7 +25,7 @@ The first players are in. Since New Zealand unlocked at 4:30 PM IST, clips and h
 
 Stick to driving and free-roam clips; skip anything titled "intro", "opening" or "ending". Digit's article includes descriptions of the opening scene, so read it only if you don't mind. [Our spoiler-free survival guide →](/news/gta-6-spoilers-rockstar-discord-warning/)
 
-You'll be judging for yourself soon: India unlocks at **12:00 AM IST**.
+You'll be judging for yourself soon: India unlocks at **12:00 AM IST**. Before you start, set up your controls with our [first-hours settings and tips](/news/gta-6-first-hours-tips-settings/).
 
 - [India unlock countdown →](/gta-6-release-time/india/)
 - [Everything Indian players need to know →](/gta-6-india/)

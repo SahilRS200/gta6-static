@@ -28,5 +28,6 @@ Search "GTA 6 download" in India right now and you'll find APKs, "PC early acces
 2. Never install an APK or `.exe` that claims to be GTA 6.
 3. Never share an OTP or your PSN password for a "free code".
 4. Turn on **two-step verification** on your PSN / Microsoft account.
+5. Skip any "GTA 6 Online early access" offer: there is no online mode at launch. [Why →](/news/gta-6-online-multiplayer-not-at-launch/)
 
 The real thing unlocks at **12:00 AM IST on 19 November**. [Here's the live countdown.](/gta-6-release-time/india/)
