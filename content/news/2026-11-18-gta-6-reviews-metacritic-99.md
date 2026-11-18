@@ -40,3 +40,5 @@ Reviews avoid the ending, but **thumbnails, headlines and comment sections don't
 **Still haven't bought it?** The score probably settles it. Here's [what it costs in India](/news/gta-6-price-in-india/) and [how to get it delivered tonight](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/).
 
 [Live countdown to 12:00 AM IST →](/gta-6-release-time/india/)
+
+Related: Rockstar boss [Sam Houser issued a rare launch statement →](/news/gta-6-sam-houser-launch-statement/)
