@@ -1,6 +1,6 @@
 # GTA6Info.in — GTA 6 news, India release time and countdown
 
-> Fan-run GTA 6 news desk for India. GTA 6 (Grand Theft Auto VI) releases on Thursday, 19 November 2026 on PS5 and Xbox Series X|S and unlocks at midnight local time — 12:00 AM IST in India. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). New Zealand unlocks first, 7.5 hours before India. News is updated every few hours with sources linked.
+> Fan-run GTA 6 news desk for India. GTA 6 (Grand Theft Auto VI) came out on Thursday, 19 November 2026 on PS5 and Xbox Series X|S, unlocking at midnight local time — in India it unlocked at 12:00 AM IST. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). New Zealand unlocked first, 7.5 hours before India. News is updated every few hours with sources linked.
 
 ## Key pages
 - [GTA 6 India: release time, price, Hinglish FAQ](__SITE_URL__/gta-6-india/)
