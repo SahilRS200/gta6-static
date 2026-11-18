@@ -17,7 +17,14 @@ The scheduled news agent may **commit and push to `main` without asking**, withi
    - **What is trending on social:** search for what people are posting about GTA 6 on X/Twitter, Reddit
      (r/GTA6, r/IndianGaming), Instagram and YouTube — memes, viral clips, brand stunts, outages.
      Social posts are **leads, not sources**: publish only what a real outlet or the official account
-     confirms, and link that.
+     confirms, and link that. **Don't drop a lead just because it came from social:** when a trend shows
+     up (viral clips, "first driving clips", a meme, an outage), run one follow-up search for outlet
+     coverage of it before deciding.
+   - **The game itself (every run from launch day, 18 Nov 2026, onward; owner rule):** at least one
+     search on how the game plays — gameplay and first impressions, player reactions, performance and
+     frame rate (PS5 / PS5 Pro / Xbox), graphics, features and systems players are discovering, tips for
+     the first hours, Rockstar developer interviews. This is what players care about most once they are
+     in the game; don't let logistics and business news crowd it out. No story spoilers.
    - **Global:** unlock status by region, patches, PSN/Xbox outages, reviews and scores, sales records,
      Rockstar/Take-Two/Sony statements. Sites worth checking: IGN, Eurogamer, VGC, Kotaku, GameSpot,
      Beebom, Digit, Gizbot, Business Standard, Business Today, NDTV Gadgets 360, IGN India.
@@ -26,6 +33,11 @@ The scheduled news agent may **commit and push to `main` without asking**, withi
 4. Write **0–3 posts**. Aim for at least one India-angle story per run while launch week lasts
    (through 25 Nov 2026), then balance India and global. If nothing new and verifiable happened,
    write no post.
+   **Pick posts by player relevance (owner rule, 2026-11-18):** with only 3 slots, choose the stories
+   players will care about most. From launch day onward, at least one post per run should be about the
+   player experience (gameplay, performance, reactions, tips) when such news exists, rather than filling
+   every slot with business or logistics news (stock prices, analyst forecasts). Finding two passable
+   stories is not a reason to stop researching; finish all the search categories first.
 5. **Rewrite the AI Brief** (`content/brief.md`) — see below. Do this every run, even with no new post,
    unless nothing at all changed since the last brief.
 6. **SEO pass** — see below.
@@ -52,6 +64,12 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
   share. Make it punchy and lead with the number or the superlative, but it must stay true and sourced.
   Never spend the headline on a routine reminder ("unlocks at midnight") when bigger news exists. The homepage carousel shows only the headline and the first 3 bullets, so those 4 lines
   must carry the most important news.
+- **Headline freshness (owner rule, 2026-11-18).** Rank candidates against each other, not against
+  last hour's headline. The `headline:` may not stay on the same story for more than **2 runs in a row**
+  if this run found any verified new story; check `git log -p content/brief.md` to see how long the
+  current headline has been up. At least one of the headline and first 3 bullets must be new this run
+  whenever this run published a post. A big old number (a record from hours ago) can move to
+  "Around the world" instead of being dropped.
 - **Every India-relevant post published this run goes in the brief.** A big new India story (top Indian
   creators, India price/stock/delivery, India outages or payment problems, Indian brand stunts) goes in
   the headline or first bullet, not lower down.
