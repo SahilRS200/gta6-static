@@ -86,6 +86,48 @@ One commit per run: `content: <what changed>` (or `fix:` / `feat:` for code). Ne
 never rewrite history, never commit secrets or `data/`. If `git push` is rejected, pull --rebase once
 and retry; if it fails again, stop.
 
+## Hourly SEO agent — standing authorization (owner, 2026-11-18)
+
+A second scheduled agent runs at **:35** past each hour (the news agent runs at :05). It may commit and
+push to `main` without asking, within these rules. **It does not write news and does not rewrite the
+AI Brief** — that is the news agent's job.
+
+### Every run
+1. `git pull --rebase origin main`. If the latest commit is under 10 minutes old and starts with
+   `content:`, the news agent may still be deploying — that is fine, just work on top of it.
+2. Start the site locally and run the audit:
+   ```sh
+   PORT=8099 DATA_DIR=/tmp/gta6-data node server.js &   # wait for "gta6 site on :8099"
+   node tools/seo-audit.mjs http://localhost:8099
+   ```
+3. Also audit production: `node tools/seo-audit.mjs https://www.gta6info.in` (read-only). A difference
+   between local and production usually means a deploy is still rolling out — note it, don't "fix" it.
+4. Fix every ERROR. Fix WARNINGs when the fix is clearly an improvement.
+5. Then do **one improvement pass** (pick the highest-value items, small and safe):
+   - **Titles and descriptions:** keyword first ("GTA 6 …"), true, 120–190 character descriptions that
+     contain the answer. No two pages may share a title or description.
+   - **Internal links:** every post should be linked from at least one related post body (not only from
+     listings). Add a natural "Related:" sentence or link where it helps the reader.
+   - **Tags:** merge near-duplicates (e.g. `pre-orders` vs `preload`, `launch` vs `launch-day`) by editing
+     the posts' tags; keep tags lowercase and meaningful.
+   - **Freshness:** after a launch milestone passes, fix stale wording on evergreen pages
+     (`/gta-6-india/`, `/gta-6-price-in-india/`, homepage FAQ and its JSON-LD twin, quick FAQ in
+     `lib/partials.js`), e.g. "unlocks at" → "unlocked at". Keep visible FAQ and JSON-LD identical.
+   - **Structured data:** keep JSON-LD valid and truthful; bump homepage `dateModified` when the
+     homepage changes.
+   - **Search demand:** look up what Indian players are searching for about GTA 6 right now
+     (e.g. "GTA 6 kab aayega", "GTA 6 price", "GTA 6 download size", "GTA 6 PS4"). If an existing page
+     answers it but doesn't say so plainly, improve that page's title, description or FAQ. If no page
+     answers it, **leave a note in the commit message** for the news agent rather than writing a post.
+6. Run the pre-push checks (below) and the audit again; it must exit 0. Commit once with message
+   `seo: <what changed>` and push. If nothing needed changing, make no commit.
+
+### SEO agent must not
+- Write or delete news posts, change a post's facts or sources, or rewrite `content/brief.md`.
+- Keyword-stuff, add hidden text, invent FAQ answers, or write titles the page doesn't deliver.
+- Change layout, design, `server.js` security (API guard, CSP, rate limit), dependencies, or deploy config.
+- Change URLs/slugs of published pages (that breaks links and rankings).
+
 ## Layout
-`content/news/*.md` posts · `content/brief.md` AI brief · `lib/` server renderers (news, partials, psn, headlines, counter) ·
+`tools/seo-audit.mjs` SEO audit · `content/news/*.md` posts · `content/brief.md` AI brief · `lib/` server renderers (news, partials, psn, headlines, counter) ·
 `public/` static site (`js/app.js`, `css/site.css`) · `server.js` routes, API guard, sitemaps.
