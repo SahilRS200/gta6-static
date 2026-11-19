@@ -27,4 +27,6 @@ At **2 hours a night on weekdays and more on weekends, the story is roughly a 3â
 3. **Spoilers will outrun you.** At 50+ hours, most people won't finish this month, while 24-hour streams race ahead. Mute "GTA 6 ending" on social for a few weeks ([our spoiler guide](/news/gta-6-spoilers-rockstar-discord-warning/)).
 4. **Get set up for the long haul.** Settings to change and early-cash tricks are in our [12 spoiler-free tips](/news/gta-6-tips-hidden-features-spoiler-free/).
 
+On the Ultimate Edition? Its extras unlock as the story goes on, some only in Chapter 5: [what unlocks when](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/).
+
 These are early figures from reviewers and press reports; we'll update this post if Rockstar shares official numbers. More for Indian players: [everything you need to know â†’](/gta-6-india/)

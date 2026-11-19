@@ -16,7 +16,7 @@ Those are the listings reported by Business Today. Prices can change and sales h
 
 ## Already bought Standard?
 
-A guide from GetPC.co.in reports an **Ultimate Edition Upgrade at ₹1,500**, so you can add the extras later instead of paying the full Ultimate price now.
+A guide from GetPC.co.in reports an **Ultimate Edition Upgrade at ₹1,500**, so you can add the extras later instead of paying the full Ultimate price now. Those extras unlock chapter by chapter in the story anyway: [what unlocks when](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/).
 
 ## Buying the box? Read this first
 
