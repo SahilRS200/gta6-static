@@ -9,10 +9,12 @@ Puts the X (Twitter) API keys into this repo's GitHub Actions secrets, and flips
 that `.github/workflows/post-to-x.yml` reads. Needs Node 20+ and the GitHub CLI (`gh`) logged in.
 
 ```
-node dev-tools/set-x-secrets.mjs                 # paste the four keys at hidden prompts, confirm, upload
-node dev-tools/set-x-secrets.mjs --posting off   # X_POSTING=off: the Action only prints the post (dry run)
-node dev-tools/set-x-secrets.mjs --posting on    # X_POSTING=on: the Action posts to X for real
+npm run x:secrets         # paste the four keys at hidden prompts, confirm, upload
+npm run x:posting:off     # X_POSTING=off: the Action only prints the post (dry run)
+npm run x:posting:on      # X_POSTING=on: the Action posts to X for real
 ```
+
+(Same as `node dev-tools/set-x-secrets.mjs` with no flag, `--posting off` or `--posting on`.)
 
 | Secret | Where to find it (X Developer Console → app → Keys & Tokens) |
 |---|---|
