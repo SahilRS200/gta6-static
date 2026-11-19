@@ -35,6 +35,7 @@ Expect a slow start: Rockstar North's Rob Nelson says Jason and Lucia begin smal
 
 Note: there's no online multiplayer at launch. [What we know about GTA 6 Online →](/news/gta-6-online-multiplayer-not-at-launch/)
 
+- [No difficulty levels: easier settings, auto-drive and accessibility options →](/news/gta-6-difficulty-accessibility-settings-auto-drive/)
 - [No first-person mode at launch: what the camera can do →](/news/gta-6-first-person-mode-camera-options/)
 - [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
 - [First gameplay reactions, spoiler-free →](/news/gta-6-first-gameplay-reactions-spoiler-free/)

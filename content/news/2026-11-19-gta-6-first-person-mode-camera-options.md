@@ -28,4 +28,4 @@ Rockstar hasn't announced anything. For history: GTA 5 launched in 2013 without 
 
 - **Turn on Game Mode** on your TV and tune aim assist; GTA 6 runs at 30fps on every console. [Settings to change →](/news/gta-6-first-hours-tips-settings/)
 
-Related: [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [performance on PS5, PS5 Pro and Xbox →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · [everything Indian players need to know →](/gta-6-india/)
+Related: [no difficulty levels, but these settings make it easier →](/news/gta-6-difficulty-accessibility-settings-auto-drive/) · [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [performance on PS5, PS5 Pro and Xbox →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · [everything Indian players need to know →](/gta-6-india/)
