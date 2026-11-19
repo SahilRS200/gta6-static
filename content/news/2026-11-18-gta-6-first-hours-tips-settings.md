@@ -38,4 +38,5 @@ Note: there's no online multiplayer at launch. [What we know about GTA 6 Online 
 - [No first-person mode at launch: what the camera can do →](/news/gta-6-first-person-mode-camera-options/)
 - [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
 - [First gameplay reactions, spoiler-free →](/news/gta-6-first-gameplay-reactions-spoiler-free/)
-- [India unlock countdown →](/gta-6-release-time/india/) · [Everything Indian players need to know →](/gta-6-india/)
+- [How to make money fast early, spoiler-free →](/news/gta-6-how-to-make-money-fast-early-game/)
+- [Everything Indian players need to know →](/gta-6-india/)
