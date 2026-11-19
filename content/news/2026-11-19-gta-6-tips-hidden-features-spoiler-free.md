@@ -34,4 +34,4 @@ Kotaku's last tip is the best one: **stay off "full story" videos** for now. Cli
 
 Also read: [Bigfoot, PinkPantheress and other night-one discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/) · [settings to change and first-hours ideas →](/news/gta-6-first-hours-tips-settings/) · [spoiler-free first reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/) · [performance on PS5, PS5 Pro and Xbox →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · [everything Indian players need to know →](/gta-6-india/)
 
-Related: [GTA 6 cheats are locked until you finish the story →](/news/gta-6-cheats-locked-until-story-complete/)
+Related: [GTA 6 cheats are locked until you finish the story →](/news/gta-6-cheats-locked-until-story-complete/) · [Is there a first-person mode? →](/news/gta-6-first-person-mode-camera-options/)
