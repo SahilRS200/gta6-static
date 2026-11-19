@@ -29,6 +29,6 @@ The "many more years" line is **not an announcement** of GTA 6 Online, DLC or a 
 
 Nothing changes for us: GTA 6 unlocks at **12:00 AM IST tonight** on PS5 and Xbox Series X|S. Critics agree with Houser's pitch so far: the game is at [99 on Metacritic](/news/gta-6-reviews-metacritic-99/).
 
-- [Exact India unlock time and countdown →](/gta-6-release-time/india/)
+- [Rockstar's union vote and tribunal in launch week →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
 - [Everything Indian players need to know →](/gta-6-india/)
-- [Install both pre-launch patches before midnight →](/news/gta-6-day-one-patch-size-ps5-xbox/)
+- [Both pre-launch patches and their sizes →](/news/gta-6-day-one-patch-size-ps5-xbox/)
