@@ -223,6 +223,20 @@ AI Brief** — that is the news agent's job.
 - Change layout, design, `server.js` security (API guard, CSP, rate limit), dependencies, or deploy config.
 - Change URLs/slugs of published pages (that breaks links and rankings).
 
+## X (Twitter) — @gamerinfo_in
+
+The owner's plan for the account is `docs/SOCIAL_X_PLAN.md`: vision ("India's own gamer channel. GTA 6
+first. Every game next."), cadence, post format, hashtags and guardrails. Rules for the hourly agents:
+
+- **Never call the X API tools.** `.mcp.json` loads an X API server (`xapi`, read-only) into every cloud
+  session in this repo. Every X read is billed per post returned, and the plan's guardrail is "never read
+  from X". Research what's trending on X with WebSearch, the same as any other site.
+- **Never post to X.** No automated posting is built yet. When it is, it will be its own job that follows
+  `docs/SOCIAL_X_PLAN.md`, not part of these agents.
+- **What you write feeds the account.** The plan's (recommended) source for the 2-hourly X posts is the
+  brief's `headline:`, checked against the post it links to. Keep it a true, sourced, spoiler-free single
+  line under ~110 characters that carries its key number, with no URL in it.
+
 ## Layout
 `tools/seo-audit.mjs` SEO audit · `content/news/*.md` posts, guides and fixes · `content/brief.md` AI brief ·
 `content/alert.md`, `content/india.md`, `content/whats-next.md` site content files · `lib/` server

@@ -250,14 +250,33 @@ automated posts once they run). Link cards come from the site's Open Graph tags,
 - `/ai/` is now the front page (root 301s there), so `https://www.gta6info.in/` and
   `https://www.gta6info.in/ai` land on the same page. Either works in the bio.
 
+## Tooling state after PR #1 (19 Nov 2026)
+
+PR #1 added an X API MCP server for cloud sessions (`.mcp.json`, enabled in `.claude/settings.json`):
+`https://api.x.com/mcp?read_only=true`, authenticated with an **app Bearer token** that the cloud proxy
+injects (locally: `X_BEARER_TOKEN`). What that means for this plan:
+
+- **It cannot post.** It is read-only by URL, and creating a post on X needs a token that acts as
+  `@gamerinfo_in` (a user-context token with write access); an app Bearer token can only read. Automated
+  posting still needs a write-capable token and one of the routes in "Open decisions".
+- **It is loaded into every cloud session in this repo**, including the hourly news and SEO agents, and
+  every read is billed ($0.005 per post returned). To keep the "Never read from X" guardrail, both agents'
+  prompts and `CLAUDE.md` (section "X (Twitter)") now forbid calling its tools; they research X trends
+  with web search instead. This is an interim measure until the owner decides what the MCP is for.
+- It does settle one unknown in "Recommended build": a Claude cloud session **can** reach `api.x.com`
+  through the proxy (per PR #1; not yet exercised).
+
 ## Open decisions for the owner
 
 1. Post source: brief `headline:` with newest-post fallback (recommended), or always the newest post.
 2. Phase the link posts in after 3–4 weeks (recommended), or run the full mix from day one.
 3. GitHub Actions as the runner (recommended), or somewhere else.
 4. Travel account: park it (recommended) or define its own content source.
-5. Automated posting route: Typefully (already linked and proven on the first posts) or the X API
-   directly from GitHub Actions.
+5. Automated posting route: Typefully (already linked and proven on the first posts), the X API
+   directly from GitHub Actions, or the X API from a Claude routine (possible since PR #1, but it needs a
+   write-capable `@gamerinfo_in` token, not the read-only Bearer token).
+6. What the read-only X MCP is for. Reads are billed per post returned, and the guardrail above says
+   never read from X; until this is decided the hourly agents are told not to call it.
 
 ## Sources
 
