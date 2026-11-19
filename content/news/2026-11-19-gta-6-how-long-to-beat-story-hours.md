@@ -3,6 +3,7 @@ title: How Long Is GTA 6? About 50 Hours for the Story, 80 for Rockstar's Boss, 
 description: How long to beat GTA 6: one reviewer finished the story in 50 hours 42 minutes, Rockstar's Rob Nelson took 80 with side goals, and 100% is reported at about 200 hours.
 date: 2026-11-19T05:37:00+05:30
 tags: [guide, tips, reviews, launch-day]
+type: guide
 sources:
   - Screen Rant — How long it takes to beat GTA 6's main story | https://screenrant.com/gta-6-main-story-length-completion/
   - Screen Rant — GTA 6 story length and platinum time | https://screenrant.com/gta-6-story-length-how-long-to-platinum/

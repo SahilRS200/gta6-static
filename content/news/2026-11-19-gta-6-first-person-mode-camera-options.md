@@ -2,7 +2,8 @@
 title: GTA 6 First-Person Mode? No — It's Third-Person Only at Launch; Here's What the Camera Can Do
 description: GTA 6 has no full first-person mode at launch: Rockstar North built it around a third-person camera. Reports say first-person shows up only in some moments, like aiming some guns.
 date: 2026-11-19T09:38:00+05:30
-tags: [guide, tips, ps5, xbox]
+tags: [guide, tips, ps5, xbox, camera]
+type: guide
 sources:
   - VICE — Will GTA 6 have first person? Rockstar reveals launch plans | https://www.vice.com/en/article/will-gta-6-have-first-person-mode/
   - Beebom — No first-person mode in GTA 6 at launch, Rockstar confirms | https://beebom.com/no-first-person-mode-in-gta-6-rockstar-confirms/

@@ -1,7 +1,9 @@
 # GTA6Info.in — agent guide
 
-Fan-run GTA 6 news + countdown site for India. Zero-dependency Node server (`server.js`), deployed on
-Railway from `main` (every push redeploys in ~30 s). Live at https://www.gta6info.in.
+Fan-run GTA 6 companion for players in India: hourly news, spoiler-free guides, fixes, a "What's next"
+tracker and a separate India hub. GTA 6 launched on 19 Nov 2026; the countdown is gone (product spec:
+`docs/POST_LAUNCH_REVAMP.md`). Zero-dependency Node server (`server.js`), deployed on Railway from
+`main` (every push redeploys in ~30 s). Live at https://www.gta6info.in.
 
 ## Hourly news agent — standing authorization (owner, 2026-11-18)
 
@@ -40,21 +42,68 @@ The scheduled news agent may **commit and push to `main` without asking**, withi
    stories is not a reason to stop researching; finish all the search categories first.
 5. **Rewrite the AI Brief** (`content/brief.md`) — see below. Do this every run, even with no new post,
    unless nothing at all changed since the last brief.
-6. **SEO pass** — see below.
-7. Run the checks, then commit and push.
+6. **Keep the site content files current** (`content/alert.md`, `content/india.md`,
+   `content/whats-next.md`) and the status of every fix — see "Site content files" below.
+7. **SEO pass** — see below.
+8. Run the checks, then commit and push.
+
+### Post types: news, guides, fixes
+Every post is a Markdown file in `content/news/` and keeps its `/news/<slug>/` URL whatever its type.
+The `type:` front-matter field only decides which hubs list it.
+- `type: news` (or no `type:`) — a story that happened. Listed on `/news/`.
+- `type: guide` — answers "how do I…?" (save, lose the cops, cheats, settings, camera, streaming). Listed
+  on `/guides/`, grouped into sections **by tag**; give every guide one section tag:
+  `police` / `wanted-level` / `combat` / `weapons` → Police and combat · `camera` / `controls` →
+  Controls and camera · `cheats` / `money` / `progress` → Money and progress · `performance` /
+  `settings` → Settings and performance · `streaming` / `youtube` → Streaming · `tips` /
+  `first-hours` / `saving` / `beginner` → First hours. A guide with none of these lands in "More guides".
+- `type: fix` — answers "why is it broken?" (padlock, won't start, PSN errors, crashes, lost saves, bugs).
+  Listed on `/fixes/`. **Needs `status:`**: `open` (no fix yet), `workaround` (something the player can
+  do now), or `fixed: <how>` / `fixed in patch 1.02`. Change the status, with a source, when it changes.
+- **Guides and fixes are living posts.** When there's a development (a patch fixes a bug, a better
+  workaround appears), **update the existing guide or fix** and bump its `updated:` instead of writing a
+  new post. Write a new one only for a new question or a new problem.
+- `spoiler: true` — only for a post that discusses story events. Its title and description must still be
+  spoiler-free; the body is hidden behind a "Show it" button and the post is hidden from lists, the
+  ticker, search and AI Brief links until a reader switches spoilers on. Prefer not to write these.
+
+### Site content files (news agent)
+Small Markdown files the site reads at every deploy. Timestamps follow the same clock rule as posts.
+- `content/alert.md` — the one-line banner on top of every page. `text:` (one sentence: the most
+  urgent thing right now — a patch, an outage, a common gotcha), `link:` (a path on this site),
+  `label:` (link text), `updated:`. Leave `text:` empty to hide the banner. Change it only when
+  something more urgent than the current line exists.
+- `content/india.md` — the India hub (`/gta-6-india/`) and the India slide/block on the homepage.
+  `headline:` (the India story of the hour, one sentence), `price:` (the one-line price shown under
+  it), `updated:`. Body: `##` sections, each becomes a card — keep **🛒 Buy it**, **🎮 PS5 and Xbox**,
+  **📺 Indian creators and streams**, **🇮🇳 Playing from India**. 2–4 bullets each, bold lead plus a link
+  to our post (which carries the source). Prices only with a source; stock and offers go stale fast —
+  remove a bullet rather than leave it wrong. Plain store links only, no affiliate links.
+- `content/whats-next.md` — the `/whats-next/` tracker. `items:` rows are
+  `Name | Status | Date | Link | Note`; `patches:` rows are `Date | Version | Platforms and size | Link`.
+  Status is exactly one of **Confirmed · Reported · Rumoured · Not announced**; "Confirmed" only when
+  Rockstar or the platform said so, with a linked post. A row with status Confirmed **and** a full
+  date-time (`2027-03-01T00:00:00+05:30`) gets a live countdown automatically; never invent a date.
+  Every new patch gets a `patches:` row. **Never put a `|` inside a field** (it splits the row); write
+  "Xbox Series X/S".
+- FAQs live in `lib/faq.js` (homepage FAQ, Hinglish India FAQ, the floating quick answers). One entry
+  feeds both the visible FAQ and its JSON-LD, so they can't drift; every answer must link a post or page
+  that carries its source.
 
 ### AI Brief (`content/brief.md`) — the floating "✦ AI Brief" panel on every page
 A tight, skimmable answer to "what's hot right now and what should I do?" for an Indian player.
 - Front matter: `updated:` (the output of `TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30`, never a guessed or rounded time) and `headline:` (one sentence, under
   ~110 characters, the single most important thing right now).
-- Body: 2–3 `##` sections with emoji headings, e.g. `## 🔥 Hot in India right now`,
-  `## ✅ Do this now` (only while it is actionable), `## 🌍 Around the world`. 2–4 bullets each.
+- Body: 2–4 `##` sections with emoji headings, chosen from `## 🔥 Hot in India`,
+  `## ✅ Try this today` (a tip or guide worth doing now), `## 🛠️ Fix of the day` (only when a real
+  problem is hitting players; link the fix) and `## 🌍 Around the world`. 2–4 bullets each; skip a
+  section that has nothing.
 - Each bullet: a **bold lead**, one or two plain sentences, then a link — to our own post or page when
   one exists (`[What to know →](/news/slug/)`), otherwise to the source outlet by name.
 - Keep the whole brief under ~170 words of body text. Lead with India. Drop items older than a day
   unless still the top story. No rumours without the word "rumoured". No spoilers.
-- After launch, shift it from "prepare" to "what's happening": server status, first reactions, scores,
-  India sales/stock, tips for the first hours.
+- The game is out: no "prepare" or "unlocks at" items. Write about what's happening and what to do:
+  problems and fixes, patches, tips, reactions, India sales/stock and creators.
 - **Rank by impact, then write (owner rule, 2026-11-18).** Build the brief from scratch each run; don't
   reshuffle last hour's bullets. List every candidate (this run's new posts, still-live older stories,
   actions) and judge each on: how many Indian players it reaches, how new it is (new this run wins ties),
@@ -80,11 +129,11 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
 - New posts: title leads with the keyword people search ("GTA 6 …"), description 120–190 characters
   with the answer in it, 3–6 lowercase tags reusing existing ones where they fit.
 - Link new posts from one or two older related posts, and from the brief.
-- Keep facts current across the site when something changes: quick-FAQ answers in `lib/partials.js`,
-  the homepage FAQ and "What India is asking" list in `public/index.html`, `/gta-6-india/`,
-  `/gta-6-price-in-india/`. If you change a visible FAQ, change its JSON-LD twin to match.
-- Bump `dateModified` in the homepage JSON-LD to today when the homepage changed.
-- After launch, fix stale tense ("unlocks at" → "unlocked at") on the pages you touch.
+- Keep facts current across the site when something changes: the FAQs in `lib/faq.js`,
+  `content/india.md`, `content/whats-next.md`, `content/alert.md`, the price page
+  (`public/gta-6-price-in-india/`) and fix statuses. The homepage `dateModified` is set automatically
+  from the newest post — don't edit it.
+- Fix stale tense ("unlocks at" → "unlocked at") and launch-week wording on the pages you touch.
 - Never keyword-stuff, never write a headline the article does not deliver, never invent a fact.
 
 ### Posts (`content/news/YYYY-MM-DD-slug.md`)
@@ -93,18 +142,20 @@ A tight, skimmable answer to "what's hot right now and what should I do?" for an
 `updated:`. Never round up, never estimate when the commit will land, never use a future time.
 
 Front matter: `title`, `description`, `date` (ISO with `+05:30`), optional `updated`, `tags: [a, b]`,
+optional `type: news | guide | fix`, `status:` (fixes only), optional `spoiler: true`,
 `sources:` as `  - Label | https://url`. Body is simple Markdown (`##`, lists, `**bold**`, links).
 - **Every factual claim needs a linked source.** At least one source per post, from a real outlet.
 - Label rumours and leaks as rumours in the headline or first paragraph. Say "reported" when it is.
 - Headlines can be punchy, but must be true and delivered by the article. No fake urgency.
-- India-first: times in IST, prices in ₹, link to `/gta-6-india/`, `/gta-6-release-time/india/`.
+- India-first: times in IST, prices in ₹, link to `/gta-6-india/` and the relevant guide or fix. The
+  `/gta-6-release-time/*` pages are a launch archive now; don't link them as countdowns.
 - Title must not start with a quote character. Keep titles under ~110 characters.
 - Never copy text from other sites; write original summaries. Never link piracy, APKs, cracks,
   or grey-market account/code sellers. No story spoilers in titles or descriptions.
 
 ### Code changes
-Allowed when they serve the news (e.g. updating the quick-FAQ answers in `lib/partials.js`, the
-"What India is asking" list in `public/index.html`, facts on `/gta-6-india/` or the price page).
+Allowed when they serve the news (e.g. updating FAQ answers in `lib/faq.js`, facts on the price page,
+the content files above).
 Do **not** redesign the layout, touch `server.js` security (API guard, CSP, rate limit), add
 dependencies, or change Railway/Docker config. Use fat-arrow functions, no `any`-style shortcuts.
 
@@ -112,8 +163,8 @@ dependencies, or change Railway/Docker config. Use fat-arrow functions, no `any`
 ```sh
 for f in server.js lib/*.js public/js/*.js public/sw.js; do node --check "$f" || exit 1; done
 PORT=8099 DATA_DIR=/tmp/gta6-data node server.js &   # must print "gta6 site on :8099"
-sleep 3 && curl -sf http://localhost:8099/ >/dev/null && curl -sf http://localhost:8099/news/ >/dev/null \
-  && curl -sf http://localhost:8099/sitemap.xml >/dev/null; kill %1
+sleep 3 && for u in / /news/ /guides/ /fixes/ /whats-next/ /gta-6-india/ /sitemap.xml /search-index.json; do
+  curl -sf "http://localhost:8099$u" >/dev/null || { echo "FAIL $u"; exit 1; }; done; kill %1
 ```
 Also open each new post URL locally and confirm it returns 200.
 
@@ -146,11 +197,13 @@ AI Brief** — that is the news agent's job.
      listings). Add a natural "Related:" sentence or link where it helps the reader.
    - **Tags:** merge near-duplicates (e.g. `pre-orders` vs `preload`, `launch` vs `launch-day`) by editing
      the posts' tags; keep tags lowercase and meaningful.
-   - **Freshness:** after a launch milestone passes, fix stale wording on evergreen pages
-     (`/gta-6-india/`, `/gta-6-price-in-india/`, homepage FAQ and its JSON-LD twin, quick FAQ in
-     `lib/partials.js`), e.g. "unlocks at" → "unlocked at". Keep visible FAQ and JSON-LD identical.
-   - **Structured data:** keep JSON-LD valid and truthful; bump homepage `dateModified` when the
-     homepage changes.
+   - **Freshness:** fix stale wording on evergreen pages (`/gta-6-india/` via `content/india.md`,
+     `/gta-6-price-in-india/`, `/guides/`, `/fixes/`, `/whats-next/`, the FAQs in `lib/faq.js`),
+     e.g. "unlocks at" → "unlocked at". FAQ JSON-LD is generated from the same entry as the visible FAQ.
+   - **Hubs:** every guide should carry a section tag (see "Post types") so it isn't stuck in "More
+     guides"; every fix needs a `status:`. Adding a tag is fine; changing a fix's status is the news
+     agent's job (it needs a source) — flag it in the commit message instead.
+   - **Structured data:** keep JSON-LD valid and truthful. The homepage `dateModified` is automatic.
    - **Search demand:** look up what Indian players are searching for about GTA 6 right now
      (e.g. "GTA 6 kab aayega", "GTA 6 price", "GTA 6 download size", "GTA 6 PS4"). If an existing page
      answers it but doesn't say so plainly, improve that page's title, description or FAQ. If no page
@@ -165,5 +218,8 @@ AI Brief** — that is the news agent's job.
 - Change URLs/slugs of published pages (that breaks links and rankings).
 
 ## Layout
-`tools/seo-audit.mjs` SEO audit · `content/news/*.md` posts · `content/brief.md` AI brief · `lib/` server renderers (news, partials, psn, headlines, counter) ·
-`public/` static site (`js/app.js`, `css/site.css`) · `server.js` routes, API guard, sitemaps.
+`tools/seo-audit.mjs` SEO audit · `content/news/*.md` posts, guides and fixes · `content/brief.md` AI brief ·
+`content/alert.md`, `content/india.md`, `content/whats-next.md` site content files · `lib/` server
+renderers (`news.js` posts and lists, `hubs.js` guides/fixes/what's next/home blocks, `faq.js` every FAQ,
+`partials.js` header and footer, `render.js` release-time archive and sitemap, psn, headlines, counter) ·
+`public/` static site (`js/app.js`, `css/site.css`) · `server.js` routes, API guard, sitemaps, search index.

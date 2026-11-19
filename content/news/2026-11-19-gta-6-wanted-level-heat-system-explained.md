@@ -2,7 +2,8 @@
 title: GTA 6 Wanted Level Explained — 6 Stars, What the Red Icons Mean, and How to Lose the Cops
 description: GTA 6 has six wanted stars, and police now remember your outfit, car and partner. What hollow, white and red stars mean, what each icon shows, and how to shake the heat.
 date: 2026-11-19T11:37:00+05:30
-tags: [guide, gameplay, tips]
+tags: [guide, gameplay, tips, police]
+type: guide
 sources:
   - Beebom — GTA 6 wanted system explained | https://beebom.com/gta-6-wanted-system-explained/
   - Dexerto — GTA 6 wanted system explained | https://www.dexerto.com/wikis/gta-6/wanted-system-explained/

@@ -3,6 +3,7 @@ title: GTA 6 How to Save — Streamer Lost 10+ Hours After a PS5 Shutdown; Use t
 description: GTA 6 keeps only one autosave slot, and a streamer lost 10+ hours of progress after his PS5 shut off. How to save manually on PS5 and Xbox, and when the game won't let you.
 date: 2026-11-19T08:37:00+05:30
 tags: [guide, tips, bugs, ps5, xbox]
+type: guide
 sources:
   - Notebookcheck — GTA 6 PS5 and Xbox crashes are losing hours of progress | https://www.notebookcheck.net/GTA-6-PS5-and-Xbox-crashes-are-losing-hours-of-progress-despite-autosave-system.1453724.0.html
   - GTA6Bible — JasonTheWeen loses 10 hours of GTA 6 progress | https://gta6bible.com/jasontheween-loses-10-hours-of-gta-6-progress-after-ps5/

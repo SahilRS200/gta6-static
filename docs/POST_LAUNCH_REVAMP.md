@@ -1,6 +1,7 @@
 # GTA6Info.in — post-launch revamp (product + UX spec)
 
-**Status:** proposal, awaiting owner sign-off on the open decisions in §10.
+**Status:** implemented 19 Nov 2026 (phases 1–6 except the Live-now slot). The open decisions in §10
+were built with conservative defaults, listed at the end of §10.
 **Written:** 19 Nov 2026 (launch day), for the engineer (Opus) who will build it.
 **Scope:** what the site becomes now that GTA 6 is out. This is a product and UX spec, not a code
 design. Where it names files, that is to point at what exists today, not to prescribe the solution.
@@ -318,6 +319,20 @@ Notes for the build:
 4. **Hindi/Hinglish guides (P2):** wanted, and if so who reviews the language quality?
 5. **Community channel:** is there a Telegram/WhatsApp/Discord to link from the India hub, or is RSS
    the only follow option for now?
+
+### Defaults taken for the build (19 Nov 2026) — owner can overturn any of these
+
+The owner asked for the revamp to be implemented without answering §10 first, so the build took the
+conservative option each time; nothing here is hard to reverse.
+
+1. **City pages → converted to archive pages** (the recommendation). All 30 URLs stay 200, plus a new
+   `/gta-6-release-time/` index.
+2. **Live-now slot → not built.** It needs a CSP change, which stays an owner decision.
+3. **Affiliate links → none.** The price page uses plain store links and says so.
+4. **Hindi/Hinglish guides → not built** (P2). The Hinglish FAQ on the India hub stays.
+5. **Community channel → RSS only**, via the existing "get our news automatically" guide.
+
+Also built from §6: search (P1), Day N chip and "new since your last visit" dots (P1), spoiler mode (P0).
 
 ## 11. What success looks like
 

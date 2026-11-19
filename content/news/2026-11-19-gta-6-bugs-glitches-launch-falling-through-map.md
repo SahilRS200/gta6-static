@@ -4,6 +4,8 @@ description: GTA 6 launch bugs players are reporting: falling through the map, c
 date: 2026-11-19T03:37:00+05:30
 updated: 2026-11-19T04:37:00+05:30
 tags: [bugs, patch, ps5, launch-day, india]
+type: fix
+status: open
 sources:
   - Sportskeeda — All GTA 6 bugs and glitches found so far | https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far
   - Sportskeeda — GTA 6 player slams Rockstar for release-day bugs | https://tech.sportskeeda.com/gaming-news/news-it-s-cyberpunk-2077-again-gta-6-player-slams-rockstar-games-release-day-bugs

@@ -3,6 +3,7 @@ title: How to Get GTA 6 News Automatically — RSS Feed, Telegram, Discord and E
 description: Get every GTA6Info.in story the moment it's published: add our RSS feed to a reader, or pipe it into Telegram, a Discord server or your inbox. Free, about 2 minutes to set up.
 date: 2026-11-18T18:00:00+05:30
 tags: [guide, rss, india]
+type: guide
 sources:
   - Discord Support — Intro to Webhooks | https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
   - Zapier — RSS integrations | https://zapier.com/apps/rss/integrations

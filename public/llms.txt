@@ -1,14 +1,14 @@
-# GTA6Info.in — GTA 6 news, India release time and countdown
+# GTA6Info.in — GTA 6 news, guides and fixes for India
 
-> Fan-run GTA 6 news desk for India. GTA 6 (Grand Theft Auto VI) came out on Thursday, 19 November 2026 on PS5 and Xbox Series X|S, unlocking at midnight local time — in India it unlocked at 12:00 AM IST. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). New Zealand unlocked first, 7.5 hours before India. News is updated every few hours with sources linked.
+> Fan-run GTA 6 companion for players in India. GTA 6 (Grand Theft Auto VI) came out on Thursday, 19 November 2026 on PS5 and Xbox Series X|S; in India it unlocked at 12:00 AM IST. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). News, spoiler-free guides and fixes are updated every hour, with sources linked on every story.
 
 ## Key pages
-- [GTA 6 India: release time, price, Hinglish FAQ](__SITE_URL__/gta-6-india/)
-- [GTA 6 price in India](__SITE_URL__/gta-6-price-in-india/)
+- [GTA 6 India hub: price, where to buy, PS5 stock, creators, Hinglish FAQ](__SITE_URL__/gta-6-india/)
 - [GTA 6 news India](__SITE_URL__/news/)
-- [How to play GTA 6 early in India (New Zealand trick explained)](__SITE_URL__/news/play-gta-6-early-india-new-zealand-trick/)
-- [GTA 6 release time in India (IST) countdown](__SITE_URL__/gta-6-release-time/india/)
-- [Live countdown for 30 time zones](__SITE_URL__/)
-- [How to change PS5 time zone — and why it won't unlock GTA 6 early](__SITE_URL__/guides/ps5-time-zone/)
+- [GTA 6 guides and tips (spoiler-free)](__SITE_URL__/guides/)
+- [GTA 6 fixes: game locked, PSN errors, bugs, live PlayStation status](__SITE_URL__/fixes/)
+- [What's next for GTA 6: Online, PC, patches, DLC tracker](__SITE_URL__/whats-next/)
+- [GTA 6 price in India and where to buy](__SITE_URL__/gta-6-price-in-india/)
 - [How to stream GTA 6 from PS5 to YouTube & Twitch](__SITE_URL__/guides/stream-gta-6-ps5-youtube-twitch/)
+- [GTA 6 release times by country (launch archive)](__SITE_URL__/gta-6-release-time/)
 - [RSS feed](__SITE_URL__/news/feed.xml)

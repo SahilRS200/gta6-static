@@ -1,8 +1,8 @@
 {
   "id": "/",
-  "name": "GTA6Info.in — GTA 6 India News & Countdown",
+  "name": "GTA6Info.in — GTA 6 India News, Guides & Fixes",
   "short_name": "GTA6Info",
-  "description": "GTA 6 release time in IST, price in India, live countdowns and launch news updated every few hours.",
+  "description": "GTA 6 news, spoiler-free guides and fixes for players in India, updated every hour.",
   "lang": "en-IN",
   "start_url": "/?source=pwa",
   "scope": "/",
@@ -21,10 +21,11 @@
   "shortcuts": [
     { "name": "GTA 6 News", "short_name": "News", "url": "/news/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
     { "name": "GTA 6 India", "short_name": "India", "url": "/gta-6-india/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
-    { "name": "GTA 6 Price in India", "short_name": "Price", "url": "/gta-6-price-in-india/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+    { "name": "GTA 6 Guides", "short_name": "Guides", "url": "/guides/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "GTA 6 Fixes", "short_name": "Fixes", "url": "/fixes/?source=pwa", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
   ],
   "screenshots": [
-    { "src": "/screenshots/wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "GTA 6 countdown in five time zones" },
-    { "src": "/screenshots/narrow.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "GTA 6 India countdown on mobile" }
+    { "src": "/screenshots/wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "GTA 6 India live board: AI Brief, news, guides, fixes" },
+    { "src": "/screenshots/narrow.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "GTA 6 news, guides and fixes on mobile" }
   ]
 }

@@ -4,6 +4,8 @@ description: GTA 6 still shows a padlock or won't start on your PS5 after 12 AM 
 date: 2026-11-19T01:37:00+05:30
 updated: 2026-11-19T12:39:00+05:30
 tags: [india, ps5, launch-day, guide]
+type: fix
+status: workaround
 sources:
   - PlayStation India — Grand Theft Auto VI support | https://www.playstation.com/en-in/support/games/gta-vi-support/
   - Sportskeeda — All GTA 6 error codes on PS5 and possible fixes | https://tech.sportskeeda.com/gaming-news/all-gta-6-error-codes-ps5-possible-fixes

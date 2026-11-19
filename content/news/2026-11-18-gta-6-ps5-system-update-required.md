@@ -3,6 +3,8 @@ title: GTA 6 Needs a PS5 System Update — Install Version 26.07-14.23.00 Before
 description: Sony says PS5 system software 26.07-14.23.00 (about 1.3 GB) is required to play GTA 6. Even if you pre-loaded, install it before 12 AM IST. Steps inside.
 date: 2026-11-18T22:36:00+05:30
 tags: [india, ps5, patch, preload]
+type: fix
+status: workaround
 sources:
   - Insider Gaming — PlayStation confirms latest PS5 system update is needed to play GTA 6 | https://insider-gaming.com/playstation-confirms-latest-ps5-system-software-update-is-needed-to-play-gta-6/
   - Beebom — Download this PS5 update if you want to play GTA 6 today | https://beebom.com/gta-6-launch-day-ps5-update/amp/

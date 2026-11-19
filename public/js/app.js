@@ -1,29 +1,9 @@
-import { ZONES, REGIONS, isUsTz } from './zones.js';
-import { unlockUtc, fmt, fmtUnlockLocal, fmtUtc, splitDuration, pad2, fmtCompact, fmtHoursGap } from './time.js';
-import { scheduleRowsHtml } from './schedule.js';
+import { splitDuration, pad2 } from './time.js';
+import { dayLabel } from './day.js';
 
-const MAX_PINS = 5;
-const PRELOAD_START = Date.UTC(2026, 10, 10);
-const KEYS = { pins: 'u6.pins', usRule: 'u6.usRule', sid: 'u6.sid' };
-const MUTE_WORDS = ['GTA 6 ending', 'GTA 6 spoilers', 'GTA VI ending', 'GTA 6 final mission', 'GTA 6 twist', 'GTA 6 leak'];
+const KEYS = { sid: 'u6.sid', showSpoilers: 'u6.showSpoilers', lastVisit: 'u6.lastVisit', prevVisit: 'u6.prevVisit' };
+const MUTE_WORDS = ['GTA 6 ending', 'GTA 6 spoilers', 'GTA VI ending', 'GTA 6 final mission', 'GTA 6 twist'];
 const SEGMENTS = [['d', 'days'], ['h', 'hrs'], ['m', 'mins'], ['s', 'secs']];
-const FALLBACK_ME = 'dubai';
-const TZ_ALIASES = {
-  'Asia/Calcutta': 'Asia/Kolkata', 'Asia/Saigon': 'Asia/Bangkok', 'Asia/Ho_Chi_Minh': 'Asia/Bangkok',
-  'Asia/Kuala_Lumpur': 'Asia/Singapore', 'Asia/Taipei': 'Asia/Hong_Kong', 'Asia/Qatar': 'Asia/Riyadh',
-  'Asia/Kuwait': 'Asia/Riyadh', 'Asia/Bahrain': 'Asia/Riyadh', 'Asia/Muscat': 'Asia/Dubai',
-  'America/Buenos_Aires': 'America/Argentina/Buenos_Aires', 'America/Lima': 'America/Bogota',
-  'America/Montreal': 'America/Toronto', 'America/Detroit': 'America/New_York', 'America/Phoenix': 'America/Denver',
-  'America/Vancouver': 'America/Los_Angeles', 'America/Tijuana': 'America/Los_Angeles',
-  'Australia/Melbourne': 'Australia/Sydney', 'Australia/Canberra': 'Australia/Sydney', 'Australia/Hobart': 'Australia/Sydney',
-  'Australia/ACT': 'Australia/Sydney', 'Australia/NSW': 'Australia/Sydney', 'Australia/Victoria': 'Australia/Sydney',
-  'Europe/Paris': 'Europe/Berlin', 'Europe/Madrid': 'Europe/Berlin', 'Europe/Rome': 'Europe/Berlin',
-  'Europe/Amsterdam': 'Europe/Berlin', 'Europe/Warsaw': 'Europe/Berlin', 'Europe/Stockholm': 'Europe/Berlin',
-  'Europe/Brussels': 'Europe/Berlin', 'Europe/Vienna': 'Europe/Berlin', 'Europe/Zurich': 'Europe/Berlin',
-  'Europe/Prague': 'Europe/Berlin', 'Europe/Copenhagen': 'Europe/Berlin', 'Europe/Oslo': 'Europe/Berlin',
-  'Europe/Dublin': 'Europe/London', 'Europe/Lisbon': 'Europe/London',
-};
-const TZ_RENAMES = { Calcutta: 'Kolkata', Saigon: 'Ho Chi Minh City', Kiev: 'Kyiv', Katmandu: 'Kathmandu', Rangoon: 'Yangon' };
 
 // ---------- storage (never throws) ----------
 const store = {
@@ -35,572 +15,76 @@ const store = {
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
-const byId = new Map(ZONES.map((z) => [z.id, z]));
 
-const state = {
-  usRule: store.get(KEYS.usRule, true) !== false,
-  pins: (store.get(KEYS.pins, []) || []).filter((id) => byId.has(id)).slice(0, MAX_PINS),
-  region: 'all',
-  query: '',
-  liveIds: null,
-  gridOrder: '',
-  slotSig: '',
-  local: null,
-};
-
-const atOf = (z) => unlockUtc(z, state.usRule);
-const shortCountry = (z) => z.country.replace(/ \(.*\)$/, '');
-
-// Nearest upcoming unlock first (ties by city), then unlocked zones, most recent first.
-const orderedZones = (now) => {
-  const rows = ZONES.map((z) => ({ z, at: atOf(z) }));
-  const upcoming = rows.filter((r) => r.at > now).sort((a, b) => a.at - b.at || a.z.city.localeCompare(b.z.city));
-  const live = rows.filter((r) => r.at <= now).sort((a, b) => b.at - a.at || a.z.city.localeCompare(b.z.city));
-  return { upcoming, live };
-};
-
-const nextZone = (now) => orderedZones(now).upcoming[0]?.z || null;
-
-// 'next' resolves to the nearest upcoming unlock; after the last one, to the last zone.
-const zoneFor = (key, now) => {
-  if (key === 'local') return state.local;
-  if (key !== 'next') return byId.get(key);
-  return nextZone(now) || orderedZones(now).live[0]?.z;
-};
-
-// ---------- countdown widget ----------
-const mountCountdown = (el) => {
-  el.innerHTML = SEGMENTS.map(([k, lbl], i) => `${i ? '<span class="cd-colon" aria-hidden="true">:</span>' : ''}<span class="cd-seg"><span class="cd-num" data-k="${k}">00</span><span class="cd-lbl">${lbl}</span></span>`).join('');
-  el.dataset.mode = 'count';
-  el.classList.remove('is-live');
-};
-
-const updateCountdown = (el, zone, now) => {
-  const at = atOf(zone);
-  const left = at - now;
-  if (left <= 0) {
-    if (el.dataset.mode !== 'live') {
-      el.dataset.mode = 'live';
-      el.classList.add('is-live');
-      el.innerHTML = '<div class="unlocked-shout">Unlocked</div><div class="unlocked-sub" data-ago></div>';
-    }
-    $('[data-ago]', el).textContent = `Live in ${zone.city} for ${fmtCompact(now - at)}`;
-    return;
-  }
-  if (el.dataset.mode !== 'count') mountCountdown(el);
-  const parts = splitDuration(left);
-  for (const [k] of SEGMENTS) {
-    const node = $(`[data-k="${k}"]`, el);
-    const next = pad2(parts[k]);
-    if (node.textContent !== next) node.textContent = next;
-  }
-  el.setAttribute('aria-label', `${parts.d} days ${parts.h} hours ${parts.m} minutes until GTA 6 unlocks in ${zone.city}`);
-};
+const escHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 // ---------- toasts ----------
-const toast = (msg, live = false) => {
+const toast = (msg) => {
   const stack = $('.toast-stack');
   if (!stack) return;
   const t = document.createElement('div');
-  t.className = `toast${live ? ' is-live' : ''}`;
+  t.className = 'toast';
   t.textContent = msg;
   stack.append(t);
   setTimeout(() => t.remove(), 4200);
 };
 
-// ---------- actions: pin / calendar / share ----------
-const isPinned = (id) => state.pins.includes(id);
+// ---------- same-origin API calls (the server rejects requests without this header) ----------
+const api = (path, opts = {}) => fetch(path, {
+  ...opts,
+  credentials: 'same-origin',
+  headers: { 'X-GTA6-Client': '1', ...(opts.headers || {}) },
+});
 
-const togglePin = (id) => {
-  if (isPinned(id)) {
-    state.pins = state.pins.filter((p) => p !== id);
-  } else {
-    if (state.pins.length >= MAX_PINS) { toast(`You can pin up to ${MAX_PINS} zones. Unpin one first.`); return; }
-    state.pins = [...state.pins, id];
-    toast(`Pinned ${byId.get(id).city}`);
-  }
-  store.set(KEYS.pins, state.pins);
-  state.slotSig = '';
-  renderSlots();
-  renderWave(Date.now());
-  syncPinButtons();
-  applyFilter();
+// ---------- "Day N since launch" chips (server renders the first value; this keeps it current) ----------
+const renderDay = () => { for (const el of $$('[data-day]')) el.textContent = dayLabel(); };
+
+// ---------- countdowns: only for confirmed dates on the What's next tracker ----------
+const mountCountdown = (el) => {
+  el.innerHTML = SEGMENTS.map(([k, lbl], i) => `${i ? '<span class="cd-colon" aria-hidden="true">:</span>' : ''}<span class="cd-seg"><span class="cd-num" data-k="${k}">00</span><span class="cd-lbl">${lbl}</span></span>`).join('');
 };
 
-const syncPinButtons = () => {
-  for (const b of $$('[data-pin]')) {
-    if (b.classList.contains('slot-unpin')) continue;
-    const on = isPinned(b.dataset.pin);
-    b.setAttribute('aria-pressed', String(on));
-    if (b.classList.contains('pin-btn')) b.textContent = on ? '★' : '☆';
-    else b.textContent = on ? '★ Pinned' : '☆ Pin';
-  }
-  const count = $('[data-pin-count]');
-  if (count) count.textContent = `${state.pins.length} / ${MAX_PINS}`;
-};
-
-const icsStamp = (ms) => new Date(ms).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-
-const downloadIcs = (zone) => {
-  const at = atOf(zone);
-  const ics = [
-    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Unlock OClock//GTA 6 Countdown//EN', 'CALSCALE:GREGORIAN',
-    'BEGIN:VEVENT',
-    `UID:gta6-${zone.id}-${at}@unlock-oclock`,
-    `DTSTAMP:${icsStamp(Date.now())}`,
-    `DTSTART:${icsStamp(at)}`,
-    'DURATION:PT2H',
-    `SUMMARY:GTA 6 unlocks (${zone.city})`,
-    `DESCRIPTION:GTA 6 unlocks now in ${zone.city}. Countdown: ${location.origin}/`,
-    'BEGIN:VALARM', 'TRIGGER:-PT15M', 'ACTION:DISPLAY', 'DESCRIPTION:GTA 6 unlocks in 15 minutes', 'END:VALARM',
-    'END:VEVENT', 'END:VCALENDAR',
-  ].join('\r\n');
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
-  a.download = `gta6-unlock-${zone.id}.ics`;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-  toast('Calendar reminder downloaded');
-};
-
-const shareZone = async (zone) => {
-  const left = atOf(zone) - Date.now();
-  const text = left > 0
-    ? `GTA 6 unlocks in ${zone.city} in ${fmtCompact(left)}. Live countdown for every time zone:`
-    : `GTA 6 is live in ${zone.city}. When does it unlock for you?`;
-  const url = `${location.origin}/gta-6-release-time/${zone.slug}/`;
-  try {
-    if (navigator.share) { await navigator.share({ title: 'GTA 6 Countdown', text, url }); return; }
-    await navigator.clipboard.writeText(`${text} ${url}`);
-    toast('Link copied');
-  } catch { /* share sheet dismissed */ }
-};
-
-const renderActions = (el, zone, withPin) => {
-  el.innerHTML = `
-    ${withPin ? `<button class="btn" type="button" data-pin="${zone.id}" aria-pressed="false">☆ Pin</button>` : ''}
-    <button class="btn" type="button" data-ics>📅 Add to calendar</button>
-    <button class="btn btn-hot" type="button" data-share>Share</button>`;
-  $('[data-ics]', el).addEventListener('click', () => downloadIcs(zone));
-  $('[data-share]', el).addEventListener('click', () => shareZone(zone));
-  syncPinButtons();
-};
-
-// ---------- zone cards ----------
-const cardHtml = (zone, big) => `
-<article class="zcard${big ? ' zcard-big' : ''}" data-card="${zone.id}">
-  <div class="zcard-top">
-    <span class="zcard-flag" aria-hidden="true">${zone.flag}</span>
-    <div class="zcard-name">
-      <a class="zcard-city" href="/gta-6-release-time/${zone.slug}/">${zone.city}</a>
-      <span class="zcard-country">${zone.country}${zone.also.length ? ` · ${zone.also.slice(0, 3).join(', ')}` : ''}</span>
-    </div>
-    <button class="pin-btn" type="button" data-pin="${zone.id}" aria-pressed="false" aria-label="Pin ${zone.city}">☆</button>
-  </div>
-  ${big ? `<span class="status" data-status>Locked</span><div class="countdown countdown-sm" data-countdown="${zone.id}"></div>` : '<div class="zcard-row"><span class="zcard-count" data-count>—</span><span class="status" data-status>Locked</span></div>'}
-  <div class="zcard-bar" aria-hidden="true"><i data-bar></i></div>
-  <div class="zcard-meta"><span data-unlock></span><span data-now></span></div>
-</article>`;
-
-const renderGrid = (now) => {
-  const grid = $('[data-zones]');
-  if (!grid) return;
-  const { upcoming, live } = orderedZones(now);
-  const signature = [...upcoming, ...live].map((r) => r.z.id).join(',');
-  if (signature === state.gridOrder) return;
-  state.gridOrder = signature;
-  grid.innerHTML = upcoming.map((r) => cardHtml(r.z, false)).join('')
-    + (live.length ? `<p class="group-label">Unlocked · ${live.length}</p>${live.map((r) => cardHtml(r.z, false)).join('')}` : '');
-  syncPinButtons();
-  applyFilter();
-};
-
-const applyFilter = () => {
-  const q = state.query.trim().toLowerCase();
-  let shown = 0;
-  for (const card of $$('[data-zones] [data-card]')) {
-    const z = byId.get(card.dataset.card);
-    const hay = `${z.city} ${z.country} ${z.also.join(' ')} ${z.tz}`.toLowerCase();
-    const okRegion = state.region === 'all' || (state.region === 'pinned' ? isPinned(z.id) : z.region === state.region);
-    const ok = okRegion && (!q || hay.includes(q));
-    card.hidden = !ok;
-    if (ok) shown += 1;
-  }
-  const label = $('[data-zones] .group-label');
-  if (label) label.hidden = !$$('[data-zones] .group-label ~ [data-card]').some((c) => !c.hidden);
-  const empty = $('[data-empty]');
-  if (empty) empty.hidden = shown > 0;
-};
-
-const renderChips = () => {
-  const wrap = $('[data-chips]');
-  if (!wrap) return;
-  const chips = [['all', 'All'], ['pinned', '★ Pinned'], ...Object.entries(REGIONS)];
-  wrap.innerHTML = chips.map(([k, l]) => `<button class="chip" type="button" data-region="${k}" aria-pressed="${state.region === k}">${l}</button>`).join('');
-  wrap.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-region]');
-    if (!b) return;
-    state.region = b.dataset.region;
-    for (const c of $$('[data-region]', wrap)) c.setAttribute('aria-pressed', String(c === b));
-    applyFilter();
-  });
-};
-
-// ---------- unlock wave: night fill creeping right, smooth valley at the next unlock ----------
-// x is piecewise: the 24 h before the first unlock map onto the left lead-in (0 → FIRST_X), and the
-// unlock window maps onto FIRST_X → END_X. The night fill ends at "now", so it moves with the time left.
-const WAVE_LEAD_MS = 24 * 3600 * 1000;
-const WAVE_FIRST_X = 0.14;
-const WAVE_END_X = 0.95;
-const WAVE_H = 132;
-const WAVE_BASE = 30;
-const WAVE_DEPTH = 34;
-const WAVE_SIGMA = 0.075;
-const WAVE_SAMPLES = 120;
-const TZ_ABBR = {
-  auckland: 'NZDT', sydney: 'AEDT', adelaide: 'ACDT', brisbane: 'AEST', tokyo: 'JST', seoul: 'KST', perth: 'AWST',
-  singapore: 'SGT', hongkong: 'HKT', manila: 'PHT', bangkok: 'ICT', jakarta: 'WIB', india: 'IST', karachi: 'PKT',
-  dubai: 'GST', riyadh: 'AST', istanbul: 'TRT', johannesburg: 'SAST', berlin: 'CET', london: 'GMT', saopaulo: 'BRT',
-  buenosaires: 'ART', bogota: 'COT', newyork: 'EST', toronto: 'EST', chicago: 'CST', mexico: 'CST', denver: 'MST',
-  losangeles: 'PST', honolulu: 'HST',
-};
-const waveGeom = { min: 0, max: 0 };
-
-const waveFx = (t) => {
-  const { min, max } = waveGeom;
-  if (t <= min) return Math.max(0, 1 - (min - t) / WAVE_LEAD_MS) * WAVE_FIRST_X;
-  return WAVE_FIRST_X + Math.min(1, (t - min) / (max - min || 1)) * (WAVE_END_X - WAVE_FIRST_X);
-};
-
-const waveY = (fx, valley) => {
-  const d = (fx - valley) / WAVE_SIGMA;
-  return WAVE_BASE + WAVE_DEPTH * Math.exp(-(d * d) / 2) + 3 * Math.sin(fx * Math.PI * 4);
-};
-
-// Full zone names for one unlock instant: "🇯🇵 Tokyo — Japan Standard Time".
-const longTzName = (tz, at) => {
-  try {
-    return new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'long' }).formatToParts(new Date(at)).find((p) => p.type === 'timeZoneName')?.value || tz;
-  } catch { return tz; }
-};
-const tipFor = (at, rows) => {
-  const zones = rows.filter((r) => r.at === at).map(({ z }) => `${z.flag} ${z.city} — ${longTzName(z.tz, at)}`);
-  return `${zones.join('\n')}\nUnlocks ${fmtUtc(at)}`;
-};
-
-const wireWaveTip = (track) => {
-  if (track.dataset.tipWired) return;
-  track.dataset.tipWired = '1';
-  const card = track.parentElement;
-  const tip = document.createElement('div');
-  tip.className = 'wave-tip';
-  tip.hidden = true;
-  tip.setAttribute('role', 'tooltip');
-  card.append(tip);
-  const show = (dot) => {
-    tip.textContent = dot.dataset.tip;
-    tip.hidden = false;
-    const c = card.getBoundingClientRect();
-    const d = dot.getBoundingClientRect();
-    const w = tip.offsetWidth;
-    const h = tip.offsetHeight;
-    const left = Math.min(Math.max(8, d.left - c.left + d.width / 2 - w / 2), c.width - w - 8);
-    const above = d.top - c.top - h - 10;
-    tip.style.left = `${left}px`;
-    tip.style.top = `${above > 4 ? above : d.bottom - c.top + 10}px`;
-  };
-  track.addEventListener('pointerover', (e) => { const dot = e.target.closest('.wave-dot'); if (dot) show(dot); });
-  track.addEventListener('pointerout', (e) => { if (e.target.closest('.wave-dot')) tip.hidden = true; });
-  track.addEventListener('pointerdown', (e) => { const dot = e.target.closest('.wave-dot'); if (dot) show(dot); else tip.hidden = true; });
-};
-
-const renderWave = (now) => {
-  const track = $('[data-wave]');
-  if (!track) return;
-  const rows = ZONES.map((z) => ({ z, at: atOf(z) }));
-  waveGeom.min = Math.min(...rows.map((r) => r.at));
-  waveGeom.max = Math.max(...rows.map((r) => r.at));
-  // One TZ label per distinct unlock instant ("JST·KST", or "EST +5" for a crowd).
-  const groups = new Map();
-  for (const { z, at } of rows) {
-    if (!groups.has(at)) groups.set(at, []);
-    const abbr = TZ_ABBR[z.id] || z.city.slice(0, 3).toUpperCase();
-    if (!groups.get(at).includes(abbr)) groups.get(at).push(abbr);
-  }
-  const important = new Set([waveGeom.min, waveGeom.max, state.local ? atOf(state.local) : -1]);
-  const labels = [...groups.entries()].sort((a, b) => a[0] - b[0]).map(([at, abbrs], k) => {
-    const text = abbrs.length <= 2 ? abbrs.join('·') : `${abbrs[0]} +${abbrs.length - 1}`;
-    return `<span class="wave-tz${important.has(at) ? '' : ' minor'}" data-at="${at}" data-row="${k % 2}" title="${abbrs.join(', ')}">${text}</span>`;
-  }).join('');
-  track.innerHTML = `<svg class="wave-svg" aria-hidden="true" preserveAspectRatio="none"><defs><linearGradient id="wave-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0" data-wave-grad></linearGradient></defs><path class="wave-curve" data-wave-curve stroke="url(#wave-grad)"/></svg>
-    ${rows.map(({ z, at }) => `<span class="wave-dot" data-dot="${z.id}" data-at="${at}" data-tip="${escHtml(tipFor(at, rows))}"></span>`).join('')}
-    ${labels}
-    <span class="wave-label top next" data-wave-next></span>
-    <div class="wave-now" data-wave-now><span>now</span></div>`;
-  wireWaveTip(track);
-  updateWave(now);
-};
-
-const updateWave = (now) => {
-  const track = $('[data-wave]');
-  if (!track || !waveGeom.max || !$('[data-wave-curve]', track)) return;
-  const width = track.clientWidth || 1;
-  const { upcoming } = orderedZones(now);
-  const next = upcoming[0];
-  const valley = next ? waveFx(next.at) : WAVE_END_X;
-  const nowFx = waveFx(now);
-
-  const pts = [];
-  for (let k = 0; k <= WAVE_SAMPLES; k += 1) {
-    const fx = k / WAVE_SAMPLES;
-    pts.push([fx * width, waveY(fx, valley)]);
-  }
-  const line = pts.map(([x, y], k) => `${k ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
-  // Gradient along the line: neutral up to "now" (live), dawn navy for pending, orange around the next valley.
-  const LIVE = '#8b93a1';
-  const NAVY = '#1c2a4f';
-  const ORANGE = '#f08a24';
-  const clamp01 = (v) => Math.min(1, Math.max(0, v));
-  const stops = [[0, LIVE], [nowFx, LIVE], [nowFx, NAVY]];
-  if (next) {
-    const a = clamp01(Math.max(nowFx, valley - 1.6 * WAVE_SIGMA));
-    const b = clamp01(Math.max(nowFx, valley - 0.6 * WAVE_SIGMA));
-    const c = clamp01(valley + 0.6 * WAVE_SIGMA);
-    const d = clamp01(valley + 1.6 * WAVE_SIGMA);
-    stops.push([a, NAVY], [b, ORANGE], [c, ORANGE], [d, NAVY]);
-  }
-  stops.push([1, NAVY]);
-  const grad = $('[data-wave-grad]', track);
-  grad.setAttribute('x2', String(width));
-  grad.innerHTML = stops.map(([o, col]) => `<stop offset="${clamp01(o).toFixed(4)}" stop-color="${col}"/>`).join('');
-  const svg = $('.wave-svg', track);
-  svg.setAttribute('viewBox', `0 0 ${width} ${WAVE_H}`);
-  $('[data-wave-curve]', track).setAttribute('d', line);
-
-  const rank = new Map(upcoming.map((r, k) => [r.z.id, k]));
-  const span = Math.max(1, upcoming.length - 1);
-  for (const dot of $$('[data-dot]', track)) {
-    const at = Number(dot.dataset.at);
-    const fx = waveFx(at);
-    const isPast = !rank.has(dot.dataset.dot);
-    const isNext = !!next && at === next.at;
-    dot.style.left = `${(fx * 100).toFixed(3)}%`;
-    dot.style.top = `${waveY(fx, valley).toFixed(1)}px`;
-    dot.classList.toggle('is-on', isPast);
-    dot.classList.toggle('is-next', isNext);
-    dot.style.setProperty('--t', isPast || isNext ? '0' : String(Math.min(1, 0.25 + (0.75 * rank.get(dot.dataset.dot)) / span)));
-  }
-  // Labels: greedy placement into up to 3 rows; hidden only when there is truly no room (dots keep a tooltip).
-  const rowEnd = [-Infinity, -Infinity, -Infinity];
-  for (const tz of $$('.wave-tz', track)) {
-    const at = Number(tz.dataset.at);
-    const fx = waveFx(at);
-    const x = fx * width;
-    const half = (tz.offsetWidth || tz.textContent.length * 6) / 2 + 3;
-    const row = rowEnd.findIndex((end) => end < x - half);
-    tz.hidden = row < 0;
-    if (row >= 0) rowEnd[row] = x + half;
-    tz.style.left = `${(fx * 100).toFixed(3)}%`;
-    tz.style.top = `${(waveY(fx, valley) + 12 + Math.max(0, row) * 11).toFixed(1)}px`;
-    tz.classList.toggle('on-night', fx <= nowFx);
-    tz.classList.toggle('is-next', !!next && at === next.at);
-  }
-  const marker = $('[data-wave-now]', track);
-  marker.style.left = `${(nowFx * 100).toFixed(3)}%`;
-  marker.hidden = true; // the colour change along the line marks "now"
-  const label = $('[data-wave-next]', track);
-  label.hidden = !next;
-  if (next) {
-    label.style.left = `${(valley * 100).toFixed(3)}%`;
-    label.classList.toggle('flip-left', valley > 0.75);
-    label.classList.toggle('flip-right', valley < 0.25);
-    label.textContent = `Next: ${next.z.flag} ${next.z.city} · in ${fmtCompact(next.at - now)}`;
-  }
-};
-
-// ---------- hero: five zones side by side ----------
-// The visitor's own zone: a tracked zone when the browser's tz maps to one, else an ad-hoc zone.
-const detectLocal = () => {
-  let tz = '';
-  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch { /* old browser */ }
-  if (!tz || tz === 'UTC' || tz === 'Etc/UTC') return null;
-  const known = ZONES.find((z) => z.tz === (TZ_ALIASES[tz] || tz));
-  if (known) return known;
-  const raw = tz.split('/').pop().replace(/_/g, ' ');
-  return { id: 'local', tz, city: TZ_RENAMES[raw] || raw, country: 'Your time zone', flag: '📍', region: '', slug: '', also: [], us: isUsTz(tz) };
-};
-
-const earliestZone = () => ZONES.reduce((a, b) => (atOf(b) < atOf(a) ? b : a));
-
-// A earliest · B the visitor (else Middle East) · C London · D New York · E US West Coast.
-// Each pin replaces the default slot nearest to it in unlock time; ties go to the earlier slot.
-const buildSlots = () => {
-  const slots = [
-    { role: 'First on Earth', zone: earliestZone() },
-    { role: 'Your time zone', zone: state.local, you: true },
-    { role: 'London', zone: byId.get('london') },
-    { role: 'New York', zone: byId.get('newyork') },
-    { role: 'US West Coast', zone: byId.get('losangeles') },
-  ];
-  const dupe = slots[1].zone && slots.some((s, i) => i !== 1 && s.zone.id === slots[1].zone.id);
-  if (!slots[1].zone || dupe) slots[1] = { role: 'Middle East', zone: byId.get(FALLBACK_ME) };
-  for (const id of state.pins) {
-    const zone = byId.get(id);
-    const same = slots.find((s) => s.zone.id === id);
-    if (same) { same.pinned = true; continue; }
-    const at = atOf(zone);
-    let best = -1;
-    slots.forEach((s, i) => {
-      if (s.pinned) return;
-      if (best < 0 || Math.abs(atOf(s.zone) - at) < Math.abs(atOf(slots[best].zone) - at)) best = i;
-    });
-    if (best >= 0) slots[best] = { role: '★ Pinned', zone, pinned: true };
-  }
-  return slots;
-};
-
-const slotHtml = ({ role, zone, you, pinned }) => {
-  const name = zone.slug
-    ? `<a class="slot-city" href="/gta-6-release-time/${zone.slug}/">${zone.flag} ${zone.city}</a>`
-    : `<span class="slot-city">${zone.flag} ${zone.city}</span>`;
-  return `<article class="slot${you ? ' is-you' : ''}${pinned ? ' is-pinned' : ''}" data-slot="${zone.id}">
-    <span class="slot-role">${role}</span>
-    ${name}
-    <div class="countdown" data-countdown="${zone.id}" aria-live="off"></div>
-    <p class="slot-when">${fmtUnlockLocal(atOf(zone), zone.tz)}${zone.us && state.usRule ? ' · ET store' : ''}</p>
-    ${pinned ? `<button class="slot-unpin" type="button" data-pin="${zone.id}" aria-label="Unpin ${zone.city}" title="Unpin">✕</button>` : ''}
-  </article>`;
-};
-
-const renderSlots = () => {
-  const wrap = $('[data-slots]');
-  if (!wrap) return;
-  const slots = buildSlots();
-  const sig = `${state.usRule}|${slots.map((s) => `${s.zone.id}:${s.role}:${!!s.pinned}`).join(',')}`;
-  if (sig === state.slotSig) return;
-  state.slotSig = sig;
-  wrap.innerHTML = slots.map(slotHtml).join('');
-  for (const el of $$('[data-countdown]', wrap)) mountCountdown(el);
-};
-
-// ---------- the 1-second heartbeat ----------
-const tick = () => {
-  const now = Date.now();
-  renderGrid(now);
-  renderSlots();
-  for (const el of $$('[data-slot]')) el.classList.toggle('is-live', atOf(zoneFor(el.dataset.slot, now)) <= now);
-  for (const el of $$('[data-next-where]')) {
-    const z = nextZone(now);
-    el.textContent = z ? `Next to unlock: ${z.flag} ${z.city}, ${shortCountry(z)}` : 'GTA 6 is live in every time zone';
-  }
-
-  for (const el of $$('[data-countdown]')) {
-    const zone = zoneFor(el.dataset.countdown, now);
-    if (zone) updateCountdown(el, zone, now);
-  }
-
-  const { upcoming, live } = orderedZones(now);
-  const liveSet = new Set(live.map((r) => r.z.id));
-  const nextId = upcoming[0]?.z.id;
-
-  for (const card of $$('[data-card]')) {
-    const z = byId.get(card.dataset.card);
-    const at = atOf(z);
-    const left = at - now;
-    const isLive = left <= 0;
-    card.classList.toggle('is-live', isLive);
-    card.classList.toggle('is-next', z.id === nextId);
-    card.classList.toggle('is-you', state.local?.id === z.id);
-    card.classList.toggle('is-soon', !isLive && z.id !== nextId && left < 3600_000);
-    $('[data-status]', card).textContent = isLive ? 'Unlocked' : z.id === nextId ? 'Next up' : left < 3600_000 ? 'Under 1 hour' : 'Locked';
-    const count = $('[data-count]', card);
-    if (count) count.textContent = isLive ? `Live for ${fmtCompact(-left)}` : fmtCompact(left);
-    $('[data-bar]', card).style.width = `${Math.min(100, Math.max(0, ((now - PRELOAD_START) / (at - PRELOAD_START)) * 100))}%`;
-    $('[data-unlock]', card).textContent = `${fmtUnlockLocal(at, z.tz)}${z.us && state.usRule ? ' · ET store' : ''}`;
-    $('[data-now]', card).textContent = `Now ${fmt(now, z.tz, { hour: 'numeric', minute: '2-digit' })}`;
-  }
-
-  for (const tr of $$('[data-schedule] tr')) tr.classList.toggle('is-live', liveSet.has(tr.dataset.zone));
-
-  const set = (k, v) => { for (const el of $$(`[data-stat="${k}"]`)) el.textContent = v; };
-  const rows = ZONES.map((z) => ({ z, at: atOf(z) }));
-  const first = rows.reduce((a, b) => (b.at < a.at ? b : a));
-  const last = rows.reduce((a, b) => (b.at > a.at ? b : a));
-  set('first', `${first.z.flag} ${first.z.city}`);
-  set('first-in', first.at > now ? `in ${fmtCompact(first.at - now)}` : `live for ${fmtCompact(now - first.at)}`);
-  set('last', `${last.z.flag} ${last.z.city}`);
-  set('last-in', last.at > now ? `in ${fmtCompact(last.at - now)}` : `live for ${fmtCompact(now - last.at)}`);
-  set('unlocked', `${liveSet.size} / ${ZONES.length}`);
-  set('gap', fmtHoursGap(last.at - first.at));
-  set('gap-inline', fmtHoursGap(last.at - first.at));
-
-  updateWave(now);
-
-  if (state.liveIds) {
-    for (const id of liveSet) {
-      if (!state.liveIds.has(id)) {
-        const z = byId.get(id);
-        toast(`GTA 6 just unlocked in ${z.flag} ${z.city}`, true);
-      }
+const tickCountdowns = () => {
+  for (const el of $$('[data-countdown-to]')) {
+    const left = Date.parse(el.dataset.countdownTo) - Date.now();
+    if (left <= 0) {
+      if (!el.classList.contains('is-live')) { el.classList.add('is-live'); el.innerHTML = '<div class="unlocked-shout">Out now</div>'; }
+      continue;
+    }
+    const parts = splitDuration(left);
+    for (const [k] of SEGMENTS) {
+      const node = $(`[data-k="${k}"]`, el);
+      const next = pad2(parts[k]);
+      if (node && node.textContent !== next) node.textContent = next;
     }
   }
-  state.liveIds = liveSet;
 };
 
-const startHeartbeat = () => {
-  const loop = () => {
-    tick();
-    setTimeout(loop, 1000 - (Date.now() % 1000) + 8);
-  };
+const startCountdowns = () => {
+  const els = $$('[data-countdown-to]');
+  if (!els.length) return;
+  els.forEach(mountCountdown);
+  const loop = () => { tickCountdowns(); setTimeout(loop, 1000 - (Date.now() % 1000) + 8); };
   loop();
 };
 
-// ---------- city pages ----------
-const renderCityActions = () => {
-  for (const el of $$('[data-actions]')) {
-    if (el.dataset.actions === 'next') continue;
-    const z = byId.get(el.dataset.actions);
-    if (z) renderActions(el, z, true);
-  }
+// ---------- spoiler switch: spoiler posts stay out of lists until the visitor turns this off ----------
+const applySpoilers = (show) => {
+  document.documentElement.classList.toggle('show-spoilers', show);
+  for (const box of $$('[data-spoiler-toggle]')) box.checked = !show;
 };
 
-// ---------- schedule + US rule switch ----------
-const renderSchedule = () => {
-  const body = $('[data-schedule]');
-  if (body) body.innerHTML = scheduleRowsHtml(state.usRule);
-};
-
-const rerenderAll = () => {
-  state.gridOrder = '';
-  state.slotSig = '';
-  state.liveIds = null;
-  for (const el of $$('[data-countdown]')) mountCountdown(el);
-  renderSchedule();
-  renderWave(Date.now());
-  tick();
-};
-
-const wireUsRule = () => {
-  const input = $('[data-usrule]');
-  if (!input) return;
-  const label = $('[data-usrule-label]');
-  const sync = () => { if (label) label.textContent = state.usRule ? 'Eastern Time' : 'Local midnight'; };
-  input.checked = state.usRule;
-  sync();
-  input.addEventListener('change', () => {
-    state.usRule = input.checked;
-    store.set(KEYS.usRule, state.usRule);
-    sync();
-    rerenderAll();
-    toast(state.usRule ? 'US zones follow the Eastern-Time PS Store' : 'US zones unlock at strict local midnight');
+const wireSpoilers = () => {
+  applySpoilers(store.get(KEYS.showSpoilers, false) === true);
+  document.addEventListener('change', (e) => {
+    const box = e.target.closest('[data-spoiler-toggle]');
+    if (!box) return;
+    const show = !box.checked;
+    store.set(KEYS.showSpoilers, show);
+    applySpoilers(show);
+    toast(show ? 'Spoiler posts are now shown' : 'Spoiler posts are hidden');
+    dispatchEvent(new Event('hero:content'));
   });
-};
-
-// ---------- misc wiring ----------
-const wireSearch = () => {
-  const input = $('[data-search]');
-  if (!input) return;
-  input.addEventListener('input', () => { state.query = input.value; applyFilter(); });
 };
 
 const wireMute = () => {
@@ -611,16 +95,48 @@ const wireMute = () => {
   }
 };
 
-// ---------- same-origin API calls (the server rejects requests without this header) ----------
-const api = (path, opts = {}) => fetch(path, {
-  ...opts,
-  credentials: 'same-origin',
-  headers: { 'X-GTA6-Client': '1', ...(opts.headers || {}) },
-});
+// ---------- "new since your last visit" dots ----------
+// The first page of a browser session remembers when the previous visit was; every page in the session
+// compares against that, so the dots don't vanish on the next click.
+let lastVisitAt = 0;
 
-const escHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const markNew = () => {
+  if (!lastVisitAt) return;
+  for (const el of $$('[data-ts]')) el.classList.toggle('is-new', Date.parse(el.dataset.ts) > lastVisitAt);
+};
 
-// ---------- PSN status: shared fetch (server proxies + caches Sony's feed), slide + header boxes ----------
+const startNewDots = () => {
+  let prev = null;
+  try { prev = sessionStorage.getItem(KEYS.prevVisit); } catch { /* blocked */ }
+  if (prev === null) {
+    prev = String(store.get(KEYS.lastVisit, 0) || 0);
+    try { sessionStorage.setItem(KEYS.prevVisit, prev); } catch { /* blocked */ }
+  }
+  store.set(KEYS.lastVisit, Date.now());
+  lastVisitAt = Number(prev) || 0;
+  markNew();
+};
+
+// ---------- /news/ type chips: All · News · Guides · Fixes ----------
+const wireTypeChips = () => {
+  const wrap = $('[data-type-chips]');
+  if (!wrap) return;
+  wrap.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-type]');
+    if (!b) return;
+    const type = b.dataset.type;
+    for (const c of $$('[data-type]', wrap)) c.setAttribute('aria-pressed', String(c === b));
+    for (const card of $$('.news-list .news-card')) card.hidden = type !== 'all' && card.dataset.type !== type;
+  });
+};
+
+const markCurrentNav = () => {
+  for (const a of $$('.site-header nav a')) {
+    if (a.pathname !== '/' && a.pathname === location.pathname) a.setAttribute('aria-current', 'page');
+  }
+};
+
+// ---------- PSN status: shared fetch (server proxies + caches Sony's feed), slide, line + header boxes ----------
 const PSN_LINK = '<a href="https://status.playstation.com/" rel="noopener" target="_blank">status.playstation.com</a>';
 const PSN_REFRESH_MS = 300_000;
 let psnData = null;
@@ -638,6 +154,9 @@ const fetchPsn = async () => {
   return psnData;
 };
 
+const psnIssues = (d) => (d.ok ? [...d.countryIncidents, ...d.services.flatMap((x) => x.incidents)] : []);
+const istTime = (iso) => new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit' }).format(new Date(iso));
+
 const renderPsnMini = (d) => {
   for (const box of $$('[data-psn-box]')) {
     const svc = d.ok ? d.services.find((x) => x.id === box.dataset.psnBox) : null;
@@ -647,7 +166,7 @@ const renderPsnMini = (d) => {
     box.setAttribute('aria-label', box.dataset.tip);
   }
   for (const wrap of $$('[data-psn-mini]')) {
-    const issues = d.ok ? d.services.some((x) => x.incidents.length) || d.countryIncidents.length > 0 : false;
+    const issues = psnIssues(d).length > 0;
     wrap.dataset.state = !d.ok ? 'unknown' : issues ? 'issue' : 'ok';
     wrap.setAttribute('aria-label', !d.ok ? 'PlayStation live status unavailable' : issues ? 'PlayStation is reporting problems in India' : 'All PlayStation services are up in India');
   }
@@ -657,27 +176,39 @@ const renderPsnMini = (d) => {
   }
 };
 
-const renderPsnSlide = (d) => {
-  const box = $('[data-psn]');
-  if (!box) return;
-  if (!d.ok) { box.innerHTML = `<p class="psn-overall psn-unknown">Couldn't reach the PlayStation status page. Check ${PSN_LINK} directly.</p>`; return; }
-  const issues = [...d.countryIncidents, ...d.services.flatMap((x) => x.incidents)];
-  const checked = new Intl.DateTimeFormat('en-IN', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit' }).format(new Date(d.checkedAt));
-  box.innerHTML = `
-    <p class="psn-overall ${issues.length ? 'psn-issue' : 'psn-ok'}">${issues.length ? '⚠️ PlayStation is reporting problems in India' : '✅ All PlayStation services are up in India'}</p>
-    <ul class="psn-services">${d.services.map((x) => `<li class="${x.incidents.length ? 'is-issue' : 'is-ok'}"><span>${escHtml(x.name)}</span><b>${x.incidents.length ? escHtml(x.incidents[0].type) : 'Up'}</b></li>`).join('')}</ul>
-    ${issues[0]?.message ? `<p class="psn-msg">${escHtml(issues[0].message)}</p>` : ''}
-    <p class="psn-src">Checked ${escHtml(checked)} IST${d.stale ? ' (cached)' : ''} · source: ${PSN_LINK}</p>`;
+const renderPsnBoxes = (d) => {
+  for (const box of $$('[data-psn]')) {
+    if (!d.ok) { box.innerHTML = `<p class="psn-overall psn-unknown">Couldn't reach the PlayStation status page. Check ${PSN_LINK} directly.</p>`; continue; }
+    const issues = psnIssues(d);
+    box.innerHTML = `
+      <p class="psn-overall ${issues.length ? 'psn-issue' : 'psn-ok'}">${issues.length ? '⚠️ PlayStation is reporting problems in India' : '✅ All PlayStation services are up in India'}</p>
+      <ul class="psn-services">${d.services.map((x) => `<li class="${x.incidents.length ? 'is-issue' : 'is-ok'}"><span>${escHtml(x.name)}</span><b>${x.incidents.length ? escHtml(x.incidents[0].type) : 'Up'}</b></li>`).join('')}</ul>
+      ${issues[0]?.message ? `<p class="psn-msg">${escHtml(issues[0].message)}</p>` : ''}
+      <p class="psn-src">Checked ${escHtml(istTime(d.checkedAt))} IST${d.stale ? ' (cached)' : ''} · source: ${PSN_LINK}</p>`;
+  }
+};
+
+const renderPsnLine = (d) => {
+  for (const el of $$('[data-psn-line]')) {
+    const issues = psnIssues(d).length > 0;
+    el.dataset.state = !d.ok ? 'unknown' : issues ? 'issue' : 'ok';
+    el.innerHTML = !d.ok
+      ? `Couldn't reach the PlayStation status page. Check ${PSN_LINK}.`
+      : issues
+        ? '⚠️ PlayStation is reporting problems in India. <a href="/fixes/">Live status and what to do →</a>'
+        : `✅ All PlayStation services are up in India · checked ${escHtml(istTime(d.checkedAt))} IST`;
+  }
 };
 
 const loadPsn = async () => {
   const d = await fetchPsn();
   renderPsnMini(d);
-  renderPsnSlide(d);
+  renderPsnBoxes(d);
+  renderPsnLine(d);
 };
 
 const startPsn = () => {
-  if (!$('[data-psn-mini]') && !$('[data-psn]')) return;
+  if (!$('[data-psn-mini], [data-psn], [data-psn-line]')) return;
   loadPsn();
   setInterval(() => { if (!document.hidden) loadPsn(); }, PSN_REFRESH_MS);
 };
@@ -712,7 +243,7 @@ const wireCarousel = () => {
 
   // The hero is locked to the tallest slide (+ breathing room) so it never jumps between slides.
   // Measured with the lock released (all in one frame, nothing paints in between); only re-measured
-  // when the viewport or fonts change, and only applied when the result actually differs.
+  // when the viewport, fonts or content change, and only applied when the result actually differs.
   const HERO_SLACK = 28;
   let lockedHeight = 0;
   const fitHeight = () => {
@@ -726,7 +257,7 @@ const wireCarousel = () => {
     index = i2;
     tabs.forEach((t, k) => { t.setAttribute('aria-selected', String(k === i2)); t.tabIndex = k === i2 ? 0 : -1; });
     slides.forEach((sl, k) => { sl.inert = k !== i2; sl.setAttribute('aria-hidden', String(k !== i2)); });
-    if (slides[i2].id === 'slide-psn') loadPsn();
+    if (slides[i2].id === 'slide-fixes') loadPsn();
     setProgress();
   };
 
@@ -753,7 +284,6 @@ const wireCarousel = () => {
     const clone = slides[0].cloneNode(true);
     clone.removeAttribute('id');
     clone.querySelectorAll('[id]').forEach((n) => n.removeAttribute('id'));
-    clone.querySelectorAll('[data-slots]').forEach((n) => n.removeAttribute('data-slots'));
     clone.inert = true;
     clone.setAttribute('aria-hidden', 'true');
     track.append(clone);
@@ -841,11 +371,12 @@ const wireCarousel = () => {
   setStopped(stopped);
   setActive(0);
 
+  // ?slide=guides opens that slide; with ?fs=1 the slideshow also starts paused.
   const params = new URLSearchParams(location.search);
-  const wanted = params.get('slide') || (params.get('fs') === '1' ? 'countdown' : '');
+  const wanted = params.get('slide') || '';
   const target = wanted ? slides.findIndex((sl) => sl.id === `slide-${wanted}`) : -1;
+  if (params.get('fs') === '1' && wanted) setStopped(true);
   if (target > 0) {
-    if (params.get('fs') === '1') setStopped(true);
     setActive(target);
     requestAnimationFrame(() => { track.scrollLeft = slides[target].offsetLeft; });
   }
@@ -889,13 +420,6 @@ const registerServiceWorker = () => {
   addEventListener('load', () => { navigator.serviceWorker.register('/sw.js').catch(() => { /* offline support is optional */ }); });
 };
 
-const wirePins = () => {
-  document.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-pin]');
-    if (b) togglePin(b.dataset.pin);
-  });
-};
-
 // ---------- visit counter ----------
 const newSid = () => Array.from(crypto.getRandomValues(new Uint8Array(16)), (b) => b.toString(36).padStart(2, '0')).join('').slice(0, 24);
 
@@ -925,23 +449,29 @@ const startVisits = async () => {
   setInterval(() => { if (document.visibilityState === 'visible') hit(false); }, 30_000);
 };
 
+// ---------- floating panels: quick answers, AI brief, search — only one open at a time ----------
+const panels = new Map(); // id → close()
+const closeOthers = (id) => { for (const [other, close] of panels) if (other !== id) close(); };
+
 // Floating quick-answers panel: toggle, Esc, click outside, focus back to the button.
 const wireFaqPopup = () => {
   const fab = $('.faq-fab');
   const pop = $('#faq-pop');
   if (!fab || !pop) return;
   const set = (open) => {
+    if (open) closeOthers('faq');
     pop.hidden = !open;
     fab.setAttribute('aria-expanded', String(open));
     if (open) $('.faq-pop-close', pop)?.focus();
   };
+  panels.set('faq', () => { if (!pop.hidden) set(false); });
   fab.addEventListener('click', () => set(pop.hidden));
   $('.faq-pop-close', pop)?.addEventListener('click', () => { set(false); fab.focus(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); fab.focus(); } });
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !fab.contains(e.target)) set(false); });
 };
 
-// Floating AI brief: opened by the floating button or the header icon.
+// Floating AI brief: opened by the floating button, the header chip or the carousel button.
 const wireAiBrief = () => {
   const pop = $('#ai-pop');
   if (!pop) return;
@@ -949,10 +479,12 @@ const wireAiBrief = () => {
   // Don't hand focus back into the carousel: keyboard focus there pauses autoplay.
   const restoreFocus = () => (lastOpener?.closest('.hero-carousel') ? $('.ai-fab') : lastOpener)?.focus();
   const set = (open) => {
+    if (open) closeOthers('ai');
     pop.hidden = !open;
     $$('[data-ai-open]').forEach((b) => b.setAttribute('aria-expanded', String(open)));
-    if (open) { const faq = $('#faq-pop'); if (faq && !faq.hidden) $('.faq-fab')?.click(); $('[data-ai-close]', pop)?.focus(); }
+    if (open) $('[data-ai-close]', pop)?.focus();
   };
+  panels.set('ai', () => { if (!pop.hidden) set(false); });
   document.addEventListener('click', (e) => {
     const opener = e.target.closest('[data-ai-open]');
     if (opener) { lastOpener = opener; set(pop.hidden); return; }
@@ -960,11 +492,69 @@ const wireAiBrief = () => {
   });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !pop.hidden) { set(false); restoreFocus(); } });
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('[data-ai-open]')) set(false); });
-  $('.faq-fab')?.addEventListener('click', () => { if (!pop.hidden) set(false); });
 };
 
-// Full-screen hero: native Fullscreen API where the browser allows it on an element,
-// otherwise (iPhone Safari) a fixed full-viewport overlay that looks the same.
+// Search: a small JSON index (titles, descriptions, tags) fetched on first use, filtered in the browser.
+const wireSearch = () => {
+  const pop = $('#search-pop');
+  const opener = $('[data-search-open]');
+  if (!pop || !opener) return;
+  const input = $('[data-search-input]', pop);
+  const list = $('[data-search-results]', pop);
+  const note = $('[data-search-note]', pop);
+  const hint = note.textContent;
+  let index = null;
+  let loading = null;
+  const load = () => {
+    if (!loading) {
+      loading = fetch('/search-index.json', { credentials: 'same-origin' })
+        .then((r) => (r.ok ? r.json() : []))
+        .then((d) => { index = d; return d; })
+        .catch(() => { loading = null; return []; });
+    }
+    return loading;
+  };
+  const run = async () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { list.innerHTML = ''; note.textContent = hint; return; }
+    const data = index || await load();
+    const terms = q.split(/\s+/).filter(Boolean);
+    const showSpoilers = document.documentElement.classList.contains('show-spoilers');
+    const hits = data
+      .filter((it) => showSpoilers || !it.s)
+      .map((it) => {
+        const title = it.t.toLowerCase();
+        const hay = `${title} ${(it.d || '').toLowerCase()} ${it.g || ''}`;
+        if (!terms.every((t) => hay.includes(t))) return null;
+        return { it, score: terms.reduce((n, t) => n + (title.includes(t) ? 3 : 1), 0) + (it.y === 'Guide' || it.y === 'Fix' ? 1 : 0) };
+      })
+      .filter(Boolean)
+      .sort((a, b) => b.score - a.score || String(b.it.ts || '').localeCompare(String(a.it.ts || '')))
+      .slice(0, 12);
+    list.innerHTML = hits.map(({ it }) => `<li><a href="${escHtml(it.u)}"><span class="badge badge-${escHtml(it.y.toLowerCase())}">${escHtml(it.y)}</span> <b>${escHtml(it.t)}</b><small>${escHtml(it.d || '')}</small></a></li>`).join('');
+    note.textContent = hits.length ? `${hits.length} result${hits.length > 1 ? 's' : ''}` : 'No matches. Try fewer or different words.';
+  };
+  const set = (open) => {
+    if (open) closeOthers('search');
+    pop.hidden = !open;
+    opener.setAttribute('aria-expanded', String(open));
+    if (open) { load(); input.focus(); input.select(); }
+  };
+  panels.set('search', () => { if (!pop.hidden) set(false); });
+  let timer = 0;
+  input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 120); });
+  opener.addEventListener('click', () => set(pop.hidden));
+  $('[data-search-close]', pop).addEventListener('click', () => { set(false); opener.focus(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !pop.hidden) { set(false); opener.focus(); }
+    if (e.key === '/' && pop.hidden && !e.target.closest('input, textarea, select, [contenteditable]')) { e.preventDefault(); set(true); }
+  });
+  document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !opener.contains(e.target)) set(false); });
+};
+
+// ---------- full-screen live board (home carousel only) ----------
+// Native Fullscreen API where the browser allows it on an element, otherwise (iPhone Safari) a fixed
+// full-viewport overlay that looks the same.
 const FS_ENTER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
 const FS_EXIT = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
 const FS_LINK_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>';
@@ -976,7 +566,7 @@ const shareFsLink = async (btn) => {
   const flash = (text) => { label.textContent = text; setTimeout(() => { label.textContent = 'Share full-screen link'; }, 2200); };
   try {
     if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
-      await navigator.share({ title: document.title, text: 'GTA 6 countdown, full screen:', url });
+      await navigator.share({ title: document.title, text: 'GTA 6 India live board, full screen:', url });
       return;
     }
     await navigator.clipboard.writeText(url);
@@ -987,117 +577,98 @@ const shareFsLink = async (btn) => {
 };
 
 const wireFullscreen = () => {
-  const heroes = $$('.hero');
-  if (!heroes.length) return;
+  const hero = $('.hero-carousel');
+  if (!hero) return;
   const native = !!(document.fullscreenEnabled && Element.prototype.requestFullscreen);
-  let pseudo = null;
+  let pseudo = false;
 
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'hero-fs-btn';
+  const share = document.createElement('button');
+  share.type = 'button';
+  share.className = 'hero-fs-share';
+  share.hidden = true;
+  share.innerHTML = `${FS_LINK_ICON}<span>Share full-screen link</span>`;
+  share.setAttribute('aria-label', 'Share a link that opens this live board in full screen');
+  hero.append(btn, share);
+
+  const isOn = () => document.fullscreenElement === hero || pseudo;
   const sync = () => {
-    const active = document.fullscreenElement || pseudo;
-    for (const hero of heroes) {
-      const on = hero === active;
-      hero.classList.toggle('is-fs', on);
-      const btn = $('.hero-fs-btn', hero);
-      if (!btn) continue;
-      btn.setAttribute('aria-pressed', String(on));
-      btn.setAttribute('aria-label', on ? 'Exit full screen' : 'Full screen');
-      btn.title = on ? 'Exit full screen (Esc)' : 'Full screen';
-      btn.innerHTML = on ? FS_EXIT : FS_ENTER;
-      const share = $('.hero-fs-share', hero);
-      if (share) { share.hidden = !on; share.title = fsShareUrl(); }
-    }
-    document.documentElement.classList.toggle('has-pseudo-fs', !!pseudo);
+    const on = isOn();
+    hero.classList.toggle('is-fs', on);
+    btn.setAttribute('aria-pressed', String(on));
+    btn.setAttribute('aria-label', on ? 'Exit full screen' : 'Full screen');
+    btn.title = on ? 'Exit full screen (Esc)' : 'Full screen';
+    btn.innerHTML = on ? FS_EXIT : FS_ENTER;
+    share.hidden = !on;
+    share.title = fsShareUrl();
+    document.documentElement.classList.toggle('has-pseudo-fs', pseudo);
     dispatchEvent(new Event('resize'));
   };
-
   const exit = () => {
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
-    if (pseudo) { pseudo = null; sync(); }
+    if (pseudo) { pseudo = false; sync(); }
   };
-
-  const enter = async (hero) => {
+  const enter = async () => {
     if (native) {
       try { await hero.requestFullscreen({ navigationUI: 'hide' }); return; } catch { /* fall back below */ }
     }
-    pseudo = hero;
+    pseudo = true;
     sync();
   };
 
-  for (const hero of heroes) {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'hero-fs-btn';
-    hero.append(btn);
-    btn.addEventListener('click', () => ((document.fullscreenElement === hero || pseudo === hero) ? exit() : enter(hero)));
-    const share = document.createElement('button');
-    share.type = 'button';
-    share.className = 'hero-fs-share';
-    share.hidden = true;
-    share.innerHTML = `${FS_LINK_ICON}<span>Share full-screen link</span>`;
-    share.setAttribute('aria-label', 'Share a link that opens this countdown in full screen');
-    share.addEventListener('click', () => shareFsLink(share));
-    hero.append(share);
-  }
+  btn.addEventListener('click', () => (isOn() ? exit() : enter()));
+  share.addEventListener('click', () => shareFsLink(share));
   document.addEventListener('fullscreenchange', sync);
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && (pseudo || document.fullscreenElement)) exit(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && pseudo) exit(); });
   sync();
 
-  // Deep link: ?fs=1 opens the first hero full screen. Browsers only grant real fullscreen after a
-  // user gesture, so start with the overlay and upgrade on the first tap where it's supported.
+  // Deep link: ?fs=1 opens the board full screen. Browsers only grant real fullscreen after a user
+  // gesture, so start with the overlay and upgrade on the first tap where it's supported.
   if (new URLSearchParams(location.search).get('fs') === '1') {
-    pseudo = heroes[0];
+    pseudo = true;
     sync();
     if (native) {
       const upgrade = (e) => {
-        if (pseudo !== heroes[0] || e.target.closest('.hero-fs-btn, .hero-fs-share')) return;
-        const hero = pseudo;
-        pseudo = null;
+        if (!pseudo || e.target.closest('.hero-fs-btn, .hero-fs-share')) return;
+        pseudo = false;
         document.removeEventListener('pointerdown', upgrade, true);
-        hero.requestFullscreen({ navigationUI: 'hide' }).catch(() => { pseudo = hero; }).finally(sync);
+        hero.requestFullscreen({ navigationUI: 'hide' }).catch(() => { pseudo = true; }).finally(sync);
       };
       document.addEventListener('pointerdown', upgrade, true);
     }
   }
 };
 
-// ---------- full-screen live refresh: fetch the page quietly, swap in new content, flag what's new ----------
+// Full screen refetches the page quietly, swaps in new content and flags what's new.
 const LIVE_REFRESH_MS = 120_000;
 const LIVE_TABS = { ai: 'New AI Brief', news: 'New news' };
 
 const liveSignature = (doc) => ({
   ai: doc.querySelector('#ai-pop .ai-meta time')?.getAttribute('datetime') || '',
-  news: doc.querySelector('#slide-news .hero-news a, .fs-extras .hero-news a, .ticker-list a, .news-card h3 a')?.getAttribute('href') || '',
+  news: doc.querySelector('#slide-news .hero-news a')?.getAttribute('href') || '',
+  sig: doc.querySelector('.hero-carousel')?.getAttribute('data-sig') || '',
 });
 
 const wireLiveRefresh = () => {
-  const hero = $('.hero');
+  const hero = $('.hero-carousel');
   if (!hero) return;
-  const isHome = !!$('.hero-carousel');
   const bubble = document.createElement('button');
   bubble.type = 'button';
   bubble.className = 'fs-new-bubble';
   bubble.hidden = true;
   hero.append(bubble);
   let seen = liveSignature(document);
-  let latestHref = '';
 
   const tabFor = (key) => $(`#tab-${key}`);
   const pending = () => Object.keys(LIVE_TABS).filter((k) => tabFor(k)?.classList.contains('has-new'));
   const renderBubble = () => {
-    if (isHome) {
-      const keys = pending();
-      bubble.hidden = !keys.length;
-      bubble.innerHTML = keys.length ? `<span class="dot" aria-hidden="true"></span>${keys.length > 1 ? `${keys.length} new updates` : LIVE_TABS[keys[0]]}` : '';
-    } else {
-      bubble.hidden = !latestHref;
-      bubble.innerHTML = latestHref ? '<span class="dot" aria-hidden="true"></span>New GTA 6 news' : '';
-    }
+    const keys = pending();
+    bubble.hidden = !keys.length;
+    bubble.innerHTML = keys.length ? `<span class="dot" aria-hidden="true"></span>${keys.length > 1 ? `${keys.length} new updates` : LIVE_TABS[keys[0]]}` : '';
   };
-  bubble.addEventListener('click', () => {
-    if (!isHome) { location.href = latestHref; return; }
-    const key = pending()[0];
-    tabFor(key)?.click();
-  });
+  bubble.addEventListener('click', () => tabFor(pending()[0])?.click());
   // A tab's dot clears once its slide has been on screen for a few seconds (not the instant autoplay passes it).
   let activeId = '';
   let activeFor = 0;
@@ -1114,7 +685,6 @@ const wireLiveRefresh = () => {
     const here = $(sel);
     if (fresh && here) here.innerHTML = fresh.innerHTML;
   };
-  const swapBriefPanel = (doc) => { for (const part of ['.ai-meta', '.ai-headline', '.ai-body']) swap(doc, `#ai-pop ${part}`); };
 
   const refresh = async () => {
     if (!hero.classList.contains('is-fs') || document.hidden) return;
@@ -1125,33 +695,29 @@ const wireLiveRefresh = () => {
       doc = new DOMParser().parseFromString(await res.text(), 'text/html');
     } catch { return; }
     const next = liveSignature(doc);
-    if (isHome) {
-      if (next.ai && next.ai !== seen.ai) {
-        swap(doc, '#slide-ai');
-        swapBriefPanel(doc);
-        tabFor('ai')?.classList.add('has-new');
-      }
-      if (next.news && next.news !== seen.news) {
-        swap(doc, '#slide-news');
-        const lists = $$('.ticker-list');
-        const freshLists = doc.querySelectorAll('.ticker-list');
-        lists.forEach((ul, k) => { if (freshLists[k]) ul.innerHTML = freshLists[k].innerHTML; });
-        loadHeadlines();
-        tabFor('news')?.classList.add('has-new');
-      }
-      dispatchEvent(new Event('hero:content'));
-    } else {
-      // single-countdown pages: refresh the full-screen AI + news panel in place; the bubble is only for new news
-      const aiChanged = next.ai && next.ai !== seen.ai;
-      const newsChanged = next.news && next.news !== seen.news;
-      if (aiChanged) swapBriefPanel(doc);
-      if (aiChanged || newsChanged) swap(doc, '.fs-extras');
-      if (newsChanged) latestHref = next.news;
+    if (next.ai && next.ai !== seen.ai) {
+      swap(doc, '#slide-ai');
+      for (const part of ['.ai-meta', '.ai-headline', '.ai-body']) swap(doc, `#ai-pop ${part}`);
+      tabFor('ai')?.classList.add('has-new');
+    }
+    if (next.news && next.news !== seen.news) {
+      swap(doc, '#slide-news');
+      const lists = $$('.ticker-list');
+      const freshLists = doc.querySelectorAll('.ticker-list');
+      lists.forEach((ul, k) => { if (freshLists[k]) ul.innerHTML = freshLists[k].innerHTML; });
+      loadHeadlines();
+      tabFor('news')?.classList.add('has-new');
+    }
+    if (next.sig && next.sig !== seen.sig) {
+      for (const id of ['#slide-guides', '#slide-fixes', '#slide-india']) swap(doc, id);
+      hero.setAttribute('data-sig', next.sig);
     }
     seen = next;
     activeFor = 0; // fresh content: the current slide must be seen again before its dot clears
+    markNew();
     loadPsn();
     renderBubble();
+    dispatchEvent(new Event('hero:content'));
   };
 
   setInterval(refresh, LIVE_REFRESH_MS);
@@ -1168,44 +734,25 @@ const wireScrollCue = () => {
   update();
 };
 
-// A link to #zones or #schedule opens that section's collapsed toggle (also on repeat clicks).
-const wireToggleLinks = () => {
-  const openFor = (hash) => {
-    if (!hash || hash.length < 2) return;
-    const toggle = document.getElementById(decodeURIComponent(hash.slice(1)))?.querySelector('details.sched-toggle');
-    if (toggle) toggle.open = true;
-  };
-  window.addEventListener('hashchange', () => openFor(location.hash));
-  document.addEventListener('click', (e) => {
-    const a = e.target.closest('a[href*="#"]');
-    if (a && a.pathname === location.pathname) openFor(a.hash);
-  });
-  openFor(location.hash);
-};
-
 // ---------- boot ----------
 const init = () => {
-  state.local = detectLocal();
-  for (const el of $$('[data-countdown]')) mountCountdown(el);
-  renderChips();
-  renderCityActions();
-  renderSchedule();
-  renderWave(Date.now());
-  wireUsRule();
-  wireSearch();
+  renderDay();
+  wireSpoilers();
+  startNewDots();
+  markCurrentNav();
+  wireTypeChips();
   wireMute();
-  wirePins();
-  wireToggleLinks();
   wireFaqPopup();
   wireAiBrief();
+  wireSearch();
   wireScrollCue();
   wireFullscreen();
   wireLiveRefresh();
   wireCarousel();
+  startCountdowns();
   startPsn();
   startHeadlines();
   registerServiceWorker();
-  startHeartbeat();
   startVisits();
 };
 

@@ -3,6 +3,7 @@ title: GTA 6 Cheats Are Locked Until You Finish the Story — All 61 Unlock Afte
 description: GTA 6 cheats don't work on day one. All 61 unlock only after you finish the main story, most also need a challenge, and using one disables trophies and saving.
 date: 2026-11-19T04:37:00+05:30
 tags: [cheats, guide, tips, ps5, xbox]
+type: guide
 sources:
   - Engadget — GTA VI launch day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Red Bull — How to unlock all 61 GTA 6 cheat codes on PS5 and Xbox | https://www.redbull.com/int-en/gta-6-cheat-codes

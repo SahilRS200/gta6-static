@@ -4,7 +4,7 @@
 const VERSION = '__BUILD__';
 const CACHE = `gta6info-${VERSION}`;
 const OFFLINE_URL = '/offline.html';
-const PRECACHE = ['/', OFFLINE_URL, '/css/site.css', '/js/app.js', '/js/zones.js', '/js/time.js', '/js/schedule.js',
+const PRECACHE = ['/', OFFLINE_URL, '/css/site.css', '/js/app.js', '/js/time.js', '/js/zones.js', '/js/day.js',
   '/fonts/TwemojiCountryFlags.woff2', '/icon-192.png', '/favicon.svg', '/site.webmanifest'];
 const IMMUTABLE = /\.(png|svg|woff2|ico)$/;
 

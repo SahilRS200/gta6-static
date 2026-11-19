@@ -1,4 +1,5 @@
-// Zero-dependency server: static files, 30 city pages, news (Markdown), sitemaps, RSS, IndexNow and a visit counter.
+// Zero-dependency server: static files, news/guides/fixes (Markdown), hubs, 30 release-time archive pages,
+// sitemaps, RSS, search index, IndexNow and a visit counter.
 import { createServer } from 'node:http';
 import { readFile, readdir } from 'node:fs/promises';
 import { join, extname, relative, sep } from 'node:path';
@@ -6,18 +7,24 @@ import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { ZONES } from './public/js/zones.js';
-import { scheduleRowsHtml } from './public/js/schedule.js';
-import { applyPartials, headCommon } from './lib/partials.js';
-import { renderCityPage, renderSitemap } from './lib/render.js';
+import { dayLabel } from './public/js/day.js';
+import { applyPartials, headCommon, alertHtml } from './lib/partials.js';
+import { renderCityPage, renderReleaseIndex, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
-import { loadPosts, loadBrief, tagsOf } from './lib/content.js';
-import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml, fsExtrasHtml } from './lib/news.js';
+import { loadPosts, loadBrief, loadDoc, tagsOf } from './lib/content.js';
+import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml } from './lib/news.js';
+import {
+  renderGuidesHub, renderFixesHub, renderWhatsNext, heroGuidesHtml, heroFixesHtml, heroIndiaHtml,
+  homeGuidesHtml, homeFixesHtml, homeIndiaHtml, homeNextHtml, indiaBlocksHtml, indiaNewsHtml, searchIndexJson,
+} from './lib/hubs.js';
+import { HOME_FAQ, INDIA_FAQ, faqDetailsHtml, faqJsonLd } from './lib/faq.js';
 import { createPsnStatus } from './lib/psn.js';
 import { createHeadlines } from './lib/headlines.js';
 
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
 const PUBLIC_DIR = join(ROOT, 'public');
-const CONTENT_DIR = join(ROOT, 'content', 'news');
+const CONTENT_ROOT = join(ROOT, 'content');
+const CONTENT_DIR = join(CONTENT_ROOT, 'news');
 const PORT = Number(process.env.PORT) || 8080;
 const EXPLICIT_SITE_URL = (process.env.SITE_URL || '').replace(/\/+$/, '');
 const SITE_URL = EXPLICIT_SITE_URL
@@ -67,6 +74,22 @@ const SECURITY_HEADERS = {
 const routes = new Map(); // url path → { body, gz, type, cache }
 let posts = [];
 let brief = null;
+let alert = null; // content/alert.md — the one-line banner
+let india = null; // content/india.md — India hub blocks, headline and price line
+let whatsNext = null; // content/whats-next.md — tracker rows and patch notes
+
+// Brief bullets that link to a spoiler post are hidden with the other spoiler items.
+const markSpoilerLinks = (html, slugs) => (slugs.size
+  ? html.replace(/<li>([\s\S]*?)<\/li>/g, (li, inner) => ([...inner.matchAll(/href="\/news\/([a-z0-9-]+)\/"/g)].some((m) => slugs.has(m[1])) ? `<li data-spoiler-item>${inner}</li>` : li))
+  : html);
+
+// Changes whenever anything the home page shows changes: the full-screen live refresh compares it.
+const contentSignature = () => [
+  posts.reduce((m, p) => (p.updated > m ? p.updated : m), ''),
+  india?.updated || '', whatsNext?.updated || '', alert?.updated || '', posts.length,
+].join('|');
+
+const newestDate = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata' }).format(new Date(posts.reduce((m, p) => (p.updated > m ? p.updated : m), '') || Date.now()));
 
 const cacheFor = (ext) => {
   if (ext === '.html' || ext === '.xml' || ext === '.txt' || ext === '.webmanifest') return 'public, max-age=60, must-revalidate';
@@ -85,15 +108,39 @@ const addRoute = (path, body, ext) => {
   });
 };
 
-const templated = (text) => applyPartials(text)
-  .replace('<!--SSR:SCHEDULE-->', scheduleRowsHtml(true))
-  .replace('<!--SSR:LATEST-->', latestNewsHtml(posts))
-  .replace('<!--SSR:TICKER-->', tickerHtml(posts))
-  .replace('<!--SSR:BRIEF-->', briefHtml(brief))
-  .replace('<!--SSR:BRIEF_PREVIEW-->', briefPreviewHtml(brief, 8))
-  .replace('<!--SSR:HERO_NEWS-->', heroNewsHtml(posts, 10))
-  .replace('<!--SSR:FS_EXTRAS-->', fsExtrasHtml(posts, brief))
-  .replaceAll('__SITE_URL__', SITE_URL);
+// Each token appears at most once per page. Functions run only when their token is present.
+const TOKENS = {
+  '<!--SSR:ALERT-->': () => alertHtml(alert),
+  '<!--SSR:LATEST-->': () => latestNewsHtml(posts),
+  '<!--SSR:TICKER-->': () => tickerHtml(posts),
+  '<!--SSR:BRIEF-->': () => briefHtml(brief),
+  '<!--SSR:BRIEF_PREVIEW-->': () => briefPreviewHtml(brief, 8),
+  '<!--SSR:HERO_NEWS-->': () => heroNewsHtml(posts, 10),
+  '<!--SSR:HERO_GUIDES-->': () => heroGuidesHtml(posts),
+  '<!--SSR:HERO_FIXES-->': () => heroFixesHtml(posts),
+  '<!--SSR:HERO_INDIA-->': () => heroIndiaHtml(india, posts),
+  '<!--SSR:INDIA_HERO-->': () => heroIndiaHtml(india, posts, true),
+  '<!--SSR:HOME_GUIDES-->': () => homeGuidesHtml(posts),
+  '<!--SSR:HOME_FIXES-->': () => homeFixesHtml(posts),
+  '<!--SSR:HOME_INDIA-->': () => homeIndiaHtml(india, posts),
+  '<!--SSR:HOME_NEXT-->': () => homeNextHtml(whatsNext),
+  '<!--SSR:HOME_FAQ-->': () => faqDetailsHtml(HOME_FAQ, true),
+  '<!--SSR:HOME_FAQ_LD-->': () => faqJsonLd(HOME_FAQ),
+  '<!--SSR:INDIA_BLOCKS-->': () => indiaBlocksHtml(india),
+  '<!--SSR:INDIA_NEWS-->': () => indiaNewsHtml(posts),
+  '<!--SSR:INDIA_FAQ-->': () => faqDetailsHtml(INDIA_FAQ, true),
+  '<!--SSR:INDIA_FAQ_LD-->': () => faqJsonLd(INDIA_FAQ),
+  '<!--SSR:DAY-->': () => dayLabel(),
+};
+
+const templated = (text) => {
+  let out = applyPartials(text);
+  for (const [token, render] of Object.entries(TOKENS)) if (out.includes(token)) out = out.replace(token, () => render());
+  return out
+    .replaceAll('__CONTENT_SIG__', contentSignature())
+    .replaceAll('__HOME_MODIFIED__', newestDate())
+    .replaceAll('__SITE_URL__', SITE_URL);
+};
 
 const walk = async (dir) => {
   const out = [];
@@ -107,7 +154,13 @@ const walk = async (dir) => {
 
 const loadSite = async () => {
   posts = await loadPosts(CONTENT_DIR);
-  brief = await loadBrief(join(ROOT, 'content', 'brief.md'));
+  brief = await loadBrief(join(CONTENT_ROOT, 'brief.md'));
+  const spoilerSlugs = new Set(posts.filter((p) => p.spoiler).map((p) => p.slug));
+  if (brief) brief = { ...brief, html: markSpoilerLinks(brief.html, spoilerSlugs) };
+  alert = await loadDoc(join(CONTENT_ROOT, 'alert.md'));
+  india = await loadDoc(join(CONTENT_ROOT, 'india.md'));
+  if (india) india = { ...india, html: markSpoilerLinks(india.html, spoilerSlugs) };
+  whatsNext = await loadDoc(join(CONTENT_ROOT, 'whats-next.md'));
   for (const file of await walk(PUBLIC_DIR)) {
     const ext = extname(file);
     const urlPath = `/${relative(PUBLIC_DIR, file).split(sep).join('/')}`;
@@ -127,8 +180,13 @@ const loadSite = async () => {
   for (const zone of ZONES) {
     addRoute(`/gta-6-release-time/${zone.slug}/`, templated(renderCityPage(zone)), '.html');
   }
+  addRoute('/gta-6-release-time/', templated(renderReleaseIndex()), '.html');
   const tags = tagsOf(posts).map((t) => t.tag);
   addRoute('/news/', templated(renderNewsHub(posts)), '.html');
+  addRoute('/guides/', templated(renderGuidesHub(posts)), '.html');
+  addRoute('/fixes/', templated(renderFixesHub(posts)), '.html');
+  addRoute('/whats-next/', templated(renderWhatsNext(whatsNext)), '.html');
+  addRoute('/search-index.json', searchIndexJson(posts), '.json');
   for (const post of posts) addRoute(`/news/${post.slug}/`, templated(renderPost(post, posts)), '.html');
   for (const tag of tags) addRoute(`/tag/${tag}/`, templated(renderTag(tag, posts)), '.html');
   addRoute('/news/feed.xml', templated(renderRss(posts)), '.xml');
@@ -144,7 +202,7 @@ const loadSite = async () => {
 const pingIndexNow = async () => {
   if (!INDEXNOW_KEY || !EXPLICIT_SITE_URL) return;
   const fresh = posts.filter((p) => Date.now() - Date.parse(p.updated) < 6 * 3600 * 1000);
-  const paths = new Set(['/', '/news/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
+  const paths = new Set(['/', '/news/', '/guides/', '/fixes/', '/whats-next/', '/gta-6-india/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
   const urlList = [...paths].filter((p) => routes.has(p)).map((p) => `${SITE_URL}${p}`);
   try {
     const res = await fetch('https://api.indexnow.org/indexnow', {

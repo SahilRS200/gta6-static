@@ -4,6 +4,8 @@ description: Just before GTA 6 unlocked in India, PS5 players reported PSN sign-
 date: 2026-11-19T00:36:00+05:30
 updated: 2026-11-19T02:37:00+05:30
 tags: [india, ps5, launch-day, outage]
+type: fix
+status: fixed: PSN back to normal by about 1:00 AM IST
 sources:
   - Mein-MMO — PSN down for the GTA 6 release, live ticker | https://mein-mmo.de/en/psn-down-for-the-gta-6-release-in-live-ticker-all-about-the-outage-and-the-server-status-on-ps5,1597022/
   - AltChar — PSN down? Users report sign-in problems hours before GTA VI launches | https://www.altchar.com/game-news/psn-down-playstation-network-users-report-sign-in-problems-hours-before-gta-vi-launches-an0o24F9kcOr

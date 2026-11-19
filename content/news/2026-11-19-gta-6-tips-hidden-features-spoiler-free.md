@@ -3,6 +3,7 @@ title: GTA 6 Tips — 12 Hidden Features the Game Doesn't Tell You, From Shipwre
 description: GTA 6 is out in India. Spoiler-free tips players are finding: eat while you drive, swap outfits from your car's trunk to shake the police, dive shipwrecks for early cash, and more.
 date: 2026-11-19T00:36:00+05:30
 tags: [guide, tips, launch-day, ps5, xbox]
+type: guide
 sources:
   - Kotaku — 32 spoiler-free tips as you hop into Grand Theft Auto 6 | https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016
   - GameSpot — Grand Theft Auto 6 review | https://www.gamespot.com/reviews/grand-theft-auto-6-review/

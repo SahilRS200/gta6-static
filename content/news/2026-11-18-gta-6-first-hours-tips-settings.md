@@ -3,6 +3,7 @@ title: GTA 6 First Hours — Settings to Change and 5 Things to Try at Midnight,
 description: Before you start GTA 6 at 12 AM IST: the aim settings to pick, plus spoiler-free systems Rockstar has shown, like scouting robberies, switching between Jason and Lucia, and dates.
 date: 2026-11-18T21:38:00+05:30
 tags: [guide, tips, ps5, xbox, launch-day]
+type: guide
 sources:
   - Game Rant — GTA 6 best aim settings for casual and realistic gameplay | https://gamerant.com/gta-6-best-aim-settings-casual-realistic-gameplay/
   - VICE — 6 new GTA 6 gameplay details from The Guardian's Rockstar interview | https://www.vice.com/en/article/gta-6-gameplay-details-guardian-interview/
