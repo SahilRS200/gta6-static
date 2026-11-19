@@ -234,6 +234,7 @@ until automation replaces a step; anything marked **Owner rule** came from the o
 |---|---|---|---|
 | 0 | 19 Nov 2026, 14:08 | Welcome post ("Namaste, gamers 🇮🇳🎮 … India's own gamer channel is live"), text only | https://x.com/gamerinfo_in/status/2123335114176565324 |
 | 1 | 19 Nov 2026, 14:20 | Money guide: shipwreck dives up to ~$4,000, with a card image | https://x.com/gamerinfo_in/status/2123338012134347174 |
+| 2 | 19 Nov 2026, 19:47 | Ultimate Edition bonuses by chapter, text only. First post through the automation (social/x-post.md → GitHub Action), owner-requested outside the slots | https://x.com/gamerinfo_in/status/2123420688518205784 |
 
 The welcome post should be pinned to the profile (owner does this by hand in the X app).
 
