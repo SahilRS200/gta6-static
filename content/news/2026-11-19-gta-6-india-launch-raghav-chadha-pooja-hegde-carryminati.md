@@ -20,6 +20,8 @@ GTA 6 unlocked in India at **12:00 AM IST today**, and it wasn't only gamers cou
 
 On X, tech creator Mukul Sharma said streaming videos "don't do justice" to how the game looks, and other players posted that GTA 6 is "finally playable in India" after 13 years, reports [Digit](https://www.digit.in/news/gaming/gta-6-india-launch-internet-erupts-with-video-clips-of-jason-and-lucia-committing-crimes-in-leonida-check-first-look.html). News Ei Samay adds that fans joked about taking leave, booking hotel rooms to play without interruption, and finally retiring the "we got X before GTA 6" meme.
 
+Later in the morning, even PM Narendra Modi joined in with a GTA-style post. [What he posted →](/news/gta-6-pm-modi-post-india-playing-whole-new-game/)
+
 For more spoiler-free player verdicts, see our [first reactions roundup](/news/gta-6-first-gameplay-reactions-spoiler-free/).
 
 ## Just starting tonight?
