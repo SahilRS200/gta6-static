@@ -21,4 +21,6 @@ If you've been punching old GTA cheat codes into your phone since **12:00 AM IST
 
 There is no shortcut to money or weapons in your first week, so the early-cash tips matter more: dive shipwrecks, repair at petrol pumps and keep a spare outfit in the trunk ([12 spoiler-free tips →](/news/gta-6-tips-hidden-features-spoiler-free/)). And skip any "GTA 6 money cheat" video or app promising otherwise; it's clickbait at best and a scam at worst ([our scam warning](/news/gta-6-free-download-apk-scam-warning/)).
 
+How long until you can use them? The story alone runs about 50 hours ([how long GTA 6 is →](/news/gta-6-how-long-to-beat-story-hours/)).
+
 More for Indian players: [everything you need to know →](/gta-6-india/)
