@@ -592,7 +592,7 @@ const wireSearch = () => {
   }, SEARCH_ROTATE_MS);
 };
 
-// ---------- full-screen live board (home carousel only) ----------
+// ---------- full-screen live board (home carousel and the /ai/ page) ----------
 // Native Fullscreen API where the browser allows it on an element, otherwise (iPhone Safari) a fixed
 // full-viewport overlay that looks the same.
 const FS_ENTER = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
@@ -606,7 +606,7 @@ const shareFsLink = async (btn) => {
   const flash = (text) => { label.textContent = text; setTimeout(() => { label.textContent = 'Share full-screen link'; }, 2200); };
   try {
     if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
-      await navigator.share({ title: document.title, text: 'GTA 6 India live board, full screen:', url });
+      await navigator.share({ title: document.title, text: 'Full screen on GTA6Info.in:', url });
       return;
     }
     await navigator.clipboard.writeText(url);
@@ -617,7 +617,7 @@ const shareFsLink = async (btn) => {
 };
 
 const wireFullscreen = () => {
-  const hero = $('.hero-carousel');
+  const hero = $('.hero-carousel, .hero-ai');
   if (!hero) return;
   const native = !!(document.fullscreenEnabled && Element.prototype.requestFullscreen);
   let pseudo = false;
@@ -764,6 +764,39 @@ const wireLiveRefresh = () => {
   document.addEventListener('fullscreenchange', () => { if (document.fullscreenElement) refresh(); });
 };
 
+// /ai/ is a live page: every 2 minutes (while visible) it refetches itself and swaps in a new headline,
+// brief or news list, with a short highlight so the change is noticed.
+const AI_PAGE_REFRESH_MS = 120_000;
+
+const wireAiPage = () => {
+  const hero = $('.hero-ai');
+  if (!hero) return;
+  const refresh = async () => {
+    if (document.hidden) return;
+    let doc;
+    try {
+      const res = await fetch(location.pathname, { cache: 'no-store', credentials: 'same-origin' });
+      if (!res.ok) return;
+      doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+    } catch { return; }
+    const fresh = doc.querySelector('.hero-ai');
+    if (!fresh || fresh.dataset.aiSig === hero.dataset.aiSig) return;
+    for (const sel of ['[data-ai-meta]', '[data-ai-headline]', '[data-ai-brief]', '[data-ai-news]']) {
+      const here = $(sel, hero);
+      const next = fresh.querySelector(sel);
+      if (here && next) here.innerHTML = next.innerHTML;
+    }
+    hero.dataset.aiSig = fresh.dataset.aiSig;
+    markNew();
+    hero.classList.remove('is-updated');
+    void hero.offsetWidth;
+    hero.classList.add('is-updated');
+    toast('AI Brief updated');
+  };
+  setInterval(refresh, AI_PAGE_REFRESH_MS);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+};
+
 // "More below" cue: visible only at the top of a page that actually has more below.
 const wireScrollCue = () => {
   const cue = $('.scroll-cue');
@@ -788,6 +821,7 @@ const init = () => {
   wireScrollCue();
   wireFullscreen();
   wireLiveRefresh();
+  wireAiPage();
   wireCarousel();
   startCountdowns();
   startPsn();

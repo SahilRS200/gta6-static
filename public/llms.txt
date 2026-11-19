@@ -4,6 +4,7 @@
 
 ## Key pages
 - [GTA 6 India hub: price, where to buy, PS5 stock, creators, Hinglish FAQ](__SITE_URL__/gta-6-india/)
+- [GTA 6 AI Brief: what's hot for Indian players this hour](__SITE_URL__/ai/)
 - [GTA 6 news India](__SITE_URL__/news/)
 - [GTA 6 guides and tips (spoiler-free)](__SITE_URL__/guides/)
 - [GTA 6 fixes: game locked, PSN errors, bugs, live PlayStation status](__SITE_URL__/fixes/)

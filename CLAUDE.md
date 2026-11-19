@@ -90,7 +90,7 @@ Small Markdown files the site reads at every deploy. Timestamps follow the same 
   feeds both the visible FAQ and its JSON-LD, so they can't drift; every answer must link a post or page
   that carries its source.
 
-### AI Brief (`content/brief.md`) — the floating "✦ AI Brief" panel on every page
+### AI Brief (`content/brief.md`) — the `/ai/` page, the floating "✦ AI Brief" panel and the home slide
 A tight, skimmable answer to "what's hot right now and what should I do?" for an Indian player.
 - Front matter: `updated:` (the output of `TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30`, never a guessed or rounded time) and `headline:` (one sentence, under
   ~110 characters, the single most important thing right now).
@@ -168,7 +168,7 @@ dependencies, or change Railway/Docker config. Use fat-arrow functions, no `any`
 ```sh
 for f in server.js lib/*.js public/js/*.js public/sw.js; do node --check "$f" || exit 1; done
 PORT=8099 DATA_DIR=/tmp/gta6-data node server.js &   # must print "gta6 site on :8099"
-sleep 3 && for u in / /news/ /guides/ /fixes/ /whats-next/ /gta-6-india/ /sitemap.xml /search-index.json; do
+sleep 3 && for u in / /ai/ /news/ /guides/ /fixes/ /whats-next/ /gta-6-india/ /sitemap.xml /search-index.json; do
   curl -sf "http://localhost:8099$u" >/dev/null || { echo "FAIL $u"; exit 1; }; done; kill %1
 ```
 Also open each new post URL locally and confirm it returns 200.

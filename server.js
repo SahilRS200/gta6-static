@@ -14,7 +14,7 @@ import { createCounter } from './lib/counter.js';
 import { loadPosts, loadBrief, loadDoc, tagsOf } from './lib/content.js';
 import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml } from './lib/news.js';
 import {
-  renderGuidesHub, renderFixesHub, renderWhatsNext, heroGuidesHtml, heroFixesHtml, heroIndiaHtml,
+  renderGuidesHub, renderFixesHub, renderWhatsNext, renderAiPage, heroGuidesHtml, heroFixesHtml, heroIndiaHtml,
   homeGuidesHtml, homeFixesHtml, homeIndiaHtml, homeNextHtml, indiaBlocksHtml, indiaNewsHtml, searchIndexJson, trendingSearches,
 } from './lib/hubs.js';
 import { HOME_FAQ, INDIA_FAQ, faqDetailsHtml, faqJsonLd } from './lib/faq.js';
@@ -190,6 +190,7 @@ const loadSite = async () => {
   addRoute('/guides/', templated(renderGuidesHub(posts)), '.html');
   addRoute('/fixes/', templated(renderFixesHub(posts)), '.html');
   addRoute('/whats-next/', templated(renderWhatsNext(whatsNext)), '.html');
+  addRoute('/ai/', templated(renderAiPage(brief, posts)), '.html');
   addRoute('/search-index.json', searchIndexJson(posts), '.json');
   for (const post of posts) addRoute(`/news/${post.slug}/`, templated(renderPost(post, posts)), '.html');
   for (const tag of tags) addRoute(`/tag/${tag}/`, templated(renderTag(tag, posts)), '.html');
@@ -206,7 +207,7 @@ const loadSite = async () => {
 const pingIndexNow = async () => {
   if (!INDEXNOW_KEY || !EXPLICIT_SITE_URL) return;
   const fresh = posts.filter((p) => Date.now() - Date.parse(p.updated) < 6 * 3600 * 1000);
-  const paths = new Set(['/', '/news/', '/guides/', '/fixes/', '/whats-next/', '/gta-6-india/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
+  const paths = new Set(['/', '/ai/', '/news/', '/guides/', '/fixes/', '/whats-next/', '/gta-6-india/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
   const urlList = [...paths].filter((p) => routes.has(p)).map((p) => `${SITE_URL}${p}`);
   try {
     const res = await fetch('https://api.indexnow.org/indexnow', {
