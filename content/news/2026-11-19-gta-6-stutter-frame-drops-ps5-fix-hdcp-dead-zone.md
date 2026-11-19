@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Stuttering on PS5? Players Say Clearing the Cache and Turning Off HDCP Helps; Try a Smaller Dead Zone Too
-description: GTA 6 stuttering on base PS5? Players report clearing the system cache and turning off HDCP helps, and a smaller stick dead zone stops sluggish aim. Fights can still drop below 30fps; no patch yet.
+description: GTA 6 stuttering on base PS5? Players say clearing the system cache and turning off HDCP helps; a smaller stick dead zone fixes sluggish aim. Fights can still drop below 30fps; no patch yet.
 date: 2026-11-19T16:37:00+05:30
 tags: [ps5, performance, settings, bugs, stutter]
 type: fix

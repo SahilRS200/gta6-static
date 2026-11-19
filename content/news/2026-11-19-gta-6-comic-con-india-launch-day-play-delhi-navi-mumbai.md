@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Comic Con India Launch Sessions — Play It Today in Delhi and Navi Mumbai, No Console Needed, Till 6 PM
-description: Comic Con India is running GTA 6 launch-day sessions today, 19 November, from 2 PM to 6 PM at Saket Social in Delhi and Vashi Social in Navi Mumbai, where fans can play without owning the game.
+description: Comic Con India is running GTA 6 launch-day sessions on 19 November, 2 PM to 6 PM at Saket Social in Delhi and Vashi Social in Navi Mumbai, where fans can play without owning the game.
 date: 2026-11-19T16:37:00+05:30
 tags: [india, launch-day, comic-con, delhi, mumbai]
 type: news
