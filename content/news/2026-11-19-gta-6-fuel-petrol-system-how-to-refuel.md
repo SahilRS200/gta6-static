@@ -2,9 +2,11 @@
 title: GTA 6 Cars Need Petrol — A Full Tank Lasts About 18 to 29 Minutes; How to Refuel
 description: Yes, GTA 6 cars run out of fuel. Tests put a full tank at 18 to 29 minutes of driving. Press R2 at a pump for a 10-second fill; EVs charge the same way. What to know.
 date: 2026-11-19T12:38:00+05:30
+updated: 2026-11-20T02:37:00+05:30
 tags: [gameplay, tips, guide]
 type: guide
 sources:
+  - Engadget — GTA 6 launch-day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Jalopnik — GTA 6 cars won't have infinite gas | https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/
   - The Autopian — GTA 6 fixes the biggest problem GTA cars have always had | https://www.theautopian.com/gta-6-finally-fixes-the-biggest-problem-the-cars-of-grand-theft-auto-games-have-always-had/
   - Dexerto — Rockstar says GTA 6's gas stops take just 10 seconds | https://www.dexerto.com/gta/rockstar-says-gta-6s-controversial-gas-stops-take-just-10-seconds-you-cant-complain-3406246/
@@ -24,7 +26,7 @@ The game warns you twice: at **half a tank** and again when you're **nearly empt
 2. Press **R2 on PS5** (RT on Xbox).
 3. Watch a short **10-second** fill-up scene. There's no pump mini-game.
 
-**Electric cars** work the same way at charging points ([Jalopnik](https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/), [The Autopian](https://www.theautopian.com/gta-6-finally-fixes-the-biggest-problem-the-cars-of-grand-theft-auto-games-have-always-had/)). Rockstar North co-studio head Rob Nelson defended the system before launch: "Hey, that's pretty fast for a fill-up... You can't complain about that," as reported by [Dexerto](https://www.dexerto.com/gta/rockstar-says-gta-6s-controversial-gas-stops-take-just-10-seconds-you-cant-complain-3406246/).
+**Electric cars** work the same way at charging points. Engadget's Kris Holt counted **22 EV charging stations** across Leonida, so plan electric-car trips a little more carefully ([Engadget](https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/), [Jalopnik](https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/), [The Autopian](https://www.theautopian.com/gta-6-finally-fixes-the-biggest-problem-the-cars-of-grand-theft-auto-games-have-always-had/)). Rockstar North co-studio head Rob Nelson defended the system before launch: "Hey, that's pretty fast for a fill-up... You can't complain about that," as reported by [Dexerto](https://www.dexerto.com/gta/rockstar-says-gta-6s-controversial-gas-stops-take-just-10-seconds-you-cant-complain-3406246/).
 
 ## The catch: stolen cars and police chases
 
