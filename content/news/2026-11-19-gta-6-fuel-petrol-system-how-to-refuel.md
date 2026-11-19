@@ -28,7 +28,7 @@ The game warns you twice: at **half a tank** and again when you're **nearly empt
 
 ## The catch: stolen cars and police chases
 
-A car you steal keeps whatever fuel or charge it had. If it runs dry mid-chase, it **stalls** and you're on foot with cops behind you ([Jalopnik](https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/)). Before a getaway, glance at the gauge. If you don't want to bother, the in-game **Scooter Bros** app can bring one of your own vehicles to you instead.
+A car you steal keeps whatever fuel or charge it had. If it runs dry mid-chase, it **stalls** and you're on foot with cops behind you ([Jalopnik](https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/)). Before a getaway, glance at the gauge. If you don't want to bother, the in-game **Scooter Bros** app can bring one of your own vehicles to you instead. [How to get your car back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
 ## Our tips
 

@@ -15,7 +15,7 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 1. **Dive shipwrecks early.** Underwater wreck exploration opens up very early and pays out easy cash. More ways to earn: [GTA 6 money guide](/news/gta-6-how-to-make-money-fast-early-game/).
 2. **Hold down on the D-pad** to slow time, see nearby points of interest and mark them for your GPS.
 3. **Fix your car at a petrol pump.** It's often cheaper than calling the in-game vehicle app, which charges for repairs and spawns. While you're there, fill up: cars now run out of fuel. [How refuelling works →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
-4. **Need a quick ride?** The in-game RydeMe taxi lets you fast travel for $100 (in-game cash).
+4. **Need a quick ride?** The in-game RydeMe taxi lets you fast travel for $100 (in-game cash). Lost your own car? [Here's how to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
 ## Shaking the police
 
