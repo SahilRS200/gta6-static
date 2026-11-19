@@ -62,7 +62,7 @@ const main = async () => {
   summary(`### Posted\n\n${url}`);
 };
 
-export { oauthSignature, postText };
+export { oauthSignature, oauthHeader, postText };
 
 // Run only when executed directly (the tests import the helpers).
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

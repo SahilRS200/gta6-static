@@ -10,6 +10,8 @@
     "dev": "node --watch server.js",
     "x:secrets": "node dev-tools/set-x-secrets.mjs",
     "x:posting:on": "node dev-tools/set-x-secrets.mjs --posting on",
-    "x:posting:off": "node dev-tools/set-x-secrets.mjs --posting off"
+    "x:posting:off": "node dev-tools/set-x-secrets.mjs --posting off",
+    "x:check": "gh workflow run check-x-access.yml -R SahilRS200/gta6-static -f write_test=false && echo Started: https://github.com/SahilRS200/gta6-static/actions/workflows/check-x-access.yml",
+    "x:check:write": "gh workflow run check-x-access.yml -R SahilRS200/gta6-static -f write_test=true && echo Started: https://github.com/SahilRS200/gta6-static/actions/workflows/check-x-access.yml"
   }
 }
