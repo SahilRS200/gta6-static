@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Discoveries — Bigfoot in the Swamps, a Dexter Apartment Easter Egg, PinkPantheress on the Radio
-description: What GTA 6 players are finding in the first day, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment with a stealable boat, PinkPantheress as a radio DJ, and phones that wreck driving.
+description: What GTA 6 players are finding on day one, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment with a stealable boat, PinkPantheress as a radio DJ, and phones that wreck driving.
 date: 2026-11-19T03:37:00+05:30
 updated: 2026-11-20T00:36:00+05:30
 tags: [gameplay, tips, reactions, launch-day]
