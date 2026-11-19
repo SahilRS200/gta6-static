@@ -1,7 +1,7 @@
 ---
-updated: 2026-11-19T23:38:00+05:30
+updated: 2026-11-20T00:37:00+05:30
 headline: GTA 6 made about $1.84 billion on day one, Sensor Tower estimates — more than double GTA V's first day
-search: [zepto, gaming cafe, gym, sales]
+search: [zepto, gaming cafe, replay, sales]
 ---
 ## 🔥 Hot in India
 
@@ -10,14 +10,14 @@ search: [zepto, gaming cafe, gym, sales]
 
 ## ✅ Try this today
 
-- **Hit the gym.** Jason's Key Lento deck has free weights; kettlebells, bench press and deadlifts are the quickest workouts, and gains show on screen. [Gym guide →](/news/gta-6-gym-workouts-strength-stamina-guide/)
-
-## 🌍 Around the world
-
-- **About 19 million digital copies,** 75% of them on PS5, Sensor Tower estimates. Rockstar hasn't confirmed a figure. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
-- **The UK's broadband broke too.** BT and EE hit their highest-ever peaks; Virgin Media O2 beat its record by 9.4%. [Records →](/news/gta-6-launch-australia-internet-record-players-up-till-4am/)
-- **Critics gave 99, players are split** 54.5% to 45.5% in one count; 30fps tops the complaints. [What players say →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
+- **Save before big missions.** GTA 6 has no menu to replay finished missions, so a spare manual save slot is your only way back. [How →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
+- **Find the Dexter apartment.** Vice Beach's "Trinity Apartments" hide a roof kit and a boat you can steal. [More finds →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
 
 ## 🛠️ Fix of the day
 
 - **Crashing or PS5 switching off?** Update, power-cycle, give the console air and save manually. No patch date yet. [Try this →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+
+## 🌍 Around the world
+
+- **About 19 million digital copies,** 75% of them on PS5, Sensor Tower estimates. Rockstar hasn't confirmed a figure. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
+- **Critics gave 99, players are split** 54.5% to 45.5% in one count; 30fps tops the complaints. [What players say →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)

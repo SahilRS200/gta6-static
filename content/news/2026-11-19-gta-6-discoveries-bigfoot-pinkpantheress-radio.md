@@ -1,23 +1,25 @@
 ---
-title: GTA 6 Night-One Discoveries — Bigfoot in the Swamps, PinkPantheress on the Radio, No Phones While Driving
-description: What GTA 6 players are finding on launch night, spoiler-free: a Bigfoot encounter in the swamps, PinkPantheress as a radio DJ, a radio-tower Easter egg, and phones that wreck driving.
+title: GTA 6 Discoveries — Bigfoot in the Swamps, a Dexter Apartment Easter Egg, PinkPantheress on the Radio
+description: What GTA 6 players are finding in the first day, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment with a stealable boat, PinkPantheress as a radio DJ, and phones that wreck driving.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-19T06:37:00+05:30
+updated: 2026-11-20T00:36:00+05:30
 tags: [gameplay, tips, reactions, launch-day]
 sources:
   - Kotaku — GTA 6 launch live updates | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
   - Kotaku — GTA 6 pets: cats, dogs and more | https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120
   - Kotaku — Grand Theft Auto 6 review | https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842
   - Engadget — GTA 6 launch day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
+  - Dexerto — GTA 6 players find Dexter's apartment and can steal his boat | https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/
   - VGC — GTA 6 house first seen in a 2021 remaster | https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/
 ---
-Players have had GTA 6 for a few hours now (India since **12:00 AM IST**), and the map is already giving up its secrets. Kotaku's launch live blog has been collecting the best finds ([Kotaku](https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030)). None of these touch the story, so they're safe to read.
+Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map is already giving up its secrets. Kotaku's launch live blog has been collecting the best finds ([Kotaku](https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030)). None of these touch the story, so they're safe to read.
 
 ## The weird stuff
 
 - **Bigfoot is real, and creepy.** Players heading deep into Leonida's swamps have run into Bigfoot in what Kotaku calls "a deeply creepy encounter". Another player's clip shows a giant crab creature. Rockstar has been teasing Bigfoot since San Andreas, so this one was always coming.
 - **The jet-ski dog.** Swim far enough out into the ocean and a dog on a jet ski may turn up to rescue you, Engadget's team found ([Engadget](https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/)).
 - **A 2021 teaser, solved.** A mystery house that appeared only in *GTA: San Andreas – Definitive Edition* has been matched to a house in GTA 6's Belville, right down to the plants outside. Fans mapping Leonida spotted it, which suggests Rockstar slipped in a first look at GTA 6 five years ago ([VGC](https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/)).
+- **A Dexter apartment in Vice Beach.** On Washington Island, players found "Trinity Apartments", a waterfront block that looks like Dexter Morgan's home from the TV show. You can't go inside, but a kit on the roof holds a knife, tape and rope, and a nearby boat that resembles Dexter's *Slice of Life* can be stolen. Rockstar hasn't called it a Dexter nod ([Dexerto](https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/)).
 - **A literal Easter egg.** Climb the tallest radio tower and you'll find an egg waiting in a nest. Kotaku's writer found it too.
 
 ## The radio
