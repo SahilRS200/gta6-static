@@ -1,7 +1,8 @@
 # X (Twitter) plan — @gamerinfo_in
 
 Status (19 Nov 2026): **the account is live and has two posts, both published by hand from a Claude
-chat through Typefully. No automation is built yet.** This file records what the owner has decided,
+chat through Typefully. No automation is built yet; the owner has decided how it will work (see
+"Auto-posting"), and the build is planned for the weekend of 21–22 Nov.** This file records what the owner has decided,
 what is still only a recommendation, and what was learned publishing the first posts (see
 "Publishing playbook"), so an agent can be updated from it. Items marked
 **Decided** came from the owner; items marked **Recommended** are proposals the owner has not confirmed.
@@ -145,7 +146,51 @@ Rough traffic expectation (estimates, not data): about 50–300 site visits from
 - Punchy but **true and sourced**: the content rules in `CLAUDE.md` apply in full (no fake urgency, no
   spoilers, rumours labelled "rumoured", no piracy or grey-market links).
 
-## Recommended build (not started; needs the owner's go-ahead)
+## Auto-posting: owner decisions (19 Nov 2026, evening) and the build
+
+**Decided (owner):**
+- **The hourly news agent decides the post.** The same agent that writes the AI Brief and the news picks
+  and writes the hot-news post, following "What to post" and the "Publishing playbook" rules.
+- **Every 2 hours between 06:00 and 23:59 IST.** The agent runs at :35 IST, so the slots are 06:35,
+  08:35 … 22:35 IST: 9 posts a day. (This replaces the earlier "06:00 to 00:00, 10 a day".)
+- **Posts go to X through the X API, not Typefully** (Typefully is too expensive). How the agent's
+  decision reaches X is open (owner: "a git action, another agent, whatever"); it must actually post.
+- No hosted MCP/API wrapper is needed unless the design below fails.
+
+**Proposed build (planned for the weekend, 21–22 Nov 2026; confirm before switching on):**
+
+1. **The agent writes the post to a file.** On news runs whose IST hour is even and between 06 and 22,
+   the agent writes `social/x-post.md`: front matter `slot:` (the clock, IST), `source:` (the post path it
+   is built from), then the post text. If neither the headline nor an unposted post is new since the last
+   `social/x-post.md`, it **skips the slot** (writes nothing). It never writes the file at other hours.
+2. **Its push triggers a GitHub Actions workflow** (`.github/workflows/post-to-x.yml`,
+   `on: push` to `main`, `paths: social/x-post.md`, plus `workflow_dispatch`, one-at-a-time concurrency).
+3. **A zero-dependency script** (`tools/post-to-x.mjs`, Node built-ins, fat-arrow functions) validates and
+   posts. It refuses to post (and fails the job) unless: weighted length ≤ 280 (emoji 2, U+FE0F 0); no URL
+   or domain in the text; ≤ 6 hashtags including `#GTA6 #GTAVI #ViceCity`; none of the banned tags; the
+   `slot:` is less than 90 minutes old and inside 06:00–23:59 IST; the text differs from the previous post.
+   It posts with `POST https://api.x.com/2/tweets`, signed with **OAuth 1.0a user context** (Node `crypto`).
+4. **Off switch:** posts only when the repo variable `X_POSTING` is `on`; otherwise it prints the post in
+   the job log (dry run). Run a day of dry runs before switching on.
+5. **No retries.** Any API error (including out-of-credit) fails the job; GitHub emails the owner. X also
+   rejects exact duplicates itself.
+6. **Text only first.** Card images (playbook step 4) need X's media upload; add them once text posting
+   is stable.
+
+**Why not post from the Claude routine directly:** the token PR #1 set up is an app Bearer token, which can
+only read. A posting token acts as `@gamerinfo_in` and belongs in GitHub's encrypted secrets, not in an AI
+sandbox; OAuth 1.0a user tokens don't expire, so there is no refresh flow to maintain.
+
+**What the owner does (about 15 minutes):**
+1. X Developer Console → the app → set permissions to **Read and Write**.
+2. Generate the **Access Token and Secret** for `@gamerinfo_in` (after the permission change, so they
+   carry write access).
+3. GitHub → repo Settings → Secrets and variables → Actions: add `X_API_KEY`, `X_API_SECRET`,
+   `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`; add the variable `X_POSTING` = `off`.
+4. Keep API credits topped up: 9 text posts a day × $0.015 ≈ $0.14 a day, about $4 a month.
+5. After a day of dry-run logs, set `X_POSTING` = `on`.
+
+## Recommended build (superseded by "Auto-posting" above; kept for history)
 
 - **Do not add a third research agent.** The hourly news agent already does the research and writes
   the headline; the X job only republishes what it produced.
@@ -268,13 +313,13 @@ injects (locally: `X_BEARER_TOKEN`). What that means for this plan:
 
 ## Open decisions for the owner
 
-1. Post source: brief `headline:` with newest-post fallback (recommended), or always the newest post.
+1. ~~Post source~~ **Decided 19 Nov:** the hourly news agent decides the post (brief `headline:` by
+   default, newest unposted post as fallback, per "What to post").
 2. Phase the link posts in after 3–4 weeks (recommended), or run the full mix from day one.
-3. GitHub Actions as the runner (recommended), or somewhere else.
+3. Runner: **GitHub Actions proposed** (see "Auto-posting"); owner confirms with the weekend build.
 4. Travel account: park it (recommended) or define its own content source.
-5. Automated posting route: Typefully (already linked and proven on the first posts), the X API
-   directly from GitHub Actions, or the X API from a Claude routine (possible since PR #1, but it needs a
-   write-capable `@gamerinfo_in` token, not the read-only Bearer token).
+5. ~~Automated posting route~~ **Decided 19 Nov:** the X API, not Typefully (too expensive). Proposed
+   path: news agent → `social/x-post.md` → GitHub Action → X API (see "Auto-posting").
 6. What the read-only X MCP is for. Reads are billed per post returned, and the guardrail above says
    never read from X; until this is decided the hourly agents are told not to call it.
 
