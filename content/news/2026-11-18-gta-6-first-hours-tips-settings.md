@@ -1,6 +1,6 @@
 ---
-title: GTA 6 First Hours — Settings to Change and 5 Things to Try at Midnight, Spoiler-Free
-description: Before you start GTA 6 at 12 AM IST: the aim settings to pick, plus spoiler-free systems Rockstar has shown, like scouting robberies, switching between Jason and Lucia, and dates.
+title: GTA 6 First Hours — Settings to Change First and 5 Things to Try, Spoiler-Free
+description: Just started GTA 6? The aim settings to pick, plus spoiler-free systems Rockstar has shown, like scouting robberies, switching between Jason and Lucia, and dates.
 date: 2026-11-18T21:38:00+05:30
 tags: [guide, tips, ps5, xbox, launch-day]
 type: guide
@@ -10,7 +10,7 @@ sources:
   - The Guardian — Inside the making of the most detailed Grand Theft Auto yet | https://www.theguardian.com/games/2026/nov/11/a-world-of-its-own-inside-the-making-of-the-most-detailed-grand-theft-auto-yet
   - Push Square — Rockstar explains GTA 6's frame rate and input changes | https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision
 ---
-India unlocks at **12:00 AM IST**. Spend two minutes in the menus first, then try a few things Rockstar has shown off. **No story spoilers here**: everything below is about controls and systems.
+GTA 6 unlocked in India at **12:00 AM IST on 19 November**. Spend two minutes in the menus first, then try a few things Rockstar has shown off. **No story spoilers here**: everything below is about controls and systems.
 
 ## Settings to pick before you play
 

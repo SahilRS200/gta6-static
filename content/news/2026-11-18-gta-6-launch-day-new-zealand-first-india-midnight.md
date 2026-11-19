@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Launch Day Is HERE — New Zealand Unlocks at 4:30 PM IST Today, India at Midnight
-description: The GTA 6 rollout starts today. New Zealand goes live at 4:30 PM IST, Australia at 6:30 PM, and India unlocks at 12:00 AM IST tonight. Here's the full evening timeline and your checklist.
+title: GTA 6 Launch Day Timeline — New Zealand Unlocked at 4:30 PM IST on 18 November, India at Midnight
+description: The GTA 6 rollout began on 18 November: New Zealand went live at 4:30 PM IST, Australia at 6:30 PM, and India unlocked at 12:00 AM IST. The full launch-evening timeline.
 date: 2026-11-18T16:00:00+05:30
 tags: [india, launch-day, release-time, new-zealand, ps5, xbox]
 sources:

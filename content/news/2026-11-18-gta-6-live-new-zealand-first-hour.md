@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Is Live in New Zealand — How the First Unlock Is Going, and What It Means for India Tonight
-description: GTA 6 unlocked in New Zealand at 4:30 PM IST. No major PSN or Xbox outage is reported so far, but there are unconfirmed ban reports for NZ-trick accounts. India unlocks at midnight.
+title: GTA 6 Went Live in New Zealand First — How the First Unlock Went, Hours Before India
+description: GTA 6 unlocked in New Zealand at 4:30 PM IST. No major PSN or Xbox outage is reported so far, but there are unconfirmed ban reports for NZ-trick accounts. India unlocked at midnight.
 date: 2026-11-18T17:05:00+05:30
 updated: 2026-11-18T17:50:00+05:30
 tags: [india, launch-day, new-zealand, ps5, xbox]
