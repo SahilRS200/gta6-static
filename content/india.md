@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-19T22:36:00+05:30
-headline: Zepto says it has never sold out this fast — over 1 lakh users searched it for GTA 6, PS5s and controllers this week.
+updated: 2026-11-20T01:37:00+05:30
+headline: S8UL's creators say GTA 6 was worth the 13-year wait — Pitaji Playz finds the cops smarter and the combat like RDR2.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
@@ -19,10 +19,10 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 
 ## 📺 Indian creators and streams
 
-- **YouTube's 24-hour GTA 6 stream** features Total Gaming, Payal Gaming, Sharkshe and Mythpat, and runs until about 10:30 AM IST on 20 November. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
+- **YouTube's 24-hour GTA 6 stream** with Total Gaming, Payal Gaming, Sharkshe and Mythpat runs until about 10:30 AM IST on 20 November. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
+- **S8UL's first verdicts:** Soul Aman, Pitaji Playz and Dattrax Gaming all rate GTA 6 highly after launch day. [What they said →](/news/gta-6-first-impressions-indian-creators-s8ul/)
 - **Mythpat peaked at about 1.25 lakh live viewers** on launch night. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
 - **CarryMinati and Mythpat** each streamed about 10 hours on launch day and passed 1.3 crore views by Thursday afternoon, Reuters says. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
-- **An MP, a film star and CarryMinati** joined the midnight unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
 
 ## 🇮🇳 Playing from India
 
