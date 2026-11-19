@@ -1,16 +1,18 @@
-# Owner-run check that the X (Twitter) secrets work. Manual trigger only (Actions tab → "Check X access" →
-# Run workflow, or `npm run x:check` / `npm run x:check:write`). By default it only reads: signs in with the
-# four secrets and confirms they act as @gamerinfo_in (about $0.01). Ticking "write test" also posts a test
-# post and deletes it straight away (about $0.02), the only definitive proof that posting works.
+# Owner-run check that the X (Twitter) secrets work. Manual trigger only: Actions tab → "Check X access" →
+# Run workflow, or `npm run x:check` (free), `npm run x:check:read`, `npm run x:check:write`.
+#   free  (default) — keys present, well formed, and accepted by X; returns no data, so nothing is billed
+#   read  — also confirms the token acts as @gamerinfo_in (about $0.01)
+#   write — also posts a test post and deletes it straight away (about $0.02): the proof that posting works
 name: Check X access
 
 on:
   workflow_dispatch:
     inputs:
-      write_test:
-        description: 'Write test: post a test post and delete it straight away (about $0.02)'
-        type: boolean
-        default: false
+      mode:
+        description: 'free = keys accepted, no cost · read = also confirm @gamerinfo_in (~$0.01) · write = also post and delete a test post (~$0.02)'
+        type: choice
+        options: [free, read, write]
+        default: free
 
 permissions:
   contents: read
@@ -27,7 +29,7 @@ jobs:
       - name: Check X access
         run: node tools/check-x-access.mjs
         env:
-          X_WRITE_TEST: ${{ inputs.write_test }}
+          X_CHECK_MODE: ${{ inputs.mode }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}

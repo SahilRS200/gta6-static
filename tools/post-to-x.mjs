@@ -21,8 +21,9 @@ const oauthSignature = (method, url, params, consumerSecret, tokenSecret) => {
   return createHmac('sha1', `${percent(consumerSecret)}&${percent(tokenSecret)}`).update(base).digest('base64');
 };
 
-// OAuth 1.0a user-context header for a JSON POST (a JSON body is not part of the signature).
-const oauthHeader = (method, url, keys) => {
+// OAuth 1.0a user-context header. `url` is the bare URL (no query string); query parameters are passed in
+// `query` because they are part of the signature. A JSON body is not part of the signature.
+const oauthHeader = (method, url, keys, query = {}) => {
   const params = {
     oauth_consumer_key: keys.X_API_KEY,
     oauth_nonce: randomBytes(16).toString('hex'),
@@ -31,7 +32,7 @@ const oauthHeader = (method, url, keys) => {
     oauth_token: keys.X_ACCESS_TOKEN,
     oauth_version: '1.0',
   };
-  params.oauth_signature = oauthSignature(method, url, params, keys.X_API_SECRET, keys.X_ACCESS_SECRET);
+  params.oauth_signature = oauthSignature(method, url, { ...query, ...params }, keys.X_API_SECRET, keys.X_ACCESS_SECRET);
   return `OAuth ${Object.keys(params).sort().map((k) => `${percent(k)}="${percent(params[k])}"`).join(', ')}`;
 };
 
