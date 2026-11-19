@@ -9,7 +9,7 @@ Puts the X (Twitter) API keys into this repo's GitHub Actions secrets, and flips
 that `.github/workflows/post-to-x.yml` reads. Needs Node 20+ and the GitHub CLI (`gh`) logged in.
 
 ```
-npm run x:secrets         # paste the four keys at hidden prompts, confirm, upload
+npm run x:secrets         # paste the four keys (shown so you can check them), confirm, upload
 npm run x:posting:off     # X_POSTING=off: the Action only prints the post (dry run)
 npm run x:posting:on      # X_POSTING=on: the Action posts to X for real
 ```
@@ -23,8 +23,10 @@ npm run x:posting:on      # X_POSTING=on: the Action posts to X for real
 | `X_ACCESS_TOKEN` | OAuth 1.0 Keys → Access Token (for @gamerinfo_in, Read and write) |
 | `X_ACCESS_SECRET` | OAuth 1.0 Keys → Access Token Secret |
 
-- Run it from **cmd, PowerShell or Windows Terminal**. Git Bash's terminal can't hide input, so the script
-  refuses to run there.
-- Keys are never echoed, never put on a command line and never written to a file; they go to `gh` on stdin.
+- **Pasted keys are shown** (owner's choice) with their length and a shape check, then listed in full before
+  you type `yes`, so a key in the wrong slot is caught before upload. The screen and scrollback are cleared
+  afterwards. Sharing your screen? Use `node dev-tools/set-x-secrets.mjs --hidden` (cmd, PowerShell or
+  Windows Terminal) and nothing is echoed.
+- Keys are never put on a command line and never written to a file; they go to `gh` on stdin.
 - Press Enter on an empty prompt to leave that secret unchanged (handy when rotating one key).
 - This repo is public: never paste a key into a file, an issue, a commit or a chat.
