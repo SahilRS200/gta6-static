@@ -26,6 +26,7 @@ One creator called the launch a "glitchy buggy mess" and compared it to Cyberpun
 1. **Stuck under the map?** Wait a few seconds for a respawn. If nothing happens, reload your last checkpoint rather than quitting to the home screen.
 2. **Make sure you're on the latest patch.** Check for updates on PS5 or Xbox. Both pre-launch patches are covered in our [download size guide](/news/gta-6-day-one-patch-size-ps5-xbox/).
 3. **Game won't start at all?** That's a different problem. See our [6 fixes for a locked GTA 6](/news/gta-6-locked-not-starting-ps5-fix-india/).
-4. **Record it.** Hit Create on PS5 to save a clip; it helps if you report the bug to Rockstar Support later.
+4. **Save manually.** GTA 6 keeps only one autosave slot, and one streamer lost 10+ hours. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
+5. **Record it.** Hit Create on PS5 to save a clip; it helps if you report the bug to Rockstar Support later.
 
 We'll update this post when Rockstar releases a hotfix. More for Indian players: [everything you need to know →](/gta-6-india/)
