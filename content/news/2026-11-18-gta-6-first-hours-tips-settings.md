@@ -30,7 +30,7 @@ From Rockstar's preview interview with The Guardian, as summarised by [VICE](htt
 4. **Be nice for once.** Rockstar added optional ways to show empathy, like asking a dog's owner if you can pet the dog.
 5. **Go birdwatching.** There are 62 bird species to log with binoculars.
 
-Expect a slow start: Rockstar North's Rob Nelson says Jason and Lucia begin small-time, with cheap cars and basic locks ([VICE](https://www.vice.com/en/article/gta-6-gameplay-details-guardian-interview/), from [The Guardian](https://www.theguardian.com/games/2026/nov/11/a-world-of-its-own-inside-the-making-of-the-most-detailed-grand-theft-auto-yet)'s studio visit).
+Expect a slow start: Rockstar North's Rob Nelson says Jason and Lucia begin small-time, with cheap cars and basic locks ([VICE](https://www.vice.com/en/article/gta-6-gameplay-details-guardian-interview/), from [The Guardian](https://www.theguardian.com/games/2026/nov/11/a-world-of-its-own-inside-the-making-of-the-most-detailed-grand-theft-auto-yet)'s studio visit). Watch the fuel gauge, too: a full tank lasts roughly 18 to 29 minutes of driving. [GTA 6 fuel system →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 
 Note: there's no online multiplayer at launch. [What we know about GTA 6 Online →](/news/gta-6-online-multiplayer-not-at-launch/)
 
