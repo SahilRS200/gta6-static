@@ -1,6 +1,7 @@
 ---
 updated: 2026-11-19T12:39:00+05:30
 headline: PM Modi borrowed GTA 6's look on launch day — 'India is playing a whole new game', GTA V vs GTA VI
+search: [PM Modi, fuel, YouTube stream, save]
 ---
 ## 🔥 Hot in India right now
 

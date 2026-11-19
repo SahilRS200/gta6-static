@@ -94,6 +94,11 @@ Small Markdown files the site reads at every deploy. Timestamps follow the same 
 A tight, skimmable answer to "what's hot right now and what should I do?" for an Indian player.
 - Front matter: `updated:` (the output of `TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30`, never a guessed or rounded time) and `headline:` (one sentence, under
   ~110 characters, the single most important thing right now).
+- `search: [a, b, c, d]` — 2–4 short search terms (1–3 words, what a player would type) for the hottest
+  topics this hour, **India first**, in the same order as the brief, e.g. `search: [PM Modi, fuel, save]`.
+  They become the always-visible header search's placeholder ("Search GTA 6 — try “PM Modi”") and its
+  "Trending in India" chips. Each term must appear in the title, description or tags of one of our posts —
+  the site silently drops a term that finds nothing. Refresh it every run with the brief.
 - Body: 2–4 `##` sections with emoji headings, chosen from `## 🔥 Hot in India`,
   `## ✅ Try this today` (a tip or guide worth doing now), `## 🛠️ Fix of the day` (only when a real
   problem is hitting players; link the fix) and `## 🌍 Around the world`. 2–4 bullets each; skip a

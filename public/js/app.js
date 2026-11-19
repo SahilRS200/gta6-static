@@ -494,15 +494,25 @@ const wireAiBrief = () => {
   document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !e.target.closest('[data-ai-open]')) set(false); });
 };
 
-// Search: a small JSON index (titles, descriptions, tags) fetched on first use, filtered in the browser.
+// Search: always in the header. A small JSON index (titles, descriptions, tags) is fetched on first use and
+// filtered in the browser. Empty box → "Trending in India" chips; the placeholder rotates through the same
+// topics. Both come from the AI brief's `search:` list, refreshed on every deploy.
+const SEARCH_ROTATE_MS = 3500;
+const placeholderFor = (topic) => `Search GTA 6 — try “${topic}”`;
+
 const wireSearch = () => {
-  const pop = $('#search-pop');
-  const opener = $('[data-search-open]');
-  if (!pop || !opener) return;
-  const input = $('[data-search-input]', pop);
-  const list = $('[data-search-results]', pop);
-  const note = $('[data-search-note]', pop);
-  const hint = note.textContent;
+  const box = $('.site-search');
+  if (!box) return;
+  const input = $('[data-search-input]', box);
+  const panel = $('#search-panel');
+  const list = $('[data-search-results]', panel);
+  const note = $('[data-search-note]', panel);
+  const trending = $('[data-search-trending]', panel);
+  let hints = [];
+  try { hints = JSON.parse(input.dataset.hints || '[]'); } catch { /* no hints */ }
+  trending.innerHTML = hints.length
+    ? `<p class="search-trending-label"><span aria-hidden="true">🔥</span> Trending in India</p><div class="search-chips">${hints.map((h) => `<button type="button" class="chip" data-hint="${escHtml(h)}">${escHtml(h)}</button>`).join('')}</div>`
+    : '';
   let index = null;
   let loading = null;
   const load = () => {
@@ -516,7 +526,8 @@ const wireSearch = () => {
   };
   const run = async () => {
     const q = input.value.trim().toLowerCase();
-    if (!q) { list.innerHTML = ''; note.textContent = hint; return; }
+    trending.hidden = !!q || !hints.length;
+    if (!q) { list.innerHTML = ''; note.textContent = `Searches every news story, guide and fix.${matchMedia('(hover: hover)').matches ? ' Press / to search from anywhere.' : ''}`; return; }
     const data = index || await load();
     const terms = q.split(/\s+/).filter(Boolean);
     const showSpoilers = document.documentElement.classList.contains('show-spoilers');
@@ -534,22 +545,51 @@ const wireSearch = () => {
     list.innerHTML = hits.map(({ it }) => `<li><a href="${escHtml(it.u)}"><span class="badge badge-${escHtml(it.y.toLowerCase())}">${escHtml(it.y)}</span> <b>${escHtml(it.t)}</b><small>${escHtml(it.d || '')}</small></a></li>`).join('');
     note.textContent = hits.length ? `${hits.length} result${hits.length > 1 ? 's' : ''}` : 'No matches. Try fewer or different words.';
   };
-  const set = (open) => {
-    if (open) closeOthers('search');
-    pop.hidden = !open;
-    opener.setAttribute('aria-expanded', String(open));
-    if (open) { load(); input.focus(); input.select(); }
+  const open = (on) => {
+    if (on) closeOthers('search');
+    panel.hidden = !on;
+    box.classList.toggle('is-open', on);
+    input.setAttribute('aria-expanded', String(on));
   };
-  panels.set('search', () => { if (!pop.hidden) set(false); });
+  panels.set('search', () => { if (!panel.hidden) open(false); });
+  const results = () => $$('a', list);
+
   let timer = 0;
+  input.addEventListener('focus', () => { load(); open(true); run(); });
   input.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 120); });
-  opener.addEventListener('click', () => set(pop.hidden));
-  $('[data-search-close]', pop).addEventListener('click', () => { set(false); opener.focus(); });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !pop.hidden) { set(false); opener.focus(); }
-    if (e.key === '/' && pop.hidden && !e.target.closest('input, textarea, select, [contenteditable]')) { e.preventDefault(); set(true); }
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { const first = results()[0]; if (first) { e.preventDefault(); location.href = first.href; } }
+    if (e.key === 'ArrowDown') { const first = results()[0]; if (first) { e.preventDefault(); first.focus(); } }
+    if (e.key === 'Escape') {
+      if (input.value) { input.value = ''; run(); } else { open(false); input.blur(); }
+    }
   });
-  document.addEventListener('click', (e) => { if (!pop.hidden && !pop.contains(e.target) && !opener.contains(e.target)) set(false); });
+  list.addEventListener('keydown', (e) => {
+    const all = results();
+    const i = all.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown' && i < all.length - 1) { e.preventDefault(); all[i + 1].focus(); }
+    if (e.key === 'ArrowUp') { e.preventDefault(); (i > 0 ? all[i - 1] : input).focus(); }
+    if (e.key === 'Escape') input.focus();
+  });
+  trending.addEventListener('click', (e) => {
+    const chip = e.target.closest('[data-hint]');
+    if (!chip) return;
+    input.value = chip.dataset.hint;
+    run();
+    input.focus();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && !e.target.closest('input, textarea, select, [contenteditable]')) { e.preventDefault(); input.focus(); }
+  });
+  document.addEventListener('click', (e) => { if (!panel.hidden && !box.contains(e.target)) open(false); });
+
+  // The placeholder suggests one trending topic at a time while the box is idle.
+  let k = 0;
+  setInterval(() => {
+    if (hints.length < 2 || document.hidden || input.value || document.activeElement === input) return;
+    k = (k + 1) % hints.length;
+    input.placeholder = placeholderFor(hints[k]);
+  }, SEARCH_ROTATE_MS);
 };
 
 // ---------- full-screen live board (home carousel only) ----------

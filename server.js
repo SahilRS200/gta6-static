@@ -8,14 +8,14 @@ import { gzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { ZONES } from './public/js/zones.js';
 import { dayLabel } from './public/js/day.js';
-import { applyPartials, headCommon, alertHtml } from './lib/partials.js';
+import { applyPartials, headCommon, alertHtml, esc } from './lib/partials.js';
 import { renderCityPage, renderReleaseIndex, renderSitemap } from './lib/render.js';
 import { createCounter } from './lib/counter.js';
 import { loadPosts, loadBrief, loadDoc, tagsOf } from './lib/content.js';
 import { renderPost, renderNewsHub, renderTag, renderRss, renderNewsSitemap, latestNewsHtml, tickerHtml, heroNewsHtml, briefHtml, briefPreviewHtml } from './lib/news.js';
 import {
   renderGuidesHub, renderFixesHub, renderWhatsNext, heroGuidesHtml, heroFixesHtml, heroIndiaHtml,
-  homeGuidesHtml, homeFixesHtml, homeIndiaHtml, homeNextHtml, indiaBlocksHtml, indiaNewsHtml, searchIndexJson,
+  homeGuidesHtml, homeFixesHtml, homeIndiaHtml, homeNextHtml, indiaBlocksHtml, indiaNewsHtml, searchIndexJson, trendingSearches,
 } from './lib/hubs.js';
 import { HOME_FAQ, INDIA_FAQ, faqDetailsHtml, faqJsonLd } from './lib/faq.js';
 import { createPsnStatus } from './lib/psn.js';
@@ -77,6 +77,7 @@ let brief = null;
 let alert = null; // content/alert.md — the one-line banner
 let india = null; // content/india.md — India hub blocks, headline and price line
 let whatsNext = null; // content/whats-next.md — tracker rows and patch notes
+let trending = []; // header search hints: the hottest topics from the AI brief, each one finds a post
 
 // Brief bullets that link to a spoiler post are hidden with the other spoiler items.
 const markSpoilerLinks = (html, slugs) => (slugs.size
@@ -137,6 +138,8 @@ const templated = (text) => {
   let out = applyPartials(text);
   for (const [token, render] of Object.entries(TOKENS)) if (out.includes(token)) out = out.replace(token, () => render());
   return out
+    .replaceAll('__SEARCH_PLACEHOLDER__', esc(trending.length ? `Search GTA 6 — try “${trending[0]}”` : 'Search GTA 6 news, guides and fixes'))
+    .replaceAll('__SEARCH_HINTS__', esc(JSON.stringify(trending)))
     .replaceAll('__CONTENT_SIG__', contentSignature())
     .replaceAll('__HOME_MODIFIED__', newestDate())
     .replaceAll('__SITE_URL__', SITE_URL);
@@ -157,6 +160,7 @@ const loadSite = async () => {
   brief = await loadBrief(join(CONTENT_ROOT, 'brief.md'));
   const spoilerSlugs = new Set(posts.filter((p) => p.spoiler).map((p) => p.slug));
   if (brief) brief = { ...brief, html: markSpoilerLinks(brief.html, spoilerSlugs) };
+  trending = trendingSearches(brief, posts);
   alert = await loadDoc(join(CONTENT_ROOT, 'alert.md'));
   india = await loadDoc(join(CONTENT_ROOT, 'india.md'));
   if (india) india = { ...india, html: markSpoilerLinks(india.html, spoilerSlugs) };
