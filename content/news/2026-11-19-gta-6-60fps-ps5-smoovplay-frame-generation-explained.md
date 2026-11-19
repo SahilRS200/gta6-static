@@ -2,7 +2,7 @@
 title: GTA 6 at 60fps on PS5? A Free PC App Fakes It With AI Frame Generation, but Adds About 20 ms of Lag
 description: GTA 6 runs at 30fps on every console. SmoovPlay streams your PS5 to a Windows PC and inserts AI frames for 60fps, but adds about 20 ms of lag and needs a recent Nvidia GPU.
 date: 2026-11-19T10:37:00+05:30
-tags: [performance, ps5, how-to]
+tags: [performance, ps5, guide]
 sources:
   - Notebookcheck — PC app boosts GTA 6 PS5 performance from 30 fps to 60 fps, but at a cost | https://www.notebookcheck.net/New-PC-app-boosts-GTA-6-PS5-performance-from-30-fps-to-60-fps-but-at-a-cost.1452776.0.html
   - Push Square — Rockstar explains GTA 6's frame rate decision | https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision
