@@ -1,7 +1,9 @@
 # X (Twitter) plan — @gamerinfo_in
 
-Status: **planning only (19 Nov 2026). Nothing is built yet.** This file records what the owner has
-decided and what is still only a recommendation, so an agent can be updated from it. Items marked
+Status (19 Nov 2026): **the account is live and has two posts, both published by hand from a Claude
+chat through Typefully. No automation is built yet.** This file records what the owner has decided,
+what is still only a recommendation, and what was learned publishing the first posts (see
+"Publishing playbook"), so an agent can be updated from it. Items marked
 **Decided** came from the owner; items marked **Recommended** are proposals the owner has not confirmed.
 Ask before building anything marked Recommended.
 
@@ -97,26 +99,41 @@ Rough traffic expectation (estimates, not data): about 50–300 site visits from
 - **Format:**
 
   ```
-  <headline>
+  <hook line> <emoji>
 
-  #GTA6 #GTAVI #<one tag-based hashtag>
-  More at gta6info (link in bio)
+  <the key fact, with the number>
+
+  Also:
+  <emoji> <extra tip or detail>
+  <emoji> <extra tip or detail>
+  <emoji> <extra tip or detail>
+
+  Full guide: gta6info (link in bio)
+
+  <hashtags, see "Hashtags" below>
   ```
 
-  Example (153 characters):
+  The first real news post, as published (about 274 weighted characters, with a card image):
 
   ```
-  Broke in GTA 6? Shipwreck dives pay up to about $4,000 each — the fastest early money, no spoilers
+  Broke in GTA 6? 💸
 
-  #GTA6 #GTAVI #GTA6Tips
-  More at gta6info (link in bio)
+  Shipwreck dives: ~$1,400 for the first wreck, up to ~$4,000 later. Fastest money.
+
+  Also:
+  🏚️ Raid gang hideouts
+  🚗 Sell cars at Pay 'n' Spray
+  📬 Check your mailbox for pay
+
+  Full guide: gta6info (link in bio)
+
+  #GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
   ```
 
 - **No URL and no domain anywhere in the text**, so each post bills at $0.015. Write `gta6info`
   without the dot. Avoid tricks like `gta6info[dot]in`; they read as spam on a new account.
-- 2–4 hashtags, built from the post's tags (`#GTA6`, `#GTAVI`, then e.g. `#GTA6Tips`,
-  `#GTA6India`). Never stuff hashtags.
-- Stay under 280 characters.
+- Hashtags follow the owner's rules in "Publishing playbook → Hashtags" (up to 6). Never stuff hashtags.
+- Stay under 280 characters, counted the way X counts them (see the playbook).
 
 ### Flashy link posts (2 a day, phase 2)
 
@@ -146,8 +163,76 @@ Rough traffic expectation (estimates, not data): about 50–300 site visits from
   owner has seen a day of dry-run output.
 - **De-duplication state must not be committed to `main`**, because every push to `main` redeploys the
   site. Keep it in the Actions cache or on a separate branch.
-- Typefully (a scheduling app) is connected to the owner's Claude account. It was considered and not
-  chosen for automation: it adds a subscription and a middleman. It is fine for one-off manual posts.
+- **Typefully** (a scheduling app) is connected to the owner's Claude account and linked to
+  `@gamerinfo_in` (social set id `367940`). **The owner used it to publish the first two posts.** It was
+  first considered and not chosen for automation (it adds a subscription and a middleman); whether the
+  automated posts go through Typefully or straight to the X API is now an open decision (below).
+
+## Publishing playbook (learned from the first posts, 19 Nov 2026)
+
+Owner-approved process from publishing the welcome post and news post #1. Follow it for every post
+until automation replaces a step; anything marked **Owner rule** came from the owner directly.
+
+### Posts published so far
+
+| # | When (IST) | Post | URL |
+|---|---|---|---|
+| 0 | 19 Nov 2026, 14:08 | Welcome post ("Namaste, gamers 🇮🇳🎮 … India's own gamer channel is live"), text only | https://x.com/gamerinfo_in/status/2123335114176565324 |
+| 1 | 19 Nov 2026, 14:20 | Money guide: shipwreck dives up to ~$4,000, with a card image | https://x.com/gamerinfo_in/status/2123338012134347174 |
+
+The welcome post should be pinned to the profile (owner does this by hand in the X app).
+
+### Steps, in order
+
+1. **Pick the story.** `git pull`, read `content/brief.md`; the `headline:` is the default pick. Open the
+   post it links to in `content/news/` and **check every number and claim against that post and its
+   `sources:`** before writing. Never add a fact the site doesn't carry.
+2. **Write the text** to the format in "What to post": hook line, the key fact with its number, an
+   "Also:" list of 2–3 extra tips from the same post, `Full guide: gta6info (link in bio)`, then hashtags.
+   No URL or domain in the text.
+3. **Count characters the way X does** before saving: emoji count as 2, other characters as 1, emoji
+   variation selectors (U+FE0F) as 0. The limit is 280. The first draft of post #1 was 298 and had to be
+   trimmed, so always count; never eyeball it.
+4. **Make a card image** (1200×675 PNG): the site's neon-sunset style (purple-pink-orange gradient,
+   sunset, dark sea or skyline), a small label pill (e.g. `MONEY GUIDE`), the hook in large white type,
+   the key number in yellow `#ffe14d`, a short subline, and the footer `gta6info.in · GAMER INFO`.
+   Font: Poppins Bold. Render SVG → PNG (`rsvg-convert`), then **look at the PNG** and fix overlaps
+   before uploading (post #1's first render had a wave line through the footer text). A domain inside
+   the image is fine: only the post text is billed for URLs.
+5. **Upload the image to Typefully with alt text.** Alt text describes the card and repeats the hook
+   and number (X reads it as text). Upload is a presigned S3 PUT to
+   `typefully-user-uploads.s3.amazonaws.com`; the owner has allowed that host for Claude sessions. If the
+   upload is blocked, do not retry another way: save the draft text only and tell the owner.
+6. **Save as a Typefully draft first**, never publish straight away. Put the source post path and its
+   outlets in the draft's scratchpad.
+7. **Show the owner the exact final text, image and hashtags, and wait for an explicit "publish".**
+   Publishing cannot be undone. Any edit after approval (even adding a tag) needs a fresh "publish".
+8. **Publish, then confirm** by reading the draft back until `status` is `published`, and record the
+   X URL in the table above.
+9. **After publishing:** reply to early comments within the first hour (author replies are a strong
+   reach signal on a new account).
+
+### Hashtags (Owner rules)
+
+- **Up to 6 hashtags.** More reads as spam on a new account.
+- Always: **`#GTA6 #GTAVI #ViceCity`** (the owner insisted `#ViceCity` stays).
+- Platforms: **`#PS5 #Xbox`** when the post applies to console players (most do).
+- India: **`#IndianGaming`** (the most-used Indian gaming tag; `#GamingIndia` is the smaller variant).
+- **Trim the post text before dropping a wanted tag** (post #1 cut "Fastest early money." to
+  "Fastest money." to fit).
+- Don't invent tags (e.g. `#GTA6Tips`, `#GTA6Money`): only use tags with real, visible use. The owner
+  rejected narrow made-up tags in favour of broad gaming and India tags.
+- Avoid `#RockstarGames` and `#GrandTheftAuto` (they signal official announcements on an unofficial
+  account) and dated trailer or story tags (`#GTA6Trailer`, `#LuciaAndJason`).
+- No search tool shows live X trends; review X Analytics after a few days of posts and adjust the set
+  from real impressions.
+
+### X post fields beyond the text
+
+X has no title, description or tag fields; the text is the metadata. The extra fields that matter:
+image + alt text (use on every news post), Community posting (worth it if a good GTA 6 community
+exists), reply settings (leave open to everyone), "made with AI" label (owner's call; recommended for
+automated posts once they run). Link cards come from the site's Open Graph tags, already in place.
 
 ## Guardrails for whatever posts
 
@@ -171,6 +256,8 @@ Rough traffic expectation (estimates, not data): about 50–300 site visits from
 2. Phase the link posts in after 3–4 weeks (recommended), or run the full mix from day one.
 3. GitHub Actions as the runner (recommended), or somewhere else.
 4. Travel account: park it (recommended) or define its own content source.
+5. Automated posting route: Typefully (already linked and proven on the first posts) or the X API
+   directly from GitHub Actions.
 
 ## Sources
 
