@@ -47,6 +47,13 @@ const main = async () => {
   const missing = KEY_NAMES.filter((k) => !keys[k]);
   if (missing.length) { log(`❌ Missing secrets: ${missing.join(', ')}. Run npm run x:secrets.`); process.exitCode = 1; return; }
   log('✅ All four X secrets are set.');
+  // Shapes only (lengths and patterns, never characters), to spot a key pasted into the wrong slot.
+  // Typical OAuth 1.0a shapes: Consumer Key 25, Consumer Secret 50, Access Token "<account id>-<letters>"
+  // about 50, Access Token Secret 45. An OAuth 2.0 Client ID or Client Secret has a different shape.
+  const shape = (k) => `${k}: ${keys[k].length} chars${/\s/.test(keys[k]) ? ', contains spaces or line breaks' : ''}`;
+  log(`ℹ️ ${KEY_NAMES.map(shape).join(' · ')}`);
+  if (!/^\d+-[A-Za-z0-9]+$/.test(keys.X_ACCESS_TOKEN)) log('⚠️ X_ACCESS_TOKEN does not look like an OAuth 1.0a access token (expected "<numeric account id>-<letters and digits>").');
+  if (/\s/.test(Object.values(keys).join(''))) log('⚠️ A secret contains spaces or line breaks: copy it again.');
 
   const me = await call('GET', `${API}/users/me`, keys);
   if (!me.ok) { explain('Read check', me); process.exitCode = 1; return; }
