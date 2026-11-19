@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-19T09:38:00+05:30
-headline: A streamer lost 10+ hours of GTA 6 progress, and the game keeps just one autosave; save manually now
+updated: 2026-11-19T10:37:00+05:30
+headline: An MP filmed his own midnight GTA 6 unlock; Pooja Hegde and CarryMinati joined India's launch-night hype
 ---
 ## 🔥 Hot in India right now
 
-- **GTA 6 keeps only one autosave slot.** JasonTheWeen lost 10+ hours after his PS5 shut off; use the 15 manual slots outside missions. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
-- **No first-person mode in GTA 6.** Rockstar built it for third-person; reports say first-person appears only in moments like aiming some guns. [What the camera does →](/news/gta-6-first-person-mode-camera-options/)
-- **YouTube's 24-hour GTA 6 stream, with 4 Indian creators, starts 10:30 AM IST.** Total Gaming, Payal, Sharkshe and Mythpat. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
-- **GTA 6 is selling PS5s in India.** Vijay Sales says stock went in 3–4 days. [The numbers →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
+- **GTA 6's India unlock went mainstream.** Rajya Sabha MP Raghav Chadha filmed his countdown, Pooja Hegde shared her preload and CarryMinati revisited GTA V. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
+- **GTA 6 keeps only one autosave slot.** A streamer lost 10+ hours; use the 15 manual slots. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
+- **YouTube's 24-hour GTA 6 stream, with 4 Indian creators, runs from 10:30 AM IST today.** [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
+- **No first-person mode.** GTA 6 is third-person only at launch. [Camera details →](/news/gta-6-first-person-mode-camera-options/)
 
 ## ✅ Do this now
 
-- **GTA 6 streams to Xbox One from 11:30 AM IST.** You must own the game. [How it works →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
-- **Game padlocked on PS5?** Restore licences before redownloading 212 GB. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
+- **60fps on PS5? Only via an unofficial PC app** that adds about 20 ms of lag; most players should skip it. [Explained →](/news/gta-6-60fps-ps5-smoovplay-frame-generation-explained/)
+- **GTA 6 streams to Xbox One from 11:30 AM IST** if you own it. [How →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
 
 ## 🌍 Around the world
 

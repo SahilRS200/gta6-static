@@ -36,3 +36,5 @@ A 24-hour gameplay stream will move through the story fast. If you want to go in
 **Playing tonight instead?** Finish your [pre-launch patches](/news/gta-6-day-one-patch-size-ps5-xbox/), read [what critics said (a 99 on Metacritic)](/news/gta-6-reviews-metacritic-99/), and keep the [India launch guide](/gta-6-india/) handy.
 
 Related: Mythpat already pulled a peak of about 1.25 lakh live viewers on launch night, as GTA 6 set a 7.9 million streaming record. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+
+Related: an MP, Pooja Hegde and CarryMinati also joined the midnight India unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)

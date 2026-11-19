@@ -31,3 +31,5 @@ GTA 6 unlocks at **12:00 AM IST** on PS5 and Xbox Series X|S.
 - [Digital Foundry's PS5 vs PS5 Pro vs Xbox performance test →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/)
 - [India unlock countdown →](/gta-6-release-time/india/)
 - [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
+
+Related: a free PC app claims to turn GTA 6 on PS5 into 60fps with AI frame generation, but it adds lag. [What it does →](/news/gta-6-60fps-ps5-smoovplay-frame-generation-explained/)
