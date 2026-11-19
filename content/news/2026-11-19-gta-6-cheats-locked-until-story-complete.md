@@ -14,7 +14,7 @@ If you've been punching old GTA cheat codes into your phone since **12:00 AM IST
 
 - **Finish the story first.** Once the credits roll, a **Cheats** tab appears under the pause menu's **Progress** section, listing every cheat and what it needs ([Red Bull](https://www.redbull.com/int-en/gta-6-cheat-codes)).
 - **61 cheats in total**, Red Bull counts: 10 player, 11 combat, 21 vehicle spawns, 3 environment and 16 screen filters.
-- **Most also need a challenge.** A few unlock just for finishing the story (Red Bull lists Cycle Weather as one). Others need extra work, for example 25 silver medals or better at shooting ranges for Infinite Ammo, 100 workouts for Body Armor, or 50 skydives or BASE jumps for the Parachute. Progress you've already made counts.
+- **Most also need a challenge.** A few unlock just for finishing the story (Red Bull lists Cycle Weather as one). Others need extra work, for example 25 silver medals or better at shooting ranges for Infinite Ammo, 100 workouts for Body Armor ([where to work out](/news/gta-6-gym-workouts-strength-stamina-guide/)), or 50 skydives or BASE jumps for the Parachute. Progress you've already made counts.
 - **How to enter one:** press Up on the D-pad to open the phone, then hold **L1 and press R1** on PS5 (**LB and RB** on Xbox) and type the D-pad sequence.
 - **The catch:** using a cheat **disables trophies and achievements, and you can't save** afterwards. Save first.
 
