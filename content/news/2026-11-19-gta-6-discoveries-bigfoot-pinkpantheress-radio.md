@@ -1,15 +1,18 @@
 ---
-title: GTA 6 Discoveries — Bigfoot in the Swamps, a Dexter Apartment Easter Egg, PinkPantheress on the Radio
-description: What GTA 6 players are finding on day one, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment with a stealable boat, PinkPantheress as a radio DJ, and phones that wreck driving.
+title: GTA 6 Discoveries — Bigfoot, a Dexter Easter Egg and a Doomscrolling Phone Feed That Mocks the Delays
+description: What GTA 6 players are finding, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment, an Instagram-style phone feed that mocks the delays, and phones that wreck driving.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-20T00:36:00+05:30
-tags: [gameplay, tips, reactions, launch-day]
+updated: 2026-11-20T04:37:00+05:30
+tags: [gameplay, tips, reactions, launch-day, phone]
 sources:
   - Kotaku — GTA 6 launch live updates | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
   - Kotaku — GTA 6 pets: cats, dogs and more | https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120
   - Kotaku — Grand Theft Auto 6 review | https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842
   - Engadget — GTA 6 launch day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Dexerto — GTA 6 players find Dexter's apartment and can steal his boat | https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/
+  - Dexerto — GTA 6 phone-while-driving feature spawns memes | https://www.dexerto.com/gta/gta-6s-new-dangerous-driving-and-doomscrolling-feature-spawns-hilarious-memes-3429850/
+  - GamesRadar+ — GTA 6's in-game Instagram memes mock Rockstar's delays | https://www.gamesradar.com/games/grand-theft-auto/gta-6s-shockingly-accurate-instagram-memes-make-fun-of-rockstars-delays-and-more-as-doomscrolling-becomes-one-of-the-best-new-activities-in-the-game/
+  - iPhone in Canada — GTA 6's apps, social media and playable games | https://www.iphoneincanada.ca/2026/11/19/gta-6-apps-social-media-playable-games/
   - VGC — GTA 6 house first seen in a 2021 remaster | https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/
 ---
 Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map is already giving up its secrets. Kotaku's launch live blog has been collecting the best finds ([Kotaku](https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030)). None of these touch the story, so they're safe to read.
@@ -21,6 +24,12 @@ Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map
 - **A 2021 teaser, solved.** A mystery house that appeared only in *GTA: San Andreas – Definitive Edition* has been matched to a house in GTA 6's Belville, right down to the plants outside. Fans mapping Leonida spotted it, which suggests Rockstar slipped in a first look at GTA 6 five years ago ([VGC](https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/)).
 - **A Dexter apartment in Vice Beach.** On Washington Island, players found "Trinity Apartments", a waterfront block that looks like Dexter Morgan's home from the TV show. You can't go inside, but a kit on the roof holds a knife, tape and rope, and a nearby boat that resembles Dexter's *Slice of Life* can be stolen. Rockstar hasn't called it a Dexter nod ([Dexerto](https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/)).
 - **A literal Easter egg.** Climb the tallest radio tower and you'll find an egg waiting in a nest. Kotaku's writer found it too.
+
+## The phone is the new meme machine
+
+- **Doomscrolling is a real activity.** Each character's phone has an Instagram-style feed with hundreds of posts, memes and comments, tuned to their interests ([iPhone in Canada](https://www.iphoneincanada.ca/2026/11/19/gta-6-apps-social-media-playable-games/)). GamesRadar+ calls scrolling it one of the best new things to do, and reports some in-game posts poke fun at the game's own delays ([GamesRadar+](https://www.gamesradar.com/games/grand-theft-auto/gta-6s-shockingly-accurate-instagram-memes-make-fun-of-rockstars-delays-and-more-as-doomscrolling-becomes-one-of-the-best-new-activities-in-the-game/)).
+- **Phone-while-driving clips are everywhere.** The phone blocks part of your view and makes the car harder to steer, so players are posting edited clips of Jason "watching" anime or checking crypto while he drives into trouble ([Dexerto](https://www.dexerto.com/gta/gta-6s-new-dangerous-driving-and-doomscrolling-feature-spawns-hilarious-memes-3429850/)). Funny to watch, bad for your car: pull over first.
+- **Other apps to poke at:** a ride-hailing app called RydeMe and a payments app called BuckMe, and an in-game console with games you can actually play ([iPhone in Canada](https://www.iphoneincanada.ca/2026/11/19/gta-6-apps-social-media-playable-games/)).
 
 ## The radio
 

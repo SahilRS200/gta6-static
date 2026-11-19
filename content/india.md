@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-20T01:37:00+05:30
+updated: 2026-11-20T04:38:00+05:30
 headline: S8UL's creators say GTA 6 was worth the 13-year wait — Pitaji Playz finds the cops smarter and the combat like RDR2.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -14,7 +14,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 
 - **PS5 stock is tight.** Vijay Sales says stock sold out within three to four days, with waits of 15–20 days. [The numbers →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
 - **PlayStation has 75% of GTA 6 sales,** by Sensor Tower's estimate of about 19 million copies worth $1.84 billion; Xbox has 25%. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
-- **The full bill:** a PS5 Slim Digital plus the Standard Edition comes to about ₹70,989. [Full breakdown →](/gta-6-price-in-india/)
+- **The full bill:** a PS5 Slim Digital plus the Standard Edition comes to about ₹70,989; an Xbox Series S setup is about ₹38,000–46,000, but it's the weakest version. [Cheapest way to play →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
 - **On Xbox One?** If you own the game, you can stream it through Xbox Cloud Gaming. [How it works →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
 
 ## 📺 Indian creators and streams
