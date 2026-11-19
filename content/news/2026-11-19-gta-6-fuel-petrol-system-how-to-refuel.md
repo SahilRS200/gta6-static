@@ -3,6 +3,7 @@ title: GTA 6 Cars Need Petrol — A Full Tank Lasts About 18 to 29 Minutes; How 
 description: Yes, GTA 6 cars run out of fuel. Tests put a full tank at 18 to 29 minutes of driving. Press R2 at a pump for a 10-second fill; EVs charge the same way. What to know.
 date: 2026-11-19T12:38:00+05:30
 tags: [gameplay, tips, guide]
+type: guide
 sources:
   - Jalopnik — GTA 6 cars won't have infinite gas | https://www.jalopnik.com/2320980/gta-6-grand-theft-auto-cars-need-gas-tank-refuel/
   - The Autopian — GTA 6 fixes the biggest problem GTA cars have always had | https://www.theautopian.com/gta-6-finally-fixes-the-biggest-problem-the-cars-of-grand-theft-auto-games-have-always-had/
