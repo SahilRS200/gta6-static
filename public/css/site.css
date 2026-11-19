@@ -934,9 +934,9 @@ html:not(.show-spoilers) [data-spoiler-item] { display: none !important; }
 .search-chips .chip { font-weight: 600; }
 .search-chips .chip:hover { border-color: var(--accent); color: var(--accent); }
 .search-panel .search-note { margin: 8px 4px 2px; }
-/* Below ~1320px brand + status + box + nav no longer fit on one line: the box gets its own centred row
+/* Below ~1520px brand + status + box (wraps at its 260px basis) + nav no longer fit on one line: the box gets its own centred row
    under them; on phones it sits above the scrolling nav. */
-@media (max-width: 1320px) {
+@media (max-width: 1520px) {
   .site-search { order: 3; flex-basis: 100%; max-width: none; display: flex; justify-content: center; margin: 2px 0 0; }
   .site-search-field { width: min(640px, 100%); }
 }
@@ -984,3 +984,7 @@ body[data-page='ai'] .ai-fab { display: none; }
 .site-header nav a.nav-ai[aria-current='page'] { color: #fff; background: linear-gradient(120deg, #6d3fc0, #c8325f); box-shadow: 0 0 0 3px rgba(109, 63, 192, 0.25); }
 .ai-preview-more a.ai-open-btn { text-decoration: none; }
 .hero-ai .eyebrow { display: inline-block; max-width: 100%; line-height: 1.6; text-align: center; }
+
+/* header: X (Twitter) profile link */
+.site-header nav a.nav-x { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 600; white-space: nowrap; }
+.site-header nav a.nav-x svg { width: 14px; height: 14px; flex: none; fill: currentColor; }
