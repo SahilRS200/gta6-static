@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Online at Launch? No — GTA 6 Is Single-Player Only on Day One, Multiplayer Comes Later
-description: GTA 6 has no online multiplayer at launch on 19 November. Rockstar calls it a solo experience; datamined files hint at multiplayer, but no GTA 6 Online date is confirmed.
+title: GTA 6 Online Release Date — No Date Yet, GTA 6 Is Single-Player Only at Launch
+description: GTA 6 Online has no release date yet. GTA 6 launched on 19 November with no online multiplayer; datamined files hint at multiplayer, but Rockstar has confirmed no date.
 date: 2026-11-18T21:38:00+05:30
 tags: [gta-online, multiplayer, launch-day, ps5, xbox]
 sources:
