@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Pre-Load Is LIVE — Download It Now or Miss the 12 AM IST Start
-description: GTA 6 pre-loading opened on 10 November. If you bought it digitally, start the download now so the game is ready the second it unlocks at midnight IST.
+title: GTA 6 Pre-Load Explained — It Opened 10 November; the Game Unlocked at 12 AM IST on 19 November
+description: GTA 6 pre-loading opened on 10 November so digital buyers could download early; the game stayed locked until 12:00 AM IST on 19 November. What pre-loading did and didn't do.
 date: 2026-11-17T18:00:00+05:30
 tags: [india, preload, ps5, xbox]
 sources:

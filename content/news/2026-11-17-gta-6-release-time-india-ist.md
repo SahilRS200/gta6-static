@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Release Time in India Confirmed — Unlocks at 12:00 AM IST on 19 November
-description: GTA 6 goes live in India at midnight IST, the night between Wednesday and Thursday. Here's the exact unlock time, who plays before you, and when the US gets it.
+title: GTA 6 Release Time in India — It Unlocked at 12:00 AM IST on 19 November on PS5 and Xbox
+description: GTA 6 went live in India at 12:00 AM IST on Thursday, 19 November 2026, on PS5 and Xbox Series X|S. The exact unlock time, who played first, and when the US got it.
 date: 2026-11-17T18:30:00+05:30
 tags: [india, release-time, ps5, xbox]
 sources:
