@@ -1,8 +1,8 @@
 # X (Twitter) plan — @gamerinfo_in
 
 Status (19 Nov 2026): **the account is live and has two posts, both published by hand from a Claude
-chat through Typefully. No automation is built yet; the owner has decided how it will work (see
-"Auto-posting"), and the build is planned for the weekend of 21–22 Nov.** This file records what the owner has decided,
+chat through Typefully. Automated posting is built (see "Auto-posting") and runs as a dry run until
+the owner adds the X keys and sets `X_POSTING` to `on`.** This file records what the owner has decided,
 what is still only a recommendation, and what was learned publishing the first posts (see
 "Publishing playbook"), so an agent can be updated from it. Items marked
 **Decided** came from the owner; items marked **Recommended** are proposals the owner has not confirmed.
@@ -156,25 +156,35 @@ Rough traffic expectation (estimates, not data): about 50–300 site visits from
 - **Posts go to X through the X API, not Typefully** (Typefully is too expensive). How the agent's
   decision reaches X is open (owner: "a git action, another agent, whatever"); it must actually post.
 - No hosted MCP/API wrapper is needed unless the design below fails.
+- **(A) The GitHub Action has no logic of its own:** it reads `social/x-post.md` and posts it. All
+  validation happens on the agent's side, when it creates the post.
+- **(B) The agent follows the schedule:** it writes `social/x-post.md` only in a posting slot, never on
+  every run.
 
-**Proposed build (planned for the weekend, 21–22 Nov 2026; confirm before switching on):**
+**Built 19 Nov 2026 (dry run until the owner switches it on):**
 
-1. **The agent writes the post to a file.** On news runs whose IST hour is even and between 06 and 22,
-   the agent writes `social/x-post.md`: front matter `slot:` (the clock, IST), `source:` (the post path it
-   is built from), then the post text. If neither the headline nor an unposted post is new since the last
-   `social/x-post.md`, it **skips the slot** (writes nothing). It never writes the file at other hours.
-2. **Its push triggers a GitHub Actions workflow** (`.github/workflows/post-to-x.yml`,
-   `on: push` to `main`, `paths: social/x-post.md`, plus `workflow_dispatch`, one-at-a-time concurrency).
-3. **A zero-dependency script** (`tools/post-to-x.mjs`, Node built-ins, fat-arrow functions) validates and
-   posts. It refuses to post (and fails the job) unless: weighted length ≤ 280 (emoji 2, U+FE0F 0); no URL
-   or domain in the text; ≤ 6 hashtags including `#GTA6 #GTAVI #ViceCity`; none of the banned tags; the
-   `slot:` is less than 90 minutes old and inside 06:00–23:59 IST; the text differs from the previous post.
-   It posts with `POST https://api.x.com/2/tweets`, signed with **OAuth 1.0a user context** (Node `crypto`).
-4. **Off switch:** posts only when the repo variable `X_POSTING` is `on`; otherwise it prints the post in
-   the job log (dry run). Run a day of dry runs before switching on.
-5. **No retries.** Any API error (including out-of-credit) fails the job; GitHub emails the owner. X also
+1. **Schedule gate (agent side).** Every news run calls `node tools/check-x-post.mjs --slot`. Exit 0 only
+   in an even IST hour 06–22 that has no post yet; otherwise the agent leaves the file alone. In a slot it
+   writes `social/x-post.md`: front matter `slot:` (the clock, IST) and `source:` (the post path it is
+   built from), then the post text. If neither the headline nor an unposted post is new, it skips the slot.
+2. **Validation (agent side).** `node tools/check-x-post.mjs` must pass before the agent commits:
+   weighted length ≤ 280 (emoji 2, U+FE0F 0); no URL or domain; ≤ 6 hashtags including
+   `#GTA6 #GTAVI #ViceCity`, none of the banned tags, no repeats; the `gta6info (link in bio)` sign-off;
+   `slot:` fresh (< 90 min) and in a slot hour, and the commit made in a slot hour; the `source:` exists;
+   not the same text or the same story as recent posts. Rules for the agent: `CLAUDE.md` → "X posts".
+3. **The push triggers the Action** (`.github/workflows/post-to-x.yml`: `on: push` to `main` with
+   `paths: social/x-post.md`, plus `workflow_dispatch`; one run at a time).
+4. **The Action just posts.** `tools/post-to-x.mjs` (zero dependencies) reads the file, drops the front
+   matter and sends the text with `POST https://api.x.com/2/tweets`, signed with **OAuth 1.0a user
+   context** (Node `crypto`; the signing matches X's documented example). It prints the post URL.
+5. **Off switch:** it posts only when the repo variable `X_POSTING` is `on`; otherwise it prints the post
+   in the job log (dry run). Run a day of dry runs before switching on.
+6. **Known trade-off of (A):** any commit that changes `social/x-post.md` posts immediately, whatever the
+   hour. Only the news agent writes it (the SEO agent is forbidden to touch `social/`); a person should
+   never edit it to fix a typo after it went out (delete the post on X instead).
+7. **No retries.** Any API error (including out-of-credit) fails the job; GitHub emails the owner. X also
    rejects exact duplicates itself.
-6. **Text only first.** Card images (playbook step 4) need X's media upload; add them once text posting
+8. **Text only first.** Card images (playbook step 4) need X's media upload; add them once text posting
    is stable.
 
 **Why not post from the Claude routine directly:** the token PR #1 set up is an app Bearer token, which can
@@ -316,7 +326,7 @@ injects (locally: `X_BEARER_TOKEN`). What that means for this plan:
 1. ~~Post source~~ **Decided 19 Nov:** the hourly news agent decides the post (brief `headline:` by
    default, newest unposted post as fallback, per "What to post").
 2. Phase the link posts in after 3–4 weeks (recommended), or run the full mix from day one.
-3. Runner: **GitHub Actions proposed** (see "Auto-posting"); owner confirms with the weekend build.
+3. ~~Runner~~ **Decided 19 Nov:** GitHub Actions, with no logic of its own (see "Auto-posting").
 4. Travel account: park it (recommended) or define its own content source.
 5. ~~Automated posting route~~ **Decided 19 Nov:** the X API, not Typefully (too expensive). Proposed
    path: news agent → `social/x-post.md` → GitHub Action → X API (see "Auto-posting").

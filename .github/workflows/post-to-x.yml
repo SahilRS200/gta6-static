@@ -1,0 +1,36 @@
+# Posts social/x-post.md to X as @gamerinfo_in whenever a commit on main changes it.
+# No checks here (owner decision, 19 Nov 2026): the hourly news agent writes the file only in its posting
+# slots (even IST hours 06–22) and validates it with tools/check-x-post.mjs before committing.
+# Dry run until the repository variable X_POSTING is set to "on". No retries: a failed post fails the job.
+name: Post to X
+
+on:
+  push:
+    branches: [main]
+    paths: ['social/x-post.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: post-to-x
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Post to X
+        run: node tools/post-to-x.mjs
+        env:
+          X_POSTING: ${{ vars.X_POSTING }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}

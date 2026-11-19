@@ -45,8 +45,10 @@ The scheduled news agent may **commit and push to `main` without asking**, withi
    unless nothing at all changed since the last brief.
 6. **Keep the site content files current** (`content/alert.md`, `content/india.md`,
    `content/whats-next.md`) and the status of every fix — see "Site content files" below.
-7. **SEO pass** — see below.
-8. Run the checks, then commit and push.
+7. **X post, only in a posting slot** — run `node tools/check-x-post.mjs --slot`; follow "X posts"
+   below. Outside a slot, leave `social/x-post.md` alone.
+8. **SEO pass** — see below.
+9. Run the checks, then commit and push.
 
 ### Post types: news, guides, fixes
 Every post is a Markdown file in `content/news/` and keeps its `/news/<slug>/` URL whatever its type.
@@ -171,6 +173,8 @@ for f in server.js lib/*.js public/js/*.js public/sw.js; do node --check "$f" ||
 PORT=8099 DATA_DIR=/tmp/gta6-data node server.js &   # must print "gta6 site on :8099"
 sleep 3 && for u in /ai/ /home/ /news/ /guides/ /fixes/ /whats-next/ /gta-6-india/ /sitemap.xml /search-index.json; do
   curl -sf "http://localhost:8099$u" >/dev/null || { echo "FAIL $u"; exit 1; }; done; kill %1
+# only when this commit changes social/x-post.md (news agent, posting slot):
+node tools/check-x-post.mjs || exit 1
 ```
 Also open each new post URL locally and confirm it returns 200.
 
@@ -222,6 +226,7 @@ AI Brief** — that is the news agent's job.
 - Keyword-stuff, add hidden text, invent FAQ answers, or write titles the page doesn't deliver.
 - Change layout, design, `server.js` security (API guard, CSP, rate limit), dependencies, or deploy config.
 - Change URLs/slugs of published pages (that breaks links and rankings).
+- Touch anything in `social/` (a change to `social/x-post.md` posts to X immediately).
 
 ## X (Twitter) — @gamerinfo_in
 
@@ -231,11 +236,55 @@ first. Every game next."), cadence, post format, hashtags and guardrails. Rules 
 - **Never call the X API tools.** `.mcp.json` loads an X API server (`xapi`, read-only) into every cloud
   session in this repo. Every X read is billed per post returned, and the plan's guardrail is "never read
   from X". Research what's trending on X with WebSearch, the same as any other site.
-- **Never post to X.** No automated posting is built yet. When it is, it will be its own job that follows
-  `docs/SOCIAL_X_PLAN.md`, not part of these agents.
-- **What you write feeds the account.** The plan's (recommended) source for the 2-hourly X posts is the
-  brief's `headline:`, checked against the post it links to. Keep it a true, sourced, spoiler-free single
-  line under ~110 characters that carries its key number, with no URL in it.
+- **The only way anything reaches X is `social/x-post.md`.** A GitHub Action
+  (`.github/workflows/post-to-x.yml`) posts that file **the moment a commit changes it**, with no checks of
+  its own (owner decision). So: only the news agent writes it, only in a posting slot, only after the
+  checker passes (below). The SEO agent never touches `social/`. Never call an X API any other way.
+
+### X posts (news agent, owner decision 19 Nov 2026)
+One post every 2 hours from 06:00 to 23:59 IST. You run at :35 IST, so the slots are 06:35, 08:35 …
+22:35 IST (9 a day). **You are the only gate** between this file and a public post.
+
+1. **Schedule.** Every run: `node tools/check-x-post.mjs --slot`. Exit 0 means this run is a posting slot
+   (an even IST hour 06–22, not used yet); anything else means **do not touch `social/x-post.md` this run**.
+   Never edit the file outside a slot, and never to fix a typo after it went out: any change is a new post.
+2. **Pick.** The brief's `headline:` story by default. If that story was already posted (`--slot` lists
+   the recent sources), take the newest post in `content/news/` that hasn't been posted. If neither is new,
+   **skip the slot**: write nothing. Never repeat a post, never pad with filler. India stories first when
+   they are the hottest.
+3. **Write** `social/x-post.md` in the plan's format ("What to post" in `docs/SOCIAL_X_PLAN.md`):
+
+   ```
+   ---
+   slot: <output of TZ=Asia/Kolkata date +%Y-%m-%dT%H:%M:00+05:30>
+   source: /news/<slug>/
+   ---
+   <hook line> <emoji>
+
+   <the key fact, with the number>
+
+   Also:
+   <emoji> <extra tip or detail>
+   <emoji> <extra tip or detail>
+   <emoji> <extra tip or detail>
+
+   Full guide: gta6info (link in bio)
+
+   #GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+   ```
+
+   - **Every number and claim must be in the source post and its `sources:`.** Never add a fact the site
+     doesn't carry. Spoiler-free; rumours labelled "rumoured".
+   - **No URL and no domain anywhere** (a link costs $0.20 instead of $0.015): write `gta6info` without the
+     dot, never `gta6info.in`, never tricks like `[dot]`.
+   - **Hashtags (owner rules):** up to 6; always `#GTA6 #GTAVI #ViceCity`; `#PS5 #Xbox` when it applies to
+     console players; `#IndianGaming`. Never invent tags (`#GTA6Tips`), never `#RockstarGames`,
+     `#GrandTheftAuto`, `#GTA6Trailer`, `#LuciaAndJason`. Trim the text before dropping a wanted tag.
+4. **Check.** `node tools/check-x-post.mjs` must exit 0. It counts characters the way X does (limit 280;
+   emoji count 2) and checks the URL, hashtag, sign-off, schedule and repeat rules. Fix and re-run until it
+   passes. If you can't make it pass, put the file back (`git checkout -- social/x-post.md`) and skip the
+   slot.
+5. **Commit** it in the run's single commit, and add `x: <hook line>` to the commit message.
 
 ## Layout
 `tools/seo-audit.mjs` SEO audit · `content/news/*.md` posts, guides and fixes · `content/brief.md` AI brief ·
