@@ -32,5 +32,5 @@ Gameplay clips from early regions are already all over X, as [Sunday Guardian](h
 
 Then go to bed early, or don't: India unlocks at **12:00 AM IST tonight**.
 
-- [Exact India unlock time and countdown →](/gta-6-release-time/india/)
+- [When GTA 6 unlocked in India →](/gta-6-release-time/india/)
 - [Everything Indian players need to know →](/gta-6-india/)

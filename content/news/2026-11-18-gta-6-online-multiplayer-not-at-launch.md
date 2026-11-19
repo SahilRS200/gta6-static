@@ -22,4 +22,4 @@ Dataminers digging through the preload found references to multiplayer features,
 
 - **Your mates can't join your game.** Plan a watch-party on Discord or stream it instead. YouTube's 24-hour launch stream with Indian creators starts at 10:30 AM IST. [Stream times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
 - **Ignore "GTA 6 Online early access" offers.** Anything selling access, codes or mod menus for an online mode that doesn't exist is a scam. [Avoid these scams →](/news/gta-6-free-download-apk-scam-warning/)
-- **Ready for midnight?** [Patch sizes →](/news/gta-6-day-one-patch-size-ps5-xbox/) · [India unlock countdown →](/gta-6-release-time/india/) · [Everything Indian players need to know →](/gta-6-india/)
+- **Playing now?** [Patch sizes →](/news/gta-6-day-one-patch-size-ps5-xbox/) · [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · [Everything Indian players need to know →](/gta-6-india/)

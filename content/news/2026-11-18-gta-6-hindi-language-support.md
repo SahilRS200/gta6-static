@@ -34,4 +34,4 @@ The 13 entries, as compiled by [Gamemapa](https://gamemapa.com/en/gta-6/guides/g
 - Audio will be **English** whatever you pick, so choose English for menus and subtitles too unless you read another listed language more comfortably.
 - Turn **subtitles on** if you find fast American slang hard to follow. Rockstar games have plenty of dialogue while you drive.
 
-GTA 6 unlocks in India at **12:00 AM IST tonight** on PS5 and Xbox Series X|S. [Live India countdown →](/gta-6-release-time/india/) · [Everything India needs to know →](/gta-6-india/)
+GTA 6 unlocked in India at **12:00 AM IST on 19 November** on PS5 and Xbox Series X|S. [India launch time →](/gta-6-release-time/india/) · [Everything India needs to know →](/gta-6-india/)

@@ -31,4 +31,4 @@ Rockstar's guidance, as reported by Forbes, is that the game releases at **midni
 2. Keep your PS5 **online** so the license can unlock on time.
 3. Don't fall for "unlock early" tricks — [here's what actually works](/news/play-gta-6-early-india-new-zealand-trick/).
 
-[Open the live India countdown →](/gta-6-release-time/india/)
+[India launch time, archived →](/gta-6-release-time/india/)

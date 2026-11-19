@@ -23,7 +23,7 @@ Logitech has announced **"Logi Game Day"**: one paid day off for each of its rou
 
 Most of us still have work or college on Thursday. The unlock is at midnight, so finish the pre-load and patches before you sleep, and you can play a few hours tonight or straight after work.
 
-- [India release time and countdown →](/gta-6-release-time/india/)
+- [When GTA 6 unlocked in India →](/gta-6-release-time/india/)
 - [Tonight's unlock timeline →](/news/gta-6-launch-day-new-zealand-first-india-midnight/)
 - [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
 - [Everything for Indian players →](/gta-6-india/)
