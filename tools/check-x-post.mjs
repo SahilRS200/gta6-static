@@ -22,8 +22,10 @@ const SIGN_OFF = 'gta6info (link in bio)';
 const FRESH_MS = 90 * 60 * 1000;
 const CLOCK_SKEW_MS = 2 * 60 * 1000;
 const RECENT = 12;
-// Anything X would bill as a link post ($0.20 instead of $0.015): schemes, www., or a domain shape.
-const URL_RE = /https?:\/\/|www\.|\b[a-z0-9-]+\.(?:in|com|net|org|io|gg|co|me|tv|ly|app|dev|xyz|info|link|site)\b/i;
+// Anything X would turn into a link and bill as a link post ($0.20 instead of $0.015): a scheme, "www.", or any
+// domain shape — a word, a dot, then two or more letters (gta6info.in, x.ai, rockstar.games, bit.ly …). X links
+// every real top-level domain, so this blocks them all rather than listing some. Numbers like 1.02 or $1.65 pass.
+const URL_RE = /https?:\/\/|www\.|\b[a-z0-9-]+\.[a-z]{2,}\b/i;
 const NOT_SLOT = 3;
 
 const istParts = (ms) => {
@@ -37,6 +39,12 @@ const isSlotHour = (hour) => hour % 2 === 0 && hour >= FIRST_HOUR && hour <= LAS
 
 const git = (...args) => {
   try { return execFileSync('git', args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim(); } catch { return ''; }
+};
+
+// A shallow clone (as cloud sandboxes often make) would hide earlier posts from the repeat checks, so fetch the
+// full history first. Best effort: if it fails, the checks still see whatever history is there.
+const ensureHistory = () => {
+  if (git('rev-parse', '--is-shallow-repository') === 'true') git('fetch', '--unshallow', '--quiet');
 };
 
 const parse = (raw) => {
@@ -140,5 +148,5 @@ const postCheck = () => {
 
 export { weightOf, parse, isSlotHour, URL_RE };
 
-const run = () => { process.exitCode = process.argv.includes('--slot') ? slotCheck() : postCheck(); };
+const run = () => { ensureHistory(); process.exitCode = process.argv.includes('--slot') ? slotCheck() : postCheck(); };
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) run();
