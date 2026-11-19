@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-19T14:37:00+05:30
+updated: 2026-11-19T16:38:00+05:30
 headline: GTA 6 is selling PS5s in India — stock went in days, Blinkit and Zepto deliver the code box, and four Indian creators are on YouTube's 24-hour stream.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -20,6 +20,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 
 - **YouTube's 24-hour GTA 6 stream** features Total Gaming, Payal Gaming, Sharkshe and Mythpat, and runs until about 10:30 AM IST on 20 November. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
 - **Mythpat peaked at about 1.25 lakh live viewers** on launch night. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **Comic Con India's launch-day sessions** let fans in Delhi (Saket Social) and Navi Mumbai (Vashi Social) play GTA 6 without a console, 2–6 PM on 19 November. [Details →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)
 - **An MP, a film star and CarryMinati** joined the midnight unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
 
 ## 🇮🇳 Playing from India

@@ -1,24 +1,23 @@
 ---
-updated: 2026-11-19T15:38:00+05:30
-headline: 75% of GTA 6's estimated 17 million copies sold on PlayStation — and India's PS5 stock is running out
-search: [PS5 demand, casino, impound, money]
+updated: 2026-11-19T16:38:00+05:30
+headline: No PS5? Play GTA 6 today in Delhi and Navi Mumbai — Comic Con India's launch sessions run till 6 PM
+search: [Comic Con, PS5 demand, stutter, casino]
 ---
 ## 🔥 Hot in India
 
-- **PS5 stock is running out in India.** GTA 6 is 75% a PlayStation game by Sensor Tower's estimate, and Vijay Sales sold out in 3–4 days, with 15–20 day waits. [What to know →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
+- **Comic Con India's GTA 6 sessions, no console needed.** Saket Social (Delhi) and Vashi Social (Navi Mumbai), 2–6 PM IST today; check entry details first. [Where and when →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)
+- **PS5 stock is running out in India.** Vijay Sales sold out in 3–4 days, with 15–20 day waits; 75% of GTA 6 sales are on PlayStation, Sensor Tower estimates. [What to know →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
 - **YouTube's 24-hour GTA 6 stream, with 4 Indian creators,** runs till about 10:30 AM IST tomorrow. [Who and when →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
-
-## ✅ Try this today
-
-- **Don't bother with the casinos.** They can't be entered and there's no gambling; Rockstar says it didn't fit the story or the economy. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
-- **Car impounded or wrecked? Call Joey.** He delivers it repaired for free; from Chapter 2, use the Scooter Bros app. [Get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
-- **Shipwreck dives pay up to about $4,000,** and make manual saves: there's only one autosave slot. [Money guide →](/news/gta-6-how-to-make-money-fast-early-game/)
 
 ## 🛠️ Fix of the day
 
-- **PS5 overheating or switching off?** Give it air and clean the vents. [Fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
+- **Stutter on base PS5?** Players say clearing the cache, turning off HDCP and shrinking the stick dead zone help. Fight frame drops need a patch, and none is announced. [Try this →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
+
+## ✅ Try this today
+
+- **Skip the casinos.** They can't be entered; Rockstar says gambling didn't fit the story. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
+- **Save manually.** There's only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 
 ## 🌍 Around the world
 
-- **Rockstar's UK staff are voting on a union** until 26 November; a tribunal over 31 sackings awaits a ruling. Your game isn't affected. [What's happening →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
 - **99 on Metacritic** and a **7.9 million** live-viewer streaming record. [Reviews →](/news/gta-6-reviews-metacritic-99/)

@@ -38,3 +38,5 @@ A 24-hour gameplay stream will move through the story fast. If you want to go in
 Related: Mythpat already pulled a peak of about 1.25 lakh live viewers on launch night, as GTA 6 set a 7.9 million streaming record. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
 
 Related: an MP, Pooja Hegde and CarryMinati also joined the midnight India unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
+
+Related: in Delhi or Navi Mumbai? Comic Con India let fans play GTA 6 without a console at launch-day sessions on 19 November. [Where and when →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)

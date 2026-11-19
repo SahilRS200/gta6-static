@@ -2,7 +2,7 @@
 title: GTA 6 Bugs at Launch — Players Report Falling Through the Map and Clipping; No Rockstar Patch Yet
 description: GTA 6 launch bugs players are reporting: falling through the map, clipping through walls, low FPS on base PS5. No Rockstar hotfix yet. What Indian players can do right now.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-19T04:37:00+05:30
+updated: 2026-11-19T16:37:00+05:30
 tags: [bugs, patch, ps5, launch-day, india]
 type: fix
 status: open
@@ -29,6 +29,7 @@ One creator called the launch a "glitchy buggy mess" and compared it to Cyberpun
 2. **Make sure you're on the latest patch.** Check for updates on PS5 or Xbox. Both pre-launch patches are covered in our [download size guide](/news/gta-6-day-one-patch-size-ps5-xbox/).
 3. **Game won't start at all?** That's a different problem. See our [6 fixes for a locked GTA 6](/news/gta-6-locked-not-starting-ps5-fix-india/).
 4. **Save manually.** GTA 6 keeps only one autosave slot, and one streamer lost 10+ hours. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
-5. **Record it.** Hit Create on PS5 to save a clip; it helps if you report the bug to Rockstar Support later.
+5. **Stutter on base PS5?** Players say clearing the cache, turning off HDCP and shrinking the stick dead zone help. [Stutter workarounds →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
+6. **Record it.** Hit Create on PS5 to save a clip; it helps if you report the bug to Rockstar Support later.
 
 We'll update this post when Rockstar releases a hotfix. More for Indian players: [everything you need to know →](/gta-6-india/)
