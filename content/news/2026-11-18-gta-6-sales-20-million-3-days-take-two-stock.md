@@ -2,7 +2,7 @@
 title: GTA 6 Could Sell 20 Million in 3 Days, Analyst Says — Take-Two Shares Jump After 99 Metacritic
 description: An Oppenheimer analyst forecasts about 20 million GTA 6 copies and over $1.85 billion in three days. Take-Two shares rose about 6% after reviews. Official numbers may come 20 Nov.
 date: 2026-11-18T20:45:00+05:30
-updated: 2026-11-19T14:37:00+05:30
+updated: 2026-11-19T22:36:00+05:30
 tags: [sales, reviews, rockstar, pre-orders]
 sources:
   - Investing.com — Take-Two shares climb as GTA VI reviews impress ahead of launch | https://www.investing.com/news/stock-market-news/taketwo-shares-climb-as-gta-vi-reviews-impress-ahead-of-blockbuster-launch-5035826
@@ -20,7 +20,7 @@ These are still **Sensor Tower estimates, not official figures**. Rockstar and T
 
 ## The 20 million forecast
 
-Oppenheimer analyst **Martin Yang** forecasts roughly **20 million copies sold and more than $1.85 billion in gross revenue in the first three days**, per [Investing.com](https://www.investing.com/news/stock-market-news/taketwo-shares-climb-as-gta-vi-reviews-impress-ahead-of-blockbuster-launch-5035826). That is an **analyst estimate, not a Rockstar figure**. For comparison, Sensor Tower's latest estimate puts digital pre-orders at about 17 million ([our pre-orders story](/news/gta-6-pre-orders-15-million-record/)).
+Oppenheimer analyst **Martin Yang** forecasts roughly **20 million copies sold and more than $1.85 billion in gross revenue in the first three days**, per [Investing.com](https://www.investing.com/news/stock-market-news/taketwo-shares-climb-as-gta-vi-reviews-impress-ahead-of-blockbuster-launch-5035826). That is an **analyst estimate, not a Rockstar figure**. For comparison, Sensor Tower's launch-day estimate is already about 19 million copies and $1.84 billion ([our sales-tracker story](/news/gta-6-pre-orders-15-million-record/)).
 
 Yang also named **cyberattacks on console networks** as the main launch-day risk, which matters for anyone in India planning to play the moment it unlocks.
 

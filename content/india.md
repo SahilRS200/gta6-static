@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-19T22:26:00+05:30
+updated: 2026-11-19T22:36:00+05:30
 headline: Zepto says it has never sold out this fast — over 1 lakh users searched it for GTA 6, PS5s and controllers this week.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -13,7 +13,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ## 🎮 PS5 and Xbox
 
 - **PS5 stock is tight.** Vijay Sales says stock sold out within three to four days, with waits of 15–20 days. [The numbers →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
-- **PlayStation has 75% of GTA 6 sales,** by Sensor Tower's estimate of about 17 million copies; Xbox has 25%. [The numbers →](/news/gta-6-sales-20-million-3-days-take-two-stock/)
+- **PlayStation has 75% of GTA 6 sales,** by Sensor Tower's estimate of about 19 million copies worth $1.84 billion; Xbox has 25%. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
 - **The full bill:** a PS5 Slim Digital plus the Standard Edition comes to about ₹70,989. [Full breakdown →](/gta-6-price-in-india/)
 - **On Xbox One?** If you own the game, you can stream it through Xbox Cloud Gaming. [How it works →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
 

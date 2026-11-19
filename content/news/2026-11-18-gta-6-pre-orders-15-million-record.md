@@ -1,11 +1,12 @@
 ---
-title: GTA 6 Pre-Orders Pass 17 Million, Estimate Says — About $1.65 Billion Before Launch
-description: Sensor Tower now estimates about 17.07 million digital GTA 6 pre-orders on PS5 and Xbox, worth roughly $1.65 billion, on the eve of launch. Rockstar hasn't confirmed any figure.
+title: GTA 6 Sales Pass 19 Million, Estimate Says — About $1.84 Billion, More Than Double GTA V's Day One
+description: Sensor Tower now estimates about 19 million digital GTA 6 copies on PS5 and Xbox, worth roughly $1.84 billion, with 75% on PS5. Rockstar hasn't confirmed any figure yet.
 date: 2026-11-18T16:55:00+05:30
-updated: 2026-11-18T18:58:00+05:30
+updated: 2026-11-19T22:36:00+05:30
 tags: [sales, pre-orders, ps5, xbox]
 sources:
   - GameSpot — GTA 6 passes 17 million copies sold and $1.6 billion in revenue on eve of launch | https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/
+  - Hromadske — GTA 6 launches with near-perfect reviews, estimated 19 million copies sold | https://hromadske.ua/en/lifestyle/274650-gta-6-launches-with-near-perfect-reviews-estimated-19-million-copies-sold
   - VICE — How many people pre-ordered GTA 6? | https://www.vice.com/en/article/how-many-people-pre-ordered-gta-6/
   - Rockstar Intel — GTA VI could make $2 billion this week, 15 million pre-orders | https://rockstarintel.com/gta-vi-could-make-2-billion-this-week-15-million-pre-orders-already/
   - The Loadout — GTA 6 has already made $1.5 billion | https://theloadout.com/gta-6-has-already-made-1-5-billion-and-nobody-has-played-it-yet
@@ -13,7 +14,13 @@ sources:
 ---
 GTA 6 has only just started unlocking, and it may already be the most pre-ordered game ever. These are **estimates from analytics firm Sensor Tower, not official numbers**. Rockstar and Take-Two have not published pre-order totals.
 
-## Update, 18 Nov evening: over 17 million
+## Update, 19 Nov: about 19 million and $1.84 billion
+
+- **About 19.05 million digital copies, worth roughly $1.84 billion**, by Sensor Tower's launch-day estimate as reported by [GameSpot](https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/) and [Hromadske](https://hromadske.ua/en/lifestyle/274650-gta-6-launches-with-near-perfect-reviews-estimated-19-million-copies-sold). That's up about 2 million in a day.
+- **About 14.23 million on PS5 and 4.82 million on Xbox Series X|S**, still roughly three in four on PlayStation.
+- That is **more than double the roughly $800 million** GTA V made on its first day in 2013, by the same coverage. It is still a tracker estimate built mostly from pre-orders: **Rockstar and Take-Two have not announced a sales figure.**
+
+## 18 Nov evening: over 17 million
 
 - **About 17.07 million digital pre-purchases, worth roughly $1.65 billion**, per Sensor Tower's tracker as reported by [GameSpot](https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/) on the eve of launch.
 - **About 12.73 million on PS5 and 4.35 million on Xbox Series X|S.**
@@ -33,12 +40,12 @@ What *is* official: on 10 November, **Sony and Microsoft both confirmed GTA 6 is
 
 Sensor Tower counts **digital pre-orders only**, so physical copies and retail codes are not included. Tracker figures can also over- or under-count. There is no India-specific breakdown.
 
-## What it means for you tonight
+## What it means for you
 
-Millions of people unlock at the same time in each region, so **PSN and Xbox Live will be busy at midnight IST**. Finish your pre-load and both patches now, so all your console needs at 12:00 AM is the license check.
+The game unlocked at 12:00 AM IST on 19 November, and millions of people logging in at once is why PSN struggled on launch night. If yours still won't start, see the fixes below.
 
-- [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
-- [Is your pre-load done? →](/news/gta-6-preload-live-india/)
+- [GTA 6 PSN down? What happened on launch night →](/news/gta-6-psn-sign-in-error-services-busy-reddit-down/)
+- [GTA 6 locked or not starting on PS5? →](/news/gta-6-locked-not-starting-ps5-fix-india/)
 - [GTA 6 price in India →](/gta-6-price-in-india/)
 
 Related: [GTA 6 could sell 20 million in 3 days, an analyst says →](/news/gta-6-sales-20-million-3-days-take-two-stock/)
