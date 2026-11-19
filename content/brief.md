@@ -1,22 +1,22 @@
 ---
-updated: 2026-11-19T16:38:00+05:30
-headline: No PS5? Play GTA 6 today in Delhi and Navi Mumbai — Comic Con India's launch sessions run till 6 PM
-search: [Comic Con, PS5 demand, stutter, casino]
+updated: 2026-11-19T17:39:00+05:30
+headline: India's gaming cafes are booked till Sunday for GTA 6 — and CarryMinati's stream tops 1.3 crore views
+search: [gaming cafe, PS5 demand, crash, stutter]
 ---
 ## 🔥 Hot in India
 
-- **Comic Con India's GTA 6 sessions, no console needed.** Saket Social (Delhi) and Vashi Social (Navi Mumbai), 2–6 PM IST today; check entry details first. [Where and when →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)
-- **PS5 stock is running out in India.** Vijay Sales sold out in 3–4 days, with 15–20 day waits; 75% of GTA 6 sales are on PlayStation, Sensor Tower estimates. [What to know →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
-- **YouTube's 24-hour GTA 6 stream, with 4 Indian creators,** runs till about 10:30 AM IST tomorrow. [Who and when →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
+- **Gaming cafes are India's GTA 6 consoles.** From about ₹250 an hour; one Delhi cafe is booked through Sunday, Reuters reports, so call before you go. [What to know →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+- **CarryMinati and Mythpat's 10-hour streams** each passed 1.3 crore views by Thursday afternoon. [The numbers →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+- **PS5 stock is running out in India.** Vijay Sales sold out in 3–4 days, with 15–20 day waits. [What to know →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
 
 ## 🛠️ Fix of the day
 
-- **Stutter on base PS5?** Players say clearing the cache, turning off HDCP and shrinking the stick dead zone help. Fight frame drops need a patch, and none is announced. [Try this →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
+- **Crashing, freezing or PS5 switching off?** Update, power-cycle, give the console air and save manually. The viral "25 November patch" is not confirmed by Rockstar. [Try this →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **Stutter on base PS5?** Clear the cache and turn off HDCP. [How →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
 
 ## ✅ Try this today
 
 - **Skip the casinos.** They can't be entered; Rockstar says gambling didn't fit the story. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
-- **Save manually.** There's only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 
 ## 🌍 Around the world
 

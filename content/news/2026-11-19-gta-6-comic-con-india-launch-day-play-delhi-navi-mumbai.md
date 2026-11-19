@@ -23,6 +23,7 @@ Comic Con India says fans can **play GTA 6 without buying the game or owning a c
 
 - **Navi Mumbai Comic Con** runs on **28–29 November**, and **Delhi Comic Con** on **5–6 December**. The announcements don't say GTA 6 will be playable there.
 - **Want to buy?** It's ₹5,999 for the Standard Edition on PlayStation Store India. [Price and where to buy →](/gta-6-price-in-india/)
+- **Missed it?** Gaming cafes in Delhi and Bengaluru are running GTA 6 from about ₹250 an hour, but some are booked out. [Gaming cafes →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **Rather watch?** [YouTube's 24-hour stream with four Indian creators](/news/gta-6-youtube-24-hour-livestream-indian-creators/) runs until about 10:30 AM IST tomorrow.
 
 Before your first session: [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · More for Indian players: [the India hub →](/gta-6-india/)

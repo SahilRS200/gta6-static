@@ -26,8 +26,9 @@ For more spoiler-free player verdicts, see our [first reactions roundup](/news/g
 
 ## Just starting tonight?
 
+- **CarryMinati's 10-hour stream** passed 1.3 crore views by Thursday afternoon, Reuters says. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **Save manually.** GTA 6 keeps only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 - **Game shows a padlock?** [6 fixes for PS5 →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **Still need a copy?** [Price in India and where to buy →](/news/gta-6-price-in-india/)
+- **Still need a copy?** [Price in India and where to buy →](/gta-6-price-in-india/)
 
 More for Indian players: [everything you need to know →](/gta-6-india/)

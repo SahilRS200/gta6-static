@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-19T16:38:00+05:30
-headline: GTA 6 is selling PS5s in India — stock went in days, Blinkit and Zepto deliver the code box, and four Indian creators are on YouTube's 24-hour stream.
+updated: 2026-11-19T17:39:00+05:30
+headline: No PS5? India is playing GTA 6 in gaming cafes — one Delhi cafe is booked till Sunday, and CarryMinati and Mythpat streams each passed 1.3 crore views.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
@@ -20,11 +20,12 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 
 - **YouTube's 24-hour GTA 6 stream** features Total Gaming, Payal Gaming, Sharkshe and Mythpat, and runs until about 10:30 AM IST on 20 November. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
 - **Mythpat peaked at about 1.25 lakh live viewers** on launch night. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
-- **Comic Con India's launch-day sessions** let fans in Delhi (Saket Social) and Navi Mumbai (Vashi Social) play GTA 6 without a console, 2–6 PM on 19 November. [Details →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)
+- **CarryMinati and Mythpat** each streamed about 10 hours on launch day and passed 1.3 crore views by Thursday afternoon, Reuters says. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **An MP, a film star and CarryMinati** joined the midnight unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
 
 ## 🇮🇳 Playing from India
 
+- **No console? Try a gaming cafe.** Cafes in Delhi, Bengaluru and Srinagar charge from about ₹250 an hour; some are booked through Sunday. [Before you go →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **PSN says "services are busy"?** Wait a few minutes and retry; don't redownload the game. [What to do →](/news/gta-6-psn-sign-in-error-services-busy-reddit-down/)
+- **Crashing or PS5 switching off?** Update, power-cycle and give the console room to breathe. [Crash fixes →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
