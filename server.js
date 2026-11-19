@@ -207,7 +207,7 @@ const loadSite = async () => {
 const pingIndexNow = async () => {
   if (!INDEXNOW_KEY || !EXPLICIT_SITE_URL) return;
   const fresh = posts.filter((p) => Date.now() - Date.parse(p.updated) < 6 * 3600 * 1000);
-  const paths = new Set(['/', '/ai/', '/news/', '/guides/', '/fixes/', '/whats-next/', '/gta-6-india/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
+  const paths = new Set(['/ai/', '/home/', '/news/', '/guides/', '/fixes/', '/whats-next/', '/gta-6-india/', ...fresh.map((p) => `/news/${p.slug}/`), ...fresh.flatMap((p) => p.tags.map((t) => `/tag/${t}/`))]);
   const urlList = [...paths].filter((p) => routes.has(p)).map((p) => `${SITE_URL}${p}`);
   try {
     const res = await fetch('https://api.indexnow.org/indexnow', {
@@ -340,6 +340,14 @@ const start = async () => {
     // One canonical host once SITE_URL is set (e.g. the custom subdomain).
     if (CANONICAL_HOST && req.headers.host && req.headers.host !== CANONICAL_HOST) {
       res.writeHead(301, { Location: `${EXPLICIT_SITE_URL}${url.pathname}${url.search}` });
+      res.end();
+      return;
+    }
+
+    // The AI Brief is the landing page. A 301 for search engines, but browsers only cache it for an hour,
+    // so the choice stays easy to change. The old homepage lives at /home/.
+    if (path === '/') {
+      res.writeHead(301, { ...SECURITY_HEADERS, Location: `/ai/${url.search}`, 'Cache-Control': 'public, max-age=3600' });
       res.end();
       return;
     }

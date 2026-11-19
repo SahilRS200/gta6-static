@@ -4,7 +4,7 @@
   "short_name": "GTA6Info",
   "description": "GTA 6 news, spoiler-free guides and fixes for players in India, updated every hour.",
   "lang": "en-IN",
-  "start_url": "/?source=pwa",
+  "start_url": "/ai/?source=pwa",
   "scope": "/",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],

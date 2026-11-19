@@ -43,4 +43,4 @@ The real critic score is now published, so check Metacritic itself rather than t
 
 Mute these on X and Instagram: `GTA 6 ending`, `GTA 6 spoilers`, `GTA VI ending`, `GTA 6 final mission`. The floating **FAQ** button and the **Quick help** slide on our homepage have a copy button for the list.
 
-[Back to the live countdown →](/)
+[What's hot right now: the AI Brief →](/ai/)

@@ -3,8 +3,11 @@
 > Fan-run GTA 6 companion for players in India. GTA 6 (Grand Theft Auto VI) came out on Thursday, 19 November 2026 on PS5 and Xbox Series X|S; in India it unlocked at 12:00 AM IST. PlayStation Store India lists it at ₹5,999 (Standard) and ₹7,499 (Ultimate). News, spoiler-free guides and fixes are updated every hour, with sources linked on every story.
 
 ## Key pages
+The front page is the AI Brief at __SITE_URL__/ai/ (the root URL redirects there); everything else is gathered on __SITE_URL__/home/.
+
 - [GTA 6 India hub: price, where to buy, PS5 stock, creators, Hinglish FAQ](__SITE_URL__/gta-6-india/)
 - [GTA 6 AI Brief: what's hot for Indian players this hour](__SITE_URL__/ai/)
+- [Home: news, guides, fixes and India in one place](__SITE_URL__/home/)
 - [GTA 6 news India](__SITE_URL__/news/)
 - [GTA 6 guides and tips (spoiler-free)](__SITE_URL__/guides/)
 - [GTA 6 fixes: game locked, PSN errors, bugs, live PlayStation status](__SITE_URL__/fixes/)

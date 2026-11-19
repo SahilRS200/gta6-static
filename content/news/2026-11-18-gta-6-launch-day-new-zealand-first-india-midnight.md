@@ -35,4 +35,4 @@ So from 4:30 PM onward, people are playing. India waits **7 hours 30 minutes** a
 
 CNBC reports the release is big enough that analysts are watching its effect on food delivery, tourism and time off work, and that sales could break records. Pre-orders alone are estimated at nearly 15 million ([details →](/news/gta-6-pre-orders-15-million-record/)), and one Indian firm has even [given staff the day off →](/news/gta-6-holiday-indian-company-day-off/).
 
-[Watch the unlock wave live →](/)
+[GTA 6 release times in every time zone →](/gta-6-release-time/)
