@@ -1,5 +1,5 @@
 ---
-title: GTA 6 on Xbox One in India — Cloud Streaming Starts 11:30 AM IST Today, But You Must Own the Game
+title: GTA 6 on Xbox One in India — Cloud Streaming Live Since 11:30 AM IST, But You Must Own the Game
 description: GTA 6 streams to Xbox One and Series consoles via Xbox Cloud Gaming from 11:30 AM IST on 19 Nov. You must buy the game; Game Pass gives 5–15 cloud hours a month, phones and PCs excluded.
 date: 2026-11-19T06:37:00+05:30
 tags: [xbox, india, guide, launch-day, release-time]
