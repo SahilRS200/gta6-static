@@ -1,15 +1,16 @@
 ---
-slot: 2026-11-19T19:47:00+05:30
-source: /news/gta-6-ultimate-edition-bonuses-unlock-chapters/
+slot: 2026-11-19T22:27:00+05:30
+source: /news/blinkit-zepto-gta-6-delivery-10-minutes-india/
 ---
-Paid ₹7,499 for GTA 6 Ultimate? 🎁
+Zepto has never sold out this fast 🛒
 
-Its 16 extras unlock by chapter; fans say most take 25+ hours.
+1 lakh+ people searched it for GTA 6, PS5s and controllers this week, says its CEO.
 
 Also:
-🛻 3 bonus rides: Chapter 1 only
-🏎️ '95 Cheetah: Chapter 5
+📦 Code in box, no disc
+🏙️ Blinkit: 11 cities
+💾 Up to 212 GB download
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #IndianGaming

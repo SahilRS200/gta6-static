@@ -45,4 +45,6 @@ Related: Rockstar boss [Sam Houser issued a rare launch statement →](/news/gta
 
 Related: an analyst now expects [about 20 million GTA 6 sales in the first three days →](/news/gta-6-sales-20-million-3-days-take-two-stock/)
 
+Related: players are less united than critics — [launch-day posts split 54.5% positive, 45.5% negative →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
+
 Related: reviewers say the story takes about 50 hours to finish. [How long GTA 6 is →](/news/gta-6-how-long-to-beat-story-hours/)

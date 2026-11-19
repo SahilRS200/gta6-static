@@ -1,12 +1,12 @@
 ---
-updated: 2026-11-19T19:39:00+05:30
-headline: No PS5? India is playing GTA 6 in gaming cafes — one Delhi cafe is booked till Sunday, and CarryMinati and Mythpat streams each passed 1.3 crore views.
+updated: 2026-11-19T22:26:00+05:30
+headline: Zepto says it has never sold out this fast — over 1 lakh users searched it for GTA 6, PS5s and controllers this week.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
 
 - **PlayStation Store India:** ₹5,999 Standard, ₹7,499 Ultimate, as reported by Business Today. [Price and where to buy →](/gta-6-price-in-india/)
-- **Blinkit and Zepto** deliver the code-in-box edition in select cities. There's no disc, so you still download up to 212 GB, and some Mumbai and Bengaluru areas sold out. [Before you order →](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/)
+- **Blinkit and Zepto** deliver the code-in-box edition in 11 cities. Zepto's CEO says it has never sold out this fast. There's no disc, so you still download up to 212 GB. [Before you order →](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/)
 - **Bought Ultimate (₹7,499)?** Its 16 extras unlock chapter by chapter; the '95 Grotti Cheetah only arrives in Chapter 5. [What unlocks when →](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/)
 - **Free GTA+ month** if you bought the digital game on PlayStation by 19 November; claim it until 31 March 2027. [Details →](/news/gta-6-free-gta-plus-month-offer-deadline/)
 

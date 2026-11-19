@@ -33,4 +33,4 @@ One creator called the launch a "glitchy buggy mess" and compared it to Cyberpun
 6. **Crashing to the home screen, or PS5 switching off?** [Crash and freeze fixes →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 7. **Record it.** Hit Create on PS5 to save a clip; it helps if you report the bug to Rockstar Support later.
 
-We'll update this post when Rockstar releases a hotfix. More for Indian players: [everything you need to know →](/gta-6-india/)
+Bugs and 30fps are also behind much of the player backlash: [what players are saying →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/). We'll update this post when Rockstar releases a hotfix. More for Indian players: [everything you need to know →](/gta-6-india/)
