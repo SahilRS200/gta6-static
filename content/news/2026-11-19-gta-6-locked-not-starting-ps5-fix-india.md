@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Locked or Not Starting on PS5? 6 Fixes for Indian Players, From Restore Licences to Code-in-Box
-description: GTA 6 still shows a padlock or won't start on your PS5 after 12 AM IST? Check the account, restore licences, update system software and redeem your code. Fixes inside.
+description: GTA 6 shows a padlock or won't start on PS5 in India? Check the buying account, restore licences, update system software, redeem the box code; missing code? Ask the retailer.
 date: 2026-11-19T01:37:00+05:30
 updated: 2026-11-19T12:39:00+05:30
 tags: [india, ps5, launch-day, guide]
