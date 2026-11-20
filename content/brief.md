@@ -1,16 +1,16 @@
 ---
-updated: 2026-11-21T02:38:00+05:30
+updated: 2026-11-21T03:38:00+05:30
 headline: Official — GTA 6 made $3.79 billion on day one, the biggest entertainment launch in history
-search: [sales, focus, CE-108255-1, criminal profile]
+search: [sales, refund, focus, CE-108255-1]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6's $3.79 billion day one is now official:** that's over ₹31,000 crore, with 32.5 million copies sold before release, Take-Two says. No India figure yet. [The numbers →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
-- **That viral "GTA 6 on PC" clip is fake:** it's GTA 5 footage under a GTA 6 title screen. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **GTA 6's $3.79 billion day one is official:** over ₹31,000 crore, with 32.5 million copies sold before release, Take-Two says. No India figure yet. [The numbers →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
+- **Want a refund? Sony is mostly saying no.** If your PS5 started downloading or pre-loading GTA 6, refunds are off unless the game is faulty. Box codes follow the shop's rules. [Refund rules →](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/)
 
 ## ✅ Try this today
 
-- **GTA 6's Focus ability, explained:** press L3 + R3 to slow a fight. Yellow marks non-lethal shots; a shower tops it up. [How it works →](/news/gta-6-focus-ability-explained-how-to-use-level-up/)
+- **GTA 6's Focus ability, explained:** press L3 + R3 to slow a fight. Yellow marks non-lethal shots. [How it works →](/news/gta-6-focus-ability-explained-how-to-use-level-up/)
 - **The Criminal Profile can lock at Irredeemable for good,** so save by hand before a rampage. [The 5 levels →](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/)
 
 ## 🛠️ Fix of the day
@@ -19,4 +19,4 @@ search: [sales, focus, CE-108255-1, criminal profile]
 
 ## 🌍 Around the world
 
-- **8 Game Awards nominations, Game of the Year included.** The show is at 6:30 AM IST on 11 December. [Nominations →](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/)
+- **That viral "GTA 6 on PC" clip is fake:** it's GTA 5 footage under a GTA 6 title screen. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
