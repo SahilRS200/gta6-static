@@ -44,3 +44,5 @@ Live streams show everything, including early story moments, and some write-ups 
 Related: [How the New Zealand unlock is going →](/news/gta-6-live-new-zealand-first-hour/)
 
 Related: what are all those viewers seeing? [Spoiler-free first gameplay reactions →](/news/gta-6-first-gameplay-reactions-spoiler-free/) · [Launch night also broke Australia's internet traffic record →](/news/gta-6-launch-australia-internet-record-players-up-till-4am/)
+
+Related: with this many people watching, UK police reminded parents that GTA 6 is rated 18+ and that kids can see it through streams. [The warning →](/news/gta-6-age-rating-18-police-warn-parents-kids/)

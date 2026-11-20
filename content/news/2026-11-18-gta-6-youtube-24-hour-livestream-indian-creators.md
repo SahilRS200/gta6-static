@@ -40,3 +40,5 @@ Related: Mythpat already pulled a peak of about 1.25 lakh live viewers on launch
 Related: an MP, Pooja Hegde and CarryMinati also joined the midnight India unlock. [Who posted what →](/news/gta-6-india-launch-raghav-chadha-pooja-hegde-carryminati/)
 
 Related: in Delhi or Navi Mumbai? Comic Con India let fans play GTA 6 without a console at launch-day sessions on 19 November. [Where and when →](/news/gta-6-comic-con-india-launch-day-play-delhi-navi-mumbai/)
+
+Related: GTA 6 is rated 18+, and UK police warned parents that kids can see its gore through streams too. [What parents should know →](/news/gta-6-age-rating-18-police-warn-parents-kids/)
