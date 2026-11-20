@@ -29,5 +29,6 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first complaint afte
 - **No casino shortcut.** The casinos can't be entered and there's no gambling. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
 - **Bank it or stash it.** Until your first bank account, you lose the cash you carry if you die or get busted. [Where to hide it →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
 - **Save before a risky job.** There's only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
+- **Wondering what to spend it on?** You can't buy houses, only garages ($160,000 for all eight). [Property guide →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
 
 Payout figures come from early guides and may change with patches. More first-night help: [14 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [Everything for Indian players →](/gta-6-india/)

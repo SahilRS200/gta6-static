@@ -35,5 +35,6 @@ Related: [How to steal cars in GTA 6 — Waink, hotwiring and key cloners](/news
 - **Repair at a petrol pump.** Kotaku says it is often cheaper than paying Scooter Bros, and you can fill the tank in the same stop. [How refuelling works →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 - **Need to cross the map fast?** The RydeMe app costs $100 a ride: call a driver, then focus on them in the car to skip the trip ([Kotaku](https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016)).
 - **Don't keep driving a car the cops know.** Switching cars helps you lose a wanted level, and Scooter Bros can bring yours to you once things calm down. [Wanted level explained →](/news/gta-6-wanted-level-heat-system-explained/)
+- **Want to keep more cars?** Garages are the only property you can buy, from $4,000. [Garage prices →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
 
 More early tips: [14 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/) · [First-hours guide →](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India →](/gta-6-india/)
