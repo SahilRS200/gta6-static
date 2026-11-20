@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Tips — 12 Hidden Features the Game Doesn't Tell You, From Shipwreck Cash to Calming Cops
-description: GTA 6 is out in India. Spoiler-free tips players are finding: eat while you drive, swap outfits from your car's trunk to shake the police, dive shipwrecks for early cash, and more.
+description: Spoiler-free GTA 6 tips players are finding: fast travel by RydeMe taxi for $100, eat while you drive, swap outfits from your car's trunk to shake the police, dive shipwrecks for cash.
 date: 2026-11-19T00:36:00+05:30
 updated: 2026-11-20T02:37:00+05:30
 tags: [guide, tips, launch-day, ps5, xbox]
