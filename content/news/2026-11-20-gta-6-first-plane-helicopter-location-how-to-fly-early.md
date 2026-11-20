@@ -1,12 +1,14 @@
 ---
-title: GTA 6 First Plane and Helicopter — Where to Find a Seaplane and a Maverick Near Key Lento Early
-description: You can fly in GTA 6 within the first hours: Dodo seaplanes and a Maverick helicopter sit at Southwind, about 2.5 miles from Jason's house, and a guarded helipad near Hamlet has another.
+title: GTA 6 First Plane and Helicopter — Where to Find a Seaplane and a Maverick Early, and Get a Parachute
+description: Fly in GTA 6 within hours: Dodo seaplanes and a Maverick sit at Southwind, 2.5 miles from Jason's house. Get a parachute for $250 at Ammu-Nation or free at Base Jump rooftops.
 date: 2026-11-20T21:38:00+05:30
-tags: [guide, first-hours, tips, gameplay, vehicles]
+updated: 2026-11-21T01:39:00+05:30
+tags: [guide, first-hours, tips, gameplay, vehicles, parachute]
 type: guide
 sources:
   - Dork — Where to steal your first plane and helicopter in GTA 6 | https://readdork.com/features/where-steal-first-plane-helicopter-gta-6
   - Game Rant — How to get a helicopter early in GTA 6 | https://gamerant.com/gta-6-helicopter-location/
+  - games.gg — GTA 6: how to get a parachute | https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/
 ---
 You don't have to wait for the story to hand you wings in GTA 6. Players have found a seaplane and helicopters within a short drive of the starting area, and you can simply take them. Here's where to go. No story spoilers.
 
@@ -22,6 +24,12 @@ You don't have to wait for the story to hand you wings in GTA 6. Players have fo
 There's a private helipad **east of Hamlet, close to Key Lento**, behind a security checkpoint. Climb the chain-link fence at the side rather than walking past the guards, then move carefully to the helicopter. It isn't locked, and Game Rant's writer flew it away without picking up a wanted level ([Game Rant](https://gamerant.com/gta-6-helicopter-location/)).
 
 **Mile Zero Air Station** also has aircraft, but they are harder to get to ([Dork](https://readdork.com/features/where-steal-first-plane-helicopter-gta-6)).
+
+## Get a parachute first (update, 21 November)
+
+- **Buy one for $250** at any Ammu-Nation (the pink gun icon on the map): it's on the display near the body armour, or ask the clerk under **Equipment** ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
+- **Or grab one free.** Leonida has **25 Base Jump spots**, mostly rooftop helipads marked **H** in Vice-Dale County, and many have a parachute lying around. Doing the jump uses it up, so take the stairs down if you only want the item. There's another free one on the highest peak in **Mount Kalaga National Park** ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
+- **Equip it before you jump:** hold **L1 / LB** for the item wheel, switch with **R1 / RB**, then cycle the bottom-left slot with **R2 / RT** from body armour to the parachute. In freefall, press **Cross / A** to open it ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
 
 ## Before you take off
 

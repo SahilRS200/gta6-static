@@ -44,4 +44,4 @@ Quick extras from our [19 hidden features](/news/gta-6-tips-hidden-features-spoi
 
 Not everyone likes it. Some Reddit posters complained that the romance focus replaced older, cruder GTA features, while others enjoy the couple's dynamic ([Newsweek](https://www.newsweek.com/gta-6-players-complain-as-prostitution-dropped-from-series-12739759)). Either way, a few texts and a hand-hold cost you nothing.
 
-Related: [GTA 6 first hours tips](/news/gta-6-first-hours-tips-settings/) · [The viral GTA 6 couples contracts](/news/gta-6-couples-contracts-viral-10-days-uninterrupted/) · [GTA 6 in India](/gta-6-india/)
+Related: [Criminal Profile: the 5 levels from Professional to Irredeemable](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/) · [GTA 6 first hours tips](/news/gta-6-first-hours-tips-settings/) · [The viral GTA 6 couples contracts](/news/gta-6-couples-contracts-viral-10-days-uninterrupted/) · [GTA 6 in India](/gta-6-india/)

@@ -1,22 +1,21 @@
 ---
-updated: 2026-11-21T00:37:00+05:30
-headline: PS5 error CE-108255-1 is crashing GTA 6 for many players — Sony says update the game; no Rockstar fix yet
-search: [CE-108255-1, Moosewala, tips, helicopter]
+updated: 2026-11-21T01:40:00+05:30
+headline: GTA 6 has a criminal rating you can never undo — go Irredeemable and only an older save brings you back
+search: [criminal profile, CE-108255-1, parachute, Moosewala]
 ---
+## ✅ Try this today
+
+- **GTA 6's Criminal Profile, Professional to Irredeemable:** needless killing drags Jason or Lucia down, and at Psycho you can't surrender to the cops. Irredeemable is permanent, so save by hand before a rampage. [The 5 levels →](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/)
+- **Get a parachute before you fly:** $250 at Ammu-Nation, or free on Base Jump rooftops. [Where →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
+
 ## 🛠️ Fix of the day
 
-- **PS5 crash error CE-108255-1 is still hitting players:** it strikes on the loading screen, in cutscenes or mid-mission, mostly on older PS5s. Sony says update the game; for CE-107891-6, reinstall. No Rockstar patch yet. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
-- **Save by hand before every mission:** a crash can wipe hours of progress. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
+- **PS5 crash error CE-108255-1 is still hitting players,** mostly on older PS5s. Sony says update the game; no Rockstar patch yet. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 
 ## 🔥 Hot in India
 
-- **That Sidhu Moosewala GTA 6 radio clip is likely fake:** Rockstar hasn't confirmed any Punjabi song or station, and DNA India calls it a fan edit. [The story →](/news/gta-6-sidhu-moosewala-song-viral-clip-fan-edit/)
-- **A free GTA-style Bengaluru game is going viral:** Namma Benglooru has potholes, autos and 12 missions. Not a Rockstar game. [The story →](/news/namma-benglooru-bengaluru-gta-style-game-viral/)
-
-## ✅ Try this today
-
-- **5 new hidden tricks from a 140-hour player:** press Square while driving to slam your car door into a biker, and blow open safes with any explosion, not just sticky bombs. [All 19 tips →](/news/gta-6-tips-hidden-features-spoiler-free/)
-- **Fly early:** Dodo seaplanes and a Maverick sit at Southwind, about 2.5 miles from Jason's house. [Where →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
+- **That Sidhu Moosewala GTA 6 radio clip is likely fake:** Rockstar hasn't confirmed any Punjabi song or station. [The story →](/news/gta-6-sidhu-moosewala-song-viral-clip-fan-edit/)
+- **A free GTA-style Bengaluru game is going viral:** Namma Benglooru has potholes, autos and 12 missions. [The story →](/news/namma-benglooru-bengaluru-gta-style-game-viral/)
 
 ## 🌍 Around the world
 
