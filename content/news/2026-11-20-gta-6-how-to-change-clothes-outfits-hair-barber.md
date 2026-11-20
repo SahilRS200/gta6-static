@@ -1,6 +1,6 @@
 ---
 title: GTA 6 How to Change Clothes and Hair — Use the Safehouse, Save Outfits to Your Car, Visit a Barber
-description: In GTA 6 you change clothes at your safehouse, and must save outfits to your car's trunk from its menu to swap on the go. Hair and beards change at barbers; Lucia's makeup at beauty parlours.
+description: In GTA 6 you change clothes at your safehouse and must save outfits to your car's trunk from its menu to swap on the go. Hair and beards change at barbers; Lucia's makeup at beauty parlours.
 date: 2026-11-20T20:38:00+05:30
 tags: [guide, tips, first-hours, clothes]
 type: guide

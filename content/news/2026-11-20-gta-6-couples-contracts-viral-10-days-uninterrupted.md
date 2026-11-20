@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Couples Contracts Go Viral — 10 Days of No Interruptions, and One Video Nears 1 Million Views
-description: GTA 6 players are getting partners to sign joke contracts for 10 uninterrupted days of play, 19 to 29 November. One creator's video drew about a million views, and counter-contracts followed.
+description: GTA 6 players are getting partners to sign joke contracts for 10 uninterrupted days of play, 19 to 29 November. One creator.s video got about a million views, and counter-contracts followed.
 date: 2026-11-20T18:38:00+05:30
 tags: [reactions, launch-day, memes, social]
 type: news
