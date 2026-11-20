@@ -41,4 +41,4 @@ Want something faster than a car? [Where to find your first plane and helicopter
 
 Registering and selling unlock as the story moves on, and Pay 'n' Spray can refuse some tracked cars. Early sales are capped per in-game day; for prices and the buyer with no limit, see our [money guide](/news/gta-6-how-to-make-money-fast-early-game/). Lost a car you kept? [How to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
-Related: [GTA 6 wanted level explained](/news/gta-6-wanted-level-heat-system-explained/) · [14 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [All guides](/guides/)
+Related: [GTA 6 wanted level explained](/news/gta-6-wanted-level-heat-system-explained/) · [19 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [All guides](/guides/)

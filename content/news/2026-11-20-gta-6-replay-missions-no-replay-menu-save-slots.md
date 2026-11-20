@@ -21,4 +21,4 @@ Loved a mission and want to play it again? In GTA 5 and Red Dead Redemption 2 yo
 - **Reload that slot later** to play the mission again. Anything you did after that save is not lost, as long as you also keep a newer save in another slot.
 - **Don't overwrite your main save.** Keep one slot as your "real" progress and use the others as checkpoints.
 
-Our full saving guide covers the one-autosave trap and crash-proof habits: [GTA 6 how to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · More: [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [How long the story takes →](/news/gta-6-how-long-to-beat-story-hours/) · [GTA 6 in India →](/gta-6-india/)
+Our full saving guide covers the one-autosave trap and crash-proof habits: [GTA 6 how to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · More: [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [How long the story takes →](/news/gta-6-how-long-to-beat-story-hours/) · [GTA 6 in India →](/gta-6-india/)

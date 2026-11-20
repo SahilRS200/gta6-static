@@ -34,4 +34,4 @@ A post on Reddit's r/birding asking who was looking forward to it passed **1,700
 - **Mind the fuel** if you drive out to the wilds. [How refuelling works →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 - **Fancy a calmer hobby by the water?** Grab the free rod on the dock behind Jason's house. [GTA 6 fishing guide →](/news/gta-6-fishing-how-to-fish-rod-controls-spots/)
 
-Related: [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
+Related: [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)

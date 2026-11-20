@@ -1,8 +1,8 @@
 ---
-title: GTA 6 Tips — 14 Hidden Features the Game Doesn't Tell You, From Flipping Your Car to Calming Cops
-description: Spoiler-free GTA 6 tips: flip an overturned car yourself, fast travel by RydeMe taxi for $100, eat while you drive, swap outfits from your trunk to shake the police, dive shipwrecks.
+title: GTA 6 Tips — 19 Hidden Features the Game Doesn't Tell You, From Car-Door Attacks to Calming Cops
+description: Spoiler-free GTA 6 tips: flip a car yourself, hit riders with your car door, open safes with any explosion, swim faster, mark guards before a robbery, ride a $100 RydeMe taxi.
 date: 2026-11-19T00:36:00+05:30
-updated: 2026-11-20T07:37:00+05:30
+updated: 2026-11-21T00:37:00+05:30
 tags: [guide, tips, launch-day, ps5, xbox]
 type: guide
 sources:
@@ -10,6 +10,7 @@ sources:
   - Kotaku — 32 spoiler-free tips as you hop into Grand Theft Auto 6 | https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016
   - Kotaku — Two cool, hidden features GTA 6 doesn't explain: flipping and sitting | https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835
   - GameSpot — Grand Theft Auto 6 review | https://www.gamespot.com/reviews/grand-theft-auto-6-review/
+  - The Big Lead — 8 GTA 6 tips the game doesn't tell you, after 140 hours | https://www.thebiglead.com/gta-6-tips-the-game-doesnt-tell-you/
 ---
 GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of systems at you without explaining them. Kotaku's Zack Zwiezen put together a long list of **spoiler-free** tips from his time with the game ([Kotaku](https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016)). These are the ones we think help most in your first night. **No story spoilers.**
 
@@ -35,6 +36,16 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 12. **Shop as a pair.** Buying clothes for your partner earns romance points. [How the relationship meter works →](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)
 13. **Flip an overturned car yourself.** Stand beside it, click the left stick to get into position, then hold Square (PS5) or X (Xbox) to push it back onto its wheels. It fails if the car is too heavy, you're out of stamina or it's on a steep slope. The same push rolls a car that's out of petrol or shoves a boat or jet ski off the sand ([Kotaku](https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835)). Out of petrol? [How to refuel →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 14. **Sit down and take it in.** Hold Circle (PS5) or B (Xbox) on foot: your character sits on grass or sand, leans against a wall, or rests on one foot elsewhere (Kotaku).
+
+## New: 5 more from a 140-hour player
+
+Kirk McKeand at The Big Lead has played about 140 hours and shared tips the game never explains ([The Big Lead](https://www.thebiglead.com/gta-6-tips-the-game-doesnt-tell-you/)). Buttons below are PS5; Xbox uses the matching button.
+
+15. **Hit people with your car door.** Press Square while driving to swing the door into a pedestrian, someone trying to drag you out, or a biker beside you. On a motorbike it's a kick, handy for knocking rivals off in races.
+16. **Any explosion opens a safe.** You don't need sticky bombs: a grenade, a propane tank or a rocket works too.
+17. **Swim faster, then dive.** On the surface, click the analogue stick in once for a small boost and again for top speed; it drains stamina. When stamina runs out, dive: underwater the game uses lung capacity instead, so you can keep full speed for roughly twice as long.
+18. **Case a store before you rob it.** Walk in as a customer, lock on to each security guard and press right on the D-pad to mark them. An arrow stays over their heads during the robbery.
+19. **Open the vehicle menu.** Hold left on the D-pad for the radio, then push the stick up for hazards, full beams, windows and, on convertibles, the roof.
 
 ## Bonus: take a shower
 

@@ -37,4 +37,4 @@ Related: [How to steal cars in GTA 6 — Waink, hotwiring and key cloners](/news
 - **Don't keep driving a car the cops know.** Switching cars helps you lose a wanted level, and Scooter Bros can bring yours to you once things calm down. [Wanted level explained →](/news/gta-6-wanted-level-heat-system-explained/)
 - **Want to keep more cars?** Garages are the only property you can buy, from $4,000. [Garage prices →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
 
-More early tips: [14 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/) · [First-hours guide →](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India →](/gta-6-india/)
+More early tips: [19 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/) · [First-hours guide →](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India →](/gta-6-india/)

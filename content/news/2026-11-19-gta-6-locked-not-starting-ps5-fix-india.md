@@ -52,4 +52,4 @@ A crash can cost you progress, so [make a manual save regularly →](/news/gta-6
 
 PlayStation's page splits it: **PlayStation Support** for launch, download, code and refund problems; **Rockstar Support** for bugs and gameplay issues. Game runs but glitches? See [the launch bugs players are reporting →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
 
-Once you're in: [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [everything Indian players need to know →](/gta-6-india/)
+Once you're in: [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [everything Indian players need to know →](/gta-6-india/)

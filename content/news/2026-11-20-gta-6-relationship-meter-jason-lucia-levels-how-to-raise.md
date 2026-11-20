@@ -32,7 +32,7 @@ VGC's one-line rule: **do as much together as possible.**
 - **Hang out:** working out, basketball or pool together all help. Our [gym guide](/news/gta-6-gym-workouts-strength-stamina-guide/) covers where to train.
 - **Crime counts too:** a clean robbery or a successful escape from the cops lifts it ([VGC](https://www.videogameschronicle.com/guide/gta-6-jason-lucia-relationship-levels-explained-how-to-improve-jason-and-lucias-relationship/)). Rockstar co-studio head Rob Nelson told Edge that beach walks, gym sessions and drives together all build closeness ([GTA Boom](https://www.gtaboom.com/edge-interview-breaks-down-how-the-gta-6-romance-works-f036)).
 
-Quick extras from our [14 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/): buying clothes for your partner and taking a shower also help.
+Quick extras from our [19 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/): buying clothes for your partner and taking a shower also help.
 
 ## What neglect costs
 

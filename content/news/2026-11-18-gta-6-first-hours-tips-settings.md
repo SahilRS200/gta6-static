@@ -37,7 +37,7 @@ Note: there's no online multiplayer at launch. [What we know about GTA 6 Online 
 
 - [No difficulty levels: easier settings, auto-drive and accessibility options →](/news/gta-6-difficulty-accessibility-settings-auto-drive/)
 - [No first-person mode at launch: what the camera can do →](/news/gta-6-first-person-mode-camera-options/)
-- [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
+- [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
 - [First gameplay reactions, spoiler-free →](/news/gta-6-first-gameplay-reactions-spoiler-free/)
 - [How to make money fast early, spoiler-free →](/news/gta-6-how-to-make-money-fast-early-game/)
 - [Everything Indian players need to know →](/gta-6-india/)

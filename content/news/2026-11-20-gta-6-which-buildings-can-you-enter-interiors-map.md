@@ -30,4 +30,4 @@ GTA 6 has **hundreds of rooms, houses and flats you can walk into** ([Red Bull](
 
 The casino is the big one: Rockstar kept it closed. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
 
-**Related:** [14 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [Where to hide your cash so you don't lose it](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/) · [Free printable GTA 6 map](/news/gta-6-map-free-printable-leonida-poster-download/) · [GTA 6 in India](/gta-6-india/)
+**Related:** [19 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [Where to hide your cash so you don't lose it](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/) · [Free printable GTA 6 map](/news/gta-6-map-free-printable-leonida-poster-download/) · [GTA 6 in India](/gta-6-india/)

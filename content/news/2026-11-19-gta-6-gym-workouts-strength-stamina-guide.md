@@ -39,4 +39,4 @@ Yes, you can work out in GTA 6, and it's one of the systems players are talking 
 
 **Bonus:** the Body Armor cheat needs 100 workouts once the cheats unlock after the story, so your gym time counts later ([how cheats unlock](/news/gta-6-cheats-locked-until-story-complete/)).
 
-Related: [how to sleep and skip time](/news/gta-6-how-to-sleep-skip-time-day-length/) · [14 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [birdwatching and the wildlife logbook](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/) · [GTA 6 in India](/gta-6-india/)
+Related: [how to sleep and skip time](/news/gta-6-how-to-sleep-skip-time-day-length/) · [19 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [birdwatching and the wildlife logbook](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/) · [GTA 6 in India](/gta-6-india/)
