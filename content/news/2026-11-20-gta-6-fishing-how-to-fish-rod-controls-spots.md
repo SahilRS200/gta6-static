@@ -17,7 +17,7 @@ Fishing is one of the calmest things to do in GTA 6, and you can start early in 
 
 ## The controls
 
-- **Find fish:** press **L3 + R3** together for Focus on PS5 (games.gg lists **LT** on Xbox); it highlights the spots where fish are likely to be.
+- **Find fish:** press **L3 + R3** together for Focus on PS5 (games.gg lists **LT** on Xbox); it highlights the spots where fish are likely to be. [How Focus works →](/news/gta-6-focus-ability-explained-how-to-use-level-up/)
 - **Cast:** hold **L2 / LT** to grip the rod and keep holding it, then hold **R2 / RT** and release. Hold longer to cast farther.
 - **Hook:** reel with the **right stick** (turn it clockwise) until the controller vibrates hard, then press **R2 / RT**.
 - **Tire the fish:** move the **left stick** left and right while it fights.
