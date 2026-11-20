@@ -39,4 +39,4 @@ PlayStation Store India lists the Standard Edition at **₹5,999** and the Ultim
 - **Yes**, if you want the box as a collectible or prefer paying by UPI or cash on delivery.
 - **No**, if you want to play tonight. Buy digitally and start the download straight away; a code still means the full download.
 
-Related: [India's gaming cafes are booked till Sunday →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/) · [Everything for Indian players →](/gta-6-india/)
+Related: [No paper map in the box? Rockstar's free printable Leonida map →](/news/gta-6-map-free-printable-leonida-poster-download/) · [India's gaming cafes are booked till Sunday →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/) · [Everything for Indian players →](/gta-6-india/)
