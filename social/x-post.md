@@ -1,16 +1,15 @@
 ---
-slot: 2026-11-19T22:27:00+05:30
-source: /news/blinkit-zepto-gta-6-delivery-10-minutes-india/
+slot: 2026-11-20T06:37:00+05:30
+source: /news/gta-6-lose-money-when-you-die-hide-cash-floorboards/
 ---
-Zepto has never sold out this fast 🛒
+Die in GTA 6 and your cash is gone 💸
 
-1 lakh+ people searched it for GTA 6, PS5s and controllers this week, says its CEO.
+Lose it if you die or get busted, until your bank opens 1–2 hours in.
 
 Also:
-📦 Code in box, no disc
-🏙️ Blinkit: 11 cities
-💾 Up to 212 GB download
+🪵 Stash it under Jason's floorboards
+🐍 Feed Dolores for Focus
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming

@@ -26,6 +26,7 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first complaint afte
 - **Cash won't cover cops forever.** A big score brings heat; see [how to lose the cops](/news/gta-6-wanted-level-heat-system-explained/), and [keep your tank full](/news/gta-6-fuel-petrol-system-how-to-refuel/) before a getaway.
 - **Cheats won't help yet.** There is no money cheat on day one, and cheats unlock only after the story. [Why →](/news/gta-6-cheats-locked-until-story-complete/)
 - **No casino shortcut.** The casinos can't be entered and there's no gambling. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
+- **Bank it or stash it.** Until your first bank account, you lose the cash you carry if you die or get busted. [Where to hide it →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
 - **Save before a risky job.** There's only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 
 Payout figures come from early guides and may change with patches. More first-night help: [12 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [Everything for Indian players →](/gta-6-india/)
