@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Tips — 19 Hidden Features the Game Doesn't Tell You, From Car-Door Attacks to Calming Cops
-description: Spoiler-free GTA 6 tips: flip a car yourself, hit riders with your car door, open safes with any explosion, swim faster, mark guards before a robbery, ride a $100 RydeMe taxi.
+description: Spoiler-free GTA 6 tips: flip a car yourself, hit riders with your car door, open safes with any explosion, swim faster, mark guards before a robbery, fast travel by $100 RydeMe taxi.
 date: 2026-11-19T00:36:00+05:30
 updated: 2026-11-21T00:37:00+05:30
 tags: [guide, tips, launch-day, ps5, xbox]

@@ -3,7 +3,7 @@ title: GTA 6 First-Person Mode? Not Officially — But a Phone-and-Camera Glitch
 description: GTA 6 has no first-person mode at launch, but players found a glitch: open and close the phone in a car, then spam the camera button. You must reload a save to get back to third-person.
 date: 2026-11-19T09:38:00+05:30
 updated: 2026-11-20T05:36:00+05:30
-tags: [guide, tips, ps5, xbox, camera, glitch]
+tags: [guide, tips, ps5, xbox, camera, bugs]
 type: guide
 sources:
   - Dexerto — GTA 6 glitch lets players access first-person mode | https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/
