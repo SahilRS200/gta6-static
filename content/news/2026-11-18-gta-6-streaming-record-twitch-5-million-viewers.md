@@ -1,10 +1,11 @@
 ---
-title: GTA 6 Streaming Record — 125 Million Hours Watched on Day One; Mythpat Pulls 1.25 Lakh
-description: People watched 125.47 million hours of GTA 6 streams in its first 24 hours, Streams Charts says, with a 7.9 million live-viewer peak. India's Mythpat peaked at 1.25 lakh.
+title: GTA 6 Streaming Record — 214 Million Hours Watched in Two Days, the Biggest Game Launch Ever
+description: GTA 6 streams drew 214.63 million watch-hours in two days, the biggest game launch ever on streaming, Streams Charts says, with a 7.9 million live peak. India's Mythpat hit 1.25 lakh.
 date: 2026-11-18T18:58:00+05:30
-updated: 2026-11-20T14:38:00+05:30
+updated: 2026-11-21T04:38:00+05:30
 tags: [streamers, launch-day, india, youtube, records]
 sources:
+  - Streams Charts — GTA 6 breaks first-week streaming record in just two days | https://streamscharts.com/news/gta-6-beats-other-aaa-launches
   - Streams Charts — Viewership records and top streamers from GTA 6's first 24 hours | https://streamscharts.com/news/gta-6-day1-recap
   - CNBC — How GTA VI's launch fuels a booming content economy | https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html
   - Streams Charts on X — 7.9 million concurrent viewers after Japan and South Korea unlock | https://x.com/StreamsCharts/status/2123114732332720248
@@ -13,6 +14,15 @@ sources:
   - TheGamer — GTA 6 already has 2.5 million Twitch viewers | https://www.thegamer.com/there-are-already-25-million-people-watching-gta-6-on-twitch/
   - VGTimes — GTA 6 draws more than 2.5 million Twitch viewers within 30 minutes | https://vgtimes.com/gaming-news/174996-gta-6-draws-more-than-2.5-million-twitch-viewers-within-30-minutes.html
 ---
+## Update, 21 November: 214 million hours in two days
+
+GTA 6 is now **the biggest game launch ever on livestreams by watch time**. People watched **214.63 million hours** of GTA 6 streams in roughly the **first two days**, Streams Charts says ([Streams Charts](https://streamscharts.com/news/gta-6-beats-other-aaa-launches)).
+
+- **The old record:** Valorant's 2020 closed beta, at **150.48 million** hours for a launch week. GTA 6 passed it in two days.
+- **More than three big launches put together:** the opening weeks of Elden Ring, Hogwarts Legacy and Cyberpunk 2077 add up to **186.98 million** hours.
+- **Kick** logged **24.8 million** hours in a single day, with **1,798** channels streaming GTA 6 at once, more than double Fortnite's old record there.
+- **Still counting:** the figure is preliminary. Streams Charts tracks the first week until **25 November, 4:30 PM IST**.
+
 ## Update, 20 November: 125 million hours in the first 24 hours
 
 Streams Charts' final day-one count is in. People watched **125.47 million hours** of GTA 6 streams in the game's **first 24 hours**, and the final peak was **7,915,475** live viewers at once ([Streams Charts](https://streamscharts.com/news/gta-6-day1-recap)).

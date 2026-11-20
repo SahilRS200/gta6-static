@@ -29,3 +29,5 @@ sources:
 - **Don't fall for "GTA 6 PC download" links.** Any PC download, crack or "port" today is fake and can carry malware ([how the scams work](/news/gta-6-free-download-apk-scam-warning/)).
 - **Want to play now without a console?** Gaming cafes charge from about ₹250 an hour ([cafes and creators](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)), and the cheapest console route is an Xbox Series S ([compare costs](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)).
 - **Track it:** the PC row on our [What's next tracker](/whats-next/) changes the moment Rockstar announces a date. More for Indian players on the [India hub](/gta-6-india/).
+
+Related: the hacker behind the real 2022 GTA 6 leak has pleaded guilty. [The case →](/news/gta-6-leaker-arion-kurtaj-pleads-guilty-sentencing/)

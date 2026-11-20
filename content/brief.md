@@ -1,12 +1,12 @@
 ---
-updated: 2026-11-21T03:38:00+05:30
-headline: Official — GTA 6 made $3.79 billion on day one, the biggest entertainment launch in history
-search: [sales, refund, focus, CE-108255-1]
+updated: 2026-11-21T04:38:00+05:30
+headline: 214 million hours watched in two days — GTA 6 is now the most-streamed game launch ever
+search: [streaming, refund, focus, leaks]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6's $3.79 billion day one is official:** over ₹31,000 crore, with 32.5 million copies sold before release, Take-Two says. No India figure yet. [The numbers →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
-- **Want a refund? Sony is mostly saying no.** If your PS5 started downloading or pre-loading GTA 6, refunds are off unless the game is faulty. Box codes follow the shop's rules. [Refund rules →](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/)
+- **GTA 6 is the most-watched game launch ever on streams:** 214.63 million hours in about two days, beating Valorant's old 150 million record. India's Mythpat peaked at 1.25 lakh viewers. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **Want a refund? Sony is mostly saying no.** If your PS5 started downloading GTA 6, refunds are off unless the game is faulty. Box codes follow the shop's rules. [Refund rules →](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/)
 
 ## ✅ Try this today
 
@@ -15,8 +15,9 @@ search: [sales, refund, focus, CE-108255-1]
 
 ## 🛠️ Fix of the day
 
-- **PS5 crash error CE-108255-1 is still hitting players,** mostly on older PS5s. Update the game and save often; no Rockstar patch yet. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **PS5 crash error CE-108255-1 is still hitting players.** Update the game and save often; no Rockstar patch yet. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 
 ## 🌍 Around the world
 
-- **That viral "GTA 6 on PC" clip is fake:** it's GTA 5 footage under a GTA 6 title screen. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **GTA 6's $3.79 billion day one is official,** Take-Two says, the biggest entertainment launch ever. [The numbers →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
+- **The 2022 GTA 6 leaker has pleaded guilty** to hacking Rockstar; sentencing is Monday, 23 November. [The case →](/news/gta-6-leaker-arion-kurtaj-pleads-guilty-sentencing/)

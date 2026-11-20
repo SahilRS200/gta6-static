@@ -29,3 +29,5 @@ The biggest game launch in history is happening in the same week as a big moment
 No. GTA 6 is out and playable on PS5 and Xbox Series X/S, and nothing here affects your copy, saves or online services. We'll update this post when the ballot result or the tribunal ruling comes out.
 
 Related: [Sam Houser's launch statement →](/news/gta-6-sam-houser-launch-statement/) · [What's next for GTA 6 →](/whats-next/)
+
+Related: the hacker behind the 2022 GTA 6 leak has pleaded guilty and is due to be sentenced on 23 November. [The case →](/news/gta-6-leaker-arion-kurtaj-pleads-guilty-sentencing/)
