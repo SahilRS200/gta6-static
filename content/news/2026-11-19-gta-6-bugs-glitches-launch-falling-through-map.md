@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Bugs at Launch — Falling Through the Map, an Early Mission Softlock; No Rockstar Patch Yet
-description: GTA 6 launch bugs players report: falling through the map, an early Lucia mission softlock, prologue crashes, low FPS on base PS5. No Rockstar patch yet, and a '25 Nov fix' post is unconfirmed.
+description: GTA 6 launch bugs players report: falling through the map, an early Lucia mission softlock, prologue crashes, low FPS on base PS5. No patch yet; a '25 Nov fix' post is unconfirmed.
 date: 2026-11-19T03:37:00+05:30
 updated: 2026-11-20T05:36:00+05:30
 tags: [bugs, patch, ps5, launch-day, india]
