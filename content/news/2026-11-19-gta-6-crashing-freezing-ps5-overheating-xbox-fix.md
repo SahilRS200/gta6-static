@@ -1,11 +1,14 @@
 ---
-title: GTA 6 Crashing or Freezing? PS5 Shutdowns and Xbox Series X Crashes — What Helps, and No Patch Date Yet
-description: GTA 6 crashing to the dashboard or your PS5 switching off? Update, power-cycle, restore licences and give the console air. Rockstar hasn't confirmed the viral 25 November patch date.
+title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and No Patch Date Yet
+description: GTA 6 crashing with PS5 error CE-108255-1? Sony says update the game; for CE-107891-6, reinstall. Power-cycle and give the console air. No Rockstar fix or patch date yet.
 date: 2026-11-19T17:38:00+05:30
-tags: [crash, bugs, ps5, xbox, performance, patch]
+updated: 2026-11-20T23:36:00+05:30
+tags: [crash, bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
 sources:
+  - Gizmodo — GTA VI is throwing error codes on some PS5 consoles | https://gizmodo.com/gta-vi-ps5-error-2000843112
+  - UNILAD Tech — GTA 6 players report repeated PS5 crashes, official support guidance | https://www.uniladtech.com/gaming/playstation/gta-6-playstation-crash-fix-sony-support-831369-20261120
   - UNILAD Tech — GTA 6 players using Xbox Series X issue warning | https://www.uniladtech.com/gaming/xbox/gta-6-xbox-series-x-warning-unplayable-844232-20261119
   - Sportskeeda — GTA 6 reportedly overheating on PS5 | https://tech.sportskeeda.com/gaming-news/gta-6-reportedly-overheating-ps5-is-fix
   - Business Upturn — GTA 6 not working on PS5? Four fixes players say solved launch crashes | https://businessupturn.com/technology/gaming/gta-6-not-working-on-ps5-four-fixes-players-say-solved-launch-crashes-and-psn-errors/
@@ -13,6 +16,13 @@ sources:
   - iGameMag — GTA 6 reviews, bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
 ---
 Some players' GTA 6 sessions are ending with a freeze, a trip back to the home screen or, on PS5, the console switching itself off. Here's what's being reported and what players say helps. No story spoilers.
+
+## Update, 20 November: PS5 error CE-108255-1
+
+- **What it is.** Many PS5 players now see **CE-108255-1**, Sony's general code for a game or app that crashed. Reports say it hits on the first loading screen, in the opening cutscene, mid-mission or in free roam, while other games on the same console run fine ([Gizmodo](https://gizmodo.com/gta-vi-ps5-error-2000843112), [UNILAD Tech](https://www.uniladtech.com/gaming/playstation/gta-6-playstation-crash-fix-sony-support-831369-20261120)).
+- **Which consoles.** Original launch PS5s seem hit most, but there are reports from Slim and PS5 Pro owners too (Gizmodo).
+- **Sony's official advice:** for CE-108255-1, update the game; for **CE-107891-6** (game or update didn't install properly), go to Settings → Storage, delete GTA 6 and reinstall it. Saves should stay. If it keeps happening, contact PlayStation Support (UNILAD Tech).
+- **Not a sure fix.** Many players say updating, clearing the cache and rebuilding the database didn't help. Some outlets suspect worn cooling on older consoles, but that is a theory. Neither Rockstar nor Sony has commented, and there is no Rockstar patch yet (Gizmodo).
 
 ## What players are reporting
 
