@@ -4,7 +4,7 @@ description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in 
 date: 2026-11-20T15:37:00+05:30
 updated: 2026-11-20T22:37:00+05:30
 type: guide
-tags: [tips, gameplay, easter-eggs, secrets]
+tags: [tips, gameplay, easter-eggs]
 sources:
   - BGR — GTA 6 has a hidden Fast and Furious Easter egg | https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/
   - GamingBible — GTA 6 secret cutscene behind a seven-minute tower climb | https://www.gamingbible.com/news/gta-6-secret-cutscene-seven-minute-tower-easter-egg-795530-20261119

@@ -2,7 +2,7 @@
 title: GTA 6 How to Steal Cars — Scan With the Waink App, Hotwire, and Why Keyless Cars Need a Key Cloner
 description: GTA 6 car theft is no longer one button: scan a car with the Waink app, smash in, hotwire it with both sticks. Keyless cars need a key cloner, and advanced trackers alert the police.
 date: 2026-11-20T16:38:00+05:30
-tags: [guide, tips, first-hours, cars, gameplay]
+tags: [guide, tips, first-hours, vehicles, gameplay]
 type: guide
 sources:
   - GTABase — How to steal, sell and keep vehicles in GTA 6 | https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles
