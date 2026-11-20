@@ -2,7 +2,7 @@
 title: GTA 6 Age Rating Is 18+ — Police Warn Parents It's Far More Graphic Than the GTA They Remember
 description: GTA 6 is rated 18+. Guernsey Police told parents not to let nostalgia decide, citing gore, decapitations and unhealthy relationships, and warned kids can see it through streams too.
 date: 2026-11-20T10:38:00+05:30
-tags: [age-rating, parents, launch]
+tags: [age-rating, parents, launch-day]
 type: news
 sources:
   - Digit — GTA 6 warning: police warn parents about the game's impact on children | https://www.digit.in/news/gaming/gta-6-warning-police-warn-parents-about-games-impact-on-children-here-is-why.html
