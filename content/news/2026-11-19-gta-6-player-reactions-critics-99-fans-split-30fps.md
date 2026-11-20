@@ -33,4 +33,4 @@ Kotaku's reviewer found the companion hints natural rather than hand-holding, an
 
 In India, three S8UL creators are firmly on the positive side so far ([their first impressions](/news/gta-6-first-impressions-indian-creators-s8ul/)).
 
-**If the pace is getting to you:** the [12 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) and the [early money guide](/news/gta-6-how-to-make-money-fast-early-game/) skip a lot of the grind. Playing from India? Everything else is on the [India hub](/gta-6-india/).
+**If the pace is getting to you:** the [14 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) and the [early money guide](/news/gta-6-how-to-make-money-fast-early-game/) skip a lot of the grind. Playing from India? Everything else is on the [India hub](/gta-6-india/).

@@ -27,4 +27,4 @@ Need more to stash? The best early earners are in our [GTA 6 money guide →](/n
 - **Finish the Leonida Keys side jobs early.** Diving, fishing and your neighbour's requests are easiest while you're there; the drive back later takes **around 10 minutes** ([Red Bull](https://www.redbull.com/int-en/gta-6-beginners-guide)).
 - **Call a mechanic from anywhere.** After an early mission unlocks repairs, you can order one almost anywhere on the map, for a fee ([Digit](https://www.digit.in/features/gaming/gta-6-6-gameplay-tricks-that-can-make-your-time-in-leonida-easier.html)).
 
-Also read: [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [how to save manually so a crash doesn't cost you hours →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · [everything Indian players need to know →](/gta-6-india/)
+Also read: [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [how to save manually so a crash doesn't cost you hours →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · [everything Indian players need to know →](/gta-6-india/)

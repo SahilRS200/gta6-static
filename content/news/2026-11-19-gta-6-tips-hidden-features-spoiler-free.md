@@ -1,13 +1,14 @@
 ---
-title: GTA 6 Tips — 12 Hidden Features the Game Doesn't Tell You, From Shipwreck Cash to Calming Cops
-description: Spoiler-free GTA 6 tips players are finding: fast travel by RydeMe taxi for $100, eat while you drive, swap outfits from your car's trunk to shake the police, dive shipwrecks for cash.
+title: GTA 6 Tips — 14 Hidden Features the Game Doesn't Tell You, From Flipping Your Car to Calming Cops
+description: Spoiler-free GTA 6 tips: flip an overturned car yourself, fast travel by RydeMe taxi for $100, eat while you drive, swap outfits from your trunk to shake the police, dive shipwrecks.
 date: 2026-11-19T00:36:00+05:30
-updated: 2026-11-20T02:37:00+05:30
+updated: 2026-11-20T07:37:00+05:30
 tags: [guide, tips, launch-day, ps5, xbox]
 type: guide
 sources:
   - Engadget — GTA 6 launch-day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Kotaku — 32 spoiler-free tips as you hop into Grand Theft Auto 6 | https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016
+  - Kotaku — Two cool, hidden features GTA 6 doesn't explain: flipping and sitting | https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835
   - GameSpot — Grand Theft Auto 6 review | https://www.gamespot.com/reviews/grand-theft-auto-6-review/
 ---
 GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of systems at you without explaining them. Kotaku's Zack Zwiezen put together a long list of **spoiler-free** tips from his time with the game ([Kotaku](https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016)). These are the ones we think help most in your first night. **No story spoilers.**
@@ -32,6 +33,8 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 10. **Pet the dogs and cats** (hold the left trigger). It earns focus and behaviour points, and so does throwing your rubbish in the bin.
 11. **Use your indicators.** Other drivers react to turn signals.
 12. **Shop as a pair.** Buying clothes for your partner earns romance points.
+13. **Flip an overturned car yourself.** Stand beside it, click the left stick to get into position, then hold Square (PS5) or X (Xbox) to push it back onto its wheels. It fails if the car is too heavy, you're out of stamina or it's on a steep slope. The same push rolls a car that's out of petrol or shoves a boat or jet ski off the sand ([Kotaku](https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835)). Out of petrol? [How to refuel →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
+14. **Sit down and take it in.** Hold Circle (PS5) or B (Xbox) on foot: your character sits on grass or sand, leans against a wall, or rests on one foot elsewhere (Kotaku).
 
 ## Bonus: take a shower
 

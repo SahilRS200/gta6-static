@@ -37,6 +37,7 @@ Rockstar and Take-Two haven't published any sales or pre-order totals yet. Yang 
 
 None of this changes how you play: GTA 6 unlocked at **12:00 AM IST** on 19 November on PS5 and Xbox Series X|S, at ₹5,999 for the Standard Edition. PS5 demand is showing up in India too. [PS5 stock in India →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
 
+- [Latest estimate: about 24.6 million copies and $2.36 billion on day one →](/news/gta-6-pre-orders-15-million-record/)
 - [GTA 6 reviews: 99 on Metacritic →](/news/gta-6-reviews-metacritic-99/)
 - [GTA 6 price in India →](/gta-6-price-in-india/)
 - [GTA 6 in India →](/gta-6-india/)

@@ -1,10 +1,12 @@
 ---
-title: GTA 6 Sales Pass 19 Million, Estimate Says — About $1.84 Billion, More Than Double GTA V's Day One
-description: Sensor Tower now estimates about 19 million digital GTA 6 copies on PS5 and Xbox, worth roughly $1.84 billion, with 75% on PS5. Rockstar hasn't confirmed any figure yet.
+title: GTA 6 Sold About 24.6 Million Copies on Day One, Estimate Says — $2.36 Billion, Nearly 3x GTA V
+description: Sensor Tower estimates GTA 6 sold about 24.58 million copies worth $2.36 billion by the evening of launch day, nearly three times GTA V's first day. Take-Two hasn't confirmed it.
 date: 2026-11-18T16:55:00+05:30
-updated: 2026-11-19T22:36:00+05:30
-tags: [sales, pre-orders, ps5, xbox]
+updated: 2026-11-20T07:37:00+05:30
+tags: [sales, pre-orders, ps5, xbox, records]
 sources:
+  - The Globe and Mail (Reuters) — Grand Theft Auto VI publisher rakes in more than $2-billion in estimated first-day sales | https://www.theglobeandmail.com/business/article-take-two-grand-theft-auto-vi-sales/
+  - Make Tech Easier — GTA 6 sold an estimated 24.6 million copies on its first day | https://maketecheasier.com/gta-6-first-day-sales-estimate/
   - GameSpot — GTA 6 passes 17 million copies sold and $1.6 billion in revenue on eve of launch | https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/
   - Hromadske — GTA 6 launches with near-perfect reviews, estimated 19 million copies sold | https://hromadske.ua/en/lifestyle/274650-gta-6-launches-with-near-perfect-reviews-estimated-19-million-copies-sold
   - VICE — How many people pre-ordered GTA 6? | https://www.vice.com/en/article/how-many-people-pre-ordered-gta-6/
@@ -14,7 +16,13 @@ sources:
 ---
 GTA 6 has only just started unlocking, and it may already be the most pre-ordered game ever. These are **estimates from analytics firm Sensor Tower, not official numbers**. Rockstar and Take-Two have not published pre-order totals.
 
-## Update, 19 Nov: about 19 million and $1.84 billion
+## Update, 20 Nov: about 24.6 million and $2.36 billion on day one
+
+- **About 24.58 million copies, worth roughly $2.36 billion**, by Thursday evening, 19 November (launch day), Sensor Tower estimates, as reported by Reuters via [The Globe and Mail](https://www.theglobeandmail.com/business/article-take-two-grand-theft-auto-vi-sales/). That's up about 5.5 million copies from the launch-morning estimate.
+- **Nearly three times GTA V's first day**, which made roughly $800 million in 2013, by the same report. [Make Tech Easier](https://maketecheasier.com/gta-6-first-day-sales-estimate/) says about three in four copies are still on PS5.
+- **Still not official.** Take-Two has only called demand "unprecedented" and hasn't published a sales figure; [GameSpot](https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/) reports it is expected to share official numbers soon. Analysts quoted by Reuters say GTA Online's timing matters more to the stock than these unit sales.
+
+## 19 Nov: about 19 million and $1.84 billion
 
 - **About 19.05 million digital copies, worth roughly $1.84 billion**, by Sensor Tower's launch-day estimate as reported by [GameSpot](https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/) and [Hromadske](https://hromadske.ua/en/lifestyle/274650-gta-6-launches-with-near-perfect-reviews-estimated-19-million-copies-sold). That's up about 2 million in a day.
 - **About 14.23 million on PS5 and 4.82 million on Xbox Series X|S**, still roughly three in four on PlayStation.

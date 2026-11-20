@@ -33,4 +33,4 @@ A post on Reddit's r/birding asking who was looking forward to it passed **1,700
 - **Save manually first.** GTA 6 keeps only one autosave slot, and crashes are still being reported. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 - **Mind the fuel** if you drive out to the wilds. [How refuelling works →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 
-Related: [12 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)
+Related: [14 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/)

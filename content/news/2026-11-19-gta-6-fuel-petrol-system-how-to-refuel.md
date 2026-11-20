@@ -35,7 +35,7 @@ A car you steal keeps whatever fuel or charge it had. If it runs dry mid-chase, 
 ## Our tips
 
 - **Top up when you see the half-tank warning**, not when it's flashing red.
-- **Repair and refuel in one stop.** A petrol pump is also a cheap place to fix your car. [12 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/)
+- **Repair and refuel in one stop.** A petrol pump is also a cheap place to fix your car. [14 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/)
 - **Swap cars to lose the cops.** Police remember your car, and switching to one with a fuller tank does two jobs. [Wanted level explained →](/news/gta-6-wanted-level-heat-system-explained/)
 
 Early impressions count the system as part of what makes Leonida feel alive. A reviewer at [The National](https://www.thenationalnews.com/arts-culture/2026/11/19/gta-6-review-worth-13-year-wait/) singled out cars that need petrol alongside radio news and street-level incidents. Starting out? [GTA 6 first-hours tips →](/news/gta-6-first-hours-tips-settings/) · [Everything Indian players need to know →](/gta-6-india/)
