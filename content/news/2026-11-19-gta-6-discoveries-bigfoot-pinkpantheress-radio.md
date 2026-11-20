@@ -2,7 +2,7 @@
 title: GTA 6 Discoveries — Weird Al Hosts Vice City FM, Plus Bigfoot and a Phone Feed That Mocks the Delays
 description: What GTA 6 players are finding, spoiler-free: Weird Al co-hosts 80s station Vice City FM (Rockstar confirmed), Bigfoot in the swamps, a Dexter-style flat and a feed that mocks the delays.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-20T11:38:00+05:30
+updated: 2026-11-20T15:37:00+05:30
 tags: [gameplay, tips, reactions, launch-day, phone, radio]
 sources:
   - Kotaku — 18 coolest details players have spotted in GTA 6 so far | https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435
@@ -25,7 +25,7 @@ Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map
 - **The jet-ski dog.** Swim far enough out into the ocean and a dog on a jet ski may turn up to rescue you, Engadget's team found ([Engadget](https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/)).
 - **A 2021 teaser, solved.** A mystery house that appeared only in *GTA: San Andreas – Definitive Edition* has been matched to a house in GTA 6's Belville, right down to the plants outside. Fans mapping Leonida spotted it, which suggests Rockstar slipped in a first look at GTA 6 five years ago ([VGC](https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/)).
 - **A Dexter apartment in Vice Beach.** On Washington Island, players found "Trinity Apartments", a waterfront block that looks like Dexter Morgan's home from the TV show. You can't go inside, but a kit on the roof holds a knife, tape and rope, and a nearby boat that resembles Dexter's *Slice of Life* can be stolen. Rockstar hasn't called it a Dexter nod ([Dexerto](https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/)).
-- **A literal Easter egg.** Climb the tallest radio tower and you'll find an egg waiting in a nest. Kotaku's writer found it too.
+- **A literal Easter egg.** Climb the tallest radio tower and you'll find an egg waiting in a nest. Kotaku's writer found it too. Throw one at the road for a secret cutscene: [where to find it, plus the Fast and Furious car →](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/)
 - **Tony the Bird is back.** The talking bird from *San Andreas* makes a cameo, and some players think they've spotted Rockstar boss Sam Houser in the game too, though Rockstar hasn't confirmed that ([Kotaku](https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435)).
 
 ## The phone is the new meme machine
