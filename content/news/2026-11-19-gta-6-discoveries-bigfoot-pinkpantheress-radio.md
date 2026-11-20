@@ -1,12 +1,13 @@
 ---
-title: GTA 6 Discoveries — Bigfoot, a Dexter Easter Egg and a Doomscrolling Phone Feed That Mocks the Delays
-description: What GTA 6 players are finding, spoiler-free: Bigfoot in the swamps, a Dexter-style apartment, an Instagram-style phone feed that mocks the delays, and phones that wreck driving.
+title: GTA 6 Discoveries — Weird Al Hosts Vice City FM, Plus Bigfoot and a Phone Feed That Mocks the Delays
+description: What GTA 6 players are finding, spoiler-free: Weird Al co-hosts 80s station Vice City FM (Rockstar confirmed), Bigfoot in the swamps, a Dexter-style flat and a feed that mocks the delays.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-20T04:37:00+05:30
-tags: [gameplay, tips, reactions, launch-day, phone]
+updated: 2026-11-20T09:37:00+05:30
+tags: [gameplay, tips, reactions, launch-day, phone, radio]
 sources:
   - Kotaku — GTA 6 launch live updates | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
   - Kotaku — GTA 6 pets: cats, dogs and more | https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120
+  - Kotaku — Yes, that's Weird Al hosting a radio station in GTA 6 | https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140
   - Kotaku — Grand Theft Auto 6 review | https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842
   - Engadget — GTA 6 launch day live blog | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Dexerto — GTA 6 players find Dexter's apartment and can steal his boat | https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/
@@ -33,12 +34,13 @@ Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map
 
 ## The radio
 
+- **Weird Al Yankovic co-hosts Vice City FM**, the station for 1980s hits. Kotaku's Zack Zwiezen recognised the voice while driving and Rockstar confirmed it. Expect an over-the-top DJ who sometimes yells about a song or a story from his "past life". None of his own songs or parodies seem to be on the playlist, and he isn't in the game as a character ([Kotaku](https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140)).
 - **PinkPantheress is one of the in-game radio DJs**, Kotaku reports. Players are spending the first hours just flicking through stations to see who else turns up.
 
 ## Things that change how you play
 
 - **HDR looks washed out?** Engadget suggests turning off your TV's automatic tone mapping, especially on high-end sets such as LG OLEDs. You can also switch units of measurement in the game's settings ([Engadget](https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/)).
 - **Don't use your phone while driving.** Bloomberg's Jason Schreier and Kotaku's reviewer both found that the controls get harder while you're on the phone ([Kotaku review](https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842)). Pull over first.
-- **You can pet the dogs and cats**, and it earns you points ([Kotaku](https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120)). It is GTA, so players have also found much less kind things to do with them.
+- **You can pet the dogs and cats**, and it earns you points ([Kotaku](https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120)). It is GTA, so players have also found much less kind things to do with them. Mind the wildlife too: stomp around an alligator's lake and it can eat you, a car you steal may have a very angry cat in the back seat, and you can keep a pet snake that you feed mice ([Kotaku](https://kotaku.com/grand-theft-auto-6-gta6-cats-dogs-snake-pet-alligator-2000758120)).
 
 Into wildlife? GTA 6 also has [62 bird species to log with binoculars](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/). Want more? Our [14 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) and [settings to change first](/news/gta-6-first-hours-tips-settings/) cover the basics. On an Xbox One? GTA 6 [streams via Xbox Cloud Gaming from 11:30 AM IST](/news/gta-6-xbox-one-cloud-gaming-india-time/). Hit a glitch instead? See [the launch bugs players are reporting](/news/gta-6-bugs-glitches-launch-falling-through-map/).

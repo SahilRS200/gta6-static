@@ -1,7 +1,7 @@
 ---
-updated: 2026-11-20T08:38:00+05:30
+updated: 2026-11-20T09:37:00+05:30
 headline: 1,600+ developers in Bengaluru helped build GTA 6 at Rockstar India, MP Tejasvi Surya says
-search: [Bengaluru, sales, parrot, cash]
+search: [Bengaluru, Series S, Weird Al, parrot]
 ---
 ## 🔥 Hot in India
 
@@ -10,8 +10,8 @@ search: [Bengaluru, sales, parrot, cash]
 
 ## ✅ Try this today
 
-- **Free early cash from a talking parrot:** after Shirley's rum errand, clear the back of Three Sheets Liquor; the parrot points to a vent with about $1,200. [Where →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
-- **Die or get busted and your carried cash is gone** until your bank opens. Stash it under Jason's floorboards. [How →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
+- **Weird Al is your 80s radio DJ:** he co-hosts Vice City FM, Rockstar confirmed to Kotaku. Tune in on your next drive. [More finds →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
+- **Free early cash from a talking parrot:** after Shirley's rum errand, clear the back of Three Sheets Liquor; the parrot points to a vent with about $1,200. Bank it: carried cash is lost if you die. [Where →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
 
 ## 🛠️ Fix of the day
 
