@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-20T08:39:00+05:30
-headline: GTA 6 was partly made in Bengaluru — over 1,600 Rockstar India developers worked on it, MP Tejasvi Surya says.
+updated: 2026-11-20T11:38:00+05:30
+headline: No GTA 6 PC date yet — PC players in India keep waiting, while a GamesBeat report (unconfirmed) points to early 2027.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
@@ -22,11 +22,11 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **YouTube's 24-hour GTA 6 stream** with Total Gaming, Payal Gaming, Sharkshe and Mythpat runs until about 10:30 AM IST on 20 November. [Times →](/news/gta-6-youtube-24-hour-livestream-indian-creators/)
 - **S8UL's first verdicts:** Soul Aman, Pitaji Playz and Dattrax Gaming all rate GTA 6 highly after launch day. [What they said →](/news/gta-6-first-impressions-indian-creators-s8ul/)
 - **Mythpat peaked at about 1.25 lakh live viewers** on launch night. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
-- **CarryMinati and Mythpat** each streamed about 10 hours on launch day and passed 1.3 crore views by Thursday afternoon, Reuters says. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+- **CarryMinati and Mythpat** each streamed about 10 hours on launch day and passed 1.3 crore views by Thursday afternoon, Reuters says; Mythpat's stream has reportedly since passed 1.5 crore. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 
 ## 🇮🇳 Playing from India
 
 - **No console? Try a gaming cafe.** Cafes in Delhi, Bengaluru and Srinagar charge from about ₹250 an hour; some are booked through Sunday. [Before you go →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **Made partly in Bengaluru.** Over 1,600 developers at Rockstar India's Whitefield studio worked on GTA 6, including Vice Beach, an MP says; Rockstar gave no figure. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
+- **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)

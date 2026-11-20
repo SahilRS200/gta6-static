@@ -1,23 +1,23 @@
 ---
-updated: 2026-11-20T10:39:00+05:30
-headline: GTA 6 rates Jason and Lucia's relationship in 4 levels — neglect it and lose dialogue and mission options
-search: [relationship, Bengaluru, Series S, age rating]
+updated: 2026-11-20T11:38:00+05:30
+headline: No GTA 6 PC date yet — GTA 5 on Steam jumps to 87,000 players as PC fans wait it out
+search: [PC, Mythpat, relationship, Bengaluru]
 ---
-## ✅ Try this today
-
-- **GTA 6's relationship meter:** four levels, from Running on Empty to Hot Together. Missions together, texts, holding hands and gym or pool sessions raise it; ignoring your partner drops it. [How it works →](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)
-- **Free early cash from a talking parrot:** after Shirley's rum errand, the parrot behind Three Sheets Liquor points to a vent with about $1,200. Bank it fast. [Where →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
-
 ## 🔥 Hot in India
 
-- **GTA 6 was partly made in Bengaluru:** over 1,600 Rockstar India developers worked on it, MP Tejasvi Surya says. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
-- **Cheapest way in: an Xbox Series S,** about ₹38,000–46,000 with the game vs about ₹71,000 for a PS5 bundle. [Compare →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
+- **GTA 6 on PC: still no date.** It's PS5 and Xbox only; a GamesBeat report says early 2027, but Rockstar hasn't confirmed. Any "PC download" now is a scam. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **Mythpat's 24-hour GTA 6 stream** has reportedly passed 1.5 crore views. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+- **GTA 6 was partly made in Bengaluru:** 1,600+ Rockstar India developers worked on it, an MP says. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
+
+## ✅ Try this today
+
+- **Keep Jason and Lucia's relationship meter up:** texts, missions and gym sessions together raise it; neglect costs options. [How →](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)
+- **Spot Tony the Bird and watch the in-game TV:** new finds from players, spoiler-free. [Discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
 
 ## 🛠️ Fix of the day
 
-- **Stuck in an early Lucia mission?** Players report a softlock. Reload a manual save; a "25 November fix" is unconfirmed. [What we know →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
+- **Stuck in an early Lucia mission?** Reload a manual save; a "25 November fix" is unconfirmed. [What we know →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
 
 ## 🌍 Around the world
 
-- **GTA 6 is 18+, police remind parents:** Guernsey Police warn of gore and say kids see it through streams too. [Details →](/news/gta-6-age-rating-18-police-warn-parents-kids/)
-- **24.6 million copies, $2.36 billion on day one,** Sensor Tower estimates. Take-Two hasn't given a figure yet. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
+- **24.6 million copies on day one,** Sensor Tower estimates. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
