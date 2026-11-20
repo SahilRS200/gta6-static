@@ -22,7 +22,7 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 
 ## Shaking the police
 
-5. **Keep a spare outfit in your car's trunk.** Changing clothes helps you lose police attention. You can also store guns there.
+5. **Keep a spare outfit in your car's trunk.** Changing clothes helps you lose police attention. You can also store guns there. [How to save outfits to your car →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
 6. **Calm a cop without a fight.** At one star, with no gun drawn, hold the left trigger on an officer to try to defuse it.
 7. **Repaint at Pay 'n' Spray.** GameSpot notes an early mission introduces the auto shop, where a repaint makes the cops ease off ([GameSpot](https://www.gamespot.com/reviews/grand-theft-auto-6-review/)).
 8. **Watch for red tracker icons** on cars. Leave those alone until you can deal with the tracker later.

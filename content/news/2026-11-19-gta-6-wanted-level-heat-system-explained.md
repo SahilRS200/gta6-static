@@ -26,7 +26,7 @@ Icons under the stars show what police know: **a weapon**, **your physical descr
 
 ## How to lose the heat
 
-1. **Change clothes.** Keep a spare outfit in your car's trunk.
+1. **Change clothes.** Keep a spare outfit in your car's trunk (save it there from the safehouse menu first). [How to change clothes →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
 2. **Change your look.** A hat, glasses or a bandana changes your description.
 3. **Ditch the car.** Swap vehicles to clear the vehicle icon; newer cars may have GPS trackers.
 4. **Split up.** Separating Jason and Lucia clears the duo icon.

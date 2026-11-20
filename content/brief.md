@@ -1,19 +1,19 @@
 ---
-updated: 2026-11-20T19:38:00+05:30
-headline: GTA 6 has 55 trophies and one might be missable in Chapter 1 — do Lucia's meditation before you move on
-search: [trophies, Mythpat, interiors, Game Awards]
+updated: 2026-11-20T20:39:00+05:30
+headline: 4.5 lakh players tried Namma Benglooru, a free GTA-style Bengaluru game going viral as GTA 6 lands
+search: [Bengaluru, clothes, trophies, Mythpat]
 ---
-## ✅ Try this today
-
-- **The one GTA 6 trophy you might miss:** early in Chapter 1, accept Lucia's offer to meditate on the balcony. The Platinum takes about 200 hours. [Trophy list →](/news/gta-6-trophy-list-platinum-missable-trophy-guide/)
-- **Dark blue on the map means you can go inside.** Near the building, a white line on the minimap marks the door; Focus shows open or alarmed doors. [How →](/news/gta-6-which-buildings-can-you-enter-interiors-map/)
-
 ## 🔥 Hot in India
 
-- **125 million hours of GTA 6 streams on day one,** Streams Charts says, and Mythpat's Hindi stream hit 1.25 lakh live. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
-- **8 Game Awards nominations for GTA 6, Game of the Year included.** The show is 6:30 AM IST on 11 December. [Nominations →](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/)
+- **A free GTA-style Bengaluru game is going viral:** Namma Benglooru puts potholes and autos in Koramangala, with 12 missions in its browser demo. Not a Rockstar game. [The story →](/news/namma-benglooru-bengaluru-gta-style-game-viral/)
+- **125 million hours of GTA 6 streams on day one,** Streams Charts says; Mythpat's Hindi stream hit 1.25 lakh live. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+
+## ✅ Try this today
+
+- **Save a spare outfit to your car.** Change clothes at the safehouse and store outfits in the trunk from its menu: a new look is the quickest way to lose the cops. [How →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
+- **The one trophy you might miss:** in Chapter 1, accept Lucia's offer to meditate on the balcony. [Trophy list →](/news/gta-6-trophy-list-platinum-missable-trophy-guide/)
 
 ## 🌍 Around the world
 
-- **You can't buy a house, only garages:** 8 of them, $4,000 to $40,000, in the Vice City Real Estate app. [Prices →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
+- **8 Game Awards nominations, Game of the Year included.** The show is 6:30 AM IST on 11 December. [Nominations →](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/)
 - **27,416 GTA 6 malware detections,** Kaspersky says. There's no PC version: skip every "PC download" or APK. [The scams →](/news/gta-6-free-download-apk-scam-warning/)

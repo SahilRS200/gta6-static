@@ -1,16 +1,18 @@
 ---
-slot: 2026-11-20T18:39:00+05:30
-source: /news/gta-6-which-buildings-can-you-enter-interiors-map/
+slot: 2026-11-20T20:39:00+05:30
+source: /news/namma-benglooru-bengaluru-gta-style-game-viral/
 ---
-Can you go inside? 🚪
+Bengaluru got its own GTA-style game 🛺
 
-GTA 6 map: dark blue = enterable, light blue = scenery.
+Namma Benglooru: 4.5 lakh players tried its free demo.
 
 Also:
-⚪ White line on minimap = door
-🔴 Red door in Focus = alarm
-🏪 Check shop back rooms
+🕳️ Potholes and autos
+📦 Play a delivery worker
+🎮 12 missions
+
+Not a Rockstar game.
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #IndianGaming
