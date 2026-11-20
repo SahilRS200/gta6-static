@@ -35,4 +35,4 @@ Icons under the stars show what police know: **a weapon**, **your physical descr
 
 Rockstar hasn't published exactly which crimes trigger each star level, so treat the thresholds as something players are still mapping out.
 
-More for your first hours: [14 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/), [settings to change first](/news/gta-6-first-hours-tips-settings/), and [why cheats are locked](/news/gta-6-cheats-locked-until-story-complete/). Indian players: [everything you need to know →](/gta-6-india/)
+Carrying a rifle in the open draws attention: see our [weapons guide](/news/gta-6-weapons-guide-ammu-nation-buy-store-recover-guns/) for holstering and getting lost guns back. More for your first hours: [14 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/), [settings to change first](/news/gta-6-first-hours-tips-settings/), and [why cheats are locked](/news/gta-6-cheats-locked-until-story-complete/). Indian players: [everything you need to know →](/gta-6-india/)

@@ -1,7 +1,7 @@
 ---
-updated: 2026-11-20T20:39:00+05:30
+updated: 2026-11-20T21:39:00+05:30
 headline: 4.5 lakh players tried Namma Benglooru, a free GTA-style Bengaluru game going viral as GTA 6 lands
-search: [Bengaluru, clothes, trophies, Mythpat]
+search: [Bengaluru, Mythpat, helicopter, weapons]
 ---
 ## 🔥 Hot in India
 
@@ -10,8 +10,8 @@ search: [Bengaluru, clothes, trophies, Mythpat]
 
 ## ✅ Try this today
 
-- **Save a spare outfit to your car.** Change clothes at the safehouse and store outfits in the trunk from its menu: a new look is the quickest way to lose the cops. [How →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
-- **The one trophy you might miss:** in Chapter 1, accept Lucia's offer to meditate on the balcony. [Trophy list →](/news/gta-6-trophy-list-platinum-missable-trophy-guide/)
+- **Fly in your first hours:** Dodo seaplanes and a Maverick helicopter sit at Southwind, about 2.5 miles from Jason's house. Save before take-off. [Where →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
+- **Buy your guns, don't just pick them up.** Ammu-Nation guns stay yours: lose one and it waits in your car's trunk or any store locker. [Weapons guide →](/news/gta-6-weapons-guide-ammu-nation-buy-store-recover-guns/)
 
 ## 🌍 Around the world
 
