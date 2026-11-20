@@ -25,7 +25,7 @@ These are player tips, not official fixes from Rockstar or Sony. They're safe to
 2. **Turn off HDCP** in **Settings → System → HDMI**. The catch: with HDCP off you can't use streaming apps or play Blu-rays, so turn it back on before Netflix or JioHotstar.
 3. **Shrink the stick dead zone.** Some players say the default dead zone is too big, which makes aiming and steering feel sluggish; you can change it in the game's controller settings (TechRadar).
 4. **Motion blur: your call.** Many players turn it off for a sharper picture, while others say it smooths motion on OLED TVs.
-5. **Use your TV's Game Mode** to cut input lag, and keep the PS5 somewhere it can breathe. Hot consoles can throttle and switch off ([our PS5 fixes](/news/gta-6-locked-not-starting-ps5-fix-india/)).
+5. **Use your TV's Game Mode** to cut input lag, and keep the PS5 somewhere it can breathe. Hot consoles can throttle and switch off ([our PS5 fixes](/news/gta-6-locked-not-starting-ps5-fix-india/); game crashing or freezing? [crash and overheating fixes →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)).
 
 ## Will a patch fix it?
 
