@@ -14,7 +14,7 @@ Still on an **Xbox One**, or don't have 212 GB free on your Series S? There is a
 
 ## Who can stream it
 
-- **Xbox consoles only.** Rockstar says cloud play covers **Xbox Series X|S and Xbox One**. Xbox 360 is out, and so are Windows PCs, phones, smart TVs and web browsers at launch ([Notebookcheck](https://www.notebookcheck.net/GTA-6-comes-to-Xbox-One-via-cloud-gaming-but-PC-players-are-left-out.1447209.0.html)). So no, you can't play GTA 6 on your phone through the cloud.
+- **Xbox consoles only.** Rockstar says cloud play covers **Xbox Series X|S and Xbox One**. Xbox 360 is out, and so are Windows PCs, phones, smart TVs and web browsers at launch ([Notebookcheck](https://www.notebookcheck.net/GTA-6-comes-to-Xbox-One-via-cloud-gaming-but-PC-players-are-left-out.1447209.0.html)). So no, you can't play GTA 6 on your phone through the cloud. PC players have no option yet either: [what we know about a GTA 6 PC release](/news/gta-6-pc-release-date-gta-5-steam-players-rise/).
 - **You still have to buy the game.** GTA 6 is not on Game Pass. Streaming only works if you own the Xbox version.
 - **It looks like a Series S.** Cloud sessions use Xbox Series S graphics settings on every Xbox, per Rockstar ([Pure Xbox](https://www.purexbox.com/news/2026/11/gta-6-will-be-playable-on-xbox-one-through-xbox-cloud-gaming)). Digital Foundry found the Series S version renders at 720p and can drop to about 20fps in the toughest fights ([our performance breakdown](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/)).
 
