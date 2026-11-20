@@ -1,16 +1,30 @@
 ---
-title: GTA 6 First-Person Mode? No — It's Third-Person Only at Launch; Here's What the Camera Can Do
-description: GTA 6 has no full first-person mode at launch: Rockstar North built it around a third-person camera. Reports say first-person shows up only in some moments, like aiming some guns.
+title: GTA 6 First-Person Mode? Not Officially — But a Phone-and-Camera Glitch Unlocks It on PS5 and Xbox
+description: GTA 6 has no first-person mode at launch, but players found a glitch: open and close the phone in a car, then spam the camera button. You must reload a save to get back to third-person.
 date: 2026-11-19T09:38:00+05:30
-tags: [guide, tips, ps5, xbox, camera]
+updated: 2026-11-20T05:36:00+05:30
+tags: [guide, tips, ps5, xbox, camera, glitch]
 type: guide
 sources:
+  - Dexerto — GTA 6 glitch lets players access first-person mode | https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/
+  - VGTimes — First-person mode found in GTA 6, how to enable it | https://vgtimes.com/gaming-news/175155-first-person-mode-found-in-gta-6-heres-how-to-enable-it.html
   - VICE — Will GTA 6 have first person? Rockstar reveals launch plans | https://www.vice.com/en/article/will-gta-6-have-first-person-mode/
   - Beebom — No first-person mode in GTA 6 at launch, Rockstar confirms | https://beebom.com/no-first-person-mode-in-gta-6-rockstar-confirms/
   - Insider Gaming — GTA 6 drops first-person mode at launch | https://insider-gaming.com/gta-6-drops-first-person-mode-at-launch/
   - TweakTown — Rockstar confirms GTA 6 will skip a dedicated first-person mode at launch | https://www.tweaktown.com/news/113322/rockstar-confirms-gta-6-will-skip-a-dedicated-first-person-mode-at-launch/index.html
 ---
-If you've just started GTA 6 and are hunting the menus for the first-person toggle GTA 5 had on PS4 and PS5: **there isn't one.** GTA 6 launched without a full first-person mode. **No story spoilers below.**
+If you've just started GTA 6 and are hunting the menus for the first-person toggle GTA 5 had on PS4 and PS5: **there isn't one.** GTA 6 launched without a full first-person mode — but players have found a glitch that gets you there (below). **No story spoilers below.**
+
+## Update: players found a first-person glitch
+
+A day after launch, players found a way to lock the camera in first person and walk around on foot, as [Dexerto](https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/) and [VGTimes](https://vgtimes.com/gaming-news/175155-first-person-mode-found-in-gta-6-heres-how-to-enable-it.html) report. It's a glitch, not a setting, so it can take a few tries:
+
+- **PS5:** in the controller settings, change the touchpad from Map to Camera. Sit in a car's driver's seat, open the in-game phone, close it with Circle and immediately spam the touchpad.
+- **Xbox Series X/S:** no remapping needed. In a car, open the phone, close it with B and immediately mash the camera button.
+- **It worked if** the camera doesn't jump back when the phone closes. Then get out and explore in first person.
+- **Getting out of it:** there's no toggle back. You have to reload your last save, so **make a manual save first** ([how →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)).
+
+Rockstar hasn't commented, and Dexerto notes it's unclear whether a patch will remove the glitch or a real first-person mode will follow.
 
 ## What Rockstar said
 

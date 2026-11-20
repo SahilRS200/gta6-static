@@ -1,8 +1,8 @@
 ---
-title: GTA 6 Bugs at Launch — Players Report Falling Through the Map and Clipping; No Rockstar Patch Yet
-description: GTA 6 launch bugs players are reporting: falling through the map, clipping through walls, low FPS on base PS5. No Rockstar hotfix yet. What Indian players can do right now.
+title: GTA 6 Bugs at Launch — Falling Through the Map, an Early Mission Softlock; No Rockstar Patch Yet
+description: GTA 6 launch bugs players report: falling through the map, an early Lucia mission softlock, prologue crashes, low FPS on base PS5. No Rockstar patch yet, and a '25 Nov fix' post is unconfirmed.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-19T17:38:00+05:30
+updated: 2026-11-20T05:36:00+05:30
 tags: [bugs, patch, ps5, launch-day, india]
 type: fix
 status: open
@@ -10,6 +10,8 @@ sources:
   - Sportskeeda — All GTA 6 bugs and glitches found so far | https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far
   - Sportskeeda — GTA 6 player slams Rockstar for release-day bugs | https://tech.sportskeeda.com/gaming-news/news-it-s-cyberpunk-2077-again-gta-6-player-slams-rockstar-games-release-day-bugs
   - PlayStation LifeStyle — GTA 6 players report FPS drops on PS5 | https://www.playstationlifestyle.net/2026/11/18/gta-6-players-report-fps-drops-ps5
+  - Latin Times — GTA 6 lands with a 99, but launch-day failures make headlines | https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565
+  - iGameMag — GTA 6 reviews: 99 from critics, but bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
   - Kotaku — GTA 6 launch live updates | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
 ---
 GTA 6 has been out in India since **12:00 AM IST**, and the first bug clips are doing the rounds on X. Sportskeeda is keeping a running list of what players have caught so far ([Sportskeeda](https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far)). The short version: **annoying, mostly not game-breaking, and Rockstar has not announced a fix yet.** No story spoilers below.
@@ -20,6 +22,12 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first bug clips are 
 - **Clipping through objects.** Characters and police passing through furniture, and a missing door animation when getting into an aircraft. Funny, harmless.
 - **Low FPS on base PS5.** Some players on the standard PS5 report frame drops ([Sportskeeda](https://tech.sportskeeda.com/gaming-news/news-it-s-cyberpunk-2077-again-gta-6-player-slams-rockstar-games-release-day-bugs)). That matches what Digital Foundry found: a mostly steady 30fps with dips in busy scenes ([our performance breakdown](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/)).
 - **Update: FPS drops in fights are the biggest complaint.** One X post saying the base PS5 falls to about 15–20fps in combat, with delayed button response, passed 2 million views; PS5 Pro owners report occasional dips in big set pieces. There is still no 60fps or 40fps mode and no Rockstar response yet ([PlayStation LifeStyle](https://www.playstationlifestyle.net/2026/11/18/gta-6-players-report-fps-drops-ps5)).
+
+- **Update, day two: an early-mission softlock and prologue crashes.** Latin Times rounds up player reports of crashes during the prologue, a softlock that blocks progress in an early Lucia mission, screen freezes, characters sinking into the ground, cars flying after crashes and audio glitches. It says they seem intermittent, hitting some players rather than everyone, and that Rockstar hasn't publicly addressed them ([Latin Times](https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565)). If a mission won't progress, reload a manual save from before it.
+
+## Is a patch coming on 25 November?
+
+**Not confirmed.** A widely shared X post claims Rockstar apologised and scheduled a fix for 25 November, but no official Rockstar channel has said so, and [iGameMag](https://igamemag.com/gta-6-reviews/) advises treating it as a rumour. We'll change this post's status only when Rockstar's Newswire or support site announces a patch.
 
 One creator called the launch a "glitchy buggy mess" and compared it to Cyberpunk 2077, but that is one person's take. Kotaku's live blog, which is tracking the launch closely, had not flagged any widespread bug or server problem at the time of writing ([Kotaku](https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030)), and the game holds a [99 on Metacritic](/news/gta-6-reviews-metacritic-99/).
 
