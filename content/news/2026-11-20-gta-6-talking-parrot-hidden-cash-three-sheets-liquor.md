@@ -26,3 +26,5 @@ Short on cash in your first hours? One of the easiest early stashes in GTA 6 is 
 Insider Gaming counted **$1,200** in the vent and about **$2,500** across the whole place, including a **safe** in the back and loose cash, plus adrenaline shots ([Insider Gaming](https://insider-gaming.com/how-to-complete-strange-noises-in-gta-6-shirley-house-liquor-store-location-guide/)). Other guides put the vent at about $1,300, so expect roughly that.
 
 **Bank it.** Cash you carry is lost if you die or get busted until your bank account opens, so stash it: [where to hide your money →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/). More early earners: [GTA 6 money guide →](/news/gta-6-how-to-make-money-fast-early-game/) · [14 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/)
+
+More secrets to hunt: [GTA 6 Easter eggs, spoiler-free →](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/)
