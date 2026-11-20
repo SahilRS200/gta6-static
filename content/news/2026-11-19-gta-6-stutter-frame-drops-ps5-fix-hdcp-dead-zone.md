@@ -32,3 +32,5 @@ These are player tips, not official fixes from Rockstar or Sony. They're safe to
 Rockstar hasn't said. We'll change this post's status when a patch lands; patches are listed on [What's next](/whats-next/). Why there's no 60fps mode: [Rockstar explains →](/news/gta-6-30fps-ps5-pro-rockstar-explains/) · How each console performs: [Digital Foundry's breakdown →](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) · Other launch bugs: [what players are reporting →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
 
 More for Indian players: [the India hub →](/gta-6-india/)
+
+Related: picture looks grey or washed out rather than stuttery? See [the best HDR and TV settings for GTA 6](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/).

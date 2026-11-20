@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-20T11:38:00+05:30
-headline: No GTA 6 PC date yet — GTA 5 on Steam jumps to 87,000 players as PC fans wait it out
-search: [PC, Mythpat, relationship, Bengaluru]
+updated: 2026-11-20T12:38:00+05:30
+headline: Kaspersky logs 27,416 GTA 6 malware hits — there's no PC version, so every "PC download" is a trap
+search: [malware, Mythpat, HDR, map]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6 on PC: still no date.** It's PS5 and Xbox only; a GamesBeat report says early 2027, but Rockstar hasn't confirmed. Any "PC download" now is a scam. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **27,416 GTA 6 malware detections,** Kaspersky says, from fake PC installers, "pre-loads" and key generators. GTA 6 is PS5 and Xbox only; skip any APK, crack or UPI "leaked build". [The scams →](/news/gta-6-free-download-apk-scam-warning/)
 - **Mythpat's 24-hour GTA 6 stream** has reportedly passed 1.5 crore views. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
-- **GTA 6 was partly made in Bengaluru:** 1,600+ Rockstar India developers worked on it, an MP says. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
+- **GTA 6 on PC: still no date.** A GamesBeat report says early 2027; Rockstar hasn't confirmed. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
 
 ## ✅ Try this today
 
-- **Keep Jason and Lucia's relationship meter up:** texts, missions and gym sessions together raise it; neglect costs options. [How →](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)
-- **Spot Tony the Bird and watch the in-game TV:** new finds from players, spoiler-free. [Discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
+- **Fix a grey, washed-out picture:** calibrate HDR on the console, turn on your TV's Game Mode and turn off tone mapping. [Best settings →](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/)
+- **Print Rockstar's free Leonida map:** the code-in-box copy has no disc, but the official map is a free download. [Where →](/news/gta-6-map-free-printable-leonida-poster-download/)
 
 ## 🛠️ Fix of the day
 

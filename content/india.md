@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-20T11:38:00+05:30
-headline: No GTA 6 PC date yet — PC players in India keep waiting, while a GamesBeat report (unconfirmed) points to early 2027.
+updated: 2026-11-20T12:38:00+05:30
+headline: Kaspersky has logged 27,416 GTA 6 malware hits — GTA 6 is PS5 and Xbox only, so any PC download or APK in India is a scam.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
@@ -29,4 +29,4 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **No console? Try a gaming cafe.** Cafes in Delhi, Bengaluru and Srinagar charge from about ₹250 an hour; some are booked through Sunday. [Before you go →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam: Kaspersky counts 27,416 GTA 6 malware detections since June. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)

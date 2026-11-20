@@ -41,3 +41,5 @@ Note: there's no online multiplayer at launch. [What we know about GTA 6 Online 
 - [First gameplay reactions, spoiler-free →](/news/gta-6-first-gameplay-reactions-spoiler-free/)
 - [How to make money fast early, spoiler-free →](/news/gta-6-how-to-make-money-fast-early-game/)
 - [Everything Indian players need to know →](/gta-6-india/)
+
+Related: get [the best HDR and TV settings](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/) if the picture looks washed out, and print [Rockstar's free official Leonida map](/news/gta-6-map-free-printable-leonida-poster-download/).

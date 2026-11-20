@@ -1,15 +1,15 @@
 ---
-slot: 2026-11-20T10:39:00+05:30
-source: /news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/
+slot: 2026-11-20T12:38:00+05:30
+source: /news/gta-6-free-download-apk-scam-warning/
 ---
-GTA 6 scores your relationship ❤️
+"GTA 6 PC download" = malware ⚠️
 
-Jason and Lucia's meter has 4 levels, up to Hot Together.
+Kaspersky logged 27,416 GTA 6 malware hits since June.
 
 Also:
-🤝 Hold hands, reply to texts
-🏋️ Gym or pool together
-⚠️ Neglect costs mission options
+🎮 PS5 and Xbox only
+🚫 No PC date yet
+🛒 Buy from official stores only
 
 Full guide: gta6info (link in bio)
 
