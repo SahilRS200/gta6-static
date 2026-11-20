@@ -21,6 +21,7 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first complaint afte
 
 ## Don't miss these
 
+- **Ask the parrot.** Behind Three Sheets Liquor in Key Lento, a caged parrot points you to a vent with about $1,200–1,300, after Shirley's rum errand. [Where →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
 - **Check your mailbox.** Mission pay and fence money often lands in the **mailbox outside your house**, not in your hand. Check it whenever you leave home ([Outputlag](https://outputlag.com/guides/gta-6-make-money-fast/)).
 - **Fences pay badly early.** The first buyers for jewellery and marked bills pay "very low" or "low" rates, so don't take big risks for small loot ([ComicBook](https://comicbook.com/gaming/feature/gta-6-how-to-make-money-early-in-the-game/)).
 - **Cash won't cover cops forever.** A big score brings heat; see [how to lose the cops](/news/gta-6-wanted-level-heat-system-explained/), and [keep your tank full](/news/gta-6-fuel-petrol-system-how-to-refuel/) before a getaway.

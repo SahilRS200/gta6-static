@@ -33,7 +33,7 @@ These are the government's own figures as stated in the post; we have not checke
 
 ## The Bengaluru connection
 
-BJP MP Tejasvi Surya also pointed to India's part in the game, saying more than 1,600 developers at **Rockstar India's Bengaluru studio** worked on a significant part of GTA 6, reports [India.com](https://www.india.com/news/india/india-playing-whole-new-game-pm-modi-turns-gta-6-buzz-into-political-attack-targets-opposition-with-then-vs-now-stats-8546144/).
+BJP MP Tejasvi Surya also pointed to India's part in the game, saying more than 1,600 developers at **Rockstar India's Bengaluru studio** worked on a significant part of GTA 6, reports [India.com](https://www.india.com/news/india/india-playing-whole-new-game-pm-modi-turns-gta-6-buzz-into-political-attack-targets-opposition-with-then-vs-now-stats-8546144/). [GTA 6's Bengaluru connection →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
 
 ## Why it matters for players
 

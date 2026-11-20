@@ -16,7 +16,7 @@ The most painful lesson of GTA 6's first hours: **the cash in your pocket is not
 - **Your bank account comes early.** An early story mission, roughly **one to two hours in**, gives you your first bank account. After that, banked money is safe ([Red Bull](https://www.redbull.com/int-en/gta-6-beginners-guide)).
 - **Don't rob banks or loan stores yet.** Their cash often carries **dye packs**, and the jammer you need to beat them only comes later in the story ([Red Bull](https://www.redbull.com/int-en/gta-6-beginners-guide)).
 
-Need more to stash? The best early earners are in our [GTA 6 money guide →](/news/gta-6-how-to-make-money-fast-early-game/). Getting busted is how most early cash disappears, so learn [how to lose the cops →](/news/gta-6-wanted-level-heat-system-explained/).
+Need more to stash? The best early earners are in our [GTA 6 money guide →](/news/gta-6-how-to-make-money-fast-early-game/), and a talking parrot behind a Key Lento liquor store points to about $1,200 more: [parrot cash →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/). Getting busted is how most early cash disappears, so learn [how to lose the cops →](/news/gta-6-wanted-level-heat-system-explained/).
 
 ## More small things that save you trouble
 

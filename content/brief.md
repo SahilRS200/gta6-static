@@ -1,17 +1,17 @@
 ---
-updated: 2026-11-20T07:38:00+05:30
-headline: GTA 6 sold an estimated 24.6 million copies on day one — $2.36 billion, nearly 3x GTA V's first day
-search: [sales, Series S, cash, flip]
+updated: 2026-11-20T08:38:00+05:30
+headline: 1,600+ developers in Bengaluru helped build GTA 6 at Rockstar India, MP Tejasvi Surya says
+search: [Bengaluru, sales, parrot, cash]
 ---
 ## 🔥 Hot in India
 
-- **24.6 million copies, $2.36 billion on day one,** Sensor Tower estimates, about three in four on PS5. Not official yet. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
-- **Cheapest way into GTA 6 in India: an Xbox Series S,** about ₹38,000–46,000 with the game vs about ₹71,000 for a PS5 bundle. [Compare →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
+- **GTA 6 was partly made in Bengaluru:** over 1,600 Rockstar India developers in Whitefield worked on it, including Vice Beach, says MP Tejasvi Surya. Rockstar gave no figure. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
+- **Cheapest way in: an Xbox Series S,** about ₹38,000–46,000 with the game vs about ₹71,000 for a PS5 bundle. [Compare →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
 
 ## ✅ Try this today
 
-- **You lose all carried cash if you die or get busted,** until your bank account opens 1–2 hours in. Stash it under Jason's bedroom floorboards. [How →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
-- **Car upside down? Flip it yourself:** click the left stick beside it, then hold Square or X. [14 hidden features →](/news/gta-6-tips-hidden-features-spoiler-free/)
+- **Free early cash from a talking parrot:** after Shirley's rum errand, clear the back of Three Sheets Liquor; the parrot points to a vent with about $1,200. [Where →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
+- **Die or get busted and your carried cash is gone** until your bank opens. Stash it under Jason's floorboards. [How →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
 
 ## 🛠️ Fix of the day
 
@@ -19,5 +19,4 @@ search: [sales, Series S, cash, flip]
 
 ## 🌍 Around the world
 
-- **Take-Two's GTA VI festival in Miami this weekend** has Cardi B, Metro Boomin and Travis Scott, Reuters reports. [The Globe and Mail](https://www.theglobeandmail.com/business/article-take-two-grand-theft-auto-vi-sales/)
-- **First person on console:** a phone-and-camera glitch unlocks it. Save first. [Steps →](/news/gta-6-first-person-mode-camera-options/)
+- **24.6 million copies, $2.36 billion on day one,** Sensor Tower estimates, about three in four on PS5. Not official yet. [The numbers →](/news/gta-6-pre-orders-15-million-record/)

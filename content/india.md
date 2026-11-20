@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-20T07:37:00+05:30
-headline: S8UL's creators say GTA 6 was worth the 13-year wait — Pitaji Playz finds the cops smarter and the combat like RDR2.
+updated: 2026-11-20T08:39:00+05:30
+headline: GTA 6 was partly made in Bengaluru — over 1,600 Rockstar India developers worked on it, MP Tejasvi Surya says.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
 ## 🛒 Buy it
@@ -29,4 +29,4 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **No console? Try a gaming cafe.** Cafes in Delhi, Bengaluru and Srinagar charge from about ₹250 an hour; some are booked through Sunday. [Before you go →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **Crashing or PS5 switching off?** Update, power-cycle and give the console room to breathe. [Crash fixes →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **Made partly in Bengaluru.** Over 1,600 developers at Rockstar India's Whitefield studio worked on GTA 6, including Vice Beach, an MP says; Rockstar gave no figure. [The story →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)

@@ -1,15 +1,16 @@
 ---
-slot: 2026-11-20T06:37:00+05:30
-source: /news/gta-6-lose-money-when-you-die-hide-cash-floorboards/
+slot: 2026-11-20T08:39:00+05:30
+source: /news/gta-6-bengaluru-rockstar-india-1600-developers/
 ---
-Die in GTA 6 and your cash is gone 💸
+GTA 6 was partly made in Bengaluru 🇮🇳
 
-Lose it if you die or get busted, until your bank opens 1–2 hours in.
+1,600+ Rockstar India developers worked on it, MP Tejasvi Surya says.
 
 Also:
-🪵 Stash it under Jason's floorboards
-🐍 Feed Dolores for Focus
+🏖️ Vice Beach among their work
+🏢 Studio is in Whitefield
+🎮 Same team did GTA V and RDR2
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #IndianGaming
