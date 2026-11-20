@@ -3,7 +3,7 @@ title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What H
 description: GTA 6 crashing with PS5 error CE-108255-1? Sony says update the game; for CE-107891-6, reinstall. Power-cycle and give the console air. No Rockstar fix or patch date yet.
 date: 2026-11-19T17:38:00+05:30
 updated: 2026-11-20T23:36:00+05:30
-tags: [crash, bugs, ps5, xbox, performance, patch, error-code]
+tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
 sources:
