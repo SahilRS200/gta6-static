@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-20T16:39:00+05:30
-source: /news/gta-6-game-awards-2026-eight-nominations-goty-ist/
+slot: 2026-11-20T18:39:00+05:30
+source: /news/gta-6-which-buildings-can-you-enter-interiors-map/
 ---
-GTA 6 is going for Game of the Year 🏆
+Can you go inside? 🚪
 
-8 nominations at The Game Awards 2026.
+GTA 6 map: dark blue = enterable, light blue = scenery.
 
 Also:
-🎭 Best Performance nod for Lucia
-✅ Fan vote closes 7:30 AM IST, 10 Dec
-📺 Show: 6:30 AM IST, Fri 11 Dec
+⚪ White line on minimap = door
+🔴 Red door in Focus = alarm
+🏪 Check shop back rooms
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
