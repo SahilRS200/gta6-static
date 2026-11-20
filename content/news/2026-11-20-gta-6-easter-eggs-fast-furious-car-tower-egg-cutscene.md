@@ -1,7 +1,8 @@
 ---
-title: GTA 6 Easter Eggs — Where to Find the Fast and Furious Car, the Tower Egg Cutscene and the RX Men Comic
-description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse sits in a Vespucci Island garage, a 7-minute tower climb hides an egg cutscene, and Key Lento's 247 sells RX Men.
+title: GTA 6 Easter Eggs — the Fast and Furious Car, the Tower Egg Cutscene and Michael's GTA 5 Boat
+description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, and a GTA 5 boat outside Jason's house.
 date: 2026-11-20T15:37:00+05:30
+updated: 2026-11-20T22:37:00+05:30
 type: guide
 tags: [tips, gameplay, easter-eggs, secrets]
 sources:
@@ -9,9 +10,10 @@ sources:
   - GamingBible — GTA 6 secret cutscene behind a seven-minute tower climb | https://www.gamingbible.com/news/gta-6-secret-cutscene-seven-minute-tower-easter-egg-795530-20261119
   - IBTimes UK — GTA 6 Easter egg is literally an egg | https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342
   - PowerPyx — GTA 6 collectibles (RX Men comic, Key Lento) | https://www.powerpyx.com/?p=374112
+  - Game Rant — GTA 6 players think they've found a big GTA 5 reference | https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/
   - Kotaku — 18 coolest details players have spotted in GTA 6 so far | https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435
 ---
-Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here are three you can go and find tonight on PS5 or Xbox. **None of them touch the story**, so this page is spoiler-free.
+Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here are four you can go and find tonight on PS5 or Xbox. **None of them touch the story**, so this page is spoiler-free.
 
 ## 1. The Fast and Furious car (Paul Walker tribute)
 
@@ -31,6 +33,12 @@ Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here 
 
 - **Where:** on the magazine rack inside the **247 store in Key Lento**, Mariana County. PowerPyx lists it as a collectible ([PowerPyx](https://www.powerpyx.com/?p=374112)).
 - **Bonus:** Key Lento is also where the free home gym and the talking-parrot cash are. [Parrot cash →](/news/gta-6-talking-parrot-hidden-cash-three-sheets-liquor/)
+
+## 4. Michael's boat from GTA 5 (new)
+
+- **What it is:** a **Marquis sailboat**, the same model Michael De Santa owned in *GTA 5*. Look at its GPS screen: it shows the map of **Los Santos**, GTA 5's city, not Leonida, [Game Rant reports](https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/).
+- **Where:** parked **outside Jason's safehouse** from the start of the game, so you can check it in your first hour.
+- **Is it really his?** Players think so, but Rockstar hasn't said. Game Rant calls it "presumably" Michael's boat.
 
 ## Hunting more?
 

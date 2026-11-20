@@ -1,17 +1,15 @@
 ---
-slot: 2026-11-20T20:39:00+05:30
-source: /news/namma-benglooru-bengaluru-gta-style-game-viral/
+slot: 2026-11-20T22:37:00+05:30
+source: /news/gta-6-sidhu-moosewala-song-viral-clip-fan-edit/
 ---
-Bengaluru got its own GTA-style game 🛺
+Sidhu Moosewala in GTA 6? 🎵
 
-Namma Benglooru: 4.5 lakh players tried its free demo.
+That viral radio clip is likely a fan edit. No Punjabi song confirmed.
 
 Also:
-🕳️ Potholes and autos
-📦 Play a delivery worker
-🎮 12 missions
-
-Not a Rockstar game.
+🇮🇳 No Hindi in the game
+📻 Weird Al on Vice City FM is real
+⚠️ Check before you forward
 
 Full guide: gta6info (link in bio)
 

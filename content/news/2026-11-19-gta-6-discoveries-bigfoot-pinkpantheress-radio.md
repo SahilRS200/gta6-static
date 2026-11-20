@@ -37,7 +37,7 @@ Players have had GTA 6 for a day now (India since **12:00 AM IST**), and the map
 ## The radio
 
 - **Weird Al Yankovic co-hosts Vice City FM**, the station for 1980s hits. Kotaku's Zack Zwiezen recognised the voice while driving and Rockstar confirmed it. Expect an over-the-top DJ who sometimes yells about a song or a story from his "past life". None of his own songs or parodies seem to be on the playlist, and he isn't in the game as a character ([Kotaku](https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140)).
-- **PinkPantheress is one of the in-game radio DJs**, Kotaku reports. Players are spending the first hours just flicking through stations to see who else turns up.
+- **PinkPantheress is one of the in-game radio DJs**, Kotaku reports. Players are spending the first hours just flicking through stations to see who else turns up. (No, Sidhu Moosewala isn't one of them: [that viral clip is likely a fan edit →](/news/gta-6-sidhu-moosewala-song-viral-clip-fan-edit/))
 
 ## Things that change how you play
 
