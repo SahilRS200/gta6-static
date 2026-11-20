@@ -35,3 +35,5 @@ The 13 entries, as compiled by [Gamemapa](https://gamemapa.com/en/gta-6/guides/g
 - Turn **subtitles on** if you find fast American slang hard to follow. Rockstar games have plenty of dialogue while you drive.
 
 GTA 6 unlocked in India at **12:00 AM IST on 19 November** on PS5 and Xbox Series X|S. [India launch time →](/gta-6-release-time/india/) · [Everything India needs to know →](/gta-6-india/)
+
+Related: [GTA 6's Bengaluru connection — Rockstar India's Whitefield studio worked on the game →](/news/gta-6-bengaluru-rockstar-india-1600-developers/)
