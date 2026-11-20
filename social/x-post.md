@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-20T08:39:00+05:30
-source: /news/gta-6-bengaluru-rockstar-india-1600-developers/
+slot: 2026-11-20T10:39:00+05:30
+source: /news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/
 ---
-GTA 6 was partly made in Bengaluru 🇮🇳
+GTA 6 scores your relationship ❤️
 
-1,600+ Rockstar India developers worked on it, MP Tejasvi Surya says.
+Jason and Lucia's meter has 4 levels, up to Hot Together.
 
 Also:
-🏖️ Vice Beach among their work
-🏢 Studio is in Whitefield
-🎮 Same team did GTA V and RDR2
+🤝 Hold hands, reply to texts
+🏋️ Gym or pool together
+⚠️ Neglect costs mission options
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming

@@ -32,7 +32,7 @@ GTA 6 unlocked in India at **12:00 AM IST**, and the game throws a lot of system
 9. **Eat on the move.** You can eat and drink while walking, shooting or even driving. Eating before a job boosts health, stamina and focus.
 10. **Pet the dogs and cats** (hold the left trigger). It earns focus and behaviour points, and so does throwing your rubbish in the bin.
 11. **Use your indicators.** Other drivers react to turn signals.
-12. **Shop as a pair.** Buying clothes for your partner earns romance points.
+12. **Shop as a pair.** Buying clothes for your partner earns romance points. [How the relationship meter works →](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)
 13. **Flip an overturned car yourself.** Stand beside it, click the left stick to get into position, then hold Square (PS5) or X (Xbox) to push it back onto its wheels. It fails if the car is too heavy, you're out of stamina or it's on a steep slope. The same push rolls a car that's out of petrol or shoves a boat or jet ski off the sand ([Kotaku](https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835)). Out of petrol? [How to refuel →](/news/gta-6-fuel-petrol-system-how-to-refuel/)
 14. **Sit down and take it in.** Hold Circle (PS5) or B (Xbox) on foot: your character sits on grass or sand, leans against a wall, or rests on one foot elsewhere (Kotaku).
 

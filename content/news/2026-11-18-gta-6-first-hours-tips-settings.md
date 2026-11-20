@@ -27,7 +27,7 @@ From Rockstar's preview interview with The Guardian, as summarised by [VICE](htt
 
 1. **Scout before a robbery.** You can case a place first: find a back entrance or a safe code, and disable security cameras or take the footage.
 2. **Switch between Jason and Lucia.** You can swap freely most of the time; some moments lock you to one of them.
-3. **Text, call and go on dates.** The pair can hang out at the gym or go for a drink, and how you treat the relationship matters.
+3. **Text, call and go on dates.** The pair can hang out at the gym or go for a drink, and how you treat the relationship matters ([relationship meter explained](/news/gta-6-relationship-meter-jason-lucia-levels-how-to-raise/)).
 4. **Be nice for once.** Rockstar added optional ways to show empathy, like asking a dog's owner if you can pet the dog.
 5. **Go birdwatching.** There are 62 bird species to log with binoculars.
 
