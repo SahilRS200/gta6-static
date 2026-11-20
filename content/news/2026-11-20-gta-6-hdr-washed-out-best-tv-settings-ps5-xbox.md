@@ -31,3 +31,5 @@ Beebom's starting point: **Max Brightness** at your TV's peak brightness, **Blac
 That's HDR too: the console captures an HDR image that looks washed out on a normal phone or laptop screen. Players fixed it by **turning HDR off** (Video Output on PS5; HDR10 and Auto HDR on Xbox Series S, then restart) before capturing, Kotaku reports ([Kotaku](https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030)). Turn it back on to play.
 
 Still stuttering after all this? That's a different problem: try our [PS5 stutter fix](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/). New to the game? Start with [the settings to change first](/news/gta-6-first-hours-tips-settings/).
+
+Want to show off that sunset properly? [How to use Photo Studio, GTA 6's photo mode →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/)

@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-20T12:38:00+05:30
-source: /news/gta-6-free-download-apk-scam-warning/
+slot: 2026-11-20T14:40:00+05:30
+source: /news/gta-6-streaming-record-twitch-5-million-viewers/
 ---
-"GTA 6 PC download" = malware ⚠️
+GTA 6 broke streaming 📺
 
-Kaspersky logged 27,416 GTA 6 malware hits since June.
+125 million hours watched in 24 hours, per Streams Charts.
 
 Also:
-🎮 PS5 and Xbox only
-🚫 No PC date yet
-🛒 Buy from official stores only
+🔴 7.9 million live at the peak
+🇮🇳 Mythpat's Hindi stream: 1.25 lakh live
+👑 IShowSpeed led: 4.47M hours
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #IndianGaming

@@ -1,16 +1,29 @@
 ---
-title: GTA 6 Streaming Record Climbs to 7.9 Million Live Viewers — Mythpat Pulls 1.25 Lakh as Asia Unlocks
-description: GTA 6 hit about 7.9 million concurrent live viewers across Twitch, YouTube and Kick after Japan and Korea unlocked, Streams Charts says. India's Mythpat peaked at 1.25 lakh.
+title: GTA 6 Streaming Record — 125 Million Hours Watched on Day One; Mythpat Pulls 1.25 Lakh
+description: People watched 125.47 million hours of GTA 6 streams in its first 24 hours, Streams Charts says, with a 7.9 million live-viewer peak. India's Mythpat peaked at 1.25 lakh.
 date: 2026-11-18T18:58:00+05:30
-updated: 2026-11-19T02:37:00+05:30
-tags: [streamers, launch-day, india, youtube]
+updated: 2026-11-20T14:38:00+05:30
+tags: [streamers, launch-day, india, youtube, records]
 sources:
+  - Streams Charts — Viewership records and top streamers from GTA 6's first 24 hours | https://streamscharts.com/news/gta-6-day1-recap
+  - CNBC — How GTA VI's launch fuels a booming content economy | https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html
   - Streams Charts on X — 7.9 million concurrent viewers after Japan and South Korea unlock | https://x.com/StreamsCharts/status/2123114732332720248
   - Win.gg — GTA 6 smashes streaming records with 7.8 million viewers | https://win.gg/gta-6-smashes-streaming-records/
   - Streams Charts — GTA VI breaks streaming launch records within minutes of its release | https://streamscharts.com/news/gta-vi-breaks-streaming-launch-records-within-minutes-its-release
   - TheGamer — GTA 6 already has 2.5 million Twitch viewers | https://www.thegamer.com/there-are-already-25-million-people-watching-gta-6-on-twitch/
   - VGTimes — GTA 6 draws more than 2.5 million Twitch viewers within 30 minutes | https://vgtimes.com/gaming-news/174996-gta-6-draws-more-than-2.5-million-twitch-viewers-within-30-minutes.html
 ---
+## Update, 20 November: 125 million hours in the first 24 hours
+
+Streams Charts' final day-one count is in. People watched **125.47 million hours** of GTA 6 streams in the game's **first 24 hours**, and the final peak was **7,915,475** live viewers at once ([Streams Charts](https://streamscharts.com/news/gta-6-day1-recap)).
+
+- **Records:** that peak is more than **4.5 times** the old launch record (Valorant's 1.74 million). GTA 6 is now the most-watched game ever on **Twitch and Kick** by peak viewers, and set single-day hours-watched records on both. On YouTube it ranks second.
+- **Peaks by platform:** Twitch **3.31 million**, YouTube **3.22 million**, Kick **1.5 million**.
+- **Top streamer:** IShowSpeed, with **4.47 million hours** watched across YouTube and Twitch ([CNBC](https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html)).
+- **India:** Streams Charts singles out **Mythpat**, back on YouTube live after four years, whose **10-hour Hindi stream** set his channel record at **1.25 lakh** peak viewers. More Indian creators: [cafes, CarryMinati and Mythpat](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/).
+
+GTA 6 is also up for eight Game Awards: [the nominations](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/).
+
 ## Update, 2:37 AM IST: the peak is now about 7.9 million
 
 The record kept climbing as GTA 6 unlocked across Asia. Streams Charts now puts the preliminary peak at **about 7.89 million concurrent viewers** across platforms, reached after the **Japan and South Korea** unlock. That's roughly 2.5 million more than the first count at the New Zealand launch ([Streams Charts](https://streamscharts.com/news/gta-vi-breaks-streaming-launch-records-within-minutes-its-release), [Streams Charts on X](https://x.com/StreamsCharts/status/2123114732332720248)).

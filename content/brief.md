@@ -1,23 +1,20 @@
 ---
-updated: 2026-11-20T13:39:00+05:30
-headline: Kaspersky logs 27,416 GTA 6 malware hits — there's no PC version, so every "PC download" is a trap
-search: [malware, Mythpat, sleep, HDR]
+updated: 2026-11-20T14:40:00+05:30
+headline: 125 million hours of GTA 6 streams watched on day one — a record, and Mythpat's Hindi stream hit 1.25 lakh live
+search: [Mythpat, malware, photo mode, Game Awards]
 ---
 ## 🔥 Hot in India
 
-- **27,416 GTA 6 malware detections,** Kaspersky says, from fake PC installers, "pre-loads" and key generators. GTA 6 is PS5 and Xbox only; skip any APK, crack or UPI "leaked build". [The scams →](/news/gta-6-free-download-apk-scam-warning/)
-- **Mythpat's 24-hour GTA 6 stream** has reportedly passed 1.5 crore views. [Cafes and creators →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+- **GTA 6 day-one streaming record: 125.47 million hours watched** in 24 hours, Streams Charts says, peaking at 7.9 million live. Mythpat's 10-hour Hindi stream set his channel record at 1.25 lakh. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **27,416 GTA 6 malware detections,** Kaspersky says. There's no PC version: skip every "PC download", APK or crack. [The scams →](/news/gta-6-free-download-apk-scam-warning/)
+- **boAt and Tripoholic gave staff launch day off,** joining Inde by ChairsCarte. [Who did →](/news/gta-6-holiday-indian-company-day-off/)
 
 ## ✅ Try this today
 
-- **Sleep to heal:** only a safehouse bed works. A night's rest fully refills health and stamina and adds a focus buff; save manually after. [How →](/news/gta-6-how-to-sleep-skip-time-day-length/)
-- **Fix a grey, washed-out picture:** calibrate HDR, turn on your TV's Game Mode and turn off tone mapping. [Best settings →](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/)
-
-## 🛠️ Fix of the day
-
-- **Stuck in an early Lucia mission?** Reload a manual save. Rockstar hasn't announced a patch; the "25 November fix" post is unconfirmed. [What we know →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
+- **Photo Studio, GTA 6's photo mode:** pause, pick Photo Studio, add up to five lights. The phone camera does selfies with poses. [How →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/)
+- **Sleep to heal:** a safehouse bed refills health and stamina. [How →](/news/gta-6-how-to-sleep-skip-time-day-length/)
 
 ## 🌍 Around the world
 
-- **GTA 6 on PC: still no date.** GamesBeat reports early 2027; Rockstar hasn't confirmed. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
-- **24.6 million copies on day one,** Sensor Tower estimates. [The numbers →](/news/gta-6-pre-orders-15-million-record/)
+- **8 Game Awards nominations, including Game of the Year.** Fan voting closes 7:30 AM IST on 10 December; the show is 11 December, 6:30 AM IST. [Nominations →](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/)
+- **GTA 6 on PC: still no date.** GamesBeat reports early 2027, unconfirmed. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)

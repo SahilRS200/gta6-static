@@ -48,3 +48,5 @@ Related: an analyst now expects [about 20 million GTA 6 sales in the first three
 Related: players are less united than critics — [launch-day posts split 54.5% positive, 45.5% negative →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
 
 Related: reviewers say the story takes about 50 hours to finish. [How long GTA 6 is →](/news/gta-6-how-long-to-beat-story-hours/)
+
+Related: critics and the industry agree so far. GTA 6 is up for eight Game Awards, including Game of the Year. [The nominations and IST show time →](/news/gta-6-game-awards-2026-eight-nominations-goty-ist/)

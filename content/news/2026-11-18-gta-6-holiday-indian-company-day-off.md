@@ -1,14 +1,22 @@
 ---
-title: GTA 6 Holiday in India — An Indian Firm Gives Staff 19 November Off, and Logitech Offers a Game Day
-description: An Indian interior design firm has reportedly declared 19 November a GTA 6 holiday for staff, interns and freelancers. Logitech's 7,000 employees also get a paid gaming day.
+title: GTA 6 Holiday in India — boAt, Tripoholic and Inde Gave Staff 19 November Off; Logitech Offers a Game Day
+description: At least three Indian companies, boAt, Tripoholic and Inde by ChairsCarte, gave staff 19 November off for GTA 6, Storyboard18 reports. Logitech's 7,000 employees also get a game day.
 date: 2026-11-18T16:50:00+05:30
+updated: 2026-11-20T14:38:00+05:30
 tags: [india, launch-day, holiday]
 sources:
+  - Storyboard18 — How Indian brands are marketing the launch of GTA 6 | https://www.storyboard18.com/amp/brand-marketing/indian-brands-announce-holidays-for-gta-6-launch-ws-l-115074.htm
   - Storyboard18 — Indian firm declares November 19 holiday for GTA 6 launch | https://www.storyboard18.com/amp/gaming-news/gta-6-launch-this-indian-firm-declares-november-19-holiday-for-employees-interns-and-freelancers-114940.htm
   - NewsBytes — Indian company gives employees day off to play GTA 6 | https://www.newsbytesapp.com/news/business/this-indian-company-is-offering-leave-to-play-gta-6/story
   - TweakTown — Logitech gives employees a day off to play | https://www.tweaktown.com/news/114639/logitech-is-giving-all-of-its-employees-the-day-off-to-play-grand-theft-auto-6/index.html
   - Notebookcheck — Logitech lets staff take a day off to play | https://www.notebookcheck.net/Logitech-is-letting-its-staff-take-a-day-off-just-to-play-GTA-6.1447714.0.html
 ---
+## Update, 20 November: boAt and Tripoholic joined in
+
+Inde by ChairsCarte wasn't alone. **boAt** gave employees an **optional day off** on 19 November, posting "Out of office. Into Vice City." on Instagram and jokingly adding missions and side quests to staff KRAs. Travel company **Tripoholic** closed its office for the day for employees, interns and freelancers: "The office is closed. The chaos is on!" ([Storyboard18](https://www.storyboard18.com/amp/brand-marketing/indian-brands-announce-holidays-for-gta-6-launch-ws-l-115074.htm)). More on India's launch day: [gaming cafes, CarryMinati and Mythpat](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/) · [India hub](/gta-6-india/).
+
+## Before launch
+
 Planning to call in "sick" on Thursday? Some Indian players won't need to. GTA 6 unlocks in India at **12:00 AM IST on 19 November**, and at least one Indian company has made the day official.
 
 ## An Indian firm made 19 November a holiday
