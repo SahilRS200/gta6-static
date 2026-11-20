@@ -1,15 +1,15 @@
 ---
-slot: 2026-11-20T14:40:00+05:30
-source: /news/gta-6-streaming-record-twitch-5-million-viewers/
+slot: 2026-11-20T16:39:00+05:30
+source: /news/gta-6-game-awards-2026-eight-nominations-goty-ist/
 ---
-GTA 6 broke streaming 📺
+GTA 6 is going for Game of the Year 🏆
 
-125 million hours watched in 24 hours, per Streams Charts.
+8 nominations at The Game Awards 2026.
 
 Also:
-🔴 7.9 million live at the peak
-🇮🇳 Mythpat's Hindi stream: 1.25 lakh live
-👑 IShowSpeed led: 4.47M hours
+🎭 Best Performance nod for Lucia
+✅ Fan vote closes 7:30 AM IST, 10 Dec
+📺 Show: 6:30 AM IST, Fri 11 Dec
 
 Full guide: gta6info (link in bio)
 
