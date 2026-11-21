@@ -1,15 +1,15 @@
 ---
-slot: 2026-11-21T20:37:00+05:30
-source: /news/gta-6-how-to-heal-zombix-health-first-aid/
+slot: 2026-11-21T22:37:00+05:30
+source: /news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/
 ---
-Low on health in GTA 6? 💊
+Car shortcuts GTA 6 never tells you 🚗
 
-Zombix is the fastest full heal. Buy it at grocery stores
+5 hidden controls, mostly double-taps
 
 Also:
-🎮 Use it via the L1 (LB) wheel
-🍔 Food with a health icon heals
-🩹 First aid kits work on pickup
+📻 D-pad left x2: radio on/off
+💡 Circle (B) x2: headlights
+🏃 Triangle (Y) x2: exit, engine on
 
 Full guide: gta6info (link in bio)
 

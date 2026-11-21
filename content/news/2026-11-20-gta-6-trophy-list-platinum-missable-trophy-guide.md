@@ -26,7 +26,7 @@ Going for the Platinum, or just curious what GTA 6 tracks? Here is the trophy li
 
 - **A Long Road (Gold):** 100% completion. It covers every robbery, underwater discovery, Shooting Range gold and drone race, plus part of other activities. PowerPyx says the bar is closer to 60% of everything in the game.
 - **The Shootist (Silver):** a gold medal in all 42 Shooting Range challenges across 12 ranges. Ranges also raise your Focus level ([GTABase](https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series)).
-- **Cunning Stunts (Silver):** any 250 of the 397 stunts; flying under bridges is the quickest way. The 100% checklist wants 300.
+- **Cunning Stunts (Silver):** any 250 of the 397 stunts; flying under bridges is the quickest way. The 100% checklist wants 300. [Stunt guide →](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/)
 - **You WAiNKer! (Silver):** scan 100 spots with the WAiNK app; landmarks, curiosities and sculptures all count. The same app scans cars to steal: [how that works](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/).
 
 ## Don't wreck your run
