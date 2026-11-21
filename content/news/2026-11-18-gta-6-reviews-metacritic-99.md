@@ -32,15 +32,15 @@ Even a 99 has caveats. Here's what reviewers flagged most:
 
 ## Ignore the "user score"
 
-Metacritic user ratings were flooded with fake scores before launch. Since launch, user ratings are open and the PS5 user score opened at **5.1** amid review bombing, with many reviewers admitting they hadn't played. The 99 is the **critic** score. [What players actually say →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
+Metacritic user ratings were flooded with fake scores before launch ([how the review embargo and the fake early ratings played out →](/news/gta-6-review-embargo-when/)). Since launch, user ratings are open and the PS5 user score opened at **5.1** amid review bombing, with many reviewers admitting they hadn't played. The 99 is the **critic** score. [What players actually say →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
 
 ## Reading reviews without spoilers
 
-Reviews avoid the ending, but **thumbnails, headlines and comment sections don't.** If you want to go in fresh at midnight, stick to the score and the verdict paragraph, and keep `GTA 6 ending` and `GTA 6 spoilers` muted on X and Instagram.
+Reviews avoid the ending, but **thumbnails, headlines and comment sections don't.** If you want to go in fresh, stick to the score and the verdict paragraph, and keep `GTA 6 ending` and `GTA 6 spoilers` muted on X and Instagram.
 
 **Still haven't bought it?** The score probably settles it. Here's [what it costs in India](/news/gta-6-price-in-india/) and [how to get it delivered tonight](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/).
 
-[Live countdown to 12:00 AM IST →](/gta-6-release-time/india/)
+[Everything for players in India →](/gta-6-india/)
 
 Related: Rockstar boss [Sam Houser issued a rare launch statement →](/news/gta-6-sam-houser-launch-statement/)
 
