@@ -2,6 +2,7 @@
 title: GTA 6 Reviews Are Out — 99 on Metacritic, Tied for the Highest Score Ever
 description: GTA 6 reviews went live on 18 November and the game sits at 99 on Metacritic, tying Zelda: Ocarina of Time. What critics praise, the complaints, and how to read them spoiler-free.
 date: 2026-11-18T17:50:00+05:30
+updated: 2026-11-21T06:38:00+05:30
 tags: [reviews, launch-day, ps5, xbox]
 sources:
   - Forbes — The GTA 6 Metacritic review score is in and ties an all-time record | https://www.forbes.com/sites/paultassi/2026/11/18/the-gta-6-metacritic-review-score-is-in-and-ties-an-all-time-record/
@@ -31,7 +32,7 @@ Even a 99 has caveats. Here's what reviewers flagged most:
 
 ## Ignore the "user score"
 
-Metacritic user ratings were flooded with fake scores before launch and are blocked for now. The 99 is the **critic** score. [More on the fake ratings →](/news/gta-6-review-embargo-when/)
+Metacritic user ratings were flooded with fake scores before launch. Since launch, user ratings are open and the PS5 user score opened at **5.1** amid review bombing, with many reviewers admitting they hadn't played. The 99 is the **critic** score. [What players actually say →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
 
 ## Reading reviews without spoilers
 

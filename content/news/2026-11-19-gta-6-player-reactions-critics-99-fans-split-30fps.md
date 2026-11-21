@@ -1,15 +1,21 @@
 ---
-title: GTA 6 Player Reactions — Critics Gave It 99, but Launch-Day Posts Split 54.5% Positive, 45.5% Negative
-description: GTA 6 player reactions are split despite a 99 Metacritic score. A PeakMetrics count found 54.5% of opinionated launch-day posts positive; 30fps and slow missions top the complaints.
+title: GTA 6 Player Reactions — Critics Gave It 99, Metacritic Users 5.1; Launch-Day Posts Split 54.5% Positive
+description: GTA 6 player reactions are split: critics gave it 99, but the Metacritic user score opened at 5.1 amid review bombing. 30fps and slow missions top the real complaints.
 date: 2026-11-19T22:26:00+05:30
-tags: [reactions, reviews, performance, gameplay, ps5]
+updated: 2026-11-21T06:38:00+05:30
+tags: [reactions, reviews, metacritic, performance, gameplay, ps5]
 sources:
+  - TheGamer — GTA 6 Metacritic user scores go live, resulting in mass review bombing | https://thegamer.com/grand-theft-auto-6-gta-review-bombing-user-score
   - Geeks + Gamers — GTA VI players roast Rockstar as glowing critic reviews clash with fan backlash | https://geeksandgamers.com/gta-vi-players-roast-rockstar-as-glowing-critic-reviews-clash-with-fan-backlash/
   - IBTimes UK — GTA 6 branded 'biggest disappointment' as fans defend Rockstar | https://www.ibtimes.co.uk/gta-6-early-review-backlash-fans-1833257
   - Kotaku — Grand Theft Auto 6, the Kotaku review | https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842
   - The Statesman — GTA 6 reviews, the complaints almost every review repeats | https://www.thestatesman.com/entertainment/gta-6-reviews-critics-call-it-a-masterpiece-but-here-are-the-complaints-almost-every-review-keeps-repeating-1503664147.html/amp
 ---
 Critics gave GTA 6 a **99 on Metacritic** ([our review roundup](/news/gta-6-reviews-metacritic-99/)). A day after launch, players sound less united. No story spoilers below.
+
+## New: the Metacritic user score opened at 5.1
+
+Metacritic has now switched on user ratings for GTA 6, and the PS5 user score sat at **5.1 out of 10** when TheGamer checked on 21 November (IST), with more than half of the reviews negative. Read it with care: TheGamer found many reviewers **admitting they haven't played the game**, plus politically charged rants and keyboard-mash reviews posted only to drag the number down. Mixed in are genuine complaints about console performance, the controls and missing series features. Critics, meanwhile, still sit at **99** on OpenCritic's top-critic average ([TheGamer](https://thegamer.com/grand-theft-auto-6-gta-review-bombing-user-score)).
 
 ## The number: roughly half and half
 

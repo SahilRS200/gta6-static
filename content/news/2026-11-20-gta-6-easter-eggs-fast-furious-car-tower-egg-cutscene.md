@@ -1,8 +1,8 @@
 ---
-title: GTA 6 Easter Eggs — the Fast and Furious Car, the Tower Egg Cutscene and Michael's GTA 5 Boat
-description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, and a GTA 5 boat outside Jason's house.
+title: GTA 6 Easter Eggs — the Fast and Furious Car, the Tower Egg Cutscene, Michael's Boat and a Chiliad Nod
+description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, Michael's GTA 5 boat and Mount Chiliad chatter.
 date: 2026-11-20T15:37:00+05:30
-updated: 2026-11-20T22:37:00+05:30
+updated: 2026-11-21T06:38:00+05:30
 type: guide
 tags: [tips, gameplay, easter-eggs]
 sources:
@@ -11,6 +11,7 @@ sources:
   - IBTimes UK — GTA 6 Easter egg is literally an egg | https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342
   - PowerPyx — GTA 6 collectibles (RX Men comic, Key Lento) | https://www.powerpyx.com/?p=374112
   - Game Rant — GTA 6 players think they've found a big GTA 5 reference | https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/
+  - GamingBible — GTA 6 players discover hidden GTA 5 Mount Chiliad Easter egg | https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120
   - Kotaku — 18 coolest details players have spotted in GTA 6 so far | https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435
 ---
 Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here are four you can go and find tonight on PS5 or Xbox. **None of them touch the story**, so this page is spoiler-free.
@@ -39,6 +40,12 @@ Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here 
 - **What it is:** a **Marquis sailboat**, the same model Michael De Santa owned in *GTA 5*. Look at its GPS screen: it shows the map of **Los Santos**, GTA 5's city, not Leonida, [Game Rant reports](https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/).
 - **Where:** parked **outside Jason's safehouse** from the start of the game, so you can check it in your first hour.
 - **Is it really his?** Players think so, but Rockstar hasn't said. Game Rant calls it "presumably" Michael's boat.
+
+## 5. Mount Chiliad chatter (a GTA 5 mystery callback, new)
+
+- **What it is:** two passers-by near a bar you drive past during an **early mission** chat about the **Mount Chiliad mystery** from *GTA 5*, joking about a hidden bunker with jetpacks and eggs under the mountain, [GamingBible reports](https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120). Reddit user Tr1angleChoke spotted it first.
+- **Will you hear it?** It's ambient street talk, so it may not trigger for everyone. Turn subtitles on and slow down near the bar.
+- **Does it mean anything?** Fans are already arguing over it, but Rockstar hasn't said; it may just be a wink at long-time players.
 
 ## Hunting more?
 
