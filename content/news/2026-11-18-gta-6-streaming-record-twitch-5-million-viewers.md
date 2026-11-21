@@ -71,3 +71,5 @@ Related: what are all those viewers seeing? [Spoiler-free first gameplay reactio
 Related: with this many people watching, UK police reminded parents that GTA 6 is rated 18+ and that kids can see it through streams. [The warning →](/news/gta-6-age-rating-18-police-warn-parents-kids/)
 
 Related: the same people were playing too. Circana says 56% of active Xbox players worldwide played GTA 6 on launch day. [The engagement numbers →](/news/gta-6-circana-61-percent-ps5-players-8-hours-launch-day/)
+
+Related: IShowSpeed and BrycexD have already reached the credits on stream. [Who finished GTA 6 first →](/news/gta-6-first-streamers-finish-brycexd-ishowspeed-52-hours/)

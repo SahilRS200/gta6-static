@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-21T08:37:00+05:30
-source: /news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/
+slot: 2026-11-21T10:38:00+05:30
+source: /news/gta-6-first-streamers-finish-brycexd-ishowspeed-52-hours/
 ---
-"GTA 6 PC download" on Telegram? Skip it 🚫
+GTA 6 is already beaten 🏁
 
-A hacker says it leaked a 209 GB Xbox build, minus the file that runs it.
+BrycexD: 39h 38m. IShowSpeed: 52.5h, no sleep.
 
 Also:
-❌ No emulator can run it
-🦠 27,000+ GTA 6 malware hits logged
-💻 No PC date yet
+💾 Save by hand
+🔇 Ending clips are out: mute spoilers
+⏱️ Normal run: ~50h
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming

@@ -27,3 +27,5 @@ Plenty of Indian players spotted it straight away. Comments DNA India picked out
 ## Before you share the next one
 
 Fake GTA 6 clips and "free downloads" are everywhere this week. Check for an official Rockstar post or a news outlet before you forward a clip, and never download anything claiming to be GTA 6 on PC or phone: [the scams →](/news/gta-6-free-download-apk-scam-warning/). More India news on the [India hub →](/gta-6-india/)
+
+Related: Rockstar's real soundtrack album, 34 original songs, is out on streaming now. [What's on it →](/news/gta-6-soundtrack-album-34-songs-justice-score-december-11/)

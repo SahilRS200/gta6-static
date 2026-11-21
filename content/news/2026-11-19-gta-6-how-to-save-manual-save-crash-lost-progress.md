@@ -36,6 +36,6 @@ You don't need a safehouse; saving works anywhere in free roam.
 
 ## After a crash
 
-Autosaves don't show up in the Save Game list, so check **Load Game** first before assuming everything is gone ([WindowsForum](https://windowsforum.com/news/gta-6-crash-and-lost-progress-reports-on-ps5-and-xbox-manual-save-tips.453135/)).
+Autosaves don't show up in the Save Game list, so check **Load Game** first before assuming everything is gone ([WindowsForum](https://windowsforum.com/news/gta-6-crash-and-lost-progress-reports-on-ps5-and-xbox-manual-save-tips.453135/)). IShowSpeed had the same scare 43 hours into his marathon and found an 88% save waiting: [how the first streamers finished GTA 6 →](/news/gta-6-first-streamers-finish-brycexd-ishowspeed-52-hours/)
 
 Related: [Want to replay a mission? There is no replay menu, so use save slots](/news/gta-6-replay-missions-no-replay-menu-save-slots/) · [GTA 6 launch bugs players are reporting](/news/gta-6-bugs-glitches-launch-falling-through-map/) · [19 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [everything for Indian players](/gta-6-india/)
