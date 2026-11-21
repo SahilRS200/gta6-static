@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Played With a Brain Implant — Neuralink Shows a Trial Participant Driving, Flying and Fighting by Thought
-description: Neuralink posted a two-minute video of a paralysed trial participant playing GTA 6 on PS5 with its brain implant, steering a boat, flying a plane and fighting by imagining hand and foot moves.
+description: Neuralink's two-minute video shows a paralysed trial participant playing GTA 6 on PS5 with its brain implant, steering a boat, flying a plane and fighting by imagining hand and foot moves.
 date: 2026-11-21T12:37:00+05:30
 tags: [gameplay, ps5, reactions, records]
 sources:
