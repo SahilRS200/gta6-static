@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-21T22:37:00+05:30
-headline: 5 hidden GTA 6 car shortcuts the game never tells you — double-tap for radio, headlights and a running exit
-search: [headlights, stunts, heal, xbox ban]
+updated: 2026-11-21T23:37:00+05:30
+headline: GTA 6's easiest early cash is underwater — 6 shipwrecks, a metal detector and Kenton buys the loot
+search: [treasure, headlights, stunts, xbox ban]
 ---
 ## 🔥 Hot in India
 
-- **Five car shortcuts GTA 6 hides.** Double-tap D-pad left for the radio, Circle (B) for headlights, Triangle (Y) to jump out with the engine running. [All five →](/news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/)
-- **397 stunts, and the trophy needs only 250.** Jumps, under-bridge flights, knife flights and base jumps all count; 100% wants 300. [Where to find them →](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/)
+- **Treasure diving: easy early money.** Finish Island Dreams and Kenton lends you a boat, scuba gear and a metal detector; follow the green flash, sell him the doubloons. [How to start →](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/)
+- **Five car shortcuts GTA 6 hides.** Double-tap D-pad left for the radio, Circle (B) for headlights, Triangle (Y) to exit with the engine running. [All five →](/news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/)
 - **On Xbox? Turn off clip auto-upload.** Players report 2-day suspensions over auto-uploaded clips. [The 1-minute fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
 
 ## ✅ Try this today
 
-- **How to heal, fastest first.** Zombix from grocery stores is the quickest full heal: hold L1 (LB) for the item wheel. [Every way →](/news/gta-6-how-to-heal-zombix-health-first-aid/)
-- **Hunting is open — if you're Jason.** Bret Vogel texts after Coffee Break: 15 target decks, clean kills only. [How it works →](/news/gta-6-hunting-guide-bret-target-decks-how-to-unlock/)
+- **397 stunts, and the trophy needs only 250.** Jumps, under-bridge flights and base jumps all count. [Where to find them →](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/)
+- **Heal fast with Zombix.** Grocery-store Zombix is the quickest full heal: hold L1 (LB) for the item wheel. [Every way →](/news/gta-6-how-to-heal-zombix-health-first-aid/)
 
 ## 🛠️ Fix of the day
 

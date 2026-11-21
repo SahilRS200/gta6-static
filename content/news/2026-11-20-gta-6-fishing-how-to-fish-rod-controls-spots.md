@@ -31,4 +31,4 @@ Fishing is one of the calmest things to do in GTA 6, and you can start early in 
 - **Need cash instead?** See [how to make money fast](/news/gta-6-how-to-make-money-fast-early-game/).
 - **Save first.** GTA 6 keeps one autosave, so make a manual save before a long session ([how to save](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)).
 
-Related: [GTA 6 hunting with Bret](/news/gta-6-hunting-guide-bret-target-decks-how-to-unlock/) · [62 bird species to log in GTA 6](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/) · [More GTA 6 guides](/guides/)
+Related: [GTA 6 treasure diving with Kenton](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/) · [GTA 6 hunting with Bret](/news/gta-6-hunting-guide-bret-target-decks-how-to-unlock/) · [62 bird species to log in GTA 6](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/) · [More GTA 6 guides](/guides/)
