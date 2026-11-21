@@ -37,7 +37,7 @@ Icons under the stars show what police know: **a weapon**, **your physical descr
 3. **Ditch the car.** Swap vehicles to clear the vehicle icon; newer cars may have GPS trackers.
 4. **Split up.** Separating Jason and Lucia clears the duo icon.
 5. **Don't escalate.** More violence during the chase raises your stars ([Dexerto](https://www.dexerto.com/wikis/gta-6/wanted-system-explained/)).
-6. **Repaint.** A Pay 'n' Spray respray helps the cops ease off ([GameSpot](https://www.gamespot.com/reviews/grand-theft-auto-6-review/)).
+6. **Repaint.** A Pay 'n' Spray respray helps the cops ease off ([GameSpot](https://www.gamespot.com/reviews/grand-theft-auto-6-review/)). Planning a job? See [how to rob a store and get away](/news/gta-6-how-to-rob-a-store-safe-code-cameras-escape/).
 
 Rockstar hasn't published exactly which crimes trigger each star level, so treat the thresholds as something players are still mapping out.
 
