@@ -1,6 +1,6 @@
 ---
 title: GTA 6 Treasure Diving — How to Unlock Scuba With Kenton, Use the Metal Detector and Clear 6 Early Wrecks
-description: GTA 6 treasure diving unlocks after Chapter 1's Island Dreams with Kenton in Key Lento. Use the metal detector's green flash to find loot, sell it to Kenton, and keep the speargun for sharks.
+description: GTA 6 treasure diving unlocks after Chapter 1's Island Dreams with Kenton in Key Lento. Use the metal detector's green flash to find loot, sell it to Kenton and keep the speargun for sharks.
 date: 2026-11-21T23:37:00+05:30
 tags: [treasure, scuba, money, tips, guide]
 type: guide
