@@ -49,4 +49,4 @@ Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here 
 
 ## Hunting more?
 
-Bigfoot, Weird Al on the radio, a Dexter-style flat and the phone feed that mocks the delays are in our roundup: [GTA 6 discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/). Grab a shot of your find with [Photo Studio, the photo mode →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/)
+Bigfoot, Weird Al on the radio, a Dexter-style flat and the phone feed that mocks the delays are in our roundup: [GTA 6 discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/). Grab a shot of your find with [Photo Studio, the photo mode →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/) After more speed? [GTA 6's fastest cars and where to find them →](/news/gta-6-fastest-cars-where-to-find-ruiner-nitrous-early/)

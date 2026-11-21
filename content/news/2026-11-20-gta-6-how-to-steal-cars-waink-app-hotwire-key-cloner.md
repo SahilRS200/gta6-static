@@ -37,7 +37,7 @@ If the police recognise your car, switch cars or get a respray. In a chase, an u
 
 ## Selling vs keeping
 
-Want something faster than a car? [Where to find your first plane and helicopter →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
+Worth stealing first? [The fastest cars and where they park →](/news/gta-6-fastest-cars-where-to-find-ruiner-nitrous-early/) Want something faster than a car? [Where to find your first plane and helicopter →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
 
 Registering and selling unlock as the story moves on, and Pay 'n' Spray can refuse some tracked cars. Early sales are capped per in-game day; for prices and the buyer with no limit, see our [money guide](/news/gta-6-how-to-make-money-fast-early-game/). Lost a car you kept? [How to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
