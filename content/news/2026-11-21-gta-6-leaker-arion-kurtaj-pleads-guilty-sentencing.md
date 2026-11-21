@@ -21,6 +21,6 @@ The man behind the biggest leak in GTA history has admitted it, the same week th
 
 He is due to be **sentenced on Monday, 23 November**, at the same court.
 
-This case is separate from newer leakers. Fake "leaked" and AI-made clips are still going round too, like the viral "GTA 6 on PC" video that turned out to be GTA 5 footage. [What we know about PC →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+This case is separate from newer leakers, like Cyberleek, which says it will drop a GTA 6 Xbox build on the same day ([don't download it](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)). Fake "leaked" and AI-made clips are still going round too, like the viral "GTA 6 on PC" video that turned out to be GTA 5 footage. [What we know about PC →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
 
 Related: Rockstar's other launch-week story is in the UK courts too. [The union vote and tribunal →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)

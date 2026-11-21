@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-21T06:38:00+05:30
-source: /news/gta-6-player-reactions-critics-99-fans-split-30fps/
+slot: 2026-11-21T08:37:00+05:30
+source: /news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/
 ---
-Critics 99. Players 5.1. 😬
+"GTA 6 PC download" on Telegram? Skip it 🚫
 
-GTA 6's Metacritic user score opened at 5.1.
+A hacker says it leaked a 209 GB Xbox build, minus the file that runs it.
 
 Also:
-🙄 Many reviewers admit they haven't played
-🎮 Real gripes: 30fps, controls
-📊 Posts split 54.5% positive
+❌ No emulator can run it
+🦠 27,000+ GTA 6 malware hits logged
+💻 No PC date yet
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #IndianGaming
