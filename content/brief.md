@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-21T18:38:00+05:30
+updated: 2026-11-21T19:38:00+05:30
 headline: GTA 6 hits 60fps on Xbox Series X through a glitch — but the whole game then runs at double speed
-search: [60fps, money glitch, fast travel, xbox ban]
+search: [60fps, hunting, money glitch, xbox ban]
 ---
 ## 🔥 Hot in India
 
-- **A Quick Resume glitch unlocks 60fps on Xbox Series X.** The catch: gameplay is tied to frame rate, so everything runs about twice as fast. Skip it. [The catch →](/news/gta-6-60fps-xbox-series-x-quick-resume-glitch-double-speed/)
-- **The red-barn money glitch still pays about $11,000 a loop.** Loot, stash it in your car, manual-save, reload. [How it works →](/news/gta-6-money-glitch-red-barn-unlimited-cash/)
+- **The Xbox Series X 60fps glitch has a catch.** Quick Resume lifts the 30fps cap, but gameplay is tied to frame rate, so everything runs about twice as fast. Skip it. [The catch →](/news/gta-6-60fps-xbox-series-x-quick-resume-glitch-double-speed/)
+- **Hunting is open — if you're Jason.** Bret Vogel texts after Coffee Break: 15 target decks, clean kills only. [How it works →](/news/gta-6-hunting-guide-bret-target-decks-how-to-unlock/)
 - **On Xbox? Turn off clip auto-upload.** Players report 2-day suspensions over auto-uploaded clips. [The 1-minute fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
 
 ## ✅ Try this today
 
-- **Fast travel is a $100 skip, not a map teleport.** RydeMe opens after the BuckMe mission; buses are cheaper. [How it works →](/news/gta-6-fast-travel-rydeme-taxi-bus-how-to/)
-- **A nitrous Ruiner sits a minute from Jason's house.** Steal it, respray it, sleep at home and it's yours. [Fastest cars →](/news/gta-6-fastest-cars-where-to-find-ruiner-nitrous-early/)
+- **The red-barn money glitch still pays about $11,000 a loop.** Loot, stash it in your car, manual-save, reload. [How it works →](/news/gta-6-money-glitch-red-barn-unlimited-cash/)
+- **Fast travel is a $100 skip, not a map teleport.** RydeMe opens after the BuckMe mission. [How it works →](/news/gta-6-fast-travel-rydeme-taxi-bus-how-to/)
 
 ## 🛠️ Fix of the day
 
