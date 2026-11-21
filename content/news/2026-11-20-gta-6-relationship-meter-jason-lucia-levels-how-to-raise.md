@@ -38,6 +38,7 @@ Quick extras from our [19 hidden features](/news/gta-6-tips-hidden-features-spoi
 
 - **Ignore the other character for too long and the meter drops.** The game warns you, but it never forces you to fix it ([VGC](https://www.videogameschronicle.com/guide/gta-6-jason-lucia-relationship-levels-explained-how-to-improve-jason-and-lucias-relationship/)).
 - **A strong relationship keeps things open:** VGC says it keeps some dialogue and mission options available and that it matters later in the story. At the bottom level the two grow distant.
+- **Switching characters isn't neglect on its own,** but long stretches apart are. Here's [how to switch between Jason and Lucia](/news/gta-6-how-to-switch-between-jason-and-lucia/).
 - **It's never too late.** They can't fully break up, and a few small gestures bring the meter back up quickly. VGC also notes one scripted drop during the story that is easy to recover from.
 
 ## Players are split
