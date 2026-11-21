@@ -29,7 +29,7 @@ There's a private helipad **east of Hamlet, close to Key Lento**, behind a secur
 ## Get a parachute first (update, 21 November)
 
 - **Buy one for $250** at any Ammu-Nation (the pink gun icon on the map): it's on the display near the body armour, or ask the clerk under **Equipment** ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
-- **Or grab one free.** Leonida has **25 Base Jump spots**, mostly rooftop helipads marked **H** in Vice-Dale County, and many have a parachute lying around. Doing the jump uses it up, so take the stairs down if you only want the item. There's another free one on the highest peak in **Mount Kalaga National Park** ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
+- **Or grab one free.** Leonida has **25 Base Jump spots**, mostly rooftop helipads marked **H** in Vice-Dale County, and many have a parachute lying around. Doing the jump uses it up, so take the stairs down if you only want the item. Each base jump also counts toward the stunt total: see [GTA 6 stunt jumps and the Cunning Stunts trophy](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/). There's another free one on the highest peak in **Mount Kalaga National Park** ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
 - **Equip it before you jump:** hold **L1 / LB** for the item wheel, switch with **R1 / RB**, then cycle the bottom-left slot with **R2 / RT** from body armour to the parachute. In freefall, press **Cross / A** to open it ([games.gg](https://games.gg/grand-theft-auto-vi/guides/gta-6-how-to-get-a-parachute/)).
 
 ## Use it to clear the map fog (update, 21 November)
