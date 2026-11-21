@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-21T08:37:00+05:30
+updated: 2026-11-21T11:38:00+05:30
 headline: India owns 2 of the world's 3 most-viewed GTA 6 launch streams — CarryMinati 1.7 crore views, Mythpat 1.57 crore, behind only IShowSpeed.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -28,5 +28,5 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **No console? Try a gaming cafe.** Cafes in Delhi, Bengaluru and Srinagar charge from about ₹250 an hour; some are booked through Sunday. [Before you go →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
-- **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam: Kaspersky counts 27,416 GTA 6 malware detections since June. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam: a $200 dark-web kit now pushes fake "GTA 6 PC" links through YouTube Shorts. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/) · [Spot the scam →](/news/gta-6-free-download-apk-scam-warning/)
 - **Skip the 209 GB "Xbox build" leak.** A hacker says the file that runs it drops on 23 November, but no emulator can play it and fake copies carry malware. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)

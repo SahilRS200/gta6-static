@@ -1,16 +1,28 @@
 ---
 title: GTA 6 PC Download, APKs and 'Free Codes' Are FAKE — Kaspersky Logs 27,416 GTA 6 Malware Hits
-description: Kaspersky has logged 27,416 GTA 6 malware detections since June. GTA 6 is only on PS5 and Xbox Series X/S, so every PC download, crack, APK or free PSN code is a scam.
+description: A $200 'GTA 6 PC' scam kit is on the dark web and Kaspersky logged 27,416 GTA 6 malware hits. GTA 6 is only on PS5 and Xbox, so every PC download, keygen or APK is a scam.
 date: 2026-11-17T19:45:00+05:30
-updated: 2026-11-20T12:37:00+05:30
+updated: 2026-11-21T11:38:00+05:30
 tags: [india, scam, pc, malware]
 sources:
   - Rockstar Games — Grand Theft Auto VI (platforms) | https://www.rockstargames.com/VI
   - DSOGaming — No PS5 emulator runs GTA 6, and there's no unofficial PC port | https://www.dsogaming.com/news/you-cannot-play-gta-6-with-a-ps5-emulator-and-there-isnt-an-unofficial-pc-port/
   - VGTimes — GTA 6 PC port claim exposed as fake | https://vgtimes.com/gaming-news/175107-gta-6-pc-port-claim-falls-apart-after-video-is-exposed-as-fake.html
   - Kaspersky (Zawya) — Kaspersky detects over 27,000 attacks on gamers awaiting GTA VI | https://www.zawya.com/en/press-release/companies-news/kaspersky-detects-over-27000-attacks-on-gamers-awaiting-gta-vi-release-2397235
+  - Beebom — We all want GTA 6 on PC, but beware of this $200 malware trap | https://beebom.com/gta-6-pc-200-malware-scam/
+  - PC Gamer — A GTA 6 PC scam kit is available for $200 on the dark web, says NordVPN | https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/
   - Digital Trends — 27,000 reasons not to download "GTA VI for PC" | https://www.digitaltrends.com/gaming/27000-reasons-not-to-download-gta-vi-for-pc/
 ---
+## Update, 21 November: a $200 "GTA 6 PC" scam kit is on sale
+
+Scammers no longer need skills to run a fake GTA 6 PC download. **NordVPN's researchers found a ready-made "GTA 6 PC" scam kit selling on the dark web for $200** (paid in Bitcoin or Tether), PC Gamer reports ([PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/)). What's inside, per Beebom ([Beebom](https://beebom.com/gta-6-pc-200-malware-scam/)):
+
+- a fake **"GTA6 Keygen.exe"** that steals your browser's logged-in sessions, so attackers can get into accounts **without your password**;
+- a **crypto wallet drainer** and a hidden **crypto miner** that slows your PC;
+- a **YouTube Shorts bot** that spreads the fake download links.
+
+So if a Short or comment links you to "GTA 6 PC download" or a "keygen", that is this kind of trap. Don't run it, and don't connect any wallet or log in anywhere it asks.
+
 ## Update, 20 November: Kaspersky counts 27,416 GTA 6 malware hits
 
 Security firm **Kaspersky says its software recorded 27,416 detections of GTA 6-related malware and unwanted apps** worldwide between June and November 2026 ([Kaspersky via Zawya](https://www.zawya.com/en/press-release/companies-news/kaspersky-detects-over-27000-attacks-on-gamers-awaiting-gta-vi-release-2397235)). The bait: fake PC installers, "early pre-loads", activation key generators and cheat tools, plus fake pre-order and download sites that ask for payment or personal details. Kaspersky also found sellers calling themselves "CyberLeek" offering a supposed full build for $1,000 and a 24-hour "demo" for $100 ([Digital Trends](https://www.digitaltrends.com/gaming/27000-reasons-not-to-download-gta-vi-for-pc/)).

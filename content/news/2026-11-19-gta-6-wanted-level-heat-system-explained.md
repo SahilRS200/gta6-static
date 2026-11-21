@@ -1,13 +1,15 @@
 ---
 title: GTA 6 Wanted Level Explained — 6 Stars, What the Red Icons Mean, and How to Lose the Cops
-description: GTA 6 has six wanted stars, and police now remember your outfit, car and partner. What hollow, white and red stars mean, what each icon shows, and how to shake the heat.
+description: GTA 6 has six wanted stars, and police remember your outfit, car and partner. What hollow, white and red stars mean, how six stars is triggered, and how to shake the heat.
 date: 2026-11-19T11:37:00+05:30
+updated: 2026-11-21T11:38:00+05:30
 tags: [guide, gameplay, tips, police]
 type: guide
 sources:
   - Beebom — GTA 6 wanted system explained | https://beebom.com/gta-6-wanted-system-explained/
   - Dexerto — GTA 6 wanted system explained | https://www.dexerto.com/wikis/gta-6/wanted-system-explained/
   - GameSpot — Grand Theft Auto 6 review | https://www.gamespot.com/reviews/grand-theft-auto-6-review/
+  - VGTimes — GTA 6's six-star wanted level takes extreme violence to trigger | https://vgtimes.com/gaming-news/175224-gta-6s-six-star-wanted-level-takes-extreme-violence-to-trigger.html
 ---
 Getting chased already? GTA 6's police work differently from GTA V. In the old game, cops forgot you the moment the stars faded. In GTA 6 they **remember what they saw**: your clothes, your car, and whether Jason and Lucia were together. Here's how it works, without story spoilers.
 
@@ -19,6 +21,10 @@ GTA 6 has **six wanted stars**, one more than GTA V and the first six-star syste
 - **Solid white:** they've identified you and can see you.
 - **Flashing white:** you broke line of sight; they're searching your last known spot.
 - **Red:** you escaped, but the area stays a **"Hot Area"**. Go back while matching the description and the chase can restart. At six stars, the whole map is hot.
+
+## How do you get six stars?
+
+Only by going on a full rampage. Reaching **six stars takes killing a lot of civilians or police**, VGTimes reports, citing a Shazoo guide; stealing a cargo jet at Vice City International gets you to four stars without hurting anyone, and attacking people and police on top of that pushes it to five. Police, NOOSE units, boats and aircraft then chase you, and **at six stars they don't stop until you die** ([VGTimes](https://vgtimes.com/gaming-news/175224-gta-6s-six-star-wanted-level-takes-extreme-violence-to-trigger.html)). The post-story wanted-level cheat only goes up to **five** stars; the sixth has to be earned. Crimes like these also push your [Criminal Profile](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/) towards Irredeemable.
 
 ## What the red icons mean
 
