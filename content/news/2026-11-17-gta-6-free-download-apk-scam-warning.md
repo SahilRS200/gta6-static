@@ -47,4 +47,4 @@ Search "GTA 6 download" in India right now and you'll find APKs, "PC early acces
 
 The real thing unlocked at **12:00 AM IST on 19 November** on PS5 and Xbox Series X/S. Stuck on a padlock? [Here's the fix](/news/gta-6-locked-not-starting-ps5-fix-india/).
 
-Related: is GTA 6 coming to PC, and when? See [the GTA 6 PC release date: what we know](/news/gta-6-pc-release-date-gta-5-steam-players-rise/).
+Related: is GTA 6 coming to PC, and when? See [the GTA 6 PC release date: what we know](/news/gta-6-pc-release-date-gta-5-steam-players-rise/). Seen a "leaked GTA 6" download? Read [why the leaked Xbox build isn't playable or safe](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/).
