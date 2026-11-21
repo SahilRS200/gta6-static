@@ -1,6 +1,6 @@
 ---
-title: GTA 6 Trophy List — 55 Trophies, the One That Might Be Missable, and About 200 Hours to Platinum
-description: GTA 6 has 55 trophies (1 Platinum, 2 Gold, 6 Silver, 46 Bronze) and no online ones. Do Lucia's Chapter 1 meditation in case it's missable; the Platinum takes about 200 hours.
+title: GTA 6 Trophy List and Achievements — 55 Trophies, the One That Might Be Missable, 200 Hours to Platinum
+description: GTA 6 has 55 trophies (1 Platinum, 2 Gold, 6 Silver, 46 Bronze), the same 55 Xbox achievements for 1,000 Gamerscore. Do Lucia's Chapter 1 meditation in case it's missable.
 date: 2026-11-20T19:38:00+05:30
 tags: [trophies, progress, tips, first-hours, guide]
 type: guide
