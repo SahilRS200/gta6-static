@@ -45,7 +45,7 @@ Kirk McKeand at The Big Lead has played about 140 hours and shared tips the game
 16. **Any explosion opens a safe.** You don't need sticky bombs: a grenade, a propane tank or a rocket works too.
 17. **Swim faster, then dive.** On the surface, click the analogue stick in once for a small boost and again for top speed; it drains stamina. When stamina runs out, dive: underwater the game uses lung capacity instead, so you can keep full speed for roughly twice as long.
 18. **Case a store before you rob it.** Walk in as a customer, lock on to each security guard and press right on the D-pad to mark them. An arrow stays over their heads during the robbery.
-19. **Open the vehicle menu.** Hold left on the D-pad for the radio, then push the stick up for hazards, full beams, windows and, on convertibles, the roof.
+19. **Open the vehicle menu.** Hold left on the D-pad for the radio, then push the stick up for hazards, full beams, windows and, on convertibles, the roof. Quicker: double-tap left for the radio and Circle (B) for headlights; [more car shortcuts →](/news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/)
 
 ## Bonus: take a shower
 
