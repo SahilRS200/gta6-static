@@ -1,16 +1,15 @@
 ---
-slot: 2026-11-21T10:38:00+05:30
-source: /news/gta-6-first-streamers-finish-brycexd-ishowspeed-52-hours/
+slot: 2026-11-21T12:37:00+05:30
+source: /news/gta-6-neuralink-brain-implant-played-with-thoughts/
 ---
-GTA 6 is already beaten 🏁
+GTA 6, played with a brain chip 🧠
 
-BrycexD: 39h 38m. IShowSpeed: 52.5h, no sleep.
+A Neuralink patient drives, flies and fights on PS5 by thought
 
 Also:
-💾 Save by hand
-🔇 Ending clips are out: mute spoilers
-⏱️ Normal run: ~50h
+👊 Think finger tap = punch
+⚠️ Still a trial, not approved
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #IndianGaming

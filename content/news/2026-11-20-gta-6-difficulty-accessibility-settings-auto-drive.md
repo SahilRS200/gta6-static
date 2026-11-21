@@ -38,4 +38,6 @@ GTA 6 reads out most menus and UI (English only), and cutscenes have audio descr
 
 These early write-ups were put together from reviews, guides and streams, not Rockstar's own list, so a setting may sit under a slightly different name in your menu.
 
+One Neuralink trial participant is even playing it with a brain implant: [how that works →](/news/gta-6-neuralink-brain-implant-played-with-thoughts/)
+
 Related: [settings to change in your first hours →](/news/gta-6-first-hours-tips-settings/) · [what the camera can do →](/news/gta-6-first-person-mode-camera-options/) · [Is GTA 6 in Hindi? →](/news/gta-6-hindi-language-support/) · [everything Indian players need to know →](/gta-6-india/)
