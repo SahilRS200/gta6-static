@@ -1,15 +1,16 @@
 ---
-slot: 2026-11-21T14:38:00+05:30
-source: /news/gta-6-xbox-ban-auto-upload-clips-turn-off/
+slot: 2026-11-21T16:39:00+05:30
+source: /news/gta-6-money-glitch-red-barn-unlimited-cash/
 ---
-GTA 6 on Xbox? Check this setting 🚫
+GTA 6 already has a money glitch 💸
 
-Players report 2-day suspensions after GTA 6 clips auto-uploaded, even beach shots
+Red barn save-reload loop: ~$11,280 of loot on run one
 
 Also:
-⚙️ Capture & share: Don't upload
-📸 Clips still save on console
+🚗 Bags stay in your car's boot
+💾 Manual save, not autosave
+📬 Cash lands in your mailbox
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming

@@ -2,6 +2,7 @@
 title: GTA 6 Gym Guide — How Workouts Work, the Free Home Gym in Key Lento, and Which Exercises Are Fastest
 description: GTA 6 has a full fitness system. Jason's Key Lento safehouse has free weights on the back deck; gyms need one shared membership. Kettlebells, bench press and deadlifts are quickest.
 date: 2026-11-19T23:37:00+05:30
+updated: 2026-11-21T16:38:00+05:30
 tags: [gym, tips, gameplay, guide, progress, ps5]
 type: guide
 sources:
@@ -9,6 +10,7 @@ sources:
   - PlayStationInfo — GTA 6 gym: the best exercises for strength and stamina | https://www.playstationinfo.de/en/2026/11/19/gta-6-gym-the-best-exercises-for-strength-and-stamina/
   - Engadget — GTA 6 launch-day live blog (gym hands-on) | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - GTA BOOM — Gyms and workouts in GTA VI | https://www.gtaboom.com/gyms-and-workouts-in-gta-vi-848e
+  - Kotaku — GTA 6 weight, muscle and fat for Jason and Lucia | https://kotaku.com/grand-theft-auto-6-weight-muscle-gain-fat-jason-lucia-2000758438
 ---
 Yes, you can work out in GTA 6, and it's one of the systems players are talking about most on day one. Engadget's team spent a good part of launch morning in the gym: the bench press and deadlift use the **DualSense triggers and vibration**, kettlebell swings follow a rhythm, and gains **show on the character's body**; skip training and they look less toned ([Engadget](https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/)). No story spoilers below.
 
@@ -18,6 +20,11 @@ Yes, you can work out in GTA 6, and it's one of the systems players are talking 
 - **It changes how they look.** Working out makes Jason and Lucia stronger and more muscular ([GTA BOOM](https://www.gtaboom.com/gyms-and-workouts-in-gta-vi-848e)).
 - **It's optional.** Apart from a few story activities, you don't need it to finish the story ([PlayStationInfo](https://www.playstationinfo.de/en/2026/11/19/gta-6-gym-the-best-exercises-for-strength-and-stamina/)).
 - **Stats can drop.** Go a long time without training and strength and cardio slip back, so keep up a routine.
+
+## Yes, they can get fat
+
+- **Food changes their body.** The game tracks muscle and body fat separately. Jason starts with high muscle and low fat; eat junk food without training and both values shift, and his model gets visibly heavier. Lucia uses the same system, with a smaller but noticeable change ([Kotaku](https://kotaku.com/grand-theft-auto-6-weight-muscle-gain-fat-jason-lucia-2000758438)).
+- **Training balances it.** Kotaku notes the same fat level looks leaner with more muscle, so a gym routine offsets the burgers. No outlet has confirmed any effect on gameplay beyond looks yet.
 
 ## Where to train
 

@@ -2,6 +2,7 @@
 title: GTA 6 Money Guide — How to Make Money Fast Early, From Shipwreck Dives to Selling Cars
 description: Broke in GTA 6? The best early money comes from shipwreck dives (about $1,400 for the first wreck), raiding gang hideouts and selling cars. Check your mailbox too. Spoiler-free.
 date: 2026-11-19T13:38:00+05:30
+updated: 2026-11-21T16:38:00+05:30
 tags: [money, tips, guide, gameplay, ps5, xbox]
 type: guide
 sources:
@@ -25,6 +26,7 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first complaint afte
 - **Check your mailbox.** Mission pay and fence money often lands in the **mailbox outside your house**, not in your hand. Check it whenever you leave home ([Outputlag](https://outputlag.com/guides/gta-6-make-money-fast/)).
 - **Fences pay badly early.** The first buyers for jewellery and marked bills pay "very low" or "low" rates, so don't take big risks for small loot ([ComicBook](https://comicbook.com/gaming/feature/gta-6-how-to-make-money-early-in-the-game/)).
 - **Cash won't cover cops forever.** A big score brings heat; see [how to lose the cops](/news/gta-6-wanted-level-heat-system-explained/), and [keep your tank full](/news/gta-6-fuel-petrol-system-how-to-refuel/) before a getaway.
+- **Heard about the money glitch?** A red-barn save-and-reload loop paid about $11,280 on its first run in Beebom's test, but many players are skipping it. [How it works and the catches →](/news/gta-6-money-glitch-red-barn-unlimited-cash/)
 - **Cheats won't help yet.** There is no money cheat on day one, and cheats unlock only after the story. [Why →](/news/gta-6-cheats-locked-until-story-complete/)
 - **No casino shortcut.** The casinos can't be entered and there's no gambling. [Why →](/news/gta-6-casino-cant-enter-gambling-rockstar-explains/)
 - **Bank it or stash it.** Until your first bank account, you lose the cash you carry if you die or get busted. [Where to hide it →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
