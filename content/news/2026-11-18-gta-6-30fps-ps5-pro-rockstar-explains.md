@@ -33,3 +33,5 @@ GTA 6 unlocks at **12:00 AM IST** on PS5 and Xbox Series X|S.
 - [Install both pre-launch patches →](/news/gta-6-day-one-patch-size-ps5-xbox/)
 
 Related: a free PC app claims to turn GTA 6 on PS5 into 60fps with AI frame generation, but it adds lag. [What it does →](/news/gta-6-60fps-ps5-smoovplay-frame-generation-explained/)
+
+On Xbox Series X, a Quick Resume glitch lifts the cap, but the game then runs at double speed. [The catch →](/news/gta-6-60fps-xbox-series-x-quick-resume-glitch-double-speed/)

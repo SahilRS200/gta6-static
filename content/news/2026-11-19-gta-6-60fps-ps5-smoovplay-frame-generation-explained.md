@@ -27,4 +27,4 @@ GTA 6 is **locked at 30fps on every console**, PS5 Pro included, and Rockstar sa
 
 For most players in India, **no**: the extra lag and the need for a gaming PC outweigh smoother motion, and the game is built around 30fps. Better first step: read Digital Foundry's [PS5 vs PS5 Pro vs Xbox performance test](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/). Seeing drops to 15–20fps in fights on a base PS5? That's a known launch issue. [Bugs and fixes →](/news/gta-6-bugs-glitches-launch-falling-through-map/)
 
-Related: [why GTA 6 is 30fps even on PS5 Pro →](/news/gta-6-30fps-ps5-pro-rockstar-explains/) · [first-hours settings →](/news/gta-6-first-hours-tips-settings/)
+Related: [why GTA 6 is 30fps even on PS5 Pro →](/news/gta-6-30fps-ps5-pro-rockstar-explains/) · [the Xbox 60fps glitch and its double-speed catch →](/news/gta-6-60fps-xbox-series-x-quick-resume-glitch-double-speed/) · [first-hours settings →](/news/gta-6-first-hours-tips-settings/)
