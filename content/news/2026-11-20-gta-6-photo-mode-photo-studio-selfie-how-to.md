@@ -42,4 +42,6 @@ The phone camera unlocks a little later, once you take control of Jason.
 
 **Snapmatic**, the in-game social app, is for browsing other people's posts, liking photos and marking places on your map.
 
+On Xbox, turn off automatic capture uploads first: players report [2-day suspensions over auto-uploaded GTA 6 clips](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/).
+
 Related: [first-hours settings and tips](/news/gta-6-first-hours-tips-settings/) · [first-person mode and camera options](/news/gta-6-first-person-mode-camera-options/) · [all guides](/guides/)

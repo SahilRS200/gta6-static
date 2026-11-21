@@ -1,15 +1,15 @@
 ---
-slot: 2026-11-21T12:37:00+05:30
-source: /news/gta-6-neuralink-brain-implant-played-with-thoughts/
+slot: 2026-11-21T14:38:00+05:30
+source: /news/gta-6-xbox-ban-auto-upload-clips-turn-off/
 ---
-GTA 6, played with a brain chip 🧠
+GTA 6 on Xbox? Check this setting 🚫
 
-A Neuralink patient drives, flies and fights on PS5 by thought
+Players report 2-day suspensions after GTA 6 clips auto-uploaded, even beach shots
 
 Also:
-👊 Think finger tap = punch
-⚠️ Still a trial, not approved
+⚙️ Capture & share: Don't upload
+📸 Clips still save on console
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #PS5 #IndianGaming
+#GTA6 #GTAVI #ViceCity #Xbox #IndianGaming
