@@ -27,7 +27,7 @@ GTA 6 tracks sleep. Jason and Lucia can only sleep in a **safehouse bed**, and a
 
 ## Other ways to move the clock
 
-- **RydeMe rides** and some story missions also move time forward.
+- **RydeMe rides** and some story missions also move time forward. [How fast travel works →](/news/gta-6-fast-travel-rydeme-taxi-bus-how-to/)
 - **After the story,** collectible watches unlock two time cheats (Move Time Forward and Pause Time of Day). Cheats turn off trophies and saving ([how cheats unlock](/news/gta-6-cheats-locked-until-story-complete/)).
 
 ## How long is a day?
