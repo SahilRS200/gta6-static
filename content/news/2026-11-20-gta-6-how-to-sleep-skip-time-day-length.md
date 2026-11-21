@@ -34,4 +34,4 @@ GTA 6 tracks sleep. Jason and Lucia can only sleep in a **safehouse bed**, and a
 
 Players have measured a full in-game day at about **144 real minutes** (one in-game hour is about 6 real minutes), roughly three times GTA 5's 48-minute day. Rockstar hasn't published an official figure ([Beebom](https://beebom.com/gta-6-day-and-night-cycle/), [KeenGamer](https://www.keengamer.com/articles/guides/how-to-skip-time-and-sleep-in-gta-6-day-length-and-best-time-for-crimes/)).
 
-Related: [19 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [first hours: settings and tips](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India](/gta-6-india/)
+Related: [how to heal: Zombix, food and first aid kits](/news/gta-6-how-to-heal-zombix-health-first-aid/) · [19 hidden features the game doesn't tell you](/news/gta-6-tips-hidden-features-spoiler-free/) · [first hours: settings and tips](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India](/gta-6-india/)

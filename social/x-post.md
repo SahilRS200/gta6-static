@@ -1,16 +1,16 @@
 ---
-slot: 2026-11-21T18:38:00+05:30
-source: /news/gta-6-60fps-xbox-series-x-quick-resume-glitch-double-speed/
+slot: 2026-11-21T20:37:00+05:30
+source: /news/gta-6-how-to-heal-zombix-health-first-aid/
 ---
-GTA 6 at 60fps on Xbox? Catch 😬
+Low on health in GTA 6? 💊
 
-A Series X glitch lifts the 30fps cap, but the game runs ~2x speed
+Zombix is the fastest full heal. Buy it at grocery stores
 
 Also:
-📺 Needs 120Hz
-🎬 Cutscenes stay normal
-🚫 No Rockstar comment
+🎮 Use it via the L1 (LB) wheel
+🍔 Food with a health icon heals
+🩹 First aid kits work on pickup
 
 Full guide: gta6info (link in bio)
 
-#GTA6 #GTAVI #ViceCity #Xbox #IndianGaming
+#GTA6 #GTAVI #ViceCity #PS5 #Xbox #IndianGaming
