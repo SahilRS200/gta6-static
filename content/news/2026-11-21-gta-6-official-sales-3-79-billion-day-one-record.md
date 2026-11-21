@@ -34,3 +34,5 @@ Tens of millions of people logging in at once is why PSN wobbled on launch night
 - [GTA 6 crashing on PS5 (CE-108255-1) →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 - [GTA 6 price in India →](/gta-6-price-in-india/)
 - [Is GTA 6 coming to PC? →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+
+Related: it wasn't just bought, it was played. Circana says 61% of US PS5 players active on launch day played GTA 6, for about 8.5 hours on average. [The engagement numbers →](/news/gta-6-circana-61-percent-ps5-players-8-hours-launch-day/)

@@ -1,17 +1,17 @@
 ---
-updated: 2026-11-21T04:38:00+05:30
-headline: 214 million hours watched in two days — GTA 6 is now the most-streamed game launch ever
-search: [streaming, refund, focus, leaks]
+updated: 2026-11-21T05:38:00+05:30
+headline: 61% of active US PS5 players were in GTA 6 on launch day — for 8.5 hours on average, Circana says
+search: [records, streaming, refund, save]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6 is the most-watched game launch ever on streams:** 214.63 million hours in about two days, beating Valorant's old 150 million record. India's Mythpat peaked at 1.25 lakh viewers. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
-- **Want a refund? Sony is mostly saying no.** If your PS5 started downloading GTA 6, refunds are off unless the game is faulty. Box codes follow the shop's rules. [Refund rules →](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/)
+- **More than half of console players lived in GTA 6 on launch day:** 61% of active US PS5 players and 56% of Xbox players worldwide, averaging over 8 hours. No India figure yet. [The numbers →](/news/gta-6-circana-61-percent-ps5-players-8-hours-launch-day/)
+- **GTA 6 is the most-watched game launch ever on streams:** 214.63 million hours in two days. India's Mythpat peaked at 1.25 lakh viewers. [The record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **Want a refund? Sony is mostly saying no** if your PS5 started downloading GTA 6, unless the game is faulty. [Refund rules →](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/)
 
 ## ✅ Try this today
 
-- **GTA 6's Focus ability, explained:** press L3 + R3 to slow a fight. Yellow marks non-lethal shots. [How it works →](/news/gta-6-focus-ability-explained-how-to-use-level-up/)
-- **The Criminal Profile can lock at Irredeemable for good,** so save by hand before a rampage. [The 5 levels →](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/)
+- **Playing an 8-hour weekend session? Save by hand** at a safehouse; GTA 6 keeps only one autosave slot. [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 
 ## 🛠️ Fix of the day
 
