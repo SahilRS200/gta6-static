@@ -1,8 +1,8 @@
 ---
-title: GTA 6 Bugs at Launch — Falling Through the Map, an Early Mission Softlock; No Rockstar Patch Yet
-description: GTA 6 launch bugs players report: falling through the map, an early Lucia mission softlock, prologue crashes, low FPS on base PS5. No patch yet; a '25 Nov fix' post is unconfirmed.
+title: GTA 6 Bugs at Launch — Falling Through the Map, an Early Mission Softlock, and What the First Patch Fixes
+description: GTA 6 launch bugs: falling through the map, an early mission softlock, crashes, low FPS on base PS5. Update 01.002.002 fixes crashes, stuck phone calls and wanted level; the rest is open.
 date: 2026-11-19T03:37:00+05:30
-updated: 2026-11-20T05:36:00+05:30
+updated: 2026-11-23T21:38:00+05:30
 tags: [bugs, patch, ps5, launch-day, india]
 type: fix
 status: open
@@ -13,6 +13,8 @@ sources:
   - Latin Times — GTA 6 lands with a 99, but launch-day failures make headlines | https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565
   - iGameMag — GTA 6 reviews: 99 from critics, but bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
   - Kotaku — GTA 6 launch live updates | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+  - Game Rant — New GTA 6 update patch notes released for November 23 | https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/
+  - VICE — GTA 6 update fixes phone call bugs that blocked story progress | https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/
 ---
 GTA 6 has been out in India since **12:00 AM IST**, and the first bug clips are doing the rounds on X. Sportskeeda is keeping a running list of what players have caught so far ([Sportskeeda](https://tech.sportskeeda.com/gaming-news/all-gta-6-bugs-glitches-found-far)). The short version: **annoying, mostly not game-breaking, and Rockstar has not announced a fix yet.** No story spoilers below.
 
@@ -24,6 +26,10 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first bug clips are 
 - **Update: FPS drops in fights are the biggest complaint.** One X post saying the base PS5 falls to about 15–20fps in combat, with delayed button response, passed 2 million views; PS5 Pro owners report occasional dips in big set pieces. There is still no 60fps or 40fps mode and no Rockstar response yet ([PlayStation LifeStyle](https://www.playstationlifestyle.net/2026/11/18/gta-6-players-report-fps-drops-ps5)).
 
 - **Update, day two: an early-mission softlock and prologue crashes.** Latin Times rounds up player reports of crashes during the prologue, a softlock that blocks progress in an early Lucia mission, screen freezes, characters sinking into the ground, cars flying after crashes and audio glitches. It says they seem intermittent, hitting some players rather than everyone, and that Rockstar hasn't publicly addressed them ([Latin Times](https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565)). If a mission won't progress, reload a manual save from before it.
+
+## Update, 23 November: the first patch is out
+
+Update **01.002.002** arrived on 23 November, and Rockstar's notes list fixes for several crashes, autosave not working properly, **phone calls that didn't trigger** (including ones that move the story on or unlock missions), a wanted level some players couldn't lose, stuck weather, the gym deadlift bar and partners not handing over bags for fences ([Game Rant](https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/), [VICE](https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/)). The notes don't mention falling through the map or the FPS drops, so this page stays open for those. [The full patch notes →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
 
 ## Is a patch coming on 25 November?
 

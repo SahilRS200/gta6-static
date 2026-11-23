@@ -1,12 +1,16 @@
 ---
-title: GTA 6 Update 01.002.002 Is Out — First Post-Launch Patch Is 604 MB on PS5, With No Patch Notes
-description: GTA 6's first post-launch update, 01.002.002, rolled out on 23 November: 603.8 MB on PS5, 1.6 GB on Xbox. Rockstar hasn't said what it fixes, so the CE-108255-1 crash fix is unconfirmed.
+title: GTA 6 Update 01.002.002 Patch Notes — Crash, Autosave, Phone Call and Wanted Level Fixes (604 MB on PS5)
+description: GTA 6 update 01.002.002 patch notes: fixes for crashes, broken autosave, story phone calls that never rang, a stuck wanted level and weather. 603.8 MB on PS5, about 1.6 GB on Xbox.
 date: 2026-11-23T17:38:00+05:30
-tags: [patch, bugs, ps5, xbox, error-code]
+updated: 2026-11-23T21:38:00+05:30
+tags: [patch, bugs, ps5, xbox, error-code, saving]
 sources:
   - VICE — GTA 6 patch update 01.002.002 is live on PS5 and Xbox Series X | https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/
   - Insider Gaming — GTA 6 update 01.002.002, all changes and download size | https://insider-gaming.com/gta-6-update-01-002-002-all-changes-download-size/
   - MP1st — GTA 6 first update 1.002.002 released on November 23 | https://mp1st.com/title-updates-and-patches/gta-6-first-update-1-002-002-released-on-november-23
+  - Game Rant — New GTA 6 update patch notes released for November 23 | https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/
+  - VICE — GTA 6 update fixes phone call bugs that blocked story progress | https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/
+  - PlayStation LifeStyle — GTA 6 PS5 update 1.002.002 rolling out now | https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes
 ---
 GTA 6 has its **first update since launch**. Version **01.002.002** (shown as 1.0.2.2 on Xbox) started rolling out on **Monday, 23 November** on PS5 and Xbox Series X/S, [VICE reports](https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/). It's the third update overall, after the two that landed before launch.
 
@@ -20,10 +24,22 @@ GTA 6 has its **first update since launch**. Version **01.002.002** (shown as 1.
 
 On PS5 it is going out in **three waves** so the servers don't buckle: about a third of players first, two thirds roughly three hours in, and everyone about six hours after the start (VICE). If it isn't showing, it's the rollout, not your console. To check: on PS5, highlight GTA VI and press **Options → Check for Update**; on Xbox, open **My games & apps → Manage → Updates**.
 
-## What does it fix?
+## Update, 23 November evening: the patch notes are out
 
-**Rockstar hasn't said.** There were no official patch notes when VICE, Insider Gaming and [MP1st](https://mp1st.com/title-updates-and-patches/gta-6-first-update-1-002-002-released-on-november-23) reported the update. It adds no new content; outlets expect bug and stability fixes, but that is their guess, not Rockstar's word.
+The update first arrived without notes, but Rockstar has since published them, as reported by [Game Rant](https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/), [VICE](https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/) and [PlayStation LifeStyle](https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes). There is no new content. The fixes, in our words:
 
-That means it is **not confirmed** that this patch fixes the PS5 crash **CE-108255-1** or the Xbox freezes. Install it anyway (Sony's own advice for that error is to update the game) and keep saving by hand. If you still crash after updating, our [crash fix page](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/) has the other steps. We'll update this post when Rockstar publishes notes, and every patch is listed on our [What's next tracker](/whats-next/).
+- **Crashes:** "several issues" that crashed the game. No error code is named.
+- **Autosave:** the game was not autosaving correctly in some cases. It now should.
+- **Phone calls:** some calls weren't coming through, including ones that move the story on or unlock missions. If you were stuck waiting for a call, this is probably why.
+- **Wanted level:** a bug that stopped some players losing their wanted level.
+- **Weather:** a bug that kept the same weather for long stretches.
+- **Gym:** the deadlift bar couldn't be used.
+- **Fences:** partners weren't handing over bags so you could sell them to fences.
+
+VICE notes the notes don't say whether a missed call will arrive by itself on an old save. If it doesn't, try reloading an earlier manual save.
+
+## What it means for crashes
+
+Rockstar says it fixed several crashes, but it **doesn't name PS5 error CE-108255-1** or the Xbox freezes, so we can't say those are gone. Install the update (Sony's own advice for that error is to update the game) and keep saving by hand. If you still crash after updating, our [crash fix page](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/) has the other steps. Every patch is listed on our [What's next tracker](/whats-next/).
 
 Related: [GTA 6 download size and the pre-launch patches](/news/gta-6-day-one-patch-size-ps5-xbox/) · [how to save manually](/news/gta-6-how-to-save-manual-save-crash-lost-progress/) · [everything for players in India](/gta-6-india/).
