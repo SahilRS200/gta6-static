@@ -1,7 +1,8 @@
 ---
 title: GTA 6 Xbox Build Leak — Hacker Posts 209 GB, Holds the Game File Until 23 November; Don't Download It
-description: Cyberleek says it posted a 209 GB GTA 6 Xbox build minus the file that runs it, due 23 November. It is unverified, no Xbox emulator exists, and fake 'PC' downloads carry malware.
+description: Cyberleek posted a 209 GB GTA 6 Xbox build minus the file that runs it, due 23 November. Researchers say the files look real, but nothing runs on PC and fake downloads carry malware.
 date: 2026-11-21T08:36:00+05:30
+updated: 2026-11-23T19:40:00+05:30
 tags: [leaks, pc, scam, malware]
 type: news
 sources:
@@ -9,8 +10,17 @@ sources:
   - Notebookcheck — Cyberleek releases GTA 6 Xbox build, making playable PC port more realistic | https://www.notebookcheck.net/Cyberleek-releases-GTA-6-Xbox-build-making-playable-PC-port-more-realistic.1454770.0.html
   - GameSpot — Hacker threatens to leak free version of GTA 6 in crypto grift | https://www.gamespot.com/articles/a-playable-gta-6-build-could-leak-but-theres-a-15-million-catch/
   - Destructoid — GTA 6 could be playable on PC soon as hacker drops incomplete Xbox build | https://www.destructoid.com/gta-6-could-be-playable-on-pc-soon-as-hacker-drops-incomplete-xbox-build/
+  - TechRadar — Cyberleek is set to release the final piece of their GTA 6 leak today | https://www.techradar.com/gaming/final-piece-of-claimed-gta-6-leak-set-to-arrive-today-and-theres-hope-it-could-mean-rockstar-launches-the-pc-port-sooner
+  - TweakTown — Cyberleek claims modders could get GTA 6 running on PC within a week | https://www.tweaktown.com/news/114815/cyberleek-claims-modders-could-get-gta-6-running-on-pc-within-a-week-after-reported-xbox-build-leak/index.html
 ---
 A hacker calling itself **Cyberleek** says it has put most of a **GTA 6 Xbox build** online and is holding back the one file needed to run it. It is the biggest piracy threat since launch, and it will reach Indian Telegram groups and "free download" sites fast. **Short version: it isn't playable, it isn't safe, and it isn't a PC version.** No story spoilers here.
+
+## Update, Monday 23 November: deadline day
+
+- **The missing file was due today.** TechRadar reported on Monday that Cyberleek still planned to post the executable today. When we checked at 7:40 PM IST, no outlet we follow had confirmed it was out ([TechRadar](https://www.techradar.com/gaming/final-piece-of-claimed-gta-6-leak-set-to-arrive-today-and-theres-hope-it-could-mean-rockstar-launches-the-pc-port-sooner)).
+- **Security researchers think the files are real.** The research group VX Underground looked through the dump, found real game assets and believes the leak is genuine. Its theory, not a confirmed fact, is that Cyberleek got the build by compromising a Rockstar employee ([TechRadar](https://www.techradar.com/gaming/final-piece-of-claimed-gta-6-leak-set-to-arrive-today-and-theres-hope-it-could-mean-rockstar-launches-the-pc-port-sooner), [TweakTown](https://www.tweaktown.com/news/114815/cyberleek-claims-modders-could-get-gta-6-running-on-pc-within-a-week-after-reported-xbox-build-leak/index.html)).
+- **Still nothing that runs.** Nobody has shown the files running as a full game on PC. TechRadar expects any early build to be rough and crash-prone, and Cyberleek says it will try a PS5 build if the Xbox one doesn't work.
+- **Expect fakes today.** TechRadar warns that malware dressed up as "GTA 6 PC" builds is likely to spread around this drop. Don't download anything, from a torrent, Telegram or YouTube link.
 
 ## What has been claimed
 
