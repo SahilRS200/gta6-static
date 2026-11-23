@@ -2,7 +2,7 @@
 title: GTA 6 Download Size — Up to 212 GB, Plus Two Pre-Launch Patches on PS5 and Xbox
 description: GTA 6 download size is up to 212 GB, Forbes reports. Two pre-launch updates add about 1 GB and 602 MB on PS5, more on Xbox. Check you have both before you play.
 date: 2026-11-18T15:30:00+05:30
-updated: 2026-11-18T22:36:00+05:30
+updated: 2026-11-23T17:38:00+05:30
 tags: [india, patch, preload, ps5, xbox]
 sources:
   - VICE — GTA 6 gets a second day one patch on PS5 and Xbox | https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/
@@ -15,9 +15,10 @@ If you pre-loaded GTA 6, your console may still have more to download. **Two upd
 
 - **Update 01.002.000** — landed on 13 November. Dataminers put it at **about 1 GB on PS5**.
 - **Update 01.002.001** — the second one. About **602.5 MB on PS5** and roughly **1.6 GB on Xbox**, according to dataminers cited by VICE.
+- **Update 01.002.002** — the first post-launch patch, rolling out since 23 November: 603.8 MB on PS5, about 1.6 GB on Xbox. [What we know →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
 - **Full install:** Forbes reports the pre-load needs **up to 212 GB**, depending on your console.
 
-Rockstar hasn't published patch notes for either update, and hasn't officially called them "day one" patches. Forbes notes there could still be a separate launch-day update, so leave some free space.
+Rockstar hasn't published patch notes for any of these updates, and never officially called the first two "day one" patches. Leave some free space for the next one.
 
 ## How to make sure you have them
 

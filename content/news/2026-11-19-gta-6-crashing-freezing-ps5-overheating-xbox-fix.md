@@ -1,14 +1,15 @@
 ---
-title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and No Patch Date Yet
-description: GTA 6 crashing with PS5 error CE-108255-1? Sony says update the game; for CE-107891-6, reinstall. Power-cycle and give the console air. No Rockstar fix or patch date yet.
+title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and the First Patch
+description: GTA 6 crashing with PS5 error CE-108255-1? Install update 01.002.002 (out 23 Nov), though Rockstar hasn't said it fixes crashes. For CE-107891-6, reinstall. Power-cycle and save often.
 date: 2026-11-19T17:38:00+05:30
-updated: 2026-11-20T23:36:00+05:30
+updated: 2026-11-23T17:38:00+05:30
 tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
 sources:
   - Gizmodo — GTA VI is throwing error codes on some PS5 consoles | https://gizmodo.com/gta-vi-ps5-error-2000843112
   - UNILAD Tech — GTA 6 players report repeated PS5 crashes, official support guidance | https://www.uniladtech.com/gaming/playstation/gta-6-playstation-crash-fix-sony-support-831369-20261120
+  - VICE — GTA 6 patch update 01.002.002 is live on PS5 and Xbox Series X | https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/
   - UNILAD Tech — GTA 6 players using Xbox Series X issue warning | https://www.uniladtech.com/gaming/xbox/gta-6-xbox-series-x-warning-unplayable-844232-20261119
   - Sportskeeda — GTA 6 reportedly overheating on PS5 | https://tech.sportskeeda.com/gaming-news/gta-6-reportedly-overheating-ps5-is-fix
   - Business Upturn — GTA 6 not working on PS5? Four fixes players say solved launch crashes | https://businessupturn.com/technology/gaming/gta-6-not-working-on-ps5-four-fixes-players-say-solved-launch-crashes-and-psn-errors/
@@ -44,6 +45,8 @@ These are player-reported steps, not official fixes ([Business Upturn](https://b
 6. **Wrong colours?** Check High-Contrast Shaders under Display, or Restore Default. **Xbox headset crackle?** Switch audio to mono (OutputLag).
 7. **Save manually and often.** There's only one autosave slot, so a crash can cost you hours ([how to save](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)).
 
-## Is a patch coming on 25 November?
+## Is there a patch?
 
-**Not confirmed.** A widely shared X post claims Rockstar apologised and scheduled a fix for 25 November. Rockstar hasn't announced any patch or date on its official channels, so treat it as a rumour ([iGameMag](https://igamemag.com/gta-6-reviews/), [OutputLag](https://outputlag.com/guides/gta-6-not-working-day-one-problems-fixes/)). We'll update this page and our [What's next tracker](/whats-next/) when a real patch lands. Other launch glitches: [falling through the map and clipping](/news/gta-6-bugs-glitches-launch-falling-through-map/).
+**Yes, but Rockstar hasn't said what it fixes.** Update **01.002.002**, the first since launch, started rolling out on 23 November: 603.8 MB on PS5 and about 1.6 GB on Xbox ([VICE](https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/)). There are no official patch notes, so it is **not confirmed** to fix CE-108255-1 or the Xbox freezes. Install it, then tell us if crashes continue. [What we know about the update →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
+
+An earlier widely shared X post claimed Rockstar had scheduled a fix for 25 November; Rockstar never announced that date, so treat it as a rumour ([iGameMag](https://igamemag.com/gta-6-reviews/), [OutputLag](https://outputlag.com/guides/gta-6-not-working-day-one-problems-fixes/)). Every patch is on our [What's next tracker](/whats-next/). Other launch glitches: [falling through the map and clipping](/news/gta-6-bugs-glitches-launch-falling-through-map/).
