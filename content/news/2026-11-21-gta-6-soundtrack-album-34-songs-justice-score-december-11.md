@@ -24,4 +24,6 @@ Justice's score for the game comes out separately on **11 December 2026** on str
 
 Hoping for a Punjabi track? The viral "Sidhu Moosewala on GTA 6 radio" clip is likely a fan edit, not Rockstar's: [what we found →](/news/gta-6-sidhu-moosewala-song-viral-clip-fan-edit/)
 
+Want more music in the game? Unlock the [secret radio station, The Vault, with one poster scan →](/news/gta-6-secret-radio-station-the-vault-waink-poster/)
+
 Related: [Weird Al hosts Vice City FM, plus other GTA 6 discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
