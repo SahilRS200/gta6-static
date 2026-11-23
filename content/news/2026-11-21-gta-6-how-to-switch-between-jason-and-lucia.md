@@ -2,6 +2,7 @@
 title: GTA 6 How to Switch Between Jason and Lucia — the Button, When It Unlocks, and Why It's Greyed Out
 description: To switch characters in GTA 6, hold right on the D-pad and pick the other (R1 or RB). Free switching only opens after Chapter 1, fully in Chapter 2; J and L missions need that character.
 date: 2026-11-21T13:37:00+05:30
+updated: 2026-11-24T01:36:00+05:30
 tags: [controls, tips, guide, ps5, xbox]
 type: guide
 sources:
@@ -24,6 +25,7 @@ Rockstar chose this on purpose: the team said swapping at any moment would feel 
 - **The other character is busy,** usually on a mission or during a cutscene ([VGC](https://www.videogameschronicle.com/guide/how-to-change-characters-in-gta-6)).
 - **They just left.** After a swap, the character you left may call a RydeMe and drive off, which can grey out the menu for a bit. Wait and try again ([VGC](https://www.videogameschronicle.com/guide/how-to-change-characters-in-gta-6)).
 - **You're inside a story mission.** Some missions lock you to one character ([GFinity](https://www.gfinityesports.com/article/how-to-switch-between-jason-lucia-in-gta-6)).
+- **Stuck as Lucia after Missing Persons in Chapter 3?** That's a reported bug the first patch didn't fix. [What to do →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
 
 ## Tips
 

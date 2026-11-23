@@ -38,6 +38,8 @@ The update first arrived without notes, but Rockstar has since published them, a
 
 VICE notes the notes don't say whether a missed call will arrive by itself on an old save. If it doesn't, try reloading an earlier manual save.
 
+Not fixed: players still report being stuck as Lucia after the Missing Persons side mission in Chapter 3. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
+
 ## What it means for crashes
 
 Rockstar says it fixed several crashes, but it **doesn't name PS5 error CE-108255-1** or the Xbox freezes, so we can't say those are gone. Install the update (Sony's own advice for that error is to update the game) and keep saving by hand. If you still crash after updating, our [crash fix page](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/) has the other steps. Every patch is listed on our [What's next tracker](/whats-next/).
