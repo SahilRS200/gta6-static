@@ -1,15 +1,15 @@
 ---
-slot: 2026-11-21T22:37:00+05:30
-source: /news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/
+slot: 2026-11-23T12:59:00+05:30
+source: /news/gta-6-cool-dog-lucky-dog-jet-ski-1200-cash/
 ---
-Car shortcuts GTA 6 never tells you 🚗
+GTA 6's jet-ski dog pays 🐶
 
-5 hidden controls, mostly double-taps
+Float alone in Gambit Bay ~5 min: Cool Dog takes you to his island and digs up $1,200
 
 Also:
-📻 D-pad left x2: radio on/off
-💡 Circle (B) x2: headlights
-🏃 Triangle (Y) x2: exit, engine on
+🚤 Be the swimmer, not on a boat
+🎾 Throw him a ball
+🏧 Bank it at an ATM
 
 Full guide: gta6info (link in bio)
 
