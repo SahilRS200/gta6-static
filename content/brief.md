@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-23T12:59:00+05:30
-headline: GTA 6's sunglasses-wearing jet-ski dog pays $1,200 — float alone in Gambit Bay for 5 minutes and he comes for you
-search: [cool dog, robbery, xbox ban, leak]
+updated: 2026-11-23T13:38:00+05:30
+headline: GTA 6 has a real UFO abduction — be near Port Gellhorn at 2 AM and it unlocks a hidden trophy
+search: [ufo, cool dog, robbery, leak]
 ---
 ## 🔥 Hot in India
 
-- **Cool Dog, the viral jet-ski dog, is real and pays.** Jump off a boat in Gambit Bay, wait about 5 minutes, ride to his island and he digs up $1,200. [How to find him →](/news/gta-6-cool-dog-lucky-dog-jet-ski-1200-cash/)
-- **How to rob a store.** Mask up, open the till with Triangle (Y) and use Focus (L3 + R3) to find who knows the safe code. [Step by step →](/news/gta-6-how-to-rob-a-store-safe-code-cameras-escape/)
-- **On Xbox? Turn off clip auto-upload.** Players report 2-day suspensions over auto-uploaded clips. [The 1-minute fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
+- **The UFO abduction is real, with a hidden trophy.** From Chapter 2, head east of Port Gellhorn at 2:00 AM, follow the flashing car into the woods and help the woman. [How to trigger it →](/news/gta-6-ufo-location-truth-is-out-there-trophy/)
+- **Cool Dog, the jet-ski dog, pays $1,200.** Jump off a boat in Gambit Bay and float alone for about 5 minutes. [How to find him →](/news/gta-6-cool-dog-lucky-dog-jet-ski-1200-cash/)
+- **On Xbox? Turn off clip auto-upload.** Players report 2-day bans over auto-uploaded clips. [The 1-minute fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
 
 ## ✅ Try this today
 
-- **Bank your cash.** Money you carry is lost if you die or get busted; deposit it at an ATM. [Keep it safe →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
-- **Treasure diving for early money.** After Island Dreams, Kenton lends you scuba gear and a metal detector. [How to start →](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/)
+- **Rob a store.** Mask up, open the till with Triangle (Y) and use Focus to find who knows the safe code. [Step by step →](/news/gta-6-how-to-rob-a-store-safe-code-cameras-escape/)
+- **Bank your cash.** Money you carry is lost if you die or get busted. [Keep it safe →](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)
 
 ## 🛠️ Fix of the day
 
@@ -20,4 +20,4 @@ search: [cool dog, robbery, xbox ban, leak]
 
 ## 🌍 Around the world
 
-- **Today is the leaker's deadline.** Cyberleek said the missing file for its unverified 209 GB "Xbox build" would come on 23 November. It isn't a PC version; don't download it. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
+- **Today is the leaker's deadline.** Cyberleek said the missing file for its unverified 209 GB "Xbox build" would come on 23 November. Don't download it. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
