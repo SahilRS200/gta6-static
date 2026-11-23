@@ -187,8 +187,7 @@ and retry; if it fails again, stop.
 
 A second scheduled agent runs at **:35** past each hour (the news agent runs at :05). It may commit and
 push to `main` without asking, within these rules. **It does not write news and does not rewrite the
-AI Brief** — that is the news agent's job. **It works only from the site itself** (the repo and our
-own pages, local and https://www.gta6info.in): no web searches, no other websites (owner, 2026-11-23).
+AI Brief** — that is the news agent's job.
 
 ### Every run
 1. `git pull --rebase origin main`. If the latest commit is under 10 minutes old and starts with
@@ -215,15 +214,14 @@ own pages, local and https://www.gta6info.in): no web searches, no other website
      guides"; every fix needs a `status:`. Adding a tag is fine; changing a fix's status is the news
      agent's job (it needs a source) — flag it in the commit message instead.
    - **Structured data:** keep JSON-LD valid and truthful. `dateModified` on `/ai/` and `/home/` is automatic.
-   - **Plain wording, from our own content:** when a guide or fix answers a common player question but
-     its title or description doesn't say so in the words a player would type ("GTA 6 how to save",
-     "GTA 6 not starting", "GTA 6 price"), reword it from what the post itself says. Add a FAQ entry
-     only for a question one of our posts already answers, linking that post.
+   - **Search demand:** look up what Indian players are searching for about GTA 6 right now
+     (e.g. "GTA 6 kab aayega", "GTA 6 price", "GTA 6 download size", "GTA 6 PS4"). If an existing page
+     answers it but doesn't say so plainly, improve that page's title, description or FAQ. If no page
+     answers it, **leave a note in the commit message** for the news agent rather than writing a post.
 6. Run the pre-push checks (below) and the audit again; it must exit 0. Commit once with message
    `seo: <what changed>` and push. If nothing needed changing, make no commit.
 
 ### SEO agent must not
-- Run web searches or read other websites (only localhost and https://www.gta6info.in).
 - Write or delete news posts, change a post's facts or sources, or rewrite `content/brief.md`.
 - Keyword-stuff, add hidden text, invent FAQ answers, or write titles the page doesn't deliver.
 - Change layout, design, `server.js` security (API guard, CSP, rate limit), dependencies, or deploy config.
