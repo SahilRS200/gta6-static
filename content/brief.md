@@ -1,13 +1,13 @@
 ---
-updated: 2026-11-24T07:39:00+05:30
-headline: 39 million people played GTA 6 on PS5 in just 4 days — Sony calls it the biggest launch in PlayStation history
-search: [39 million, vice city, softlock, checklist]
+updated: 2026-11-24T09:38:00+05:30
+headline: About 45 million GTA 6 copies sold in 4 days, analysts estimate — over $4 billion, three-quarters on PS5
+search: [45 million, softlock, vice city, checklist]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6 is PlayStation's biggest launch ever.** 39 million players logged 683 million hours on PS5 in four days; 70% of new PS5s played it first. [The numbers →](/news/gta-6-39-million-ps5-players-biggest-playstation-launch/)
-- **A secret portal takes you to the original Vice City.** Twelve substations and a night-time reactor lead to Tommy Vercetti's shirt. [Step by step →](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/)
+- **GTA 6 sold about 45 million copies in four days, an estimate says.** Alinea Analytics puts it at 44.9 million and over $4 billion; 33.7 million on PS5. It's not an official count. [The estimate →](/news/gta-6-45-million-copies-sold-4-days-alinea-estimate/)
 - **Missing Persons can still lock you out of the story.** Finish it in Chapter 3 and you may be stuck as Lucia, even after the patch. Skip it for now. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
+- **A secret portal takes you to the original Vice City.** Twelve substations and a night-time reactor lead to Tommy Vercetti's shirt. [Step by step →](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/)
 
 ## ✅ Try this today
 
@@ -19,4 +19,5 @@ search: [39 million, vice city, softlock, checklist]
 
 ## 🌍 Around the world
 
+- **PlayStation's biggest launch ever.** Sony says 39 million people played on PS5 in four days, 17.4 hours each. [Sony's numbers →](/news/gta-6-39-million-ps5-players-biggest-playstation-launch/)
 - **"GTA 6 PC download" links are scams.** The leaked Xbox build still doesn't run on PC. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)

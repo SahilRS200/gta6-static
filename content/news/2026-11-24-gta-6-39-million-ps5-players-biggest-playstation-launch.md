@@ -20,7 +20,7 @@ Sony has put a number on GTA 6's first weekend. **More than 39 million different
 
 ## Read it with care
 
-- **Players aren't copies sold.** One copy on a shared console can count more than one player, so this isn't a sales figure ([Insider Gaming](https://insider-gaming.com/40-million-gta-6-players-ps5/)). The only official sales number is still Take-Two's **$3.79 billion** in day-one retail sales and 32.5 million copies sold before launch. [The official sales →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
+- **Players aren't copies sold.** One copy on a shared console can count more than one player, so this isn't a sales figure ([Insider Gaming](https://insider-gaming.com/40-million-gta-6-players-ps5/)). The only official sales number is still Take-Two's **$3.79 billion** in day-one retail sales and 32.5 million copies sold before launch. [The official sales →](/news/gta-6-official-sales-3-79-billion-day-one-record/) Analysts at Alinea separately estimate about 44.9 million copies sold in the same four days. [The estimate →](/news/gta-6-45-million-copies-sold-4-days-alinea-estimate/)
 - **It's PS5 only.** Microsoft hasn't shared an Xbox player count ([Insider Gaming](https://insider-gaming.com/40-million-gta-6-players-ps5/)).
 - **There's no India figure.** Sony didn't break the count down by country.
 

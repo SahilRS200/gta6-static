@@ -24,7 +24,7 @@ Rockstar founder Sam Houser said the studio is "incredibly humbled by the respon
 ## Read it with care
 
 - **It's sales, not Take-Two's profit.** Sony, Microsoft and shops take their cut of every copy, and Take-Two didn't say exactly how it counted ([The Next Web](https://thenextweb.com/news/gta-vi-3-79b-day-one-sales-biggest-launch)).
-- **It's higher than the tracker estimates.** Sensor Tower had put day one at about 24.6 million digital copies and $2.36 billion; the official count includes physical code-in-box copies too. [The earlier estimates →](/news/gta-6-pre-orders-15-million-record/)
+- **It's higher than the tracker estimates.** Sensor Tower had put day one at about 24.6 million digital copies and $2.36 billion; the official count includes physical code-in-box copies too. [The earlier estimates →](/news/gta-6-pre-orders-15-million-record/) A later Alinea Analytics estimate puts the first four days at about 44.9 million copies and over $4 billion. [The four-day estimate →](/news/gta-6-45-million-copies-sold-4-days-alinea-estimate/)
 - **There's no India figure.** Neither Rockstar nor Sony has shared India sales. What we do know: Blinkit and Zepto sold out fast and PS5 stock went in days. [GTA 6 in India →](/gta-6-india/)
 
 ## What it means for you
