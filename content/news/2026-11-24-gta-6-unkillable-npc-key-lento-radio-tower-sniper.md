@@ -28,4 +28,4 @@ GTA 6 players are climbing one radio tower on purpose to meet its strangest resi
 
 ## More secrets
 
-Related: the [self-aware NPC's Belville garage](/news/gta-6-self-aware-npc-belville-garage-simulation-conspiracy-board/), the [secret Satan boss](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/), the [UFO abduction](/news/gta-6-ufo-location-truth-is-out-there-trophy/) and the [Vice City portal](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/). Playing from India? Start at the [India hub](/gta-6-india/).
+Related: the [self-aware NPC's Belville garage](/news/gta-6-self-aware-npc-belville-garage-simulation-conspiracy-board/), the [secret Satan boss](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/), the [UFO abduction](/news/gta-6-ufo-location-truth-is-out-there-trophy/), the [Hyde Island hunt](/news/gta-6-hyde-island-saw-hunt-secret-mission-island-poacher-sniper/) and the [Vice City portal](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/). Playing from India? Start at the [India hub](/gta-6-india/).

@@ -1,13 +1,13 @@
 ---
-updated: 2026-11-25T01:37:00+05:30
-headline: One player escaped GTA 6's "impossible" six stars — the Vice City portal wiped his wanted level to zero
-search: [wanted level, mario, call of duty, hairstyles]
+updated: 2026-11-25T03:38:00+05:30
+headline: GTA 6 hides a Saw-style death game — survive Hyde Island's hunter and win a unique sniper and up to $30,000
+search: [hyde island, wanted level, mario, call of duty]
 ---
 ## 🔥 Hot in India
 
-- **The Vice City portal clears a six-star wanted level.** A streamer hit six stars, dived through the portal and came back with zero. It may get patched. [How it works →](/news/gta-6-wanted-level-heat-system-explained/)
-- **A secret Super Mario block hides in Lummox County.** Hit it for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
-- **Hidden magazines unlock new hairstyles and tattoos.** Scan them with the Waink app. [How it works →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
+- **A secret Saw-style hunt waits on Hyde Island.** Explore alone, get darted, wake with a bomb collar and two bullets. Kill the hunter for the Island Poacher sniper. [How to survive →](/news/gta-6-hyde-island-saw-hunt-secret-mission-island-poacher-sniper/)
+- **The Vice City portal clears a six-star wanted level.** A streamer dived through and came back with zero stars. It may get patched. [How it works →](/news/gta-6-wanted-level-heat-system-explained/)
+- **A Super Mario block hides in Lummox County.** Hit it for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
 
 ## 🛠️ Fix of the day
 
