@@ -1,8 +1,8 @@
 ---
 title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and the First Patch
-description: GTA 6 crashing with PS5 error CE-108255-1? Install update 01.002.002: Rockstar says it fixes several crashes, though no error code is named. For CE-107891-6, reinstall. Save often.
+description: GTA 6 still crashing with PS5 error CE-108255-1 after update 01.002.002? Players say yes; Rockstar hasn't named the error. Install the patch, save by hand, reinstall for CE-107891-6.
 date: 2026-11-19T17:38:00+05:30
-updated: 2026-11-23T21:38:00+05:30
+updated: 2026-11-24T11:36:00+05:30
 tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
@@ -16,8 +16,16 @@ sources:
   - Business Upturn — GTA 6 not working on PS5? Four fixes players say solved launch crashes | https://businessupturn.com/technology/gaming/gta-6-not-working-on-ps5-four-fixes-players-say-solved-launch-crashes-and-psn-errors/
   - OutputLag — GTA 6 not working? Day one problems and fixes | https://outputlag.com/guides/gta-6-not-working-day-one-problems-fixes/
   - iGameMag — GTA 6 reviews, bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
+  - Sportskeeda — GTA 6 latest patch fails to resolve persistent CE-108255-1 error on PS5 | https://tech.sportskeeda.com/gaming-news/news-gta-6-latest-patch-fails-resolve-persistent-ce-108255-1-error-ps5
 ---
 Some players' GTA 6 sessions are ending with a freeze, a trip back to the home screen or, on PS5, the console switching itself off. Here's what's being reported and what players say helps. No story spoilers.
+
+## Update, 24 November: still crashing after the patch
+
+- **Update 01.002.002 hasn't fixed it for everyone.** PS5 players on Reddit say CE-108255-1 crashes continue after the patch, on standard, Slim and Pro consoles. One player on a PS5 Digital Edition says the game crashes **within three to five minutes**; others can't get past the prologue or crash repeatedly in the **Pipework** mission ([Sportskeeda](https://tech.sportskeeda.com/gaming-news/news-gta-6-latest-patch-fails-resolve-persistent-ce-108255-1-error-ps5)).
+- **The usual steps didn't help that player:** clearing the cache, rebuilding the database, reinstalling, deleting save data, and turning off HDR, VRR and 120Hz (Sportskeeda). Don't delete your save data hoping it fixes this.
+- **No word from Rockstar.** It hasn't named CE-108255-1 or given a timeline. A theory blaming PS5 cooling has no hard evidence behind it (Sportskeeda).
+- **What to do:** keep the patch installed, save by hand before every mission, and report the crash to [Rockstar Support](https://support.rockstargames.com/) so it is counted.
 
 ## Update, 20 November: PS5 error CE-108255-1
 

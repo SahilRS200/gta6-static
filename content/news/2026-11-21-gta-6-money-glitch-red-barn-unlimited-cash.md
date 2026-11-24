@@ -1,11 +1,13 @@
 ---
 title: GTA 6 Money Glitch — The Red Barn Save-Reload Trick Worth $11,280 on the First Run, and Why Many Skip It
-description: GTA 6 has a working money glitch: loot the red barn north of Key Lento, store it in your car, manual-save and reload, and the loot respawns. About $11,280 on the first run. No patch yet.
+description: GTA 6 money glitch: loot the red barn north of Key Lento, store it in your car, manual-save and reload, and it respawns. About $11,280 a run, and update 01.002.002 left it alone.
 date: 2026-11-21T16:38:00+05:30
+updated: 2026-11-24T11:36:00+05:30
 tags: [money, glitch, tips, guide, progress]
 type: guide
 sources:
   - Beebom — GTA 6 unlimited money glitch (tested and working) | https://beebom.com/gta-6-unlimited-money-glitch/
+  - Notebookcheck — New GTA 6 update leaves infinite money glitch untouched | https://www.notebookcheck.net/New-GTA-6-update-leaves-infinite-money-glitch-untouched.1457986.0.html
   - Kotaku — There's an infinite money glitch in GTA 6, but many players are refusing to use it | https://kotaku.com/gta-6-infinite-money-glitch-how-to-rockstar-games-ps5-2000758907
 ---
 Yes, GTA 6 already has a money glitch, two days after launch. The best-documented one is a **save-and-reload loop at a red barn** that makes drug-stash loot respawn while the bags you already took stay in your car. Beebom tested it and got **about $11,280 of loot on the first run** and **about $8,640 on the next** ([Beebom](https://beebom.com/gta-6-unlimited-money-glitch/)). It only touches your own single-player save: GTA 6 Online isn't out. No story spoilers below.
@@ -28,7 +30,7 @@ Yes, GTA 6 already has a money glitch, two days after launch. The best-documente
 
 - **It's flaky.** Beebom says loot doesn't always respawn; save and reload a few more times or wait a few in-game days. Some bags can't be picked up until they're full.
 - **Back up your save.** Keep a separate manual save slot you don't overwrite while looping. [How saving works →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
-- **It may get patched.** Rockstar hasn't said anything about it; there are no patch notes yet.
+- **The first patch left it alone.** Update 01.002.002 (23 November) doesn't mention the glitch, and Notebookcheck reports it is untouched ([Notebookcheck](https://www.notebookcheck.net/New-GTA-6-update-leaves-infinite-money-glitch-untouched.1457986.0.html)). A later patch could still close it, so don't count on it lasting. [What the patch fixed →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
 
 ## Why many players are skipping it
 
