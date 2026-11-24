@@ -30,4 +30,4 @@ Nobody knows whether Rockstar planned the garage back in 2021 or added it after 
 
 ## More secrets
 
-The [Vice City portal](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/), the [Satan boss](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/), the [UFO](/news/gta-6-ufo-location-truth-is-out-there-trophy/) and the [other Easter eggs](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/). Snap the board with [Photo Studio](/news/gta-6-photo-mode-photo-studio-selfie-how-to/). Everything for Indian players is on the [India hub](/gta-6-india/).
+The [unkillable man at the Key Lento radio tower](/news/gta-6-unkillable-npc-key-lento-radio-tower-sniper/), the [Vice City portal](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/), the [Satan boss](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/), the [UFO](/news/gta-6-ufo-location-truth-is-out-there-trophy/) and the [other Easter eggs](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/). Snap the board with [Photo Studio](/news/gta-6-photo-mode-photo-studio-selfie-how-to/). Everything for Indian players is on the [India hub](/gta-6-india/).
