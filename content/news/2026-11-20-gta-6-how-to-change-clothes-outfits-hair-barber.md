@@ -27,4 +27,4 @@ Police in GTA 6 remember what you were wearing, and VGC calls a change of outfit
 - Both have **signature hairstyles** plus standard ones, and some styles are sold only at certain shops.
 - **Pre-order bonus:** if you got the Vice City Style pack, its haircuts, facial hair and makeup are applied at the same shops.
 
-Related: [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [What the Ultimate Edition unlocks, and when →](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/)
+Related: [Mario and Luigi-style caps from a hidden block →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/) · [19 hidden features the game doesn't tell you →](/news/gta-6-tips-hidden-features-spoiler-free/) · [What the Ultimate Edition unlocks, and when →](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/)

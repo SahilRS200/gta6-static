@@ -1,22 +1,22 @@
 ---
-updated: 2026-11-24T19:38:00+05:30
-headline: GTA 6's unkillable man — sniper shots don't hurt him, and he teleports behind Jason to kill him in one hit
-search: [unkillable npc, freddie gibbs, vice city pack, crash]
+updated: 2026-11-24T21:38:00+05:30
+headline: GTA 6 hides a Super Mario block — hit it for Mario and Luigi caps for Jason and Lucia
+search: [mario, unkillable npc, freddie gibbs, crash]
 ---
 ## 🔥 Hot in India
 
-- **An unkillable NPC haunts the Key Lento radio tower.** Snipe the wrong man from the tower near Jason's house and he shrugs it off, then kills you. Save first. [Where to find him →](/news/gta-6-unkillable-npc-key-lento-radio-tower-sniper/)
-- **Freddie Gibbs' doomsday bunker pays out.** Get past the mines and drones by Lake Leonida, then take $6,250 or a Benefactor Dubsta. [How to break in →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
-- **The free pre-order pack now costs $4.99.** The Vintage Vice City Pack is paid DLC on PS5 and Xbox. Pre-ordered? You already own it. [What's in it →](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/)
+- **A secret Super Mario block hides in Lummox County.** Stand in the smoke on top of the ruins past Mount Kalaga, then jump into (or shoot) the block for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
+- **An unkillable NPC haunts the Key Lento radio tower.** Snipe the wrong man and he shrugs it off, then kills you. Save first. [Where to find him →](/news/gta-6-unkillable-npc-key-lento-radio-tower-sniper/)
+- **Freddie Gibbs' doomsday bunker pays out.** Get past the mines and drones by Lake Leonida for $6,250 or a Benefactor Dubsta. [How to break in →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
 
 ## 🛠️ Fix of the day
 
-- **PS5 crashes continue after the patch.** Error CE-108255-1 is still hitting players on update 01.002.002. Save by hand before every mission. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **PS5 crashes continue after the patch.** Error CE-108255-1 still hits some players on update 01.002.002. Save by hand before every mission. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 - **Missing Persons can lock you out of the story.** You may get stuck as Lucia. Skip it for now. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
 
 ## ✅ Try this today
 
-- **Visit the NPC who knows he's in a game.** His Belville garage board reads "IT'S A SIMULATION". [How to find it →](/news/gta-6-self-aware-npc-belville-garage-simulation-conspiracy-board/)
+- **Missed the pre-order pack?** The Vintage Vice City Pack is now $4.99 on PS5 and Xbox; pre-orderers already own it. [What's in it →](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/)
 
 ## 🌍 Around the world
 
