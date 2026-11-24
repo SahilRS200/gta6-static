@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-21T14:37:00+05:30
+updated: 2026-11-24T07:39:00+05:30
 headline: India owns 2 of the world's 3 most-viewed GTA 6 launch streams — CarryMinati 1.7 crore views, Mythpat 1.57 crore, behind only IShowSpeed.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -13,7 +13,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ## 🎮 PS5 and Xbox
 
 - **PS5 stock is tight.** Vijay Sales says stock sold out within three to four days, with waits of 15–20 days. [The numbers →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
-- **GTA 6 made $3.79 billion on day one,** Take-Two says, with 32.5 million copies sold before release: the biggest entertainment launch ever. About three in four copies are on PS5, by Sensor Tower's estimate. There's no India figure. [The official numbers →](/news/gta-6-official-sales-3-79-billion-day-one-record/)
+- **39 million players on PS5 in four days:** Sony calls GTA 6 the biggest launch in PlayStation history, and says 70% of new PS5s played it first. Take-Two puts day-one sales at $3.79 billion. There's no India figure. [Sony's numbers →](/news/gta-6-39-million-ps5-players-biggest-playstation-launch/)
 - **The full bill:** a PS5 Slim Digital plus the Standard Edition comes to about ₹70,989; an Xbox Series S setup is about ₹38,000–46,000, but it's the weakest version. [Cheapest way to play →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
 - **On Xbox Series X/S? Turn off auto-upload.** Players report 2-day suspensions after GTA 6 clips, even beach scenes, uploaded on their own. Set Capture & share to Don't upload. [The fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
 - **On Xbox One?** If you own the game, you can stream it through Xbox Cloud Gaming. [How it works →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
@@ -30,4 +30,4 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
 - **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam: a $200 dark-web kit now pushes fake "GTA 6 PC" links through YouTube Shorts. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/) · [Spot the scam →](/news/gta-6-free-download-apk-scam-warning/)
-- **Skip the 209 GB "Xbox build" leak.** A hacker says the file that runs it drops on 23 November, but no emulator can play it and fake copies carry malware. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
+- **Skip the 209 GB "Xbox build" leak.** The hacker's file reportedly came out on 23 November, but the build still doesn't run on PC and fake copies carry malware. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)

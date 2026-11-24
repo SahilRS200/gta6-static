@@ -31,6 +31,7 @@ Rockstar founder Sam Houser said the studio is "incredibly humbled by the respon
 
 Tens of millions of people logging in at once is why PSN wobbled on launch night, and why early bugs and crashes are hitting so many players. If yours misbehaves:
 
+- [Sony: 39 million PS5 players in four days →](/news/gta-6-39-million-ps5-players-biggest-playstation-launch/)
 - [GTA 6 crashing on PS5 (CE-108255-1) →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 - [GTA 6 price in India →](/gta-6-price-in-india/)
 - [Is GTA 6 coming to PC? →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
