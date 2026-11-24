@@ -1,21 +1,17 @@
 ---
-updated: 2026-11-24T03:37:00+05:30
-headline: GTA 6's first patch missed one — finish Missing Persons in Chapter 3 and you can get stuck as Lucia for good
-search: [softlock, satan, patch, leak]
+updated: 2026-11-24T05:37:00+05:30
+headline: GTA 6 hides a portal to 2002's Vice City — a YouTuber took 3 days to crack it, and Tommy's shirt is the prize
+search: [vice city, softlock, satan, patch]
 ---
 ## 🔥 Hot in India
 
-- **Missing Persons can lock you out of the story.** Finish it in Chapter 3 and you may never switch back to Jason, even after the patch. Skip it and keep a manual save. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
-- **You can fight Satan in GTA 6.** A hidden night-time encounter in Port Gellhorn ends in a three-round boss fight and a unique shotgun, the Hellspawn Comshot 12. [How to find it →](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/)
-- **Update 01.002.002 fixes crashes, autosave and stuck story calls.** It's 604 MB on PS5; install it before you play. [The full list →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
-
-## ✅ Try this today
-
-- **Unlock the secret radio station, The Vault.** Scan the red poster in the Downtown Vice City club with the Waink app. [How →](/news/gta-6-secret-radio-station-the-vault-waink-poster/)
+- **A secret portal takes you to the original Vice City.** Power up a radio tower, hit 12 power substations in order, then enter Reactor 2 at night for Tommy Vercetti's shirt. [Step by step →](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/)
+- **Missing Persons can still lock you out of the story.** Finish it in Chapter 3 and you may be stuck as Lucia, even after the patch. Skip it for now. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
+- **You can fight Satan.** A night-time encounter in Port Gellhorn ends in a three-round boss fight and a unique shotgun. [How to find it →](/news/gta-6-secret-satan-boss-hell-mission-hellspawn-shotgun/)
 
 ## 🛠️ Fix of the day
 
-- **Still crashing with CE-108255-1?** The patch notes don't name that code. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **Install update 01.002.002 first.** It fixes crashes, broken autosave and story calls that never rang; 604 MB on PS5. [Patch notes →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
 
 ## 🌍 Around the world
 
