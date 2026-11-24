@@ -1,20 +1,20 @@
 ---
-updated: 2026-11-24T23:37:00+05:30
-headline: GTA 6 hides a Super Mario block — hit it for Mario and Luigi caps for Jason and Lucia
-search: [mario, hairstyles, unkillable npc, pc port]
+updated: 2026-11-25T01:37:00+05:30
+headline: One player escaped GTA 6's "impossible" six stars — the Vice City portal wiped his wanted level to zero
+search: [wanted level, mario, call of duty, hairstyles]
 ---
 ## 🔥 Hot in India
 
-- **A secret Super Mario block hides in Lummox County.** Stand in the smoke on top of the ruins past Mount Kalaga, then jump into (or shoot) the block for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
-- **Hidden magazines unlock new hairstyles and tattoos.** Scan their covers with the Waink app; players count 45 styles, which then show up at salons. [How it works →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
-- **An unkillable NPC haunts the Key Lento radio tower.** Snipe the wrong man and he shrugs it off, then kills you. Save first. [Where to find him →](/news/gta-6-unkillable-npc-key-lento-radio-tower-sniper/)
+- **The Vice City portal clears a six-star wanted level.** A streamer hit six stars, dived through the portal and came back with zero. It may get patched. [How it works →](/news/gta-6-wanted-level-heat-system-explained/)
+- **A secret Super Mario block hides in Lummox County.** Hit it for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
+- **Hidden magazines unlock new hairstyles and tattoos.** Scan them with the Waink app. [How it works →](/news/gta-6-how-to-change-clothes-outfits-hair-barber/)
 
 ## 🛠️ Fix of the day
 
-- **PS5 crashes continue after the patch.** Error CE-108255-1 still hits some players on update 01.002.002. Save by hand before every mission. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
-- **Missing Persons can lock you out of the story.** You may get stuck as Lucia. Skip it for now. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
+- **PS5 crashes continue after the patch.** Error CE-108255-1 persists on 01.002.002. Save by hand before every mission. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **Missing Persons can lock you out of the story.** You may get stuck as Lucia. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
 
 ## 🌍 Around the world
 
-- **The biggest fan PC port is gone.** Leonida's repo and 179,000-member Discord vanished and its lead quit; nothing runs on PC, and "GTA 6 PC" downloads are malware. [What happened →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
-- **About 45 million copies in four days, analysts estimate.** Alinea says over $4 billion; it's not official. [The estimate →](/news/gta-6-45-million-copies-sold-4-days-alinea-estimate/)
+- **Call of Duty lost 42% of its daily players over launch weekend, analysts estimate.** Fortnite fell 28%; estimates, not official. [The numbers →](/news/gta-6-call-of-duty-fortnite-players-drop-42-percent-alinea/)
+- **The biggest fan PC port is gone.** "GTA 6 PC" downloads are malware. [What happened →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
