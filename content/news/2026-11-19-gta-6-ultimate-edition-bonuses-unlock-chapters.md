@@ -27,3 +27,5 @@ A post shared by PlayStation LifeStyle claims reaching Chapter 2, where most ext
 ## Should you still buy Ultimate?
 
 If you want the extras early, they won't come early: you get them by playing the story either way. On the Standard Edition? Nothing here changes the game itself, so there's no rush to upgrade. For reference, the main story runs [about 50 hours](/news/gta-6-how-long-to-beat-story-hours/). Need in-game cash for cars instead? See our [money guide](/news/gta-6-how-to-make-money-fast-early-game/).
+
+Missed the free pre-order pack? The [Vintage Vice City Pack is now a $4.99 add-on](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/).

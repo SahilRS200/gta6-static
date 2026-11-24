@@ -30,3 +30,5 @@ After the free month, GTA+ turns into a **paid monthly subscription at the regul
 **Tip:** there's no rush to claim. GTA 6 has no online mode at launch ([what we know →](/news/gta-6-online-multiplayer-not-at-launch/)), and you have until 31 March 2027, so you can start the free month whenever it suits you. Only the purchase has to happen by 19 November.
 
 [GTA 6 price in India →](/gta-6-price-in-india/) · [Everything about GTA 6 in India →](/gta-6-india/)
+
+Related: the pre-order [Vintage Vice City Pack now sells separately for $4.99](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/), without the GTA+ month.
