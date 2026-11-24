@@ -1,11 +1,14 @@
 ---
-title: GTA 6 Xbox Build Leak — Hacker Reportedly Releases the Missing Game File; It Still Won't Run on PC
-description: Cyberleek reportedly released the missing executable for its 209 GB GTA 6 Xbox build on 23 November. It still doesn't run on PC, it's illegal, and fake downloads carry malware.
+title: GTA 6 Xbox Build Leak — Biggest Fan PC Port Shut Down, Its Lead Quits; It Still Won't Run on PC
+description: The biggest fan GTA 6 PC port, Leonida, went offline on 24 November and its lead quit. Rival ports aren't playable either, and fake GTA 6 PC downloads carry malware.
 date: 2026-11-21T08:36:00+05:30
-updated: 2026-11-23T21:38:00+05:30
+updated: 2026-11-24T23:37:00+05:30
 tags: [leaks, pc, scam, malware]
 type: news
 sources:
+  - PC Games Hardware — GTA 6 PC ports: Leonida offline, VIctory and XCL lead | https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/
+  - Notebookcheck — Rockstar reportedly taking action against GTA 6 modders and Discord communities | https://www.notebookcheck.net/As-GTA-6-PC-port-gets-closer-to-becoming-playable-Rockstar-is-reportedly-taking-action-against-modders-and-Discord-communities.1458181.0.html
+  - PC Gamer — GTA 6 recomp leaders bail out as Take-Two cracks down | https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/
   - DSOGaming — CyberLeek just leaked the GTA 6 Xbox Series X build executable | https://dsogaming.com/news/cyberleek-just-leaked-gta-6-xbox-series-x-build-executable
   - TwistedVoxel — GTA 6 Xbox build executable released by Cyberleek | https://twistedvoxel.com/gta-6-xbox-build-executable-released/
   - Insider Gaming — GTA 6 leaker 'Cyberleek' reportedly threatens to release the Xbox build | https://insider-gaming.com/gta-6-leaker-cyberleek-reportedly-threatens-to-release-the-xbox-build/
@@ -17,7 +20,15 @@ sources:
 ---
 A hacker calling itself **Cyberleek** says it has put most of a **GTA 6 Xbox build** online and is holding back the one file needed to run it. It is the biggest piracy threat since launch, and it will reach Indian Telegram groups and "free download" sites fast. **Short version: it isn't playable, it isn't safe, and it isn't a PC version.** No story spoilers here.
 
-## Update, Monday 23 November: the missing file is reportedly out
+## Update, Tuesday 24 November: the biggest PC port project is gone
+
+- **Leonida went offline overnight.** The largest fan project trying to run the leaked Xbox build on PC vanished overnight from Monday to Tuesday, European time: its GitHub repository was moved and then deleted, and its Discord of about 179,000 members disappeared ([PC Games Hardware](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/)).
+- **Its lead quit.** The founder, NotRexed, says he is stepping away because of "circumstances beyond his control" and claims Rockstar had his servers taken down. Rockstar and Take-Two haven't commented, and PC Games Hardware found no DMCA notice on GitHub ([Notebookcheck](https://www.notebookcheck.net/As-GTA-6-PC-port-gets-closer-to-becoming-playable-Rockstar-is-reportedly-taking-action-against-modders-and-Discord-communities.1458181.0.html), [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/)).
+- **Reported crackdown on Discords.** Reddit users say other GTA 6 modding and port servers were also removed; Notebookcheck calls these claims unverified.
+- **Still nothing playable.** Two rival projects, VIctory and XCL, reportedly reach the game world but stay dark or stuck on a loading icon, at around one frame a second, and crash the graphics card ([PC Games Hardware](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/)).
+- **More fakes.** PC Games Hardware warns of "GTA 6 for PC" downloads that are password-stealing malware, including repos labelled "Switch Version". Don't touch them.
+
+## Monday 23 November: the missing file is reportedly out
 
 - **The executable has reportedly been posted.** [DSOGaming](https://dsogaming.com/news/cyberleek-just-leaked-gta-6-xbox-series-x-build-executable) and [TwistedVoxel](https://twistedvoxel.com/gta-6-xbox-build-executable-released/) report that Cyberleek released it for free on Monday. Rockstar hasn't commented and nobody has independently confirmed it.
 - **It still doesn't run on PC.** TwistedVoxel says a lot of technical work remains: hobby projects still have to translate the console's graphics code and rebuild Xbox system functions before anything is playable. Cyberleek's claim of 30fps-plus on PC is unproven.
