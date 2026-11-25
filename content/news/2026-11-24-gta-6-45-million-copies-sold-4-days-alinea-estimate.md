@@ -1,17 +1,28 @@
 ---
-title: GTA 6 Sold About 45 Million Copies in 4 Days, Analysts Estimate — Over $4 Billion, Three-Quarters on PS5
-description: Alinea Analytics estimates GTA 6 sold 44.9 million copies from 19 to 22 November, 33.7 million on PS5 and 11.2 million on Xbox, for over $4 billion. It's an estimate, not an official count.
+title: GTA 6 Sold About 45 to 48 Million Copies in 4 Days, Two Analyst Firms Estimate — Three-Quarters on PS5
+description: Sensor Tower estimates GTA 6 sold 47.8 million copies by 22 November; Alinea Analytics says 44.9 million, 33.7 million on PS5, for over $4 billion. Estimates, not official counts.
 date: 2026-11-24T09:37:00+05:30
+updated: 2026-11-26T03:39:00+05:30
 tags: [sales, records, ps5, xbox]
 type: news
 sources:
   - Beebom — GTA 6's launch numbers: 45 million copies sold in 4 days | https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/
   - GameSpot — GTA 6 is approaching an absurd new sales milestone, report says | https://www.gamespot.com/articles/gta-6-is-approaching-an-absurd-new-sales-milestone-report-says/
   - Gadget Review — GTA VI launch weekend sales estimated at 44.9 million copies | https://www.gadgetreview.com/gta-vi-launch-weekend-sales-estimated-at-44-9-million-copies
+  - Forbes — GTA VI sold 47 million copies by end of launch weekend | https://www.forbes.com/sites/conormurray/2026/11/24/gta-vi-sold-47-million-copies-over-launch-weekend-and-siphoned-players-from-call-of-duty-fortnite/
+  - KitGuru — GTA VI launch weekend pulled players away from Call of Duty, Fortnite and more | https://www.kitguru.net/gaming/matthew-wilson/gta-vi-launch-weekend-pulled-players-away-from-call-of-duty-fortnite-and-more/
+  - Gizmodo — GTA VI crashing on PS5 | https://gizmodo.com/gta-vi-crashing-ps5-2000845327
 ---
 A new estimate puts a copies figure on GTA 6's first weekend. **Market research firm Alinea Analytics estimates Grand Theft Auto VI sold about 44.9 million copies between launch on 19 November and 22 November**, Beebom and GameSpot report ([Beebom](https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/), [GameSpot](https://www.gamespot.com/articles/gta-6-is-approaching-an-absurd-new-sales-milestone-report-says/)).
 
-## The estimate
+## Update, 26 November: Sensor Tower says 47.8 million
+
+- **A second firm, a higher number.** Sensor Tower estimates GTA 6 reached **about 47.8 million copies on PlayStation and Xbox by Sunday, 22 November**, about 24.6 million of them pre-orders ([Forbes](https://www.forbes.com/sites/conormurray/2026/11/24/gta-vi-sold-47-million-copies-over-launch-weekend-and-siphoned-players-from-call-of-duty-fortnite/), [KitGuru](https://www.kitguru.net/gaming/matthew-wilson/gta-vi-launch-weekend-pulled-players-away-from-call-of-duty-fortnite-and-more/)).
+- **About 35% of active PS5 and Xbox Series X/S consoles have it installed,** Sensor Tower says ([KitGuru](https://www.kitguru.net/gaming/matthew-wilson/gta-vi-launch-weekend-pulled-players-away-from-call-of-duty-fortnite-and-more/), [Gizmodo](https://gizmodo.com/gta-vi-crashing-ps5-2000845327)).
+- **Players are deep in already:** by Sunday evening, **37% of players had logged more than 20 hours and 7% more than 40**, by Sensor Tower's count ([KitGuru](https://www.kitguru.net/gaming/matthew-wilson/gta-vi-launch-weekend-pulled-players-away-from-call-of-duty-fortnite-and-more/)).
+- **Still an estimate.** Rockstar and Take-Two haven't given a post-launch copies figure. Sensor Tower is the same firm behind the [2.38 lakh India estimate](/news/gta-6-india-sales-238000-ps5-copies-3-days-sensor-tower/).
+
+## The Alinea estimate
 
 - **44.9 million copies in four days** ([Beebom](https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/)).
 - **PS5: about 33.7 million copies (75.1%). Xbox Series X/S: about 11.2 million (24.9%)** ([Beebom](https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/)).

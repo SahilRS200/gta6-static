@@ -2,12 +2,13 @@
 title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and the First Patch
 description: GTA 6 crashing or shutting down on PS5? Error CE-108255-1 continues after update 01.002.002 and Rockstar hasn't named it. Save by hand, clean the vents, reinstall for CE-107891-6.
 date: 2026-11-19T17:38:00+05:30
-updated: 2026-11-25T19:37:00+05:30
+updated: 2026-11-26T03:39:00+05:30
 tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
 sources:
   - Gizmodo — GTA VI is throwing error codes on some PS5 consoles | https://gizmodo.com/gta-vi-ps5-error-2000843112
+  - Gizmodo — GTA VI crashing on PS5 means the PC version can't come soon enough | https://gizmodo.com/gta-vi-crashing-ps5-2000845327
   - UNILAD Tech — GTA 6 players report repeated PS5 crashes, official support guidance | https://www.uniladtech.com/gaming/playstation/gta-6-playstation-crash-fix-sony-support-831369-20261120
   - VICE — GTA 6 patch update 01.002.002 is live on PS5 and Xbox Series X | https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/
   - Game Rant — New GTA 6 update patch notes released for November 23 | https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/
@@ -24,6 +25,7 @@ Some players' GTA 6 sessions are ending with a freeze, a trip back to the home s
 ## Update, 25 November: reports of PS5s shutting down
 
 - **What's reported.** Some PS5 owners say their console shuts itself off after several hours of GTA 6, with error messages, graphical glitches and, in a few claims, consoles dying. The report that went viral came from one player's post on X showing the console drawing about 220 W at the wall ([GAMINGbible](https://www.gamingbible.com/news/gta-6-blackouts-begin-ps5-consoles-shut-down-293316-20261125)).
+- **Still happening on 25 November.** Gizmodo reports PS5 players still hitting CE-108255-1 and other codes at startup or mid-game after the patches; a Twitch streamer says their console died on stream. Neither Sony nor Rockstar answered Gizmodo either ([Gizmodo](https://gizmodo.com/gta-vi-crashing-ps5-2000845327)).
 - **Unconfirmed.** There's no count of affected consoles, and no proof the game itself is damaging hardware. Dust-clogged vents and older units are other likely causes. Sony and Rockstar hadn't replied to GAMINGbible at publication.
 - **What to do:** give the PS5 space to breathe, clean dust from the vents with the console unplugged, take breaks in long sessions (Indian rooms get warm), and save by hand so a shutdown doesn't cost you progress.
 

@@ -1,14 +1,20 @@
 ---
 title: GTA 6 Which Buildings Can You Enter? Dark Blue on the Map Means There's a Way In — How to Find Interiors
-description: In GTA 6, dark blue buildings on the world map have an entrance or interior; light blue ones are scenery. The minimap marks the door with a white line, and Focus shows white or red doors.
+description: One fan counted 1,563 enterable buildings in GTA 6, about 28% of Leonida. Dark blue on the world map means there's a way in; the minimap marks the door and Focus shows white or red doors.
 date: 2026-11-20T18:38:00+05:30
+updated: 2026-11-26T03:39:00+05:30
 tags: [guide, tips, first-hours, map, interiors]
 type: guide
 sources:
   - VGC — GTA 6 beginner's guide, 6 tips to know before starting | https://www.videogameschronicle.com/guide/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/
   - Red Bull — GTA 6 beginner's guide, essential tips and hidden mechanics | https://www.redbull.com/int-en/gta-6-beginners-guide
+  - VGTimes — GTA 6 has 1,563 enterable buildings, nearly 28% of Leonida's total | https://vgtimes.com/gaming-news/175720-gta-6-has-1563-enterable-buildings-nearly-28-of-leonidas-total.html
 ---
 GTA 6 has **hundreds of rooms, houses and flats you can walk into** ([Red Bull](https://www.redbull.com/int-en/gta-6-beginners-guide)), but the game never tells you which doors open. The map does. Here's how to read it. **No story spoilers.**
+
+## How many can you enter? A fan counted 1,563
+
+A Reddit user, Aileos, counted **1,563 enterable buildings out of 5,588 in Leonida, about 28%**, covering shops, banks and other buildings. That's more than double the "700 interiors" figure fans argued about before launch. It's a fan count, not a Rockstar number ([VGTimes](https://vgtimes.com/gaming-news/175720-gta-6-has-1563-enterable-buildings-nearly-28-of-leonidas-total.html), citing Eurogamer).
 
 ## The world map: two shades of blue
 
