@@ -1,11 +1,14 @@
 ---
-title: GTA 6 Xbox Build Leak — Biggest Fan PC Port Shut Down, Its Lead Quits; It Still Won't Run on PC
-description: The biggest fan GTA 6 PC port, Leonida, went offline on 24 November and its lead quit. Rival ports aren't playable either, and fake GTA 6 PC downloads carry malware.
+title: GTA 6 Xbox Build Leak — Take-Two's DMCA Wipes 3,007 GitHub Copies of the Fan PC Port; It Still Won't Run
+description: Take-Two's DMCA notice wiped the GTA 6 PC port Leonida and 3,007 GitHub copies. No fan port is playable, there's no official PC version, and fake GTA 6 PC downloads carry malware.
 date: 2026-11-21T08:36:00+05:30
-updated: 2026-11-24T23:37:00+05:30
+updated: 2026-11-25T13:38:00+05:30
 tags: [leaks, pc, scam, malware]
 type: news
 sources:
+  - GitHub DMCA archive — Take-Two notice, 24 November 2026 | https://github.com/github/dmca/blob/master/2026/11/2026-11-24-take-two.md
+  - Output Lag — GTA 6's unofficial PC port lasted three days before Take-Two wiped 3,007 GitHub repos | https://outputlag.com/news/gta-6s-unofficial-pc-port-lasted-three-days-before-take-two-wiped-3007-github-repos/
+  - Digit — GTA 6 PC port project taken down after Xbox executable leaks online | https://www.digit.in/news/gaming/gta-6-pc-port-project-taken-down-after-xbox-executable-leaks-online-here-is-what-happened.html
   - PC Games Hardware — GTA 6 PC ports: Leonida offline, VIctory and XCL lead | https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/
   - Notebookcheck — Rockstar reportedly taking action against GTA 6 modders and Discord communities | https://www.notebookcheck.net/As-GTA-6-PC-port-gets-closer-to-becoming-playable-Rockstar-is-reportedly-taking-action-against-modders-and-Discord-communities.1458181.0.html
   - PC Gamer — GTA 6 recomp leaders bail out as Take-Two cracks down | https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/
@@ -20,10 +23,16 @@ sources:
 ---
 A hacker calling itself **Cyberleek** says it has put most of a **GTA 6 Xbox build** online and is holding back the one file needed to run it. It is the biggest piracy threat since launch, and it will reach Indian Telegram groups and "free download" sites fast. **Short version: it isn't playable, it isn't safe, and it isn't a PC version.** No story spoilers here.
 
+## Update, Wednesday 25 November: Take-Two's takedown notice is public
+
+- **It was a DMCA notice after all.** Take-Two's notice against Leonida is now in GitHub's public DMCA archive, dated 24 November. GitHub disabled the project **and its whole fork network: 3,007 repositories** ([Output Lag](https://outputlag.com/news/gta-6s-unofficial-pc-port-lasted-three-days-before-take-two-wiped-3007-github-repos/), [Digit](https://www.digit.in/news/gaming/gta-6-pc-port-project-taken-down-after-xbox-executable-leaks-online-here-is-what-happened.html), [the notice](https://github.com/github/dmca/blob/master/2026/11/2026-11-24-take-two.md)).
+- **Take-Two says the files were stolen.** The notice says files from an Xbox Series build of GTA 6 were stolen and publicly distributed on 20 November, and calls Leonida's "bring your own files" setup intentionally misleading, citing the game's terms against reverse engineering (Output Lag).
+- **Some rival projects are still up**, Digit reports, but none runs the game. Nothing about the advice below changes: don't download "GTA 6 PC" files.
+
 ## Update, Tuesday 24 November: the biggest PC port project is gone
 
 - **Leonida went offline overnight.** The largest fan project trying to run the leaked Xbox build on PC vanished overnight from Monday to Tuesday, European time: its GitHub repository was moved and then deleted, and its Discord of about 179,000 members disappeared ([PC Games Hardware](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/)).
-- **Its lead quit.** The founder, NotRexed, says he is stepping away because of "circumstances beyond his control" and claims Rockstar had his servers taken down. Rockstar and Take-Two haven't commented, and PC Games Hardware found no DMCA notice on GitHub ([Notebookcheck](https://www.notebookcheck.net/As-GTA-6-PC-port-gets-closer-to-becoming-playable-Rockstar-is-reportedly-taking-action-against-modders-and-Discord-communities.1458181.0.html), [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/)).
+- **Its lead quit.** The founder, NotRexed, says he is stepping away because of "circumstances beyond his control" and claims Rockstar had his servers taken down. Rockstar and Take-Two hadn't commented, and PC Games Hardware hadn't found a DMCA notice on GitHub by then (it appeared later; see above) ([Notebookcheck](https://www.notebookcheck.net/As-GTA-6-PC-port-gets-closer-to-becoming-playable-Rockstar-is-reportedly-taking-action-against-modders-and-Discord-communities.1458181.0.html), [PC Gamer](https://www.pcgamer.com/games/grand-theft-auto/gta-6-recomp-leaders-bail-out-as-take-two-cracks-down-on-illicit-efforts-to-get-the-game-running-on-pc/)).
 - **Reported crackdown on Discords.** Reddit users say other GTA 6 modding and port servers were also removed; Notebookcheck calls these claims unverified.
 - **Still nothing playable.** Two rival projects, VIctory and XCL, reportedly reach the game world but stay dark or stuck on a loading icon, at around one frame a second, and crash the graphics card ([PC Games Hardware](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/)).
 - **More fakes.** PC Games Hardware warns of "GTA 6 for PC" downloads that are password-stealing malware, including repos labelled "Switch Version". Don't touch them.
