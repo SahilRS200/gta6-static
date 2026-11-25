@@ -35,4 +35,4 @@ games.gg lists a starter route: Nuestra Señora del Ocio (10 doubloons), de la N
 - **You can go back.** Every wreck can be revisited, so a missed item isn't lost (VGC).
 - **It counts for 100%.** 100% completion needs all 33 underwater discoveries and five of Kenton's seven treasure sets (games.gg); it isn't time-limited (GTABase).
 
-Related: [GTA 6 fishing](/news/gta-6-fishing-how-to-fish-rod-controls-spots/) · [Make money fast early](/news/gta-6-how-to-make-money-fast-early-game/) · [More GTA 6 guides](/guides/)
+Related: [Ghost ship and the Cursed Knife wreck](/news/gta-6-ghost-ship-cursed-knife-st-lucia-lighthouse/) · [GTA 6 fishing](/news/gta-6-fishing-how-to-fish-rod-controls-spots/) · [Make money fast early](/news/gta-6-how-to-make-money-fast-early-game/) · [More GTA 6 guides](/guides/)
