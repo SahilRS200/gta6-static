@@ -2,6 +2,7 @@
 title: GTA 6 Trophy List and Achievements — 55 Trophies, the One That Might Be Missable, 200 Hours to Platinum
 description: GTA 6 has 55 trophies (1 Platinum, 2 Gold, 6 Silver, 46 Bronze), the same 55 Xbox achievements for 1,000 Gamerscore. Do Lucia's Chapter 1 meditation in case it's missable.
 date: 2026-11-20T19:38:00+05:30
+updated: 2026-11-25T15:37:00+05:30
 tags: [trophies, progress, tips, first-hours, guide]
 type: guide
 sources:
@@ -34,6 +35,6 @@ Going for the Platinum, or just curious what GTA 6 tracks? Here is the trophy li
 - **Cheats switch off trophies and saving** on PS5 (on Xbox, achievements for that session), and they only unlock after the story anyway: [GTA 6 cheats explained](/news/gta-6-cheats-locked-until-story-complete/).
 - **Keep manual saves.** There's no mission replay menu, so a fresh slot before each chapter helps: [saves and replays](/news/gta-6-replay-missions-no-replay-menu-save-slots/).
 - **Wildlife counts toward 100%.** Start the bird logbook early: [birdwatching guide](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/).
-- **Hidden trophies exist.** "The Truth Is Out There" comes from a night-time UFO event near Port Gellhorn: [how to trigger it](/news/gta-6-ufo-location-truth-is-out-there-trophy/).
+- **Hidden trophies exist.** "The Truth Is Out There" comes from a night-time UFO event near Port Gellhorn: [how to trigger it](/news/gta-6-ufo-location-truth-is-out-there-trophy/). "Capital Offense" means driving out through a car showroom's glass: [the steps](/news/gta-6-capital-offense-trophy-showroom-banshee-key-cloner/).
 
 More for Indian players: [everything you need to know →](/gta-6-india/)

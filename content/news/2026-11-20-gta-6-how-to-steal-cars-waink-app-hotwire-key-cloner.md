@@ -24,7 +24,7 @@ Walked up to a shiny sports car in GTA 6, pressed the button and got nowhere? Th
 
 - **Locked:** break in, then hotwire.
 - **Alarm:** smashing the window can trigger it and draw attention.
-- **Keyless:** modern cars with immobilisers can't be hotwired at all. You need a **key cloner**, which you only get later in the story ([GTABase](https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles), [Notebookcheck](https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html)).
+- **Keyless:** modern cars with immobilisers can't be hotwired at all. You need a **key cloner**, which you only get later in the story ([GTABase](https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles), [Notebookcheck](https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html)). With it, you can take a showroom car through the window for a hidden trophy: [Capital Offense →](/news/gta-6-capital-offense-trophy-showroom-banshee-key-cloner/)
 
 A car someone is **driving** is still the old way: pull the driver out and go.
 
