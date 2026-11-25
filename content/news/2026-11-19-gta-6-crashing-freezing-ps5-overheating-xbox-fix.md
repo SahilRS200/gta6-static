@@ -1,8 +1,8 @@
 ---
 title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and the First Patch
-description: GTA 6 still crashing with PS5 error CE-108255-1 after update 01.002.002? Players say yes; Rockstar hasn't named the error. Install the patch, save by hand, reinstall for CE-107891-6.
+description: GTA 6 crashing or shutting down on PS5? Error CE-108255-1 continues after update 01.002.002 and Rockstar hasn't named it. Save by hand, clean the vents, reinstall for CE-107891-6.
 date: 2026-11-19T17:38:00+05:30
-updated: 2026-11-24T11:36:00+05:30
+updated: 2026-11-25T19:37:00+05:30
 tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
@@ -16,9 +16,16 @@ sources:
   - Business Upturn — GTA 6 not working on PS5? Four fixes players say solved launch crashes | https://businessupturn.com/technology/gaming/gta-6-not-working-on-ps5-four-fixes-players-say-solved-launch-crashes-and-psn-errors/
   - OutputLag — GTA 6 not working? Day one problems and fixes | https://outputlag.com/guides/gta-6-not-working-day-one-problems-fixes/
   - iGameMag — GTA 6 reviews, bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
+  - GAMINGbible — GTA 6 'blackouts' reported as PS5 consoles shut down | https://www.gamingbible.com/news/gta-6-blackouts-begin-ps5-consoles-shut-down-293316-20261125
   - Sportskeeda — GTA 6 latest patch fails to resolve persistent CE-108255-1 error on PS5 | https://tech.sportskeeda.com/gaming-news/news-gta-6-latest-patch-fails-resolve-persistent-ce-108255-1-error-ps5
 ---
 Some players' GTA 6 sessions are ending with a freeze, a trip back to the home screen or, on PS5, the console switching itself off. Here's what's being reported and what players say helps. No story spoilers.
+
+## Update, 25 November: reports of PS5s shutting down
+
+- **What's reported.** Some PS5 owners say their console shuts itself off after several hours of GTA 6, with error messages, graphical glitches and, in a few claims, consoles dying. The report that went viral came from one player's post on X showing the console drawing about 220 W at the wall ([GAMINGbible](https://www.gamingbible.com/news/gta-6-blackouts-begin-ps5-consoles-shut-down-293316-20261125)).
+- **Unconfirmed.** There's no count of affected consoles, and no proof the game itself is damaging hardware. Dust-clogged vents and older units are other likely causes. Sony and Rockstar hadn't replied to GAMINGbible at publication.
+- **What to do:** give the PS5 space to breathe, clean dust from the vents with the console unplugged, take breaks in long sessions (Indian rooms get warm), and save by hand so a shutdown doesn't cost you progress.
 
 ## Update, 24 November: still crashing after the patch
 

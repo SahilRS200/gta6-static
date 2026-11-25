@@ -23,3 +23,5 @@ GTA 6 hides a few driving shortcuts behind double-taps, and some of them aren't 
 - **Car gone missing or impounded?** [Here's how to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
 Related: [How to steal cars with the Waink app](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/) · [Fastest cars and where to find them early](/news/gta-6-fastest-cars-where-to-find-ruiner-nitrous-early/) · [All guides](/guides/) · [GTA 6 in India](/gta-6-india/)
+
+Related: [Why GTA 6 cars feel heavier, in Rockstar's words →](/news/gta-6-driving-feels-heavy-rockstar-explains-car-handling/)

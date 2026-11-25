@@ -1,6 +1,6 @@
 ---
-updated: 2026-11-24T11:37:00+05:30
-text: Still crashing after GTA 6 update 01.002.002? PS5 players say error CE-108255-1 continues — keep the patch, and save by hand before every mission.
+updated: 2026-11-25T19:38:00+05:30
+text: PS5 crashing or switching off in GTA 6? Error CE-108255-1 continues after 01.002.002 and shutdown reports are unconfirmed — clean the vents and save by hand.
 link: /news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/
 label: What helps
 ---
