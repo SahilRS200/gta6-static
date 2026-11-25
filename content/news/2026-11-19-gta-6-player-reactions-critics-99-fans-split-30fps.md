@@ -1,10 +1,11 @@
 ---
-title: GTA 6 Player Reactions — Critics Gave It 99, Metacritic Users 4.9; Launch-Day Posts Split 54.5% Positive
-description: GTA 6 player reactions are split: critics gave it 99, but the Metacritic user score fell from 5.1 to 4.9 amid review bombing. 30fps and slow missions top the real complaints.
+title: GTA 6 Player Reactions — Critics Gave It 99, Metacritic Users 5.6 as Fans Counter-Bomb Ocarina of Time
+description: GTA 6 player reactions are split: critics gave it 99, the Metacritic user score is back up to 5.6 after review bombing, and fans hit Ocarina of Time back. 30fps tops real complaints.
 date: 2026-11-19T22:26:00+05:30
-updated: 2026-11-21T10:37:00+05:30
+updated: 2026-11-25T05:37:00+05:30
 tags: [reactions, reviews, metacritic, performance, gameplay, ps5]
 sources:
+  - VGC — As GTA 6 gets review-bombed on Metacritic, fans review-bomb Ocarina of Time | https://www.videogameschronicle.com/news/as-gta-6-gets-review-bombed-on-metacritic-gta-fans-have-started-review-bombing-ocarina-of-time-in-response/
   - VGTimes — GTA 6's Metacritic user score sinks to 4.9 | https://vgtimes.com/gaming-news/175295-gta-6-user-score-falls-to-4.9-on-metacritic-as-critics-stay-positive.html
   - TheGamer — GTA 6 Metacritic user scores go live, resulting in mass review bombing | https://thegamer.com/grand-theft-auto-6-gta-review-bombing-user-score
   - Geeks + Gamers — GTA VI players roast Rockstar as glowing critic reviews clash with fan backlash | https://geeksandgamers.com/gta-vi-players-roast-rockstar-as-glowing-critic-reviews-clash-with-fan-backlash/
@@ -14,7 +15,11 @@ sources:
 ---
 Critics gave GTA 6 a **99 on Metacritic** ([our review roundup](/news/gta-6-reviews-metacritic-99/)). A day after launch, players sound less united. No story spoilers below.
 
-## New: the Metacritic user score opened at 5.1, now 4.9
+## New: the user score climbs to 5.6, and fans hit back at Ocarina of Time
+
+The user score has recovered a little. VGC counted **5.6 out of 10 from more than 10,000 ratings** on 23 November, against **99** from critics. Some GTA fans have now struck back at the game that sat at the top of Metacritic's user-score list: the **Ocarina of Time remake**, which VGC says has dropped to **8.3** as new zero-score reviews pile up ([VGC](https://www.videogameschronicle.com/news/as-gta-6-gets-review-bombed-on-metacritic-gta-fans-have-started-review-bombing-ocarina-of-time-in-response/)). Neither score tells you much about either game. If you want a buyer's view, [our refund guide](/news/gta-6-refund-ps5-xbox-denied-preload-rule-india/) and [PS5 vs Xbox performance](/news/gta-6-ps5-vs-ps5-pro-xbox-performance-digital-foundry/) are a better guide.
+
+## Earlier: the Metacritic user score opened at 5.1, then fell to 4.9
 
 By later on 21 November it had slipped to **4.9** from nearly **6,800** user ratings, while critics stay at **99** from 152 reviews ([VGTimes](https://vgtimes.com/gaming-news/175295-gta-6-user-score-falls-to-4.9-on-metacritic-as-critics-stay-positive.html)).
 

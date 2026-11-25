@@ -1,13 +1,13 @@
 ---
-updated: 2026-11-25T03:38:00+05:30
+updated: 2026-11-25T05:38:00+05:30
 headline: GTA 6 hides a Saw-style death game — survive Hyde Island's hunter and win a unique sniper and up to $30,000
-search: [hyde island, wanted level, mario, call of duty]
+search: [hyde island, wanted level, easter eggs, metacritic]
 ---
 ## 🔥 Hot in India
 
 - **A secret Saw-style hunt waits on Hyde Island.** Explore alone, get darted, wake with a bomb collar and two bullets. Kill the hunter for the Island Poacher sniper. [How to survive →](/news/gta-6-hyde-island-saw-hunt-secret-mission-island-poacher-sniper/)
 - **The Vice City portal clears a six-star wanted level.** A streamer dived through and came back with zero stars. It may get patched. [How it works →](/news/gta-6-wanted-level-heat-system-explained/)
-- **A Super Mario block hides in Lummox County.** Hit it for red "J" and green "L" caps. [How to find it →](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
+- **A fake painted tunnel is crashing cars in Vice City.** It's a Road Runner gag in the Vice Decor District; Ludwig drove straight into it. [Easter eggs →](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/)
 
 ## 🛠️ Fix of the day
 
@@ -16,5 +16,5 @@ search: [hyde island, wanted level, mario, call of duty]
 
 ## 🌍 Around the world
 
-- **Call of Duty lost 42% of its daily players over launch weekend, analysts estimate.** Fortnite fell 28%; estimates, not official. [The numbers →](/news/gta-6-call-of-duty-fortnite-players-drop-42-percent-alinea/)
-- **The biggest fan PC port is gone.** "GTA 6 PC" downloads are malware. [What happened →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
+- **The Metacritic war spreads to Ocarina of Time.** GTA 6's user score is back to 5.6; fans hit the Zelda remake back. [The scores →](/news/gta-6-player-reactions-critics-99-fans-split-30fps/)
+- **Call of Duty lost 42% of its daily players over launch weekend, analysts estimate.** Estimates, not official. [The numbers →](/news/gta-6-call-of-duty-fortnite-players-drop-42-percent-alinea/)

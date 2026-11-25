@@ -1,8 +1,8 @@
 ---
-title: GTA 6 Easter Eggs — the Fast and Furious Car, the Tower Egg Cutscene, Michael's Boat and a Chiliad Nod
-description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, Michael's GTA 5 boat and Mount Chiliad chatter.
+title: GTA 6 Easter Eggs — Fast and Furious Car, Tower Egg, Michael's Boat and a Looney Tunes Painted Tunnel
+description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, Michael's GTA 5 boat and a fake painted tunnel.
 date: 2026-11-20T15:37:00+05:30
-updated: 2026-11-21T06:38:00+05:30
+updated: 2026-11-25T05:37:00+05:30
 type: guide
 tags: [tips, gameplay, easter-eggs]
 sources:
@@ -12,6 +12,7 @@ sources:
   - PowerPyx — GTA 6 collectibles (RX Men comic, Key Lento) | https://www.powerpyx.com/?p=374112
   - Game Rant — GTA 6 players think they've found a big GTA 5 reference | https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/
   - GamingBible — GTA 6 players discover hidden GTA 5 Mount Chiliad Easter egg | https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120
+  - Game Rant — GTA 6 is trolling players with a painted tunnel | https://gamerant.com/gta-6-trolling-players-best-way
   - Kotaku — 18 coolest details players have spotted in GTA 6 so far | https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435
 ---
 Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here are four you can go and find tonight on PS5 or Xbox. **None of them touch the story**, so this page is spoiler-free.
@@ -46,6 +47,13 @@ Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here 
 - **What it is:** two passers-by near a bar you drive past during an **early mission** chat about the **Mount Chiliad mystery** from *GTA 5*, joking about a hidden bunker with jetpacks and eggs under the mountain, [GamingBible reports](https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120). Reddit user Tr1angleChoke spotted it first.
 - **Will you hear it?** It's ambient street talk, so it may not trigger for everyone. Turn subtitles on and slow down near the bar.
 - **Does it mean anything?** Fans are already arguing over it, but Rockstar hasn't said; it may just be a wink at long-time players.
+
+## 6. The painted tunnel that isn't a tunnel (new)
+
+- **What it is:** a tunnel painted on a wall, straight out of the Road Runner cartoons. It looks like an open road, but **drive into it and you crash**, [Game Rant reports](https://gamerant.com/gta-6-trolling-players-best-way), citing IGN. Twitch streamer **Ludwig** fell for it on stream.
+- **Where:** a three-way junction on a highway access road in Vice City's **Vice Decor District**. No outlet gives an exact spot yet.
+- **Bonus:** Game Rant also spotted a mermaid painted on a trailer home that nods to the Lollipop Girl from *GTA 4*'s cover art.
+- **Tip:** it damages your car, so don't try it in a car you want to keep.
 
 ## Hunting more?
 
