@@ -16,7 +16,7 @@ Rockstar's vice president of design, Stephen Donkin, told Kotaku that Jason and 
 
 ## The other places you can't use yet
 
-Kotaku lists more spots that are built but unused for now: a very detailed **zoo**, a large **graveyard** and a small town in the north. Donkin said the map "has been built for the long term" and that a few areas give Rockstar "options in the future" if it has a gameplay or story need for them.
+Kotaku lists more spots that are built but unused for now: a very detailed **zoo**, a large **graveyard** and a small town in the north. Donkin said the map "has been built for the long term" and that a few areas give Rockstar "options in the future" if it has a gameplay or story need for them. Players can already walk around the zoo, though: see our [Wildland Zoo guide](/news/gta-6-zoo-location-wildland-zoo-waxman-island-animals/).
 
 That is **not** an announcement. Rockstar has not confirmed any DLC, any casino update or a date for GTA 6 Online. Kotaku's suggestion that these places could be used in expansions or an online mode is its own guess. We track what's actually confirmed on [What's next](/whats-next/).
 
