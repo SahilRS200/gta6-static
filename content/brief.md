@@ -1,7 +1,7 @@
 ---
-updated: 2026-11-25T15:37:00+05:30
+updated: 2026-11-25T17:38:00+05:30
 headline: Take-Two wiped the fan GTA 6 PC port and 3,007 GitHub copies — there is no real GTA 6 PC download
-search: [pc port, india sales, capital offense, skunk ape]
+search: [pc port, india sales, furry, capital offense]
 ---
 ## 🔥 Hot in India
 
@@ -10,13 +10,12 @@ search: [pc port, india sales, capital offense, skunk ape]
 
 ## ✅ Try this today
 
-- **The hidden Capital Offense trophy is cracked.** After Randy's Key Cloner side mission, start the blue Banshee at Sunrise Premium Autos and drive out through the glass. [The steps →](/news/gta-6-capital-offense-trophy-showroom-banshee-key-cloner/)
-- **That "Bigfoot" is the Skunk Ape, and it has a side quest.** Call Kirk at night as Jason; the finale can pay $10,000. [How to start →](/news/gta-6-skunk-ape-kirk-kyle-strawberries-strangers-side-quests/)
+- **Rescue the furry for a gun nobody else has.** Between 9 PM and 4 AM on Miramar Drive, Crosstown, offer Chase the Fox a ride and lose the cops; take the Fury DW-9 SMG over $12,500. [How →](/news/gta-6-furry-chase-the-fox-fury-dw9-smg-or-cash/)
+- **The hidden Capital Offense trophy is cracked.** Start the blue Banshee at Sunrise Premium Autos with the Key Cloner and drive out through the glass. [The steps →](/news/gta-6-capital-offense-trophy-showroom-banshee-key-cloner/)
 
 ## 🛠️ Fix of the day
 
 - **PS5 crashes continue after the patch.** Error CE-108255-1 persists on 01.002.002; save by hand. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
-- **YouTube is cutting GTA 6 streams for nudity.** An Indian streamer who blurred scenes was still stopped. [Stream safely →](/news/gta-6-youtube-strikes-copyright-claims-streamers-nudity-mute-music/)
 
 ## 🌍 Around the world
 
