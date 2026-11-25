@@ -24,7 +24,7 @@ Planning to finish everything in Leonida? GTA 6 tracks it with a **100% checklis
 
 ## Exploring and activities (20)
 
-- **Collectibles:** 15 of 18 card sets (480 cards in all), 100 of 125 cocaine flamingos, 100 Waink scans, all 33 underwater discoveries, 30 of 34 magazines, books and comics ([PowerPyx](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/), [HappyGamer](https://happygamer.com/gta-6-day-5-live-updates-179682/)).
+- **Collectibles:** 15 of 18 card sets (480 cards in all), 100 of 125 cocaine flamingos, 100 Waink scans, all 33 underwater discoveries, 30 of 34 magazines, books and comics ([PowerPyx](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/), [HappyGamer](https://happygamer.com/gta-6-day-5-live-updates-179682/)). Card sets explained: [where to find and sell trading cards](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/).
 - **Activities:** 5 of 7 Kenton sets, 15 of 18 meditation spots, 70 of 79 styles, both unique playlists, 2 of 3 mini golf courses, 5 of 7 pool opponents, all 4 video games, 90 of 100 basketball hoops.
 - **Skill:** 30 of 40 unique races, 10 of 13 race challenge golds, all 42 shooting range golds, all 42 drone time trials, 70 of 80 challenges and 300 of 397 stunts ([PowerPyx](https://www.powerpyx.com/gta-6-100-completion-checklist-guide/)). Help: [stunt jumps](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/), [treasure diving with Kenton](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/), [the secret radio playlists](/news/gta-6-secret-radio-station-the-vault-waink-poster/).
 - **All 15 of Bret's target decks.** [Hunting guide →](/news/gta-6-hunting-guide-bret-target-decks-how-to-unlock/)

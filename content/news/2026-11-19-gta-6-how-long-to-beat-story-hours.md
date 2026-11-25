@@ -29,6 +29,8 @@ At **2 hours a night on weekdays and more on weekends, the story is roughly a 3â
 
 On the Ultimate Edition? Its extras unlock as the story goes on, some only in Chapter 5: [what unlocks when](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/).
 
+Even Max Verstappen says he put about 40 hours in during his Las Vegas Grand Prix week: [what he said](/news/gta-6-max-verstappen-40-hours-las-vegas-grand-prix-win/).
+
 There is no menu to replay finished missions, so [save before the ones you want to play again](/news/gta-6-replay-missions-no-replay-menu-save-slots/).
 
 These are early figures from reviewers and press reports; we'll update this post if Rockstar shares official numbers. More for Indian players: [everything you need to know â†’](/gta-6-india/)
