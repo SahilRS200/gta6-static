@@ -29,3 +29,5 @@ A new estimate puts a copies figure on GTA 6's first weekend. **Market research 
 Nine million players past 20 hours means guides and spoilers are everywhere now. If you're still early, mute the story spoilers with our [spoiler-free tips](/news/gta-6-spoilers-rockstar-discord-warning/), and if you're chasing everything, our [100% completion checklist](/news/gta-6-100-percent-completion-checklist-requirements/) has the full list. Everything for Indian players is on the [GTA 6 India hub](/gta-6-india/).
 
 Related: Alinea also estimates [Call of Duty lost 42% of its daily players](/news/gta-6-call-of-duty-fortnite-players-drop-42-percent-alinea/) over the same weekend.
+
+India: Sensor Tower estimates about [2.38 lakh PlayStation copies sold in India](/news/gta-6-india-sales-238000-ps5-copies-3-days-sensor-tower/) in the first three days.

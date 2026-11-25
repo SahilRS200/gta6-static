@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-25T09:39:00+05:30
-headline: YouTube cut an Indian streamer's GTA 6 stream over a bikini — how to stream it without strikes or claims
-search: [youtube, trading cards, hyde island, verstappen]
+updated: 2026-11-25T11:39:00+05:30
+headline: GTA 6 sold about 2.38 lakh PlayStation copies in India in just 3 days, Sensor Tower estimates
+search: [india sales, skunk ape, youtube, trading cards]
 ---
 ## 🔥 Hot in India
 
-- **YouTube is cutting GTA 6 streams for nudity.** An Indian streamer who blurred scenes was still stopped; "Welcome to Leonida" also draws music claims. [Stream safely →](/news/gta-6-youtube-strikes-copyright-claims-streamers-nudity-mute-music/)
-- **GTA 6 trading cards are real money.** 480 cards hide across Leonida; Gold ones sell for $1,000+ at pawn shops, and selling keeps your progress. [Where to find them →](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/)
-- **Panini is printing real GTA 6 cards in December.** No price or India release yet. [The details →](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/)
+- **India's first GTA 6 sales number: about 2.38 lakh PlayStation copies in 3 days.** It's a Sensor Tower estimate for 19–21 November; Rockstar hasn't given an India figure. [The numbers →](/news/gta-6-india-sales-238000-ps5-copies-3-days-sensor-tower/)
+- **YouTube is cutting GTA 6 streams for nudity.** An Indian streamer who blurred scenes was still stopped. [Stream safely →](/news/gta-6-youtube-strikes-copyright-claims-streamers-nudity-mute-music/)
 
 ## ✅ Try this today
 
-- **A secret Saw-style hunt waits on Hyde Island.** Save first, then survive the hunter for the Island Poacher sniper. [How to survive →](/news/gta-6-hyde-island-saw-hunt-secret-mission-island-poacher-sniper/)
-- **Finish three card sets for a trophy.** Start with Backyard Wrestling, just 12 cards. [Card guide →](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/)
+- **That "Bigfoot" is the Skunk Ape, and it has a side quest.** Read Kirk's flyer, call him at night as Jason; the finale can pay $10,000. [How to start →](/news/gta-6-skunk-ape-kirk-kyle-strawberries-strangers-side-quests/)
+- **Kyle's strawberry farm raises your stamina.** Start it early in Chapter 2 as Lucia. [Same guide →](/news/gta-6-skunk-ape-kirk-kyle-strawberries-strangers-side-quests/)
+- **480 trading cards hide across Leonida.** Gold ones sell for $1,000+, and selling keeps progress. [Card guide →](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/)
 
 ## 🛠️ Fix of the day
 
