@@ -2,7 +2,7 @@
 title: GTA 6 Easter Eggs — Fast and Furious Car, Tower Egg, Michael's Boat and a Looney Tunes Painted Tunnel
 description: GTA 6 Easter eggs, spoiler-free: Brian O'Conner's green Eclipse in a Vespucci Island garage, a 7-minute tower climb with an egg cutscene, Michael's GTA 5 boat and a fake painted tunnel.
 date: 2026-11-20T15:37:00+05:30
-updated: 2026-11-25T05:37:00+05:30
+updated: 2026-11-25T07:37:00+05:30
 type: guide
 tags: [tips, gameplay, easter-eggs]
 sources:
@@ -13,6 +13,7 @@ sources:
   - Game Rant — GTA 6 players think they've found a big GTA 5 reference | https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/
   - GamingBible — GTA 6 players discover hidden GTA 5 Mount Chiliad Easter egg | https://www.gamingbible.com/news/gta-6-gta-5-mount-chiliad-mystery-easter-egg-802897-20261120
   - Game Rant — GTA 6 is trolling players with a painted tunnel | https://gamerant.com/gta-6-trolling-players-best-way
+  - Complex — GTA VI players discover a Teenage Mutant Ninja Turtles Easter egg | https://www.complex.com/pop-culture/a/markelibert/gta-6-teenage-mutant-ninja-turtles-easter-egg
   - Kotaku — 18 coolest details players have spotted in GTA 6 so far | https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435
 ---
 Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here are four you can go and find tonight on PS5 or Xbox. **None of them touch the story**, so this page is spoiler-free.
@@ -54,6 +55,11 @@ Two days in, players are hunting GTA 6's Easter eggs as hard as its story. Here 
 - **Where:** a three-way junction on a highway access road in Vice City's **Vice Decor District**. No outlet gives an exact spot yet.
 - **Bonus:** Game Rant also spotted a mermaid painted on a trailer home that nods to the Lollipop Girl from *GTA 4*'s cover art.
 - **Tip:** it damages your car, so don't try it in a car you want to keep.
+
+## 7. Four turtles and some pizza boxes (reported, new)
+
+- **What it is:** a reported *Teenage Mutant Ninja Turtles* nod: **four turtles next to pizza boxes at the end of a storm drain**, [Complex reports](https://www.complex.com/pop-culture/a/markelibert/gta-6-teenage-mutant-ninja-turtles-easter-egg), from a clip DiscussingFilm shared on X on 24 November.
+- **Where:** not shared yet, and Rockstar hasn't confirmed it. We'll add the spot when an outlet pins it down.
 
 ## Hunting more?
 

@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-24T15:37:00+05:30
+updated: 2026-11-25T07:38:00+05:30
 headline: India owns 2 of the world's 3 most-viewed GTA 6 launch streams — CarryMinati 1.7 crore views, Mythpat 1.57 crore, behind only IShowSpeed.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -23,6 +23,8 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **India has 2 of the world's 3 most-viewed GTA 6 launch streams on YouTube:** CarryMinati about 1.7 crore views, Mythpat about 1.57 crore, behind only IShowSpeed, Streams Charts says. [The ranking →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **S8UL's first verdicts:** Soul Aman, Pitaji Playz and Dattrax Gaming all rate GTA 6 highly after launch day. [What they said →](/news/gta-6-first-impressions-indian-creators-s8ul/)
 - **214 million hours of GTA 6 streams** were watched worldwide in about two days, the biggest game launch ever on streams, Streams Charts says; Mythpat's 10-hour Hindi stream peaked at about 1.25 lakh. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+
+- **Streaming on YouTube?** An Indian streamer's GTA 6 stream was stopped over a bikini, even with scenes blurred. Avoid nudity live, age-restrict uploads and dispute wrong music claims. [Stream without strikes →](/news/gta-6-youtube-strikes-copyright-claims-streamers-nudity-mute-music/)
 
 ## 🇮🇳 Playing from India
 
