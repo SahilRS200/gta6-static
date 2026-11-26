@@ -2,7 +2,7 @@
 title: GTA 6 India Sales — About 2.38 Lakh Copies on PlayStation in 3 Days, Sensor Tower Estimates
 description: Sensor Tower estimates GTA 6 sold about 2,38,000 PlayStation copies in India from 19 to 21 November, XpertPick reports. It's an estimate; Rockstar has given no India figure.
 date: 2026-11-25T11:38:00+05:30
-tags: [india, sales, ps5, record]
+tags: [india, sales, ps5, records]
 type: news
 sources:
   - XpertPick — Estimated figures for the number of GTA 6 copies sold in India (Sensor Tower) | https://www.xpertpick.com/gaming/news/exclusive-we-have-some-estimated-figures-for-the-number-of-gta-6-copies-sold-in-india/
