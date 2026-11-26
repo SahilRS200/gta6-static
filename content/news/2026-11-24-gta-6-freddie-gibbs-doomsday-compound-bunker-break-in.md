@@ -38,3 +38,5 @@ A storm rolls in and you pick one:
 - **Stay:** you get a **Benefactor Dubsta**, which you can register and keep ([VGC](https://www.videogameschronicle.com/guide/gta-6-find-break-in-freddie-doomsday-compound-grand-theft-auto/)).
 
 Short on cash early? Take the money: [more ways to earn fast](/news/gta-6-how-to-make-money-fast-early-game/). Want the SUV? Store it in a garage: [property guide](/news/gta-6-buy-property-garages-prices-real-estate-app/). **Save by hand first**, since PS5 crashes haven't fully stopped: [how to save](/news/gta-6-how-to-save-manual-save-crash-lost-progress/). Everything for Indian players is on the [India hub](/gta-6-india/).
+
+Related: another bunker hides a free tank and two Legendary guns. [GTA 6 free tank and the President's bunkers →](/news/gta-6-free-tank-secret-bunker-codes-presidents-bunker/)

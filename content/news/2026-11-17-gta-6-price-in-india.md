@@ -39,4 +39,6 @@ Buying digitally on PlayStation? Purchases by 19 November include [a free month 
 
 Shopping for a PS5 too? Retailers say stock has been going fast: [GTA 6 is selling PS5s in India →](/news/gta-6-india-ps5-demand-vijay-sales-amazon-searches/)
 
+Waiting for a sale? GTA 6 has no Black Friday discount: [what's cheaper instead →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+
 [See the full GTA 6 India price breakdown →](/gta-6-price-in-india/)

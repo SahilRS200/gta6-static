@@ -2,7 +2,7 @@
 title: GTA 6 Update 01.002.002 Patch Notes — Crash, Autosave, Phone Call and Wanted Level Fixes (604 MB on PS5)
 description: GTA 6 update 01.002.002 patch notes: fixes for crashes, broken autosave, story phone calls that never rang, a stuck wanted level and weather. 603.8 MB on PS5, about 1.6 GB on Xbox.
 date: 2026-11-23T17:38:00+05:30
-updated: 2026-11-23T21:38:00+05:30
+updated: 2026-11-26T05:38:00+05:30
 tags: [patch, bugs, ps5, xbox, error-code, saving]
 sources:
   - VICE — GTA 6 patch update 01.002.002 is live on PS5 and Xbox Series X | https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/
@@ -11,8 +11,14 @@ sources:
   - Game Rant — New GTA 6 update patch notes released for November 23 | https://gamerant.com/new-gta-6-update-patch-notes-november-23-2026/
   - VICE — GTA 6 update fixes phone call bugs that blocked story progress | https://www.vice.com/en/article/gta-6-patch-notes-update-phone-call-fix/
   - PlayStation LifeStyle — GTA 6 PS5 update 1.002.002 rolling out now | https://www.playstationlifestyle.net/2026/11/23/gta-6-update-1002002-november-23-2026-patch-notes
+  - PC Games Hardware — Another GTA 6 update already? What's behind the rumoured date | https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-Is-a-new-update-to-fix-stuttering-coming-today-1561060/
+  - Rockstar Support — Grand Theft Auto VI launch updates | https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/grand-theft-auto-vi-launch-updates-ps5-xbox-series-x-or-s
 ---
 GTA 6 has its **first update since launch**. Version **01.002.002** (shown as 1.0.2.2 on Xbox) started rolling out on **Monday, 23 November** on PS5 and Xbox Series X/S, [VICE reports](https://www.vice.com/en/article/gta-6-update-01-002-002-patch-notes/). It's the third update overall, after the two that landed before launch.
+
+## Update, 26 November: no new patch yet, and the "25 November stutter fix" was fake
+
+A post on X claimed Rockstar had apologised for stutter and lag and would ship a big performance update on 25 November. **There was no such statement and no such update**, [PC Games Hardware reports](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-Is-a-new-update-to-fix-stuttering-coming-today-1561060/): Rockstar's Newswire and [support page](https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/grand-theft-auto-vi-launch-updates-ps5-xbox-series-x-or-s) list no new patch. **01.002.002 is still the latest version**, its notes don't mention stutter, and Rockstar hasn't said when the next patch comes. If you see a "patch is live" post, check for the update on your console before believing it.
 
 ## The numbers
 
