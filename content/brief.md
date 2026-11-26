@@ -1,12 +1,12 @@
 ---
-updated: 2026-11-26T19:39:00+05:30
+updated: 2026-11-26T21:37:00+05:30
 headline: 3 legendary guns are free in GTA 6's first chapter — including a silenced pistol near where Jason starts
-search: [legendary, black friday, difficulty, pc]
+search: [legendary, black friday, difficulty, union]
 ---
 ## 🔥 Hot in India
 
-- **Three free legendary guns in Chapter 1.** A silenced pistol and a shotgun sit on beached boats in the Permit Keys; a suppressed rifle waits at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
-- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; don't pay a scalper premium. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+- **Three free legendary guns in Chapter 1.** A silenced pistol and a shotgun wait in the Permit Keys, a rifle at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
+- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; the sale cuts older Rockstar games instead. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
 - **Missions feel too easy? That's deliberate.** Rockstar made compounds and fronts harder instead. [What to do →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)
 
 ## ✅ Try this today
@@ -20,4 +20,5 @@ search: [legendary, black friday, difficulty, pc]
 
 ## 🌍 Around the world
 
-- **GTA 6 on PC in March 2027? Only a rumour.** It rests on a reading of Take-Two's forecast; Rockstar has no date. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **Rockstar's UK union vote fails, 75% to 25%.** The union vows to keep organising; your game isn't affected. [The result →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
+- **GTA 6 on PC in March 2027? Only a rumour.** Rockstar has no date. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
