@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-26T07:38:00+05:30
-headline: GTA 6 has no mission replay on purpose — Rockstar says it felt at odds with the story. Keep spare saves
-search: [black friday, replay, equipment, tank]
+updated: 2026-11-26T11:38:00+05:30
+headline: Hurricanes in GTA 6 are locked behind a hidden mission — break into Freddie's bunker twice to unlock them
+search: [hurricanes, black friday, online, equipment]
 ---
 ## 🔥 Hot in India
 
-- **No mission replay, and it's on purpose.** Rockstar's Scott Butchard told Kotaku replay clashed with your story choices. Save in a spare slot before big missions. [How to replay anyway →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
-- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; RDR2 drops to ₹1,149 instead. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
-- **The free-tank bunker also wipes six stars,** a YouTuber reports. Not confirmed to work every time. [Wanted guide →](/news/gta-6-wanted-level-heat-system-explained/)
+- **Want hurricanes? Beat Freddie's bunker first.** Storms only switch on after the second break-in at his compound north of Lake Leonida, then stay in your save. [How to unlock →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
+- **No Black Friday discount on GTA 6,** and PS5s are sold out at Amazon US and PlayStation Direct. It stays ₹5,999 here; don't pay a scalper premium. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+- **That "GTA 6 Online in March 2027" press release is fake.** Its own last line admits Rockstar has no date. [What we know →](/news/gta-6-online-multiplayer-not-at-launch/)
 
 ## ✅ Try this today
 
-- **All 12 equipment items, and when each unlocks.** Most arrive by Chapter 3; buy masks and headphones yourself. [Full list →](/news/gta-6-equipment-list-all-12-tools-how-to-unlock/)
-- **Grab the free tank** with codes 010317, 2975 and 085355. [Step by step →](/news/gta-6-free-tank-secret-bunker-codes-presidents-bunker/)
+- **No mission replay, on purpose.** Rockstar says replay clashed with your choices. Keep a spare save slot. [Workarounds →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
+- **All 12 equipment items** and when each unlocks. [Full list →](/news/gta-6-equipment-list-all-12-tools-how-to-unlock/)
 
 ## 🛠️ Fix of the day
 
