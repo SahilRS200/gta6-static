@@ -25,4 +25,4 @@ Breezing through GTA 6's story and wondering if you're just very good? Partly, m
 - **Chase a perfect result.** Game Rant suggests going for a perfect finish on heists as a self-imposed challenge ([Game Rant](https://gamerant.com/gta-6-difficulty-settings-easy-hard-rockstar-middle/)).
 - **Take the slow route.** Missions can't be replayed, so a run you rush is a run you don't get back: [keep a spare save →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
 
-Related: [why driving feels heavy →](/news/gta-6-driving-feels-heavy-rockstar-explains-car-handling/) · [first-hours tips →](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India →](/gta-6-india/)
+Related: [Hidden Charges: ask for help or go solo? →](/news/gta-6-hidden-charges-ask-for-help-or-go-solo/) · [why driving feels heavy →](/news/gta-6-driving-feels-heavy-rockstar-explains-car-handling/) · [first-hours tips →](/news/gta-6-first-hours-tips-settings/) · [GTA 6 in India →](/gta-6-india/)

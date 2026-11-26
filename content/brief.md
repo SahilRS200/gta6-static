@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-26T13:38:00+05:30
+updated: 2026-11-26T15:38:00+05:30
 headline: GTA 6 missions feel too easy? Rockstar says that's on purpose — the hard stuff is hidden in the open world
-search: [difficulty, hurricanes, black friday, online]
+search: [difficulty, hidden charges, black friday, hurricanes]
 ---
 ## 🔥 Hot in India
 
-- **GTA 6's easy missions are deliberate.** Rockstar's Rob Nelson says it aimed between punishing GTA 4 and easy GTA 5, and made compounds and fronts harder instead. [What to do →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)
-- **Want hurricanes? Beat Freddie's bunker first.** Storms switch on after the second break-in at his compound, then stay in your save. [How to unlock →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
+- **GTA 6's easy missions are deliberate.** Rockstar aimed between punishing GTA 4 and easy GTA 5, and made compounds and fronts harder instead. [What to do →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)
+- **Hidden Charges: ask for help, not solo.** You can switch characters between towers, the story ends the same, and skip the rooftop helicopter. [Mission tips →](/news/gta-6-hidden-charges-ask-for-help-or-go-solo/)
 - **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; don't pay a scalper premium. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
 
 ## ✅ Try this today
 
-- **Turn off the assists** if you want a real fight; there's no Hard mode. [Settings →](/news/gta-6-difficulty-accessibility-settings-auto-drive/)
-- **No mission replay, on purpose.** Keep a spare save slot. [Workarounds →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
+- **Want hurricanes? Beat Freddie's bunker.** Storms switch on after the second break-in and stay in your save. [How to unlock →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
+- **No mission replay, on purpose.** Keep a spare save slot before big missions. [Workarounds →](/news/gta-6-replay-missions-no-replay-menu-save-slots/)
 
 ## 🛠️ Fix of the day
 

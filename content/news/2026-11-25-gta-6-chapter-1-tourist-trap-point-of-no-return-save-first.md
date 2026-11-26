@@ -21,4 +21,4 @@ GTA 6's first chapter is easy to rush: the story keeps pointing you at the next 
 2. **Make a new manual save** in a fresh slot right before the mission, and don't overwrite it. That save is your way back to Chapter 1 later, since the game has [no mission replay menu](/news/gta-6-replay-missions-no-replay-menu-save-slots/). [How to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 3. **Nothing is lost for 100%.** Completion items aren't missable, so this is about enjoying Chapter 1, not trophies. [100% checklist →](/news/gta-6-100-percent-completion-checklist-requirements/)
 
-Related: [First hours: settings and things to try →](/news/gta-6-first-hours-tips-settings/)
+Related: [First hours: settings and things to try →](/news/gta-6-first-hours-tips-settings/) · [Chapter 3's Hidden Charges: ask for help or go solo? →](/news/gta-6-hidden-charges-ask-for-help-or-go-solo/)
