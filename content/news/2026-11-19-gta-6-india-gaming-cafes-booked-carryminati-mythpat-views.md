@@ -35,4 +35,4 @@ Reuters also notes that PM Narendra Modi's GTA-style "India is playing a whole n
 - **Don't play on someone else's save.** Make your own save slot and save manually before you leave ([how to save](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)).
 - **Sign out** of any PSN or Xbox account you use there.
 
-Related: what S8UL's creators think of the game after launch day ([first impressions](/news/gta-6-first-impressions-indian-creators-s8ul/)). More for Indian players on our [India hub](/gta-6-india/).
+Related: after the full first week, CarryMinati ranks 7th worldwide on YouTube for GTA 6 views ([week-one streaming record](/news/gta-6-streaming-record-twitch-5-million-viewers/)). What S8UL's creators think of the game after launch day ([first impressions](/news/gta-6-first-impressions-indian-creators-s8ul/)). More for Indian players on our [India hub](/gta-6-india/).

@@ -1,10 +1,12 @@
 ---
-title: GTA 6 Streaming Record — 214 Million Hours Watched in Two Days, the Biggest Game Launch Ever
-description: GTA 6 streams drew 214.63 million watch-hours in two days, the biggest game launch ever on streaming, Streams Charts says, with a 7.9 million live peak. India's Mythpat hit 1.25 lakh.
+title: GTA 6 Streaming Record — 420 Million Hours Watched in Week One, Nearly Triple the Old Record
+description: GTA 6 streams drew about 420 million watch-hours in the first week, nearly triple the old record, Streams Charts says. India's CarryMinati is 7th on YouTube with 43.8 million views.
 date: 2026-11-18T18:58:00+05:30
-updated: 2026-11-21T04:38:00+05:30
+updated: 2026-11-27T03:37:00+05:30
 tags: [streamers, launch-day, india, youtube, records]
 sources:
+  - Streams Charts — GTA 6 first-week viewership: 420M hours watched | https://streamscharts.com/news/gta6-livestreaming-week-after-launch
+  - Streams Charts — GTA 6 YouTube views: IShowSpeed leads with 162M | https://streamscharts.com/news/gta-6-youtube-views-top-creators
   - Streams Charts — GTA 6 breaks first-week streaming record in just two days | https://streamscharts.com/news/gta-6-beats-other-aaa-launches
   - Streams Charts — Viewership records and top streamers from GTA 6's first 24 hours | https://streamscharts.com/news/gta-6-day1-recap
   - CNBC — How GTA VI's launch fuels a booming content economy | https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html
@@ -14,6 +16,15 @@ sources:
   - TheGamer — GTA 6 already has 2.5 million Twitch viewers | https://www.thegamer.com/there-are-already-25-million-people-watching-gta-6-on-twitch/
   - VGTimes — GTA 6 draws more than 2.5 million Twitch viewers within 30 minutes | https://vgtimes.com/gaming-news/174996-gta-6-draws-more-than-2.5-million-twitch-viewers-within-30-minutes.html
 ---
+## Update, 27 November: 420 million hours in week one
+
+The first full week is counted. People watched about **420 million hours** of GTA 6 streams in the game's first seven days, Streams Charts says, **nearly triple** the previous launch-week record (Valorant's 2020 closed beta, 150.48 million hours). The peak stays at **7.91 million** live viewers ([Streams Charts](https://streamscharts.com/news/gta6-livestreaming-week-after-launch)).
+
+- **Twitch led**, then YouTube, with Kick only just behind YouTube. Twitch alone beat every earlier game launch across all platforms.
+- **Most-watched streamer:** TheBurntPeanut, with **11.43 million** hours watched. IShowSpeed drew the biggest single-channel audience during his 52-hour run ([how he finished →](/news/gta-6-first-streamers-finish-brycexd-ishowspeed-52-hours/)).
+- **1,056 channels** set new all-time peak records; 193 of them at least ten times their old best.
+- **India on YouTube:** counting streams, videos and Shorts together, **CarryMinati's CarryisLive is 7th in the world with 43.82 million views**. IShowSpeed leads with 162.35 million, and shreeman legend live is 9th at 31.11 million ([Streams Charts](https://streamscharts.com/news/gta-6-youtube-views-top-creators)). More on Indian creators: [CarryMinati and Mythpat's launch streams →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
+
 ## Update, 21 November: 214 million hours in two days
 
 GTA 6 is now **the biggest game launch ever on livestreams by watch time**. People watched **214.63 million hours** of GTA 6 streams in roughly the **first two days**, Streams Charts says ([Streams Charts](https://streamscharts.com/news/gta-6-beats-other-aaa-launches)).

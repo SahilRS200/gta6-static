@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-26T05:39:00+05:30
+updated: 2026-11-27T03:38:00+05:30
 headline: India's first GTA 6 sales number — about 2.38 lakh PlayStation copies in the first 3 days, Sensor Tower estimates.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -24,7 +24,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 
 - **India has 2 of the world's 3 most-viewed GTA 6 launch streams on YouTube:** CarryMinati about 1.7 crore views, Mythpat about 1.57 crore, behind only IShowSpeed, Streams Charts says. [The ranking →](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)
 - **S8UL's first verdicts:** Soul Aman, Pitaji Playz and Dattrax Gaming all rate GTA 6 highly after launch day. [What they said →](/news/gta-6-first-impressions-indian-creators-s8ul/)
-- **214 million hours of GTA 6 streams** were watched worldwide in about two days, the biggest game launch ever on streams, Streams Charts says; Mythpat's 10-hour Hindi stream peaked at about 1.25 lakh. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **CarryMinati is 7th in the world on YouTube for GTA 6's first week,** with 43.82 million views across streams, videos and Shorts, Streams Charts says. Worldwide, people watched about 420 million hours of GTA 6 streams in week one, nearly triple the old record. [The streaming record →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
 
 - **Streaming on YouTube?** An Indian streamer's GTA 6 stream was stopped over a bikini, even with scenes blurred. Avoid nudity live, age-restrict uploads and dispute wrong music claims. [Stream without strikes →](/news/gta-6-youtube-strikes-copyright-claims-streamers-nudity-mute-music/)
 

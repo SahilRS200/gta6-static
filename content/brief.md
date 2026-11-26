@@ -1,24 +1,24 @@
 ---
-updated: 2026-11-27T01:37:00+05:30
-headline: GTA 6's bank won't take more than $15,000 at first — save $10,000 and the limit jumps to $100,000
-search: [bank limit, black friday, pennywise, legendary]
+updated: 2026-11-27T03:38:00+05:30
+headline: GTA 6 streams hit 420 million hours in week one, nearly triple the record, and CarryMinati is 7th worldwide
+search: [streaming, bank limit, black friday, stutter]
 ---
 ## 🔥 Hot in India
 
-- **ATM refusing your cash? Your bank is capped.** BuckMe starts at a $15,000 limit; Family Savings goals and the story raise it, up to $2 million in Chapter 4. [How to raise it →](/news/gta-6-buckme-bank-limit-cant-deposit-money-family-savings/)
-- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; older Rockstar games are cheaper instead. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+- **GTA 6's record streaming week, with CarryMinati 7th on YouTube worldwide.** About 420 million hours were watched in seven days; CarryisLive pulled 43.82 million views. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **ATM refusing your cash? Your bank is capped.** BuckMe starts at $15,000; Family Savings goals and the story raise it. [How to raise it →](/news/gta-6-buckme-bank-limit-cant-deposit-money-family-savings/)
+- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
 
 ## ✅ Try this today
 
-- **A Pennywise-style clown haunts a Vice Beach hotel lift.** Visit the Haymarket Hotel after midnight and ride the balloon-filled elevator up. [How to find it →](/news/gta-6-pennywise-clown-easter-egg-haymarket-hotel-elevator/)
-- **Three free legendary guns in Chapter 1.** A silenced pistol and a shotgun in the Permit Keys, a rifle at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
-- **Hidden Charges: pick "ask for help".** You can switch characters and skip the rooftop helicopter. [Mission tips →](/news/gta-6-hidden-charges-ask-for-help-or-go-solo/)
+- **A Pennywise-style clown haunts a Vice Beach hotel lift.** Ride the Haymarket Hotel elevator after midnight. [How to find it →](/news/gta-6-pennywise-clown-easter-egg-haymarket-hotel-elevator/)
+- **Three free legendary guns in Chapter 1.** Two in the Permit Keys, one at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
 
 ## 🛠️ Fix of the day
 
-- **PS5 still crashing?** CE-108255-1 continues on 01.002.002. Save by hand. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **That "25 November stutter patch" was fake.** Update 01.002.002 has no stutter fix; clearing the PS5 cache and turning off HDCP still help. [What works →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
+- **PS5 still crashing?** CE-108255-1 continues. Save by hand. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
 
 ## 🌍 Around the world
 
-- **Rockstar's UK union vote fails, 75% to 25%.** The union vows to keep organising; your game isn't affected. [The result →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
-- **Missions feel easy? That's by design,** Rockstar says. [Why →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)
+- **Rockstar's UK union vote fails, 75% to 25%.** Your game isn't affected. [The result →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
