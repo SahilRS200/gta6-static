@@ -1,8 +1,8 @@
 ---
 title: GTA 6 PC Release Date — Still Not Announced; GTA 5 Steam Players Rise to 87,000 as PC Fans Wait
-description: GTA 6 is on PS5 and Xbox Series X/S only; Rockstar has not announced a PC date. A GamesBeat report says early 2027 (unconfirmed), and GTA 5 on Steam just hit about 87,000 players.
+description: GTA 6 is on PS5 and Xbox Series X/S only; Rockstar has not announced a PC date. GamesBeat reports early 2027 and a rumour says March 2027; neither is confirmed by Rockstar.
 date: 2026-11-20T11:38:00+05:30
-updated: 2026-11-21T02:38:00+05:30
+updated: 2026-11-26T19:38:00+05:30
 tags: [pc, whats-next, gta-5, india, rumours]
 type: news
 sources:
@@ -10,6 +10,8 @@ sources:
   - PC Gamer via Yahoo Tech — the same report, syndicated | https://tech.yahoo.com/gaming/articles/gta-5s-steam-concurrents-gone-220043170.html
   - XDA Developers — That viral GTA 6 PC port video is a hoax | https://www.xda-developers.com/that-viral-gta-6-pc-port-video-hoax-made-from-recycled-gta-5-footage/
   - GTA BOOM — GamesBeat reports GTA 6 PC version targets Q1 2027 | https://www.gtaboom.com/gamesbeat-reports-gta-6-will-hit-pc-in-early-2027
+  - GameGPU — GTA 6 will be released on PC in March 2027 (leak claim) | https://en.gamegpu.com/news/igry/gta-6-vyjdet-na-pk-v-marte-2027-goda-vmeste-s-zapuskom-gta-6-online
+  - TalkEsport — The GTA 6 Online March 2027 press release is fake | https://www.talkesport.com/gta-6/gta-6-online-march-2027-press-release-fake/
 ---
 **Short answer: there is no GTA 6 PC release date.** GTA 6 launched on 19 November (12:00 AM IST in India) on PS5 and Xbox Series X/S only, and Rockstar has not announced a PC version or a date. If you game on a PC, as a huge share of Indian players do, you are still waiting.
 
@@ -21,6 +23,7 @@ sources:
 ## The early-2027 report (not confirmed)
 
 - **GamesBeat reported in October** that Rockstar plans to bring GTA 6 to PC in the **first quarter of 2027** (January to March), citing four industry sources who did not want to be named. Rockstar did not respond, and has not confirmed it ([GTA BOOM on the GamesBeat report](https://www.gtaboom.com/gamesbeat-reports-gta-6-will-hit-pc-in-early-2027)).
+- **New rumour (25 November): March 2027, alongside GTA 6 Online.** GameGPU claims PC and GTA 6 Online will both arrive in March 2027. Its basis is thin: an X account's reading of Take-Two's roughly $8 billion yearly bookings forecast, not a Rockstar document or store listing ([GameGPU](https://en.gamegpu.com/news/igry/gta-6-vyjdet-na-pk-v-marte-2027-goda-vmeste-s-zapuskom-gta-6-online)). Treat it as a rumour. A separate "official" March 2027 press release doing the rounds is fake ([TalkEsport](https://www.talkesport.com/gta-6/gta-6-online-march-2027-press-release-fake/)).
 - **Treat it as reported, not announced.** PC Gamer notes Rockstar has in the past held PC versions back by at least seven months, so early 2027 would be unusually quick ([PC Gamer](https://tech.yahoo.com/gaming/articles/gta-5s-steam-concurrents-gone-220043170.html)).
 
 ## What to do if you're on PC in India
