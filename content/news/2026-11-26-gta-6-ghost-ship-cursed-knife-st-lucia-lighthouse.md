@@ -33,4 +33,4 @@ That's it: the **Cursed Knife** goes into your inventory as a Legendary melee we
 - **Engine won't cut out?** Circle the area slowly, or reload your save and try the next night.
 - **Want to see the ship itself?** Go back up the lighthouse and look out with binoculars (VICE).
 
-Related: [Treasure diving and shipwrecks →](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/) · [More GTA 6 Easter eggs →](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/) · [Weapons guide →](/news/gta-6-weapons-guide-ammu-nation-buy-store-recover-guns/)
+Related: [Treasure diving and shipwrecks →](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/) · [More GTA 6 Easter eggs →](/news/gta-6-easter-eggs-fast-furious-car-tower-egg-cutscene/) · [Pennywise clown elevator scare →](/news/gta-6-pennywise-clown-easter-egg-haymarket-hotel-elevator/) · [Weapons guide →](/news/gta-6-weapons-guide-ammu-nation-buy-store-recover-guns/)
