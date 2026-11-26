@@ -1,8 +1,8 @@
 ---
 title: GTA 6 Wanted Level Explained — 6 Stars, What the Red Icons Mean, and How to Lose the Cops
-description: GTA 6 has six wanted stars, and police remember your outfit, car and partner. What the stars and red icons mean, how to shake the heat, and the Vice City portal that wipes six stars.
+description: GTA 6 has six wanted stars, and police remember your outfit, car and partner. What the stars and red icons mean, how to shake the heat, and the portal and bunker that wipe six stars.
 date: 2026-11-19T11:37:00+05:30
-updated: 2026-11-25T01:37:00+05:30
+updated: 2026-11-26T07:37:00+05:30
 tags: [guide, gameplay, tips, police]
 type: guide
 sources:
@@ -10,6 +10,7 @@ sources:
   - Dexerto — GTA 6 wanted system explained | https://www.dexerto.com/wikis/gta-6/wanted-system-explained/
   - GameSpot — Grand Theft Auto 6 review | https://www.gamespot.com/reviews/grand-theft-auto-6-review/
   - VGTimes — GTA 6's six-star wanted level takes extreme violence to trigger | https://vgtimes.com/gaming-news/175224-gta-6s-six-star-wanted-level-takes-extreme-violence-to-trigger.html
+  - Beebom — GTA 6 players escape the six-star wanted level | https://beebom.com/gta-6-players-escape-six-star-wanted-level/
   - Dexerto — Japanese VTuber actually escapes GTA 6's impossible 6-star Wanted level | https://www.dexerto.com/gta/japanese-vtuber-actually-escapes-gta-6s-impossible-6-star-wanted-level-3431071/
 ---
 Getting chased already? GTA 6's police work differently from GTA V. In the old game, cops forgot you the moment the stars faded. In GTA 6 they **remember what they saw**: your clothes, your car, and whether Jason and Lucia were together. Here's how it works, without story spoilers.
@@ -27,13 +28,15 @@ GTA 6 has **six wanted stars**, one more than GTA V and the first six-star syste
 
 Only by going on a full rampage. Reaching **six stars takes killing a lot of civilians or police**, VGTimes reports, citing a Shazoo guide; stealing a cargo jet at Vice City International gets you to four stars without hurting anyone, and attacking people and police on top of that pushes it to five. Police, NOOSE units, boats and aircraft then chase you, and **at six stars they don't stop until you die** ([VGTimes](https://vgtimes.com/gaming-news/175224-gta-6s-six-star-wanted-level-takes-extreme-violence-to-trigger.html)). The post-story wanted-level cheat only goes up to **five** stars; the sixth has to be earned. Crimes like these also push your [Criminal Profile](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/) towards Irredeemable.
 
-## Can you escape six stars? One player did
+## Can you escape six stars? Two ways found so far
 
 Six stars was meant to end only in death, but a Japanese VTuber, **Haigure Tamao**, found a way out: the **Vice City portal Easter egg**. With six stars on him near the Turtle Head Power Station, he stepped through the portal; entering the old Vice City **cleared his wanted level at once**, and when he came back to Leonida the stars had dropped **from six to zero** ([Dexerto](https://www.dexerto.com/gta/japanese-vtuber-actually-escapes-gta-6s-impossible-6-star-wanted-level-3431071/)).
 
 - **You need the portal open first:** the 12-substation puzzle, then Reactor 2 between 7 PM and 6 AM in-game. [Full portal guide →](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/)
 - **He raised the heat with a tank** from a separate bunker secret, with minutes to spare before the portal closed. Dexerto doesn't say whether the tank is needed or just his route.
-- **It may not be intended,** Dexerto notes, so a patch could change it. Save by hand before you try.
+- **Second way: the tank bunker itself (update, 26 November).** YouTuber Fear reports that **going inside the bunker where the free tank is hidden** also wiped six stars, without leaving Leonida. Nobody knows why yet, and it hasn't been confirmed that it works every time ([Beebom](https://beebom.com/gta-6-players-escape-six-star-wanted-level/)). [Bunker codes →](/news/gta-6-free-tank-secret-bunker-codes-presidents-bunker/)
+- **The underwater facility doesn't work.** Hiding there doesn't clear a six-star chase, which many players think is a bug ([Beebom](https://beebom.com/gta-6-players-escape-six-star-wanted-level/)).
+- **None of this may be intended,** Dexerto notes, so a patch could change it. Save by hand before you try.
 
 ## What the red icons mean
 
