@@ -1,18 +1,18 @@
 ---
-updated: 2026-11-26T21:37:00+05:30
-headline: 3 legendary guns are free in GTA 6's first chapter — including a silenced pistol near where Jason starts
-search: [legendary, black friday, difficulty, union]
+updated: 2026-11-26T23:37:00+05:30
+headline: GTA 6's bank won't take more than $15,000 at first — save $10,000 and the limit jumps to $100,000
+search: [bank limit, legendary, black friday, crashing]
 ---
 ## 🔥 Hot in India
 
-- **Three free legendary guns in Chapter 1.** A silenced pistol and a shotgun wait in the Permit Keys, a rifle at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
-- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; the sale cuts older Rockstar games instead. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
-- **Missions feel too easy? That's deliberate.** Rockstar made compounds and fronts harder instead. [What to do →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)
+- **ATM refusing your cash? Your bank is capped.** BuckMe starts at a $15,000 limit; Family Savings goals and the story raise it, up to $2 million in Chapter 4. [How to raise it →](/news/gta-6-buckme-bank-limit-cant-deposit-money-family-savings/)
+- **Three free legendary guns in Chapter 1.** A silenced pistol and a shotgun in the Permit Keys, a rifle at Wetman Bay. [Where to look →](/news/gta-6-free-legendary-weapons-chapter-1-assassin-pistol-smuggler-shotgun/)
+- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; older Rockstar games are cheaper instead. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
 
 ## ✅ Try this today
 
 - **Hidden Charges: pick "ask for help".** You can switch characters and skip the rooftop helicopter. [Mission tips →](/news/gta-6-hidden-charges-ask-for-help-or-go-solo/)
-- **Want hurricanes? Beat Freddie's bunker twice.** [How to unlock →](/news/gta-6-freddie-gibbs-doomsday-compound-bunker-break-in/)
+- **Save $100,000 before buying a garage.** That savings tier takes 20% off. [Garage prices →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
 
 ## 🛠️ Fix of the day
 
@@ -21,4 +21,4 @@ search: [legendary, black friday, difficulty, union]
 ## 🌍 Around the world
 
 - **Rockstar's UK union vote fails, 75% to 25%.** The union vows to keep organising; your game isn't affected. [The result →](/news/gta-6-rockstar-union-vote-tribunal-launch-week/)
-- **GTA 6 on PC in March 2027? Only a rumour.** Rockstar has no date. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
+- **Missions feel easy? That's by design,** Rockstar says. [Why →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/)

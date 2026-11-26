@@ -39,6 +39,6 @@ Store robberies are GTA 6's quickest bit of street crime: a couple of hundred do
 
 ## Bank the cash
 
-You can carry up to **$20,000**, and carried cash is lost if you die or get busted. Deposit at an ATM or bank once the chase is over; phone deposits don't work ([games.gg](https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-robberies-before-your-first-robbery/)). Before your bank account opens, [stash it under Jason's floorboards](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/).
+You can carry up to **$20,000**, and carried cash is lost if you die or get busted. Deposit at an ATM or bank once the chase is over; phone deposits don't work ([games.gg](https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-robberies-before-your-first-robbery/)). Before your bank account opens, [stash it under Jason's floorboards](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/). ATM won't take any more? Your account is capped: [how to raise the BuckMe limit](/news/gta-6-buckme-bank-limit-cant-deposit-money-family-savings/).
 
 More ways to earn: our [money guide](/news/gta-6-how-to-make-money-fast-early-game/) and [treasure diving](/news/gta-6-treasure-diving-scuba-kenton-shipwrecks/). Playing from India? Our [India hub](/gta-6-india/) has prices and fixes.
