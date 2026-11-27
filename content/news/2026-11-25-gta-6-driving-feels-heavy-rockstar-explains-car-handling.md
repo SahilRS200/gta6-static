@@ -1,14 +1,24 @@
 ---
-title: GTA 6 Driving Feels Heavy? Rockstar Explains the New Car Handling, and How to Live With It
-description: GTA 6 cars feel heavier and wear out faster on purpose, Rockstar's Rob Nelson says, for realism players asked for. Drive gently, repair at petrol stations or via Scooter Bros.
+title: GTA 6 Driving Feels Heavy? Rockstar Explains the Car Handling, Tuned With a Gran Turismo Finalist
+description: GTA 6 cars feel heavier on purpose, Rockstar's Rob Nelson says, and a Gran Turismo World Series finalist spent 3.5 years tuning them. Brake early, repair at petrol stations.
 date: 2026-11-25T19:37:00+05:30
-tags: [driving, cars, tips, first-hours, rockstar]
+updated: 2026-11-27T13:38:00+05:30
+tags: [driving, cars, tips, first-hours, rockstar, gran-turismo]
 type: news
 sources:
   - GAMINGbible — Rockstar explains GTA 6 driving mechanics | https://www.gamingbible.com/news/rockstar-explains-gta-6-driving-mechanics-751466-20261124
+  - Playfront — Rockstar brought a Gran Turismo finalist onto GTA 6's physics team | https://playfront.de/en/gta-6-rockstar-holte-gran-turismo-finalisten-fuer-die-fahrphysik-ins-team
+  - VGTimes — Gran Turismo World Series competitor spent 3.5 years tuning GTA 6's car physics | https://vgtimes.com/gaming-news/175907-gran-turismo-world-series-competitor-spent-3.5-years-tuning-gta-6s-car-physics.html
   - GamingBolt — GTA 6's driving mixes the weightiness of GTA 4 and GTA 5's accessibility | https://gamingbolt.com/grand-theft-auto-6s-driving-mixes-the-weightiness-of-gta-4-and-gta-5s-accessibility
 ---
 If your first hours of GTA 6 involved spinning Jason's truck into a ditch, you're not alone. Many players say the Chapter 1 truck handles badly and that they needed repairs several times in their first 10 hours. Rockstar North co-studio head **Rob Nelson** has now explained why driving feels the way it does ([GAMINGbible](https://www.gamingbible.com/news/rockstar-explains-gta-6-driving-mechanics-751466-20261124)). No story spoilers.
+
+## Update: a Gran Turismo finalist tuned it
+
+- **Who:** sim racer **Lewis Bentley**, who raced as "mclarenLB" in the Gran Turismo World Series, says he spent about **three and a half years** on Rockstar's physics team working on GTA 6's vehicle handling. He is listed in the game's credits under Physics Development ([Playfront](https://playfront.de/en/gta-6-rockstar-holte-gran-turismo-finalisten-fuer-die-fahrphysik-ins-team), [VGTimes](https://vgtimes.com/gaming-news/175907-gran-turismo-world-series-competitor-spent-3.5-years-tuning-gta-6s-car-physics.html)).
+- **How it came out:** he revealed it in a launch-week YouTube video filmed from his own Lotus Elise; the video has since been taken down. Rockstar hasn't commented, and it isn't known which handling systems he worked on (Playfront, VGTimes).
+- **Racing runs in the team:** Rockstar North has its own racing team, including its technical director for physics, which has won a class at the Nürburgring 24 Hours, The Drive has reported (Playfront).
+- **What it means for you:** the heavier handling is a deliberate design, tuned by people who race for real, so brake earlier and drive smoother rather than fighting the car.
 
 ## What Rockstar says
 
