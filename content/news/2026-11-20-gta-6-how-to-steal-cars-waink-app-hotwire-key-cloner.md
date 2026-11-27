@@ -1,13 +1,15 @@
 ---
-title: GTA 6 How to Steal Cars — Scan With the Waink App, Hotwire, and Why Keyless Cars Need a Key Cloner
-description: GTA 6 car theft is no longer one button: scan a car with the Waink app, smash in, hotwire it with both sticks. Keyless cars need a key cloner, and advanced trackers alert the police.
+title: GTA 6 How to Steal Cars — Waink, Hotwiring, Key Cloners, and Why a Coil Can Drive You to the Cops
+description: GTA 6 car theft is no longer one button: scan with Waink, smash in, hotwire with both sticks. Keyless cars need a key cloner, and a stolen Coil can lock you in and drive you to the police.
 date: 2026-11-20T16:38:00+05:30
-tags: [guide, tips, first-hours, vehicles, gameplay]
+updated: 2026-11-27T19:37:00+05:30
+tags: [guide, tips, first-hours, vehicles, gameplay, easter-eggs]
 type: guide
 sources:
   - GTABase — How to steal, sell and keep vehicles in GTA 6 | https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles
   - Notebookcheck (citing Rockstar North's Rob Nelson to IGN) — Rockstar is ending one-button car theft in GTA 6 | https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html
   - Console Pulse — GTA 6 car theft security tiers and the Waink scanner | https://consolepulse.com/multiplatform/gta/news/gta-6-car-theft-security-tiers-waink-scanner-tools
+  - Supercar Blondie — GTA VI players discover a Tesla-inspired car that goes badly wrong if you steal it | https://supercarblondie.com/gta-6-tesla-inspired-car-stealing-coil-raiden/
   - TechRadar — GTA 6 launch day live: secrets, tips and reactions | https://www.techradar.com/live/news/gta-6-launch-day-november-19
 ---
 Walked up to a shiny sports car in GTA 6, pressed the button and got nowhere? That's by design. The one-press hotwire the series used for 20 years is gone: Rockstar North's Rob Nelson told IGN that parked cars now come in layers of security, and some can't be taken until you've progressed in the story and have the right tool ([Notebookcheck](https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html)). Here's how it works on PS5 and Xbox. No story spoilers.
@@ -34,6 +36,10 @@ A car someone is **driving** is still the old way: pull the driver out and go.
 - **Advanced tracker** (common on expensive cars): it **alerts the police** and keeps sending your location **unless you're driving fast** ([GTABase](https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles)).
 
 If the police recognise your car, switch cars or get a respray. In a chase, an unlocked old car beats a locked supercar, because alarms and keyless locks cost you time. And check the back seat: one player stole a car with a cat inside, and it went for Jason ([TechRadar](https://www.techradar.com/live/news/gta-6-launch-day-november-19)).
+
+## Careful with Coil cars
+
+**Updated 27 November:** Coil is GTA 6's Tesla-style electric car brand, and players filming thefts have found it fights back. In clips shared on X and reported by [Supercar Blondie](https://supercarblondie.com/gta-6-tesla-inspired-car-stealing-coil-raiden/), a stolen Coil Raiden switched to autopilot and drove Lucia straight to a police station, where officers tackled and arrested her. In another clip the car called the police and locked its doors, and the player escaped only by flinging the character out through an open window. Rockstar hasn't explained the feature, and claims that Elon Musk reacted to the clip are unconfirmed. Scan a Coil with Waink before you try, and if one locks you in, look for an open window.
 
 ## Selling vs keeping
 
