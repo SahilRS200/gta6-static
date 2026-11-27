@@ -1,11 +1,13 @@
 ---
-title: GTA 6 Sold About 45 to 48 Million Copies in 4 Days, Two Analyst Firms Estimate — Three-Quarters on PS5
-description: Sensor Tower estimates GTA 6 sold 47.8 million copies by 22 November; Alinea Analytics says 44.9 million, 33.7 million on PS5, for over $4 billion. Estimates, not official counts.
+title: GTA 6 Sold About 53 Million Copies in Its First Week, Alinea Estimates — Up From 45 to 48 Million in 4 Days
+description: Alinea Analytics now estimates GTA 6 sold about 53 million copies and $4.7 billion in its first week, 75.7% on PS5, after 44.9 to 47.8 million in 4 days. Estimates, not official.
 date: 2026-11-24T09:37:00+05:30
-updated: 2026-11-26T03:39:00+05:30
+updated: 2026-11-27T23:37:00+05:30
 tags: [sales, records, ps5, xbox]
 type: news
 sources:
+  - Alinea Analytics — Grand Theft Auto 6: A week in | https://alineaanalytics.substack.com/p/grand-theft-auto-6-a-week-in
+  - VGTimes — GTA 6 sold an estimated 53 million copies in its first week | https://vgtimes.com/gaming-news/175989-gta-6-sold-an-estimated-53-million-copies-in-its-first-week.html
   - Beebom — GTA 6's launch numbers: 45 million copies sold in 4 days | https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/
   - GameSpot — GTA 6 is approaching an absurd new sales milestone, report says | https://www.gamespot.com/articles/gta-6-is-approaching-an-absurd-new-sales-milestone-report-says/
   - Gadget Review — GTA VI launch weekend sales estimated at 44.9 million copies | https://www.gadgetreview.com/gta-vi-launch-weekend-sales-estimated-at-44-9-million-copies
@@ -13,6 +15,14 @@ sources:
   - KitGuru — GTA VI launch weekend pulled players away from Call of Duty, Fortnite and more | https://www.kitguru.net/gaming/matthew-wilson/gta-vi-launch-weekend-pulled-players-away-from-call-of-duty-fortnite-and-more/
   - Gizmodo — GTA VI crashing on PS5 | https://gizmodo.com/gta-vi-crashing-ps5-2000845327
 ---
+## Update, 27 November: about 53 million in week one
+
+- **About 53 million copies in the first week,** Alinea Analytics now estimates, worth **about $4.7 billion** ([Alinea Analytics](https://alineaanalytics.substack.com/p/grand-theft-auto-6-a-week-in), [VGTimes](https://vgtimes.com/gaming-news/175989-gta-6-sold-an-estimated-53-million-copies-in-its-first-week.html)).
+- **PS5 75.7%, Xbox about 13 million (24.3%).** Xbox's share has slipped from 25.8% on 21 November ([Alinea Analytics](https://alineaanalytics.substack.com/p/grand-theft-auto-6-a-week-in)).
+- **Nearly 7 million players are past 50 hours,** and about 250,000 past 100 ([Alinea Analytics](https://alineaanalytics.substack.com/p/grand-theft-auto-6-a-week-in)).
+- **The US is 33.5% of PS5 copies.** Again there's no India figure; the only India estimate is still Sensor Tower's 2.38 lakh.
+- **Still unofficial.** Rockstar and Take-Two haven't announced a week-one count.
+
 A new estimate puts a copies figure on GTA 6's first weekend. **Market research firm Alinea Analytics estimates Grand Theft Auto VI sold about 44.9 million copies between launch on 19 November and 22 November**, Beebom and GameSpot report ([Beebom](https://beebom.com/gta-6-45-million-copies-sold-in-4-days-since-launch/), [GameSpot](https://www.gamespot.com/articles/gta-6-is-approaching-an-absurd-new-sales-milestone-report-says/)).
 
 ## Update, 26 November: Sensor Tower says 47.8 million

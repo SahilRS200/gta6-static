@@ -29,3 +29,5 @@ Rockstar's VP of Technology, **David Hynd**, told Final Weapon that the team dec
 - **Free Aim:** full control, no snapping. Game Rant's hardcore setup turns aim assist to **0**.
 
 Missions still feel too easy, or too hard? Rockstar explains why [GTA 6's missions are easy by design →](/news/gta-6-missions-too-easy-rockstar-difficulty-by-design/) and there are more knobs in [GTA 6's difficulty and accessibility settings →](/news/gta-6-difficulty-accessibility-settings-auto-drive/). Need better guns? See the [weapons guide →](/news/gta-6-weapons-guide-ammu-nation-buy-store-recover-guns/)
+
+Controller dying mid-session? GTA 6 drains a DualSense in about 4.5 hours: [how to make it last →](/news/gta-6-dualsense-battery-drain-ps5-controller-fix/)

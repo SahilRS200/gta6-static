@@ -46,3 +46,5 @@ That's HDR too: the console captures an HDR image that looks washed out on a nor
 Still stuttering after all this? That's a different problem: try our [PS5 stutter fix](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/). New to the game? Start with [the settings to change first](/news/gta-6-first-hours-tips-settings/).
 
 Want to show off that sunset properly? [How to use Photo Studio, GTA 6's photo mode →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/)
+
+Related: GTA 6 empties a DualSense in about 4.5 hours; [the PS5 settings that stretch the battery →](/news/gta-6-dualsense-battery-drain-ps5-controller-fix/)
