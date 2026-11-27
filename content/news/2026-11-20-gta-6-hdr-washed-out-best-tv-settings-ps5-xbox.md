@@ -2,7 +2,7 @@
 title: GTA 6 Looks Washed Out? Best HDR and TV Settings for PS5 and Xbox, Plus the Grey-Screenshot Fix
 description: GTA 6 looking grey or washed out? Calibrate HDR on PS5 or Xbox, use Game Mode, set Black Levels to 0 and turn off tone mapping. The dark screen edges are intentional, Rockstar says.
 date: 2026-11-20T12:37:00+05:30
-updated: 2026-11-23T15:37:00+05:30
+updated: 2026-11-27T17:38:00+05:30
 tags: [guide, settings, performance, ps5, xbox, vignette]
 type: guide
 sources:
@@ -10,6 +10,7 @@ sources:
   - Kotaku — GTA 6 launch live updates (washed-out screenshots and HDR) | https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
   - Engadget — GTA 6 launch day live blog (tone mapping tip) | https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
   - Wccftech — Rockstar's tech Q&A (Michael Kane on the vignette) | https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/
+  - VGTimes — Why you can't turn off GTA 6's vignette and how to tone it down | https://vgtimes.com/gaming-news/175929-gta-6s-vignette-cant-be-turned-off-on-consoles.html
   - GamingBolt — GTA 6 upscaled from 1440p to 4K (vignette is an artistic choice) | https://gamingbolt.com/gta-6-upscaled-from-1440p-to-4k-on-ps5-and-xbox-series-x-using-in-house-taa
 ---
 Leonida is meant to look like a sunburnt postcard. If yours looks flat, grey or foggy, the culprit is almost always **HDR set up wrong somewhere between the console, the TV and the game.** Here's the order to fix it in. None of this needs a patch.
@@ -32,6 +33,11 @@ Beebom's starting point: **Max Brightness** at your TV's peak brightness, **Blac
 ## Dark edges around the screen? That's on purpose
 
 If the corners and edges of the picture look darker, that's the game's **vignette**, not your TV. Rockstar's VP of Dynamic Art, Michael Kane, told [Wccftech](https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/) that it is "an artistic choice" and that there is **no toggle** to turn it off for now. Rockstar did say it had fixed a problem where the vignette got **stronger than intended** in some situations, so keep the game updated ([Wccftech](https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/); [GamingBolt](https://gamingbolt.com/gta-6-upscaled-from-1440p-to-4k-on-ps5-and-xbox-series-x-using-in-house-taa) also reports the vignette is intentional).
+
+You can soften it a little. Players report the darkening gets stronger when your character is hurt, tired or drunk, and they suggest two tweaks, VGTimes reports ([VGTimes](https://vgtimes.com/gaming-news/175929-gta-6s-vignette-cant-be-turned-off-on-consoles.html)):
+
+- **Settings → Display → Visual Effects:** lower **Awareness Effects Intensity** (default 5) to cut the edge warnings that flash for police and off-screen threats. Leave it higher if you rely on those warnings.
+- **Brightness calibration:** raise the SDR value from **15 to 20** if night scenes look too dark at the top of the screen.
 
 ## Your screenshots and clips look grey?
 

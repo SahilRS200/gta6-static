@@ -1,23 +1,20 @@
 ---
-updated: 2026-11-27T15:38:00+05:30
-headline: Miss GTA 5's lock-on aim? Rockstar dropped it as GTA 6's default on purpose. One setting brings it back
-search: [lock-on, pc, streaming, Black Friday]
+updated: 2026-11-27T17:39:00+05:30
+headline: GTA 6 on an old Xbox One? Digital Foundry says cloud play adds only about 9 ms of lag
+search: [xbox one, pc, Black Friday, lock-on]
 ---
-## ✅ Try this today
-
-- **GTA 6 starts you on Partial aim, not lock-on, and Rockstar says that was deliberate.** Pause, then Settings, Gameplay, Targeting: pick Lock-On for GTA 5-style snapping. [How to set it →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/)
-- **GTA 6's heavy car handling was tuned by a Gran Turismo finalist.** Brake early and repair at petrol stations. [Drive better →](/news/gta-6-driving-feels-heavy-rockstar-explains-car-handling/)
-
 ## 🔥 Hot in India
 
-- **"GTA 6 PC" downloads are fakes or malware.** The latest fan port ran at about 17–25 FPS on an RTX 5090 and vanished within an hour. There's no official PC version. [What happened →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
-- **GTA 6's record streaming week, with CarryMinati 7th on YouTube worldwide.** About 420 million hours watched in seven days. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)
+- **GTA 6 on Xbox One through the cloud passes Digital Foundry's test.** About 9 ms extra lag and Series S visuals, but choppier frames. You must own the game, and Game Pass caps cloud hours. [Is it worth it →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
+- **"GTA 6 PC" downloads are fakes or malware.** There's no official PC version, and the fan port vanished within an hour. [What happened →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
 - **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+
+## ✅ Try this today
+
+- **Turn on lock-on aim.** Partial aim is the default on purpose; Settings, Gameplay, Targeting brings back GTA 5-style snapping. [How →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/)
+- **Dark screen edges?** The vignette can't be switched off, but lowering Awareness Effects Intensity softens it. [Settings →](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/)
 
 ## 🌍 Around the world
 
-- **Vice City comes to NBA 2K27, free with GTA+.** GTA+ members on PS5 and Xbox get the Standard Edition until 15 January. [What you get →](/news/gta-6-nba-2k27-vice-city-season-3-free-gta-plus/)
-
-## 🛠️ Fix of the day
-
-- **The "25 November stutter patch" was fake.** Clearing the PS5 cache and turning off HDCP still help. [What works →](/news/gta-6-stutter-frame-drops-ps5-fix-hdcp-dead-zone/)
+- **Vice City comes to NBA 2K27, free with GTA+** until 15 January. [What you get →](/news/gta-6-nba-2k27-vice-city-season-3-free-gta-plus/)
+- **GTA 6's record streaming week:** about 420 million hours watched, with CarryMinati 7th on YouTube worldwide. [The numbers →](/news/gta-6-streaming-record-twitch-5-million-viewers/)

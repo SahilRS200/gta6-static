@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-27T03:38:00+05:30
+updated: 2026-11-27T17:39:00+05:30
 headline: India's first GTA 6 sales number — about 2.38 lakh PlayStation copies in the first 3 days, Sensor Tower estimates.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -18,7 +18,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **39 million players on PS5 in four days:** Sony calls GTA 6 the biggest launch in PlayStation history, and says 70% of new PS5s played it first. Take-Two puts day-one sales at $3.79 billion, and analysts estimate 44.9 million (Alinea) to 47.8 million (Sensor Tower) copies by 22 November. [Sony's numbers →](/news/gta-6-39-million-ps5-players-biggest-playstation-launch/) · [The estimate →](/news/gta-6-45-million-copies-sold-4-days-alinea-estimate/)
 - **The full bill:** a PS5 Slim Digital plus the Standard Edition comes to about ₹70,989; an Xbox Series S setup is about ₹38,000–46,000, but it's the weakest version. [Cheapest way to play →](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)
 - **On Xbox Series X/S? Turn off auto-upload.** Players report 2-day suspensions after GTA 6 clips, even beach scenes, uploaded on their own. Set Capture & share to Don't upload. [The fix →](/news/gta-6-xbox-ban-auto-upload-clips-turn-off/)
-- **On Xbox One?** If you own the game, you can stream it through Xbox Cloud Gaming. [How it works →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
+- **On Xbox One?** If you own the game, you can stream it through Xbox Cloud Gaming. Digital Foundry measured only about 9 ms extra lag over a Series S, but choppier frames, and Game Pass caps cloud hours. [Is it worth it →](/news/gta-6-xbox-one-cloud-gaming-india-time/)
 
 ## 📺 Indian creators and streams
 
