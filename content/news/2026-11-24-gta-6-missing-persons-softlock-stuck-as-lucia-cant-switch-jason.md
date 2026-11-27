@@ -16,6 +16,8 @@ If you're in **Chapter 3** of GTA 6, hold off on the **Missing Persons** side mi
 
 **No.** Update 01.002.002 arrived on 23 November with seven fixes, including stuck story phone calls, but its notes don't mention this, and players are **still reporting the softlock after updating**. One of GAMINGbible's own writers is stuck ([GAMINGbible](https://www.gamingbible.com/news/gta-6-first-update-patch-notes-ps5-xbox-seven-fixes-442192-20261123)). Rockstar hasn't commented. [What the patch did fix →](/news/gta-6-first-update-01-002-002-patch-notes-size/)
 
+Also stuck later, in Chapter 4, waiting for Raul's call? That's a different bug: [the Chapter 4 workaround →](/news/gta-6-chapter-4-softlock-raul-call-never-comes-lucia/)
+
 ## How to avoid it
 
 - **Skip Missing Persons while switching is restricted.** Early in Chapter 3 you're held on Jason for a while but can still free-roam. Players say most other side content is safe to do as Jason then ([GAMINGbible](https://www.gamingbible.com/news/gta-6-missing-persons-softlock-glitch-838670-20261123)). Come back to it once you can swap freely.

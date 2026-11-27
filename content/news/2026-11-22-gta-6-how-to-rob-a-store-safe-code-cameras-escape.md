@@ -1,12 +1,14 @@
 ---
-title: GTA 6 How to Rob a Store — Register, Safe Codes, Cameras and Getting Away Clean
+title: GTA 6 How to Rob a Store — Safe Codes, Cameras, the Beer Bottle Trick and Getting Away Clean
 description: In GTA 6 most stores you walk into can be robbed. Mask up, threaten the clerk or open the till with Triangle (Y), use Focus to find the safe code, then change clothes to lose 1–2 stars.
 date: 2026-11-22T00:36:00+05:30
+updated: 2026-11-27T21:37:00+05:30
 tags: [robbery, money, police, wanted-level, guide]
 type: guide
 sources:
   - games.gg — GTA 6 store robbery guide | https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-store-robbery-guide/
   - games.gg — GTA 6 robberies, before your first robbery | https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-robberies-before-your-first-robbery/
+  - Beebom — GTA 6 players are using this beer bottle trick to make store robberies easy | https://beebom.com/gta-6-beer-bottle-trick-make-store-robberies-easy/
 ---
 Store robberies are GTA 6's quickest bit of street crime: a couple of hundred dollars from the till, more from the safe, and a short police chase if you plan it right. Buttons are PS5 first, Xbox in brackets. **No story spoilers.**
 
@@ -29,6 +31,17 @@ Store robberies are GTA 6's quickest bit of street crime: a couple of hundred do
 - **The safe pays more.** The code is either somewhere in the shop or known by a staff member — press **L3 + R3** for [Focus](/news/gta-6-focus-ability-explained-how-to-use-level-up/) to spot who knows it. Hunting for it gives the police more time.
 - **Explosives skip the code** but the blast destroys part of the cash.
 - **Set yourself a time limit.** The till is fast and small; the safe is slow and bigger. Most registers hold a couple of hundred dollars.
+
+## The beer bottle trick (no stars, no kills)
+
+A clip that went viral on X on 27 November shows a quieter way to do a **jewellery store**, reported by [Beebom](https://beebom.com/gta-6-beer-bottle-trick-make-store-robberies-easy/):
+
+1. **Walk in carrying a six-pack.** Staff don't treat a man with beer as a threat.
+2. **Throw a bottle** to knock out the staff before anyone raises the alarm.
+3. **A CCTV icon appears** once a camera sees you. Go to the back office, **destroy the recording** and the icon clears.
+4. **Knock out the staff in the back** the same way, then empty the till and the front display cases.
+
+Nobody is killed and the police are never called, so there's **no wanted level**, and it keeps the robber's [Criminal Profile](/news/gta-6-criminal-profile-honor-system-irredeemable-explained/) clean ([Beebom](https://beebom.com/gta-6-beer-bottle-trick-make-store-robberies-easy/)).
 
 ## Getting away
 

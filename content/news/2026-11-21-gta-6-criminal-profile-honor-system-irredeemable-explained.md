@@ -2,12 +2,15 @@
 title: GTA 6 Criminal Profile Explained — 5 Levels From Professional to Irredeemable, and the One You Can't Undo
 description: GTA 6's Criminal Profile rates Jason and Lucia from Professional to Irredeemable. Needless killing drags it down, and Irredeemable is permanent unless you load an older save.
 date: 2026-11-21T01:39:00+05:30
+updated: 2026-11-27T21:37:00+05:30
 tags: [guide, police, wanted-level, combat, tips]
 type: guide
 sources:
   - Red Bull — GTA 6: How your Criminal Profile affects gameplay | https://www.redbull.com/int-en/gta-6-criminal-profile-levels-explained
   - Insider Gaming — All criminal profiles explained in GTA 6 | https://insider-gaming.com/all-criminal-profiles-explained-gta-6/
   - Beebom — GTA 6 Criminal Profile explained: all honor ranks | https://beebom.com/gta-6-criminal-profile-explained/
+  - GamingBolt — Criminal Profile changes "what GTA can be", says co-studio lead | https://gamingbolt.com/grand-theft-auto-6s-criminal-profile-system-changes-what-gta-can-be-says-co-studio-lead
+  - TheGamer — GTA 6 devs expected Criminal Profile to be controversial | https://www.thegamer.com/gta-6-rockstar-expected-criminal-profile-to-be-divisive/
 ---
 GTA 6 has its own take on Red Dead Redemption 2's honor meter, called the **Criminal Profile**. It doesn't judge you for being a criminal: it judges **how messy** you are about it. Get it wrong for long enough and one level locks in for good. Here's how it works. **No story spoilers.**
 
@@ -40,6 +43,10 @@ Each level has its own horned-face icon, from yellow at Professional to dark gre
 - **Climb back while you can.** You can move freely between the first four levels by playing cleaner ([Red Bull](https://www.redbull.com/int-en/gta-6-criminal-profile-levels-explained)).
 - **Save by hand before a rampage.** Once a character is Irredeemable, the only way back is loading a save from before it happened ([Beebom](https://beebom.com/gta-6-criminal-profile-explained/)). Use the manual slots: [how to save →](/news/gta-6-how-to-save-manual-save-crash-lost-progress/)
 - **Jason and Lucia are rated separately,** so one can stay clean even if the other goes off the rails ([Red Bull](https://www.redbull.com/int-en/gta-6-criminal-profile-levels-explained)).
+
+## Rockstar: it adds options, it doesn't take any away
+
+Some players feel the system punishes classic GTA chaos. Rockstar North co-studio head **Rob Nelson** told VGC the team expected that pushback, but says it "changes what GTA can be": "You can still do whatever you wanted to do before, but now you have other options" ([GamingBolt](https://gamingbolt.com/grand-theft-auto-6s-criminal-profile-system-changes-what-gta-can-be-says-co-studio-lead), [TheGamer](https://www.thegamer.com/gta-6-rockstar-expected-criminal-profile-to-be-divisive/)). Want to stay clean while still robbing? Try the [beer bottle store robbery →](/news/gta-6-how-to-rob-a-store-safe-code-cameras-escape/)
 
 ## How to check yours
 
