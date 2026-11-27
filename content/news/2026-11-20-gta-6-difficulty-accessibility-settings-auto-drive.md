@@ -17,7 +17,7 @@ Stuck on a shootout, or handing the controller to a younger sibling or a parent?
 - **Auto-drive.** The game can drive for you, and there are separate assists for drive-by and general shooting.
 - **Simplified minigames,** plus a **quick-time-event tap assist** with five levels.
 - **Holds become taps.** Many hold-the-button actions can be switched to toggles, and a hold-delay setting stops accidental presses.
-- **Aim assist** can be tuned; there are three controller presets and adjustable stick and trigger sensitivity.
+- **Aim assist** can be tuned; there are three controller presets and adjustable stick and trigger sensitivity. Want GTA 5-style snapping back? [Turn on lock-on aim →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/)
 - **Lost the thread?** You can review mission objectives and recent dialogue.
 
 One thing Can I Play That? could **not** confirm is full button remapping.

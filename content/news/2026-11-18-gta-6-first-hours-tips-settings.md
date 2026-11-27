@@ -19,6 +19,8 @@ Game Rant suggests two aim setups ([Game Rant](https://gamerant.com/gta-6-best-a
 - **Relaxed, GTA 5-style:** Targeting set to **Lock-On**, Aim Assist Strength **3**, Lock-On Time **5**, with Shooting Assist and Drive-By Assist **on**.
 - **Hardcore:** **Free Aim**, Aim Assist **0**, Shooting Assist and Drive-By Assist **off**.
 
+Why lock-on isn't the default any more, and where the switch is: [GTA 6 lock-on aim →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/)
+
 Treat these as a starting point: the guide was written before launch, so check the exact option names in your own menu. Also switch your TV to **Game Mode**. GTA 6 runs at 30fps on every console, and Rockstar says it cut input lag to make that feel snappier ([Push Square](https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision)). [Why no 60fps →](/news/gta-6-30fps-ps5-pro-rockstar-explains/)
 
 ## 5 things to try in your first hours
