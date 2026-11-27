@@ -32,3 +32,5 @@ After the free month, GTA+ turns into a **paid monthly subscription at the regul
 [GTA 6 price in India →](/gta-6-price-in-india/) · [Everything about GTA 6 in India →](/gta-6-india/)
 
 Related: the pre-order [Vintage Vice City Pack now sells separately for $4.99](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/), without the GTA+ month.
+
+Update: GTA+ members on PS5 and Xbox Series X/S can also [play NBA 2K27 free during its Vice City season, 27 November to 15 January](/news/gta-6-nba-2k27-vice-city-season-3-free-gta-plus/).

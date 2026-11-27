@@ -32,3 +32,5 @@ The outlets report the **US price of $4.99**; we haven't seen a confirmed **₹ 
 ## Is it worth $4.99?
 
 It's cosmetic plus a garage, so it doesn't change the game. Want Tommy's shirt for free? Our [Vice City portal guide](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/) shows how to earn it in-game. More on prices in India: [GTA 6 India hub](/gta-6-india/).
+
+Related: [GTA 6's Vice City comes to NBA 2K27 from 27 November, free for GTA+ members](/news/gta-6-nba-2k27-vice-city-season-3-free-gta-plus/).
