@@ -1,11 +1,12 @@
 ---
-title: GTA 6 Xbox Build Leak — Take-Two's DMCA Wipes 3,007 GitHub Copies of the Fan PC Port; It Still Won't Run
-description: Take-Two's DMCA notice wiped the GTA 6 PC port Leonida and 3,007 GitHub copies. No fan port is playable, there's no official PC version, and fake GTA 6 PC downloads carry malware.
+title: GTA 6 Xbox Build Leak — Fan PC Port Manages 25 FPS on an RTX 5090, Then Vanishes in an Hour
+description: A new GTA 6 fan PC port ran at about 17–25 FPS on an RTX 5090 and went offline within an hour; Take-Two's DMCA wiped 3,007 copies of another. None is playable.
 date: 2026-11-21T08:36:00+05:30
-updated: 2026-11-25T13:38:00+05:30
+updated: 2026-11-27T11:37:00+05:30
 tags: [leaks, pc, scam, malware]
 type: news
 sources:
+  - PC Games Hardware — GTA 6 PC port reports 25 fps and suddenly goes offline | https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-port-reports-25-fps-and-suddenly-goes-offline-1561150/
   - GitHub DMCA archive — Take-Two notice, 24 November 2026 | https://github.com/github/dmca/blob/master/2026/11/2026-11-24-take-two.md
   - Output Lag — GTA 6's unofficial PC port lasted three days before Take-Two wiped 3,007 GitHub repos | https://outputlag.com/news/gta-6s-unofficial-pc-port-lasted-three-days-before-take-two-wiped-3007-github-repos/
   - Digit — GTA 6 PC port project taken down after Xbox executable leaks online | https://www.digit.in/news/gaming/gta-6-pc-port-project-taken-down-after-xbox-executable-leaks-online-here-is-what-happened.html
@@ -22,6 +23,13 @@ sources:
   - TweakTown — Cyberleek claims modders could get GTA 6 running on PC within a week | https://www.tweaktown.com/news/114815/cyberleek-claims-modders-could-get-gta-6-running-on-pc-within-a-week-after-reported-xbox-build-leak/index.html
 ---
 A hacker calling itself **Cyberleek** says it has put most of a **GTA 6 Xbox build** online and is holding back the one file needed to run it. It is the biggest piracy threat since launch, and it will reach Indian Telegram groups and "free download" sites fast. **Short version: it isn't playable, it isn't safe, and it isn't a PC version.** No story spoilers here.
+
+## Update, Friday 27 November: a new fan port, 17–25 FPS on an RTX 5090, gone within an hour
+
+- **Another unofficial port briefly surfaced.** A private project called CGBJ, built on the leaked Xbox build, had its code posted publicly on Thursday 26 November; it was reachable for **under an hour** before it disappeared. It isn't clear whether its makers pulled it or the host blocked it ([PC Games Hardware](https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-port-reports-25-fps-and-suddenly-goes-offline-1561150/)).
+- **Even a top graphics card can't run it well.** Reported averages range from about **20–25 FPS**, and the developer's own test log works out to roughly **17–18.5 FPS on an RTX 5090** in a two-minute street test. No fan build has shown a steady 30 FPS, PC Games Hardware says.
+- **More takedowns.** At least four more GTA 6 PC port projects have vanished since Take-Two's 24 November notice. Rockstar and Take-Two still haven't commented.
+- **"Finished GTA 6 PC" downloads are fake.** Port trackers warn that offers of complete ports are fakes, and suspect malware in almost all of them. Copies passed around under the CGBJ name can't be verified either. If you want GTA 6 on PC, wait for Rockstar: [PC release date →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)
 
 ## Update, Wednesday 25 November: Take-Two's takedown notice is public
 

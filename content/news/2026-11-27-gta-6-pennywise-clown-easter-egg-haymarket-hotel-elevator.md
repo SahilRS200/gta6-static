@@ -24,6 +24,7 @@ GTA 6 hides a nod to **Pennywise**, the clown from Stephen King's *IT*, in a hot
 
 ## More secrets like this
 
+- [Michael and Jimmy De Santa's names on a Vice City movie poster](/news/gta-6-michael-jimmy-de-santa-easter-egg-righteous-slaughter-poster/)
 - [Vice City portal and Tommy Vercetti's shirt](/news/gta-6-vice-city-portal-tommy-vercetti-shirt-easter-egg/)
 - [Ghost ship and the cursed knife](/news/gta-6-ghost-ship-cursed-knife-st-lucia-lighthouse/)
 - [Super Mario hidden block](/news/gta-6-super-mario-easter-egg-lummox-county-hidden-block-hats/)
