@@ -36,5 +36,6 @@ Going for the Platinum, or just curious what GTA 6 tracks? Here is the trophy li
 - **Keep manual saves.** There's no mission replay menu, so a fresh slot before each chapter helps: [saves and replays](/news/gta-6-replay-missions-no-replay-menu-save-slots/).
 - **Wildlife counts toward 100%.** Start the bird logbook early: [birdwatching guide](/news/gta-6-birdwatching-62-bird-species-wildlife-logbook/).
 - **Hidden trophies exist.** "The Truth Is Out There" comes from a night-time UFO event near Port Gellhorn: [how to trigger it](/news/gta-6-ufo-location-truth-is-out-there-trophy/). "Capital Offense" means driving out through a car showroom's glass: [the steps](/news/gta-6-capital-offense-trophy-showroom-banshee-key-cloner/).
+- **How rare is the Platinum?** One week in, a single PSNProfiles player had it, and under 1% had the final-mission trophy: [the trophy data →](/news/gta-6-how-many-players-finished-story-trophy-data-under-1-percent/)
 
 More for Indian players: [everything you need to know →](/gta-6-india/)

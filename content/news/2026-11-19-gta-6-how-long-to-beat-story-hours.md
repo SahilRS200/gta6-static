@@ -18,6 +18,8 @@ Started GTA 6 at **12:00 AM IST** and wondering how far you'll get before the we
 - **Around 200 hours for 100% and the Platinum trophy**, according to reports. That covers gold medals on story missions, all 170 wildlife species, collectibles and challenges ([Beebom](https://beebom.com/how-long-to-beat-gta-6/)). Going for it? Start with the [GTA 6 trophy list and the one possible missable](/news/gta-6-trophy-list-platinum-missable-trophy-guide/) and the [stunt jumps guide](/news/gta-6-stunt-jumps-locations-cunning-stunts-trophy/), since 100% asks for 300 stunts.
 - **About 90 missions across five chapters**, per Beebom; Screen Rant puts it at nearly 100. Rockstar has not published an official count or play time.
 
+*Added 28 November:* trophy trackers show under 1% of players had finished the story a week in, and only about 6% of PS5 players had cleared Chapter 3: [how far everyone has got →](/news/gta-6-how-many-players-finished-story-trophy-data-under-1-percent/)
+
 ## What that means for you
 
 At **2 hours a night on weekdays and more on weekends, the story is roughly a 3–4 week job** for most working players and students in India. A few things worth knowing before you plan around it:
