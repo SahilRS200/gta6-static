@@ -31,4 +31,4 @@ Looking for a mansion to buy in GTA 6? There isn't one. Garages are the only pro
 - **Start cheap.** A $4,000 garage gives you one more spot for a car you want to keep ([how to steal cars](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/)).
 - **Bank your cash first.** You can lose money when you die or get busted ([hide your cash](/news/gta-6-lose-money-when-you-die-hide-cash-floorboards/)), and see [how to make money fast](/news/gta-6-how-to-make-money-fast-early-game/).
 
-Related: [Car impounded? How to get it back](/news/gta-6-car-impounded-get-it-back-scooter-bros/) · [More GTA 6 guides](/guides/)
+Related: [A free secret garage in La Perla, with a pink sports car](/news/gta-6-free-garage-pink-growler-la-perla-code-92665/) · [Car impounded? How to get it back](/news/gta-6-car-impounded-get-it-back-scooter-bros/) · [More GTA 6 guides](/guides/)

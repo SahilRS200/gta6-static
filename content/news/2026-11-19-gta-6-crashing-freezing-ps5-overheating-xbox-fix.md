@@ -2,7 +2,7 @@
 title: GTA 6 Crashing on PS5 With Error CE-108255-1, or Freezing on Xbox? What Helps, and the First Patch
 description: GTA 6 crashing or shutting down on PS5? Error CE-108255-1 continues after update 01.002.002 and Rockstar hasn't named it. Save by hand, clean the vents, reinstall for CE-107891-6.
 date: 2026-11-19T17:38:00+05:30
-updated: 2026-11-26T03:39:00+05:30
+updated: 2026-11-28T11:38:00+05:30
 tags: [bugs, ps5, xbox, performance, patch, error-code]
 type: fix
 status: workaround
@@ -18,9 +18,16 @@ sources:
   - OutputLag — GTA 6 not working? Day one problems and fixes | https://outputlag.com/guides/gta-6-not-working-day-one-problems-fixes/
   - iGameMag — GTA 6 reviews, bugs and 30fps problems | https://igamemag.com/gta-6-reviews/
   - GAMINGbible — GTA 6 'blackouts' reported as PS5 consoles shut down | https://www.gamingbible.com/news/gta-6-blackouts-begin-ps5-consoles-shut-down-293316-20261125
+  - GAMINGbible — GTA 6 worries spread as Xbox joins PS5 in blackouts | https://www.gamingbible.com/news/gta-6-xbox-joins-ps5-blackouts-tech-expert-explains-428656-20261127
   - Sportskeeda — GTA 6 latest patch fails to resolve persistent CE-108255-1 error on PS5 | https://tech.sportskeeda.com/gaming-news/news-gta-6-latest-patch-fails-resolve-persistent-ce-108255-1-error-ps5
 ---
 Some players' GTA 6 sessions are ending with a freeze, a trip back to the home screen or, on PS5, the console switching itself off. Here's what's being reported and what players say helps. No story spoilers.
+
+## Update, 27 November: Xbox repair reports too
+
+- **What's reported.** A console repair technician posting on X as Modyfikator89 says more Xbox Series X/S consoles are coming in for repair, with overheating, sudden shutdowns mid-game, freezes after updates and consoles that won't boot. In one case a console stopped starting after a few days of GTA 6 ([GAMINGbible](https://www.gamingbible.com/news/gta-6-xbox-joins-ps5-blackouts-tech-expert-explains-428656-20261127)).
+- **Still unconfirmed.** This is one technician's account, with no count of affected consoles and no proof GTA 6 is the cause. Microsoft hasn't commented, and Sony and Rockstar didn't reply to GAMINGbible about the PS5 shutdowns.
+- **Same advice for both consoles:** keep it in an open, ventilated spot, clean dust out of the vents and fan with the console unplugged, take breaks in long sessions, and contact PlayStation or Xbox Support if it won't boot.
 
 ## Update, 25 November: reports of PS5s shutting down
 

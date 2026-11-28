@@ -38,5 +38,6 @@ The green Eclipse-style car from *The Fast and the Furious* sits in a villa gara
 - Fast cars burn petrol too: [how fuel works](/news/gta-6-fuel-petrol-system-how-to-refuel/).
 - Lost it to the cops? [How to get an impounded car back](/news/gta-6-car-impounded-get-it-back-scooter-bros/).
 - Want a garage to keep a collection? [Garage prices](/news/gta-6-buy-property-garages-prices-real-estate-app/).
+- From Chapter 3 there's a free one with a pink Pfister Growler inside: [the secret La Perla garage code](/news/gta-6-free-garage-pink-growler-la-perla-code-92665/).
 
 Playing from India? Everything else is on our [India hub](/gta-6-india/).
