@@ -37,3 +37,5 @@ Hoping for a Punjabi track? The viral "Sidhu Moosewala on GTA 6 radio" clip is l
 Want more music in the game? Unlock the [secret radio station, The Vault, with one poster scan →](/news/gta-6-secret-radio-station-the-vault-waink-poster/)
 
 Related: [Weird Al hosts Vice City FM, plus other GTA 6 discoveries →](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/)
+
+In the game itself there's far more: [21 radio stations and 742 songs, station by station →](/news/gta-6-radio-stations-list-21-stations-742-songs/)

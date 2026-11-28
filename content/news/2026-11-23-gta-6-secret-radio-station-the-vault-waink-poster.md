@@ -34,4 +34,6 @@ Then play it from **On Demand → The Sniper of La Perle**. Check progress under
 - **No trophy is tied to it** in the guides we checked, only completion.
 - Liked a song? The game's [34-song soundtrack album is on streaming services](/news/gta-6-soundtrack-album-34-songs-justice-score-december-11/).
 
+All 21 stations and what they play: [GTA 6 radio stations list →](/news/gta-6-radio-stations-list-21-stations-742-songs/)
+
 Related: [the UFO and its hidden trophy](/news/gta-6-ufo-location-truth-is-out-there-trophy/) · [Weird Al on Vice City FM and other discoveries](/news/gta-6-discoveries-bigfoot-pinkpantheress-radio/) · [every guide](/guides/)
