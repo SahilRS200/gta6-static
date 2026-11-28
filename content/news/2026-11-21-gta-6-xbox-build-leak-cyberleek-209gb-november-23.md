@@ -1,11 +1,14 @@
 ---
-title: GTA 6 Xbox Build Leak — Fan PC Port Manages 25 FPS on an RTX 5090, Then Vanishes in an Hour
-description: A new GTA 6 fan PC port ran at about 17–25 FPS on an RTX 5090 and went offline within an hour; Take-Two's DMCA wiped 3,007 copies of another. None is playable.
+title: GTA 6 Xbox Build Leak — Fan PC Ports Now Reach Gameplay at About 20 FPS, and a Private 2-Player Mod
+description: Unofficial GTA 6 PC ports built on the leaked Xbox build now reach gameplay at about 20 FPS, with glitches; a 2-player mod is private. Take-Two's DMCA hit 3,007 repos. Don't download.
 date: 2026-11-21T08:36:00+05:30
-updated: 2026-11-27T11:37:00+05:30
+updated: 2026-11-28T05:38:00+05:30
 tags: [leaks, pc, scam, malware]
 type: news
 sources:
+  - heise online — GTA 6 on PC: community ports become almost playable | https://www.heise.de/news/GTA-6-Inoffizieller-PC-Port-macht-grosse-Fortschritte-11539997.html
+  - VGTimes — Unofficial GTA 6 PC port is now live with a dedicated launcher | https://vgtimes.com/gaming-news/176004-unofficial-gta-6-pc-port-is-now-live-with-a-dedicated-launcher.html
+  - LevelUp — Modders create a 2-player mode for an unofficial GTA 6 PC port | https://www.levelup.com/en/news/modders-create-multiplayer-mode-for-grand-theft-auto-6-in-an-unofficial-pc-port-allowing-up-to-2-players-to-explore-vice-city-together/
   - PC Games Hardware — GTA 6 PC port reports 25 fps and suddenly goes offline | https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-port-reports-25-fps-and-suddenly-goes-offline-1561150/
   - GitHub DMCA archive — Take-Two notice, 24 November 2026 | https://github.com/github/dmca/blob/master/2026/11/2026-11-24-take-two.md
   - Output Lag — GTA 6's unofficial PC port lasted three days before Take-Two wiped 3,007 GitHub repos | https://outputlag.com/news/gta-6s-unofficial-pc-port-lasted-three-days-before-take-two-wiped-3007-github-repos/
@@ -23,6 +26,14 @@ sources:
   - TweakTown — Cyberleek claims modders could get GTA 6 running on PC within a week | https://www.tweaktown.com/news/114815/cyberleek-claims-modders-could-get-gta-6-running-on-pc-within-a-week-after-reported-xbox-build-leak/index.html
 ---
 A hacker calling itself **Cyberleek** says it has put most of a **GTA 6 Xbox build** online and is holding back the one file needed to run it. It is the biggest piracy threat since launch, and it will reach Indian Telegram groups and "free download" sites fast. **Short version: it isn't playable, it isn't safe, and it isn't a PC version.** No story spoilers here.
+
+## Update, Saturday 28 November: ports now reach gameplay, and a private 2-player mod
+
+- **Closer to playable, still rough.** New videos show parts of GTA 6 running on Windows PCs, some above 30 FPS. A tracker rates one modder's build "playable" at about **22 FPS on a Radeon RX 9070 XT** without crashing, but every known port still has visual glitches and uneven frame pacing, and ray tracing doesn't work properly ([heise online](https://www.heise.de/news/GTA-6-Inoffizieller-PC-Port-macht-grosse-Fortschritte-11539997.html)).
+- **Another port now has its own launcher.** It can boot the game and get through the opening area; testers report about **22 FPS on an RX 9060 XT** and about **13 FPS on an RTX 5070 Ti**, and nobody has checked whether the whole story can be finished. Its launcher isn't digitally signed ([VGTimes](https://vgtimes.com/gaming-news/176004-unofficial-gta-6-pc-port-is-now-live-with-a-dedicated-launcher.html)).
+- **A 2-player mod exists, but it's private.** A video shows two players, both as Jason, meeting at the airport. A port tracker says the clip is real; nobody outside the group has it ([LevelUp](https://www.levelup.com/en/news/modders-create-multiplayer-mode-for-grand-theft-auto-6-in-an-unofficial-pc-port-allowing-up-to-2-players-to-explore-vice-city-together/)). This is not GTA 6 Online, which Rockstar hasn't dated ([GTA 6 Online](/news/gta-6-online-multiplayer-not-at-launch/)).
+- **Every port needs game files no one can legally get.** Installed Xbox games stay encrypted, so in practice these ports run the stolen build, heise says. Take-Two calls these projects infringing and has already had 3,007 repositories removed.
+- **For you, nothing changes:** any "GTA 6 PC download" link on Telegram or YouTube is at best a stolen, broken build and at worst malware. Rockstar still hasn't announced a PC version ([PC release date](/news/gta-6-pc-release-date-gta-5-steam-players-rise/)).
 
 ## Update, Friday 27 November: a new fan port, 17–25 FPS on an RTX 5090, gone within an hour
 

@@ -1,15 +1,16 @@
 ---
-title: GTA 6 How to Steal Cars — Waink, Hotwiring, Key Cloners, and Why a Coil Can Drive You to the Cops
-description: GTA 6 car theft is no longer one button: scan with Waink, smash in, hotwire with both sticks. Keyless cars need a key cloner, and a stolen Coil can lock you in and drive you to the police.
+title: GTA 6 How to Steal and Register Cars — Waink, Hotwiring, Key Cloners, and the Coil That Calls the Cops
+description: GTA 6 car theft: scan with Waink, smash in, hotwire with both sticks. Register cars with Moses from Chapter 2 (first one free) so they're never lost. Beware Coil cars.
 date: 2026-11-20T16:38:00+05:30
-updated: 2026-11-27T19:37:00+05:30
-tags: [guide, tips, first-hours, vehicles, gameplay, easter-eggs]
+updated: 2026-11-28T05:38:00+05:30
+tags: [guide, tips, first-hours, vehicles, gameplay, money]
 type: guide
 sources:
   - GTABase — How to steal, sell and keep vehicles in GTA 6 | https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles
   - Notebookcheck (citing Rockstar North's Rob Nelson to IGN) — Rockstar is ending one-button car theft in GTA 6 | https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html
   - Console Pulse — GTA 6 car theft security tiers and the Waink scanner | https://consolepulse.com/multiplatform/gta/news/gta-6-car-theft-security-tiers-waink-scanner-tools
   - Supercar Blondie — GTA VI players discover a Tesla-inspired car that goes badly wrong if you steal it | https://supercarblondie.com/gta-6-tesla-inspired-car-stealing-coil-raiden/
+  - Beebom — How to register a car in GTA 6 | https://beebom.com/gta-6-register-car/
   - TechRadar — GTA 6 launch day live: secrets, tips and reactions | https://www.techradar.com/live/news/gta-6-launch-day-november-19
 ---
 Walked up to a shiny sports car in GTA 6, pressed the button and got nowhere? That's by design. The one-press hotwire the series used for 20 years is gone: Rockstar North's Rob Nelson told IGN that parked cars now come in layers of security, and some can't be taken until you've progressed in the story and have the right tool ([Notebookcheck](https://www.notebookcheck.net/Rockstar-is-ending-one-button-car-theft-in-GTA-6.1381985.0.html)). Here's how it works on PS5 and Xbox. No story spoilers.
@@ -41,10 +42,19 @@ If the police recognise your car, switch cars or get a respray. In a chase, an u
 
 **Updated 27 November:** Coil is GTA 6's Tesla-style electric car brand, and players filming thefts have found it fights back. In clips shared on X and reported by [Supercar Blondie](https://supercarblondie.com/gta-6-tesla-inspired-car-stealing-coil-raiden/), a stolen Coil Raiden switched to autopilot and drove Lucia straight to a police station, where officers tackled and arrested her. In another clip the car called the police and locked its doors, and the player escaped only by flinging the character out through an open window. Rockstar hasn't explained the feature, and claims that Elon Musk reacted to the clip are unconfirmed. Scan a Coil with Waink before you try, and if one locks you in, look for an open window.
 
+## How to register a car (keep it for good)
+
+**Updated 28 November:** a stolen car isn't yours until you register it. A registered car joins your collection for good: it won't vanish if it's wrecked or impounded, and Scooter Bros can bring it back for a fee ([Beebom](https://beebom.com/gta-6-register-car/)).
+
+- **When it unlocks:** not in Chapter 1. Registration opens in **Chapter 2**, after the introductory mission with **Moses** in Port Gellhorn, which also unlocks the Waink app, Scooter Bros and the Slim Jim. **Your first registration with Moses is free.**
+- **Cars with no tracker:** scan with Waink, steal it, drive to Moses' garage at **Watkins Auto Parts** in Port Gellhorn, respray it if you like, choose **Register**, check the fee and confirm.
+- **Cars with a standard tracker:** Pay 'n' Spray can register them from **Chapter 3**. **Advanced-tracker** cars come later, in Chapter 4.
+- **No space left?** There's no "unregister" button. Sell a car from the **Stored Vehicles** tab at Pay 'n' Spray or Moses to free a slot ([Beebom](https://beebom.com/gta-6-register-car/)). More garages: [property guide](/news/gta-6-buy-property-garages-prices-real-estate-app/).
+
 ## Selling vs keeping
 
 Worth stealing first? [The fastest cars and where they park →](/news/gta-6-fastest-cars-where-to-find-ruiner-nitrous-early/) Want something faster than a car? [Where to find your first plane and helicopter →](/news/gta-6-first-plane-helicopter-location-how-to-fly-early/)
 
-Registering and selling unlock as the story moves on, and Pay 'n' Spray can refuse some tracked cars. Early sales are capped per in-game day; for prices and the buyer with no limit, see our [money guide](/news/gta-6-how-to-make-money-fast-early-game/). Lost a car you kept? [How to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
+Selling unlocks as the story moves on, and Pay 'n' Spray can refuse some tracked cars. Early sales are capped per in-game day; for prices and the buyer with no limit, see our [money guide](/news/gta-6-how-to-make-money-fast-early-game/). Lost a car you kept? [How to get it back →](/news/gta-6-car-impounded-get-it-back-scooter-bros/)
 
 Related: [All 12 equipment items and when they unlock](/news/gta-6-equipment-list-all-12-tools-how-to-unlock/) · [GTA 6 wanted level explained](/news/gta-6-wanted-level-heat-system-explained/) · [Car shortcuts: double-tap for radio and headlights](/news/gta-6-car-controls-shortcuts-radio-headlights-double-tap/) · [19 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [All guides](/guides/)

@@ -28,7 +28,7 @@ Kotaku warns that the fees add up, and that **getting a car out of a police impo
 
 The Scooter Bros upgrade costs **$12,500** in-game cash. It gives you **three free uses per in-game day** and adds impound recovery from the app ([Game Rant](https://gamerant.com/gta-6-summon-personal-vehicles/), [Kotaku](https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016)). If you call your car several times a day, it pays for itself. Early on, when money is tight, spend on other things first. [How to make money fast →](/news/gta-6-how-to-make-money-fast-early-game/)
 
-Related: [How to steal cars in GTA 6 — Waink, hotwiring and key cloners](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/)
+Related: [How to steal cars in GTA 6, and how to register one so it is never lost](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/)
 
 ## Save money on repairs and rides
 

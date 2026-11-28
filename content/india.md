@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-27T17:39:00+05:30
+updated: 2026-11-28T05:39:00+05:30
 headline: India's first GTA 6 sales number — about 2.38 lakh PlayStation copies in the first 3 days, Sensor Tower estimates.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -34,4 +34,4 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **No Hindi.** GTA 6 lists 13 languages, none of them Indian, and voice acting is English only. [Language list →](/news/gta-6-hindi-language-support/)
 - **Padlock or won't start?** Check the account, restore licences, update the PS5 and redeem your code. [6 fixes →](/news/gta-6-locked-not-starting-ps5-fix-india/)
 - **On PC? No GTA 6 yet.** Rockstar hasn't announced a PC date; a GamesBeat report says early 2027, unconfirmed. Any PC download is a scam: a $200 dark-web kit now pushes fake "GTA 6 PC" links through YouTube Shorts. [What we know →](/news/gta-6-pc-release-date-gta-5-steam-players-rise/) · [Spot the scam →](/news/gta-6-free-download-apk-scam-warning/)
-- **Skip the 209 GB "Xbox build" leak.** Take-Two's DMCA notice has wiped the fan PC port and 3,007 GitHub copies of it; nothing runs on PC, and fake copies carry malware. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)
+- **Skip the leaked "Xbox build" and its PC ports.** Fan ports now limp along at about 20 FPS with glitches, but they run stolen files, Take-Two is taking them down, and fake copies carry malware. [What to know →](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)

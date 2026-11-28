@@ -29,7 +29,7 @@ sources:
 ## What to do if you're on PC in India
 
 - **That viral "GTA 6 running on PC" clip is fake.** A video on X claimed a fan-made PC port reached the title screen; XDA Developers says it stitched GTA 6's title screen onto older footage of GTA 5 on PC, and the account then asked for donations ([XDA](https://www.xda-developers.com/that-viral-gta-6-pc-port-video-hoax-made-from-recycled-gta-5-footage/)).
-- **Don't fall for "GTA 6 PC download" links.** Any PC download, crack or "port" today is fake and can carry malware ([how the scams work](/news/gta-6-free-download-apk-scam-warning/)). That includes the hacker Cyberleek's 209 GB "Xbox build": no Xbox emulator can run it ([what's going on](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)).
+- **Don't fall for "GTA 6 PC download" links.** Any PC download, crack or "port" today is unofficial and can carry malware ([how the scams work](/news/gta-6-free-download-apk-scam-warning/)). That includes the hacker Cyberleek's stolen "Xbox build": fan ports of it now reach gameplay at about 20 FPS with glitches, but they're unlicensed and Take-Two is taking them down ([what's going on](/news/gta-6-xbox-build-leak-cyberleek-209gb-november-23/)).
 - **Want to play now without a console?** Gaming cafes charge from about ₹250 an hour ([cafes and creators](/news/gta-6-india-gaming-cafes-booked-carryminati-mythpat-views/)), and the cheapest console route is an Xbox Series S ([compare costs](/news/gta-6-cheapest-console-india-xbox-series-s-vs-ps5-cost/)).
 - **Track it:** the PC row on our [What's next tracker](/whats-next/) changes the moment Rockstar announces a date. More for Indian players on the [India hub](/gta-6-india/).
 
