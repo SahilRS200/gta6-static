@@ -48,3 +48,5 @@ Still stuttering after all this? That's a different problem: try our [PS5 stutte
 Want to show off that sunset properly? [How to use Photo Studio, GTA 6's photo mode →](/news/gta-6-photo-mode-photo-studio-selfie-how-to/)
 
 Related: GTA 6 empties a DualSense in about 4.5 hours; [the PS5 settings that stretch the battery →](/news/gta-6-dualsense-battery-drain-ps5-controller-fix/)
+
+Looks softer only since update 01.002.002? Some PS5 and PS5 Pro players report the same: [what we know about the GTA 6 graphics complaints →](/news/gta-6-graphics-downgrade-after-update-ps5-pro-blurry-textures/)

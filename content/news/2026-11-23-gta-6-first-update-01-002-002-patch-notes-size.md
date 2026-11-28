@@ -44,6 +44,8 @@ The update first arrived without notes, but Rockstar has since published them, a
 
 VICE notes the notes don't say whether a missed call will arrive by itself on an old save. If it doesn't, try reloading an earlier manual save.
 
+The notes list no graphics change, but some PS5 and PS5 Pro players say the game looks blurrier since this update. It's unconfirmed and Rockstar hasn't commented: [GTA 6 looks worse after the update? →](/news/gta-6-graphics-downgrade-after-update-ps5-pro-blurry-textures/)
+
 Not fixed: players still report being stuck as Lucia after the Missing Persons side mission in Chapter 3. [How to avoid it →](/news/gta-6-missing-persons-softlock-stuck-as-lucia-cant-switch-jason/)
 
 ## What it means for crashes
