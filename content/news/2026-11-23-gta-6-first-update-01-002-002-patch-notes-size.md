@@ -38,7 +38,7 @@ The update first arrived without notes, but Rockstar has since published them, a
 - **Autosave:** the game was not autosaving correctly in some cases. It now should.
 - **Phone calls:** some calls weren't coming through, including ones that move the story on or unlock missions. If you were stuck waiting for a call, this is probably why.
 - **Wanted level:** a bug that stopped some players losing their wanted level.
-- **Weather:** a bug that kept the same weather for long stretches.
+- **Weather:** a bug that kept the same weather for long stretches. Players say it still happens after the patch: [weather stuck on sunny →](/news/gta-6-weather-stuck-sunny-bug-after-patch/)
 - **Gym:** the deadlift bar couldn't be used.
 - **Fences:** partners weren't handing over bags so you could sell them to fences.
 
