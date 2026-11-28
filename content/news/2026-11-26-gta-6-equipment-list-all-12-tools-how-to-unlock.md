@@ -25,7 +25,7 @@ Wondering why you can't open that crate or that locked door yet? GTA 6 gives you
 - **Pry Bar** and **Cut-Off Tool** — break open sealed crates and cut heavy locks on containers and some vehicles. Both come in Chapter 3's *Meet the Heders*.
 - **Dye Pack Jammer** — stops the dye packs hidden in marked bills from going off during bank and payday-loan robberies. Comes in Chapter 3's *Credit Check*.
 - **Key Cloner** — steals keyless high-end cars. You get it during Randy's job to steal a Zorrusso, after you meet him in Chapter 3. [How car theft works →](/news/gta-6-how-to-steal-cars-waink-app-hotwire-key-cloner/)
-- **Snap Gun** — picks door locks without tripping alarms. It's the odd one out: finish **one of Yasmani's jewellery jobs**, which open up after Chapter 3's *Boobie Time*.
+- **Snap Gun** — picks door locks without tripping alarms. It's the odd one out: finish **one of Yasmani's jewellery jobs**, which open up after Chapter 3's *Boobie Time*. Both it and the Dye Pack Jammer matter most in [bank robberies](/news/gta-6-how-to-rob-a-bank-vault-payouts-marked-bills/).
 
 ## Tips
 

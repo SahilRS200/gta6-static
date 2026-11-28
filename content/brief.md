@@ -1,22 +1,19 @@
 ---
-updated: 2026-11-28T17:38:00+05:30
-headline: GTA 6 looks worse since its first patch, PS5 and PS5 Pro players say, and Rockstar still hasn't said why
-search: [graphics, weather, radio, Black Friday]
+updated: 2026-11-28T19:38:00+05:30
+headline: GTA 6's biggest bank vaults pay up to $205,000 — here's when banks unlock and how to rob them quietly
+search: [bank, Black Friday, graphics, weather]
 ---
-## 🛠️ Fix of the day
-
-- **Blurrier GTA 6 since update 01.002.002?** Some PS5 and PS5 Pro players report softer textures, more pop-in and flatter lighting. The patch notes list no graphics change, and Rockstar hasn't commented. [What we know →](/news/gta-6-graphics-downgrade-after-update-ps5-pro-blurry-textures/)
-- **The two-minute fix for stuck weather.** Clear the PS5 system cache in Safe Mode; your saves stay safe. On Xbox, unplug for two minutes. [Step by step →](/news/gta-6-weather-stuck-sunny-bug-after-patch/)
-
 ## ✅ Try this today
 
-- **21 radio stations, 742 songs.** Flash FM is the biggest, Vice City FM plays '80s hits and The Chamber plays metal. Two hidden stations unlock with poster scans. [Pick your station →](/news/gta-6-radio-stations-list-21-stations-742-songs/)
-- **A free secret garage and a pink Growler.** From Chapter 3, enter 92665 at the La Perla garage. [How to find it →](/news/gta-6-free-garage-pink-growler-la-perla-code-92665/)
+- **Bank jobs pay up to $205,000.** Small banks open after Chapter 3's Credit Check; the two Lombank vaults pay $135,000–$205,000 in marked bills. Sell them to Yasmani in Little Cuba. [How to rob a bank →](/news/gta-6-how-to-rob-a-bank-vault-payouts-marked-bills/)
+- **21 radio stations, 742 songs.** Flash FM is the biggest; two hidden stations unlock with poster scans. [Pick your station →](/news/gta-6-radio-stations-list-21-stations-742-songs/)
 
 ## 🔥 Hot in India
 
-- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India; older Rockstar games are cheaper. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+- **No Black Friday discount on GTA 6.** It stays ₹5,999 on PS Store India while Sony's sale runs; older Rockstar games are cheaper. [What's cheaper →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
+- **The GTA 6 DualSense is ₹7,490 in India.** The custom PS5 Pro, about 100 made, isn't for sale. [Details →](/news/gta-6-ps5-pro-limited-edition-100-consoles-not-for-sale/)
 
-## 🌍 Around the world
+## 🛠️ Fix of the day
 
-- **Xbox owners report shutdowns too.** A repair technician says more Series X/S consoles are coming in after overheating. Unconfirmed. [What helps →](/news/gta-6-crashing-freezing-ps5-overheating-xbox-fix/)
+- **Blurrier since update 01.002.002?** PS5 and PS5 Pro players report softer textures and flatter lighting. Rockstar hasn't commented. [What we know →](/news/gta-6-graphics-downgrade-after-update-ps5-pro-blurry-textures/)
+- **Weather stuck on sunny?** A two-minute PS5 Safe Mode cache clear brings rain back for many; saves stay safe. [Step by step →](/news/gta-6-weather-stuck-sunny-bug-after-patch/)
