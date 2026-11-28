@@ -36,4 +36,4 @@ GTA 6 has been out in India since **12:00 AM IST**, and the first complaint afte
 - **Collect trading cards.** Duplicates and rare Gold cards sell at pawn shops, and selling keeps your progress. [Trading cards guide →](/news/gta-6-trading-cards-480-collectible-cards-sell-pawn-shop-panini/)
 - **Wondering what to spend it on?** You can't buy houses, only garages ($160,000 for all eight). [Property guide →](/news/gta-6-buy-property-garages-prices-real-estate-app/)
 
-Payout figures come from early guides and may change with patches. More first-night help: [19 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [Everything for Indian players →](/gta-6-india/)
+Payout figures come from early guides and may change with patches. Want it faster? [The stash bag duplication glitch →](/news/gta-6-money-glitch-red-barn-unlimited-cash/) · More first-night help: [19 hidden features](/news/gta-6-tips-hidden-features-spoiler-free/) · [Everything for Indian players →](/gta-6-india/)
