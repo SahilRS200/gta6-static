@@ -25,4 +25,4 @@ If your PS5 controller is flashing low battery halfway through a GTA 6 evening, 
 
 You lose some feel with the triggers off: weapons and cars give less feedback. Try a lower intensity first rather than switching them off.
 
-Related: tune the rest of your setup with our [lock-on aim guide →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/) and [HDR settings →](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/). Playing in India? Everything else is on the [GTA 6 India hub](/gta-6-india/).
+Related: tune the rest of your setup with our [lock-on aim guide →](/news/gta-6-lock-on-aim-how-to-turn-on-targeting-setting/) and [HDR settings →](/news/gta-6-hdr-washed-out-best-tv-settings-ps5-xbox/). Playing in India? Want the GTA 6 controller itself? It's listed at ₹7,490 in India: [GTA 6 DualSense and the 100 custom PS5 Pros →](/news/gta-6-ps5-pro-limited-edition-100-consoles-not-for-sale/). Everything else is on the [GTA 6 India hub](/gta-6-india/).

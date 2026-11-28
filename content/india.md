@@ -1,5 +1,5 @@
 ---
-updated: 2026-11-28T05:39:00+05:30
+updated: 2026-11-28T09:38:00+05:30
 headline: India's first GTA 6 sales number — about 2.38 lakh PlayStation copies in the first 3 days, Sensor Tower estimates.
 price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 ---
@@ -8,6 +8,7 @@ price: ₹5,999 Standard · ₹7,499 Ultimate on PlayStation Store India
 - **PlayStation Store India:** ₹5,999 Standard, ₹7,499 Ultimate, as reported by Business Today. No Black Friday discount on GTA 6; Sony's sale cuts older Rockstar games like RDR2 instead. [Price and where to buy →](/gta-6-price-in-india/) · [Black Friday →](/news/gta-6-black-friday-sale-india-no-discount-ps-store/)
 - **Blinkit and Zepto** deliver the code-in-box edition in 11 cities. Zepto's CEO says it has never sold out this fast. There's no disc, so you still download up to 212 GB. [Before you order →](/news/blinkit-zepto-gta-6-delivery-10-minutes-india/)
 - **Bought Ultimate (₹7,499)?** Its 16 extras unlock chapter by chapter; the '95 Grotti Cheetah only arrives in Chapter 5. [What unlocks when →](/news/gta-6-ultimate-edition-bonuses-unlock-chapters/)
+- **Want the GTA 6 controller?** The limited-edition GTA 6 DualSense is listed at ₹7,490 (Vijay Sales, pre-book). The custom GTA 6 PS5 Pro is not for sale: only about 100 were made, as gifts. [What to know →](/news/gta-6-ps5-pro-limited-edition-100-consoles-not-for-sale/)
 - **Missed the pre-order pack?** The Vintage Vice City Pack is now a $4.99 add-on on PS5 and Xbox; no ₹ price confirmed yet. Bought digitally by 19 November? Claim your free GTA+ month by 31 March 2027. [What's in it →](/news/gta-6-vintage-vice-city-pack-paid-dlc-499/) · [GTA+ month →](/news/gta-6-free-gta-plus-month-offer-deadline/)
 
 ## 🎮 PS5 and Xbox
